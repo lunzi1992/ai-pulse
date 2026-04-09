@@ -2,15 +2,10 @@
   "meta": {
     "title": "AI Pulse",
     "subtitle": "AI Coding & 具身智能信息聚合",
-    "description": "每日精选 AI Coding 与具身智能领域重要动态"
+    "description": "每日精选 AI Coding 与具身智能领域重要动态",
+    "lastUpdate": "2026-04-09"
   },
-  "hotKeywords": [
-    { "keyword": "GPT-6", "count": 3 },
-    { "keyword": "智元机器人", "count": 3 },
-    { "keyword": "具身智能", "count": 4 },
-    { "keyword": "Claude Code", "count": 2 },
-    { "keyword": "开源大模型", "count": 2 }
-  ],
+  "hotKeywords": [],
   "weekFocus": [
     {
       "title": "GPT-6「土豆」定档4月14日",
@@ -25,42 +20,5 @@
       "desc": "赛迪研究院定调，CEAI 2026大会明日开幕"
     }
   ],
-  "news": [
-    {
-      "id": "2026-04-09-1",
-      "date": "2026-04-09",
-      "title": "GPT-6「土豆」定档4月14日，性能全面碾压当前最强模型",
-      "content": "OpenAI下一代旗舰模型GPT-6（代号Spud）近日被大量爆料：代码/推理/智能体任务性能较GPT-5.4提升约40%，200万Token超长上下文，定价约2.5美元/百万Token。将融合ChatGPT/Codex/Atlas打造统一桌面超级智能体平台。",
-      "tags": ["AI Coding", "大模型"],
-      "source": "36氪 / 量子位",
-      "importance": "high"
-    },
-    {
-      "id": "2026-04-09-2",
-      "date": "2026-04-09",
-      "title": "智元AGIBOT「AI发布周」正在进行，每日一项物理AI王炸突破",
-      "content": "智元机器人于4月7-14日发起AI发布周，由稚晖君主导，每个工作日发布一项具身智能核心技术成果，涵盖感知、运动控制、端到端学习、操作泛化等方向。目标直指行业痛点：技术拼凑与落地断层。",
-      "tags": ["具身智能"],
-      "source": "IT之家 / 凤凰科技",
-      "importance": "high"
-    },
-    {
-      "id": "2026-04-09-3",
-      "date": "2026-04-09",
-      "title": "微软发布MAI三件套：转录、语音、图像全线覆盖",
-      "content": "微软MAI Superintelligence团队于4月2日发布三款新模型：MAI-Transcribe-1（25语言语音转写，速度2.5倍）、MAI-Voice-1（1秒生成60秒音频）、MAI-Image-2（视频生成），已上线Microsoft Foundry平台。",
-      "tags": ["AI Coding", "大模型"],
-      "source": "Houdao AI",
-      "importance": "medium"
-    },
-    {
-      "id": "2026-04-09-4",
-      "date": "2026-04-09",
-      "title": "CEAI 2026中国具身智能大会明日合肥开幕",
-      "content": "第三届中国具身智能大会（CEAI 2026）将于4月10-12日在合肥举办，由中国人工智能学会主办，预计吸引国内头部机器人企业、高校研究院集中亮相。赛迪研究院刚于4月7日发布报告，定调2026年为具身智能规模化落地元年。",
-      "tags": ["具身智能"],
-      "source": "中国人工智能学会",
-      "importance": "medium"
-    }
-  ]
+  "news": []
 }
