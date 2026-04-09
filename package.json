@@ -1,0 +1,24 @@
+{
+  "name": "ai-pulse",
+  "version": "1.0.0",
+  "description": "> AI Coding & 具身智能信息聚合站",
+  "main": "update-news.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunzi1992/ai-pulse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lunzi1992/ai-pulse/issues"
+  },
+  "homepage": "https://github.com/lunzi1992/ai-pulse#readme",
+  "dependencies": {
+    "axios": "^1.15.0"
+  }
+}
