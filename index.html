@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Pulse - AI Coding & 具身智能信息聚合</title>
+    <meta name="description" content="AI Pulse - 每日精选 AI Coding 与具身智能领域重要动态">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --bg-tertiary: #21262d;
+            --border-color: #30363d;
+            --text-primary: #c9d1d9;
+            --text-secondary: #8b949e;
+            --accent-blue: #58a6ff;
+            --accent-purple: #a371f7;
+            --accent-orange: #d29922;
+            --accent-red: #f85149;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo-icon {
+            font-size: 2rem;
+        }
+
+        .logo-text h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .logo-text p {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        /* Search */
+        .search-container {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .search-box {
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.625rem 1rem 0.625rem 2.5rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-primary);
+            font-size: 0.875rem;
+            transition: all 0.2s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.1);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-secondary);
+        }
+
+        /* Stats */
+        .header-stats {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--accent-blue);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        /* Main Content */
+        .main-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 260px 1fr;
+            gap: 2rem;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .sidebar-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.25rem;
+        }
+
+        .sidebar-title {
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        /* Tags */
+        .tag-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag-btn {
+            padding: 0.375rem 0.75rem;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tag-btn:hover {
+            background: var(--bg-primary);
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .tag-btn.active {
+            background: var(--accent-blue);
+            border-color: var(--accent-blue);
+            color: white;
+        }
+
+        /* Hot Keywords */
+        .keyword-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .keyword-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 0.75rem;
+            background: var(--bg-tertiary);
+            border-radius: 4px;
+            font-size: 0.8125rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .keyword-item:hover {
+            background: var(--bg-primary);
+        }
+
+        .keyword-count {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        /* Timeline Toggle */
+        .view-toggle {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .toggle-btn {
+            flex: 1;
+            padding: 0.5rem;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 0.8125rem;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .toggle-btn.active {
+            background: var(--accent-blue);
+            border-color: var(--accent-blue);
+            color: white;
+        }
+
+        /* Week Focus */
+        .focus-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .focus-item {
+            padding: 0.75rem;
+            background: var(--bg-tertiary);
+            border-radius: 6px;
+            border-left: 3px solid var(--accent-purple);
+        }
+
+        .focus-title {
+            font-size: 0.8125rem;
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+
+        .focus-desc {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        /* Content Area */
+        .content-area {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* Date Group */
+        .date-group {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .date-header {
+            background: var(--bg-tertiary);
+            padding: 0.875rem 1.25rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .date-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .date-count {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            background: var(--bg-primary);
+            padding: 0.25rem 0.625rem;
+            border-radius: 12px;
+        }
+
+        /* News Items */
+        .news-list {
+            padding: 0.75rem;
+        }
+
+        .news-item {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            transition: all 0.2s;
+        }
+
+        .news-item:last-child {
+            border-bottom: none;
+        }
+
+        .news-item:hover {
+            background: var(--bg-tertiary);
+            border-radius: 6px;
+        }
+
+        .news-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .importance-badge {
+            flex-shrink: 0;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-top: 0.375rem;
+        }
+
+        .importance-high {
+            background: var(--accent-red);
+            box-shadow: 0 0 8px var(--accent-red);
+        }
+
+        .importance-medium {
+            background: var(--accent-orange);
+        }
+
+        .importance-low {
+            background: var(--text-secondary);
+        }
+
+        .news-title {
+            font-size: 0.9375rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+
+        .news-content {
+            font-size: 0.8125rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 0.75rem;
+        }
+
+        .news-footer {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .news-tags {
+            display: flex;
+            gap: 0.375rem;
+            flex-wrap: wrap;
+        }
+
+        .news-tag {
+            padding: 0.125rem 0.5rem;
+            background: var(--bg-primary);
+            border-radius: 3px;
+            font-size: 0.6875rem;
+            color: var(--accent-blue);
+        }
+
+        .news-source {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .main-container {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                order: 2;
+            }
+
+            .header-stats {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .search-container {
+                width: 100%;
+                max-width: none;
+            }
+
+            .main-container {
+                padding: 1rem;
+            }
+        }
+
+        /* No Results */
+        .no-results {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">⚡</div>
+                <div class="logo-text">
+                    <h1>AI Pulse</h1>
+                    <p id="subtitle">AI Coding & 具身智能 · 信息聚合</p>
+                </div>
+            </div>
+            
+            <div class="search-container">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" class="search-input" id="searchInput" placeholder="搜索关键词...">
+                </div>
+            </div>
+
+            <div class="header-stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="totalNews">--</div>
+                    <div class="stat-label">条动态</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="totalDays">--</div>
+                    <div class="stat-label">天数据</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- View Toggle -->
+            <div class="sidebar-card">
+                <div class="sidebar-title">视图模式</div>
+                <div class="view-toggle">
+                    <button class="toggle-btn active" data-view="all">全部</button>
+                    <button class="toggle-btn" data-view="timeline">时间线</button>
+                </div>
+            </div>
+
+            <!-- Tags -->
+            <div class="sidebar-card">
+                <div class="sidebar-title">标签筛选</div>
+                <div class="tag-filters" id="tagFilters">
+                    <button class="tag-btn active" data-tag="all">全部</button>
+                </div>
+            </div>
+
+            <!-- Hot Keywords -->
+            <div class="sidebar-card">
+                <div class="sidebar-title">🔥 近期热词</div>
+                <div class="keyword-list" id="hotKeywords"></div>
+            </div>
+
+            <!-- Week Focus -->
+            <div class="sidebar-card">
+                <div class="sidebar-title">📊 本周关注</div>
+                <div class="focus-list" id="weekFocus"></div>
+            </div>
+        </aside>
+
+        <!-- Content Area -->
+        <main class="content-area" id="contentArea">
+            <div class="loading">加载中...</div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>AI Pulse · 每日自动更新 · 数据来源：网络精选</p>
+    </footer>
+
+    <script>
+        // State
+        let allNews = [];
+        let allTags = [];
+        let currentTag = 'all';
+        let currentView = 'all';
+        let searchTerm = '';
+
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('news.json');
+                const data = await response.json();
+                init(data);
+            } catch (error) {
+                console.error('Failed to load news.json:', error);
+                document.getElementById('contentArea').innerHTML = `
+                    <div class="no-results">
+                        <p>加载数据失败，请稍后刷新重试</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Initialize
+        function init(data) {
+            // Set meta
+            if (data.meta) {
+                if (data.meta.subtitle) {
+                    document.getElementById('subtitle').textContent = data.meta.subtitle;
+                }
+                if (data.meta.title) {
+                    document.title = data.meta.title + ' - AI Coding & 具身智能';
+                }
+            }
+
+            // Collect all news
+            allNews = data.news || [];
+            
+            // Collect all tags
+            const tagSet = new Set();
+            allNews.forEach(item => {
+                item.tags && item.tags.forEach(tag => tagSet.add(tag));
+            });
+            allTags = Array.from(tagSet);
+
+            // Update stats
+            const uniqueDates = new Set(allNews.map(n => n.date));
+            document.getElementById('totalNews').textContent = allNews.length;
+            document.getElementById('totalDays').textContent = uniqueDates.size;
+
+            // Render tag filters
+            renderTagFilters();
+
+            // Render hot keywords
+            if (data.hotKeywords) {
+                renderHotKeywords(data.hotKeywords);
+            }
+
+            // Render week focus
+            if (data.weekFocus) {
+                renderWeekFocus(data.weekFocus);
+            }
+
+            // Render news
+            renderNews();
+        }
+
+        // Render tag filters
+        function renderTagFilters() {
+            const container = document.getElementById('tagFilters');
+            let html = '<button class="tag-btn active" data-tag="all">全部</button>';
+            allTags.forEach(tag => {
+                html += `<button class="tag-btn" data-tag="${tag}">${tag}</button>`;
+            });
+            container.innerHTML = html;
+
+            // Add event listeners
+            container.querySelectorAll('.tag-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    container.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentTag = btn.dataset.tag;
+                    renderNews();
+                });
+            });
+        }
+
+        // Render hot keywords
+        function renderHotKeywords(keywords) {
+            const container = document.getElementById('hotKeywords');
+            container.innerHTML = keywords.map(kw => `
+                <div class="keyword-item" data-keyword="${kw.keyword}">
+                    <span>${kw.keyword}</span>
+                    <span class="keyword-count">${kw.count} 次</span>
+                </div>
+            `).join('');
+
+            // Add event listeners
+            container.querySelectorAll('.keyword-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const keyword = item.dataset.keyword;
+                    document.getElementById('searchInput').value = keyword;
+                    searchTerm = keyword;
+                    renderNews();
+                });
+            });
+        }
+
+        // Render week focus
+        function renderWeekFocus(focus) {
+            const container = document.getElementById('weekFocus');
+            container.innerHTML = focus.map(item => `
+                <div class="focus-item">
+                    <div class="focus-title">${item.title}</div>
+                    <div class="focus-desc">${item.desc}</div>
+                </div>
+            `).join('');
+        }
+
+        // Render news
+        function renderNews() {
+            const contentArea = document.getElementById('contentArea');
+            let filteredNews = [...allNews];
+
+            // Filter by tag
+            if (currentTag !== 'all') {
+                filteredNews = filteredNews.filter(item => 
+                    item.tags && item.tags.includes(currentTag)
+                );
+            }
+
+            // Filter by search
+            if (searchTerm) {
+                const term = searchTerm.toLowerCase();
+                filteredNews = filteredNews.filter(item => 
+                    item.title.toLowerCase().includes(term) ||
+                    (item.content && item.content.toLowerCase().includes(term))
+                );
+            }
+
+            // No results
+            if (filteredNews.length === 0) {
+                contentArea.innerHTML = `
+                    <div class="no-results">
+                        <p>🔍 没有找到相关内容</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Group by date for timeline view
+            if (currentView === 'timeline') {
+                const grouped = {};
+                filteredNews.forEach(item => {
+                    if (!grouped[item.date]) {
+                        grouped[item.date] = [];
+                    }
+                    grouped[item.date].push(item);
+                });
+
+                let html = '';
+                const sortedDates = Object.keys(grouped).sort().reverse();
+                const today = sortedDates[0] || '';
+
+                for (const date of sortedDates) {
+                    const dateObj = new Date(date);
+                    const todayObj = new Date(today);
+                    const diff = Math.floor((todayObj - dateObj) / (1000 * 60 * 60 * 24));
+                    
+                    let dateLabel = date;
+                    if (diff === 0) dateLabel = '今天';
+                    else if (diff === 1) dateLabel = '昨天';
+                    else if (diff === 2) dateLabel = '前天';
+
+                    html += `
+                        <div class="date-group">
+                            <div class="date-header">
+                                <span class="date-title">${dateLabel} · ${date}</span>
+                                <span class="date-count">${grouped[date].length} 条动态</span>
+                            </div>
+                            <div class="news-list">
+                                ${grouped[date].map(item => createNewsItem(item)).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+                contentArea.innerHTML = html;
+            } else {
+                // All view - flat list
+                let html = '<div class="date-group"><div class="news-list">';
+                filteredNews.forEach(item => {
+                    html += createNewsItem(item, true);
+                });
+                html += '</div></div>';
+                contentArea.innerHTML = html;
+            }
+        }
+
+        // Create news item
+        function createNewsItem(item, showDate = false) {
+            const importanceClass = `importance-${item.importance || 'low'}`;
+            
+            return `
+                <div class="news-item">
+                    <div class="news-header">
+                        <div class="importance-badge ${importanceClass}"></div>
+                        <div class="news-title">${item.title}</div>
+                    </div>
+                    <div class="news-content">${item.content || ''}</div>
+                    <div class="news-footer">
+                        <div class="news-tags">
+                            ${(item.tags || []).map(tag => `<span class="news-tag">${tag}</span>`).join('')}
+                        </div>
+                        <div class="news-source">${item.source || ''}${showDate ? ` · ${item.date}` : ''}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Setup event listeners
+        function setupEventListeners() {
+            // View toggle
+            document.querySelectorAll('.toggle-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentView = btn.dataset.view;
+                    renderNews();
+                });
+            });
+
+            // Search
+            const searchInput = document.getElementById('searchInput');
+            searchInput.addEventListener('input', (e) => {
+                searchTerm = e.target.value;
+                renderNews();
+            });
+        }
+
+        // Init
+        document.addEventListener('DOMContentLoaded', () => {
+            loadData();
+            setupEventListeners();
+        });
+    </script>
+</body>
+</html>
