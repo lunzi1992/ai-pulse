@@ -363,11 +363,36 @@
             line-height: 1.5;
         }
 
+        .news-title-link {
+            font-size: 0.9375rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            line-height: 1.5;
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+
+        .news-title-link:hover {
+            color: var(--accent-blue);
+            text-decoration: underline;
+        }
+
         .news-content {
             font-size: 0.8125rem;
             color: var(--text-secondary);
             line-height: 1.6;
             margin-bottom: 0.75rem;
+        }
+
+        .news-summary {
+            font-size: 0.8125rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin: 0.5rem 0 0.5rem 1.25rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
 
         .news-footer {
@@ -567,6 +592,13 @@
             // Collect all news
             allNews = data.news || [];
             
+            // 统一 category -> tags 映射（兼容旧数据）
+            allNews.forEach(item => {
+                if (!item.tags && item.category) {
+                    item.tags = [item.category];
+                }
+            });
+            
             // Collect all tags
             const tagSet = new Set();
             allNews.forEach(item => {
@@ -656,7 +688,8 @@
             // Filter by tag
             if (currentTag !== 'all') {
                 filteredNews = filteredNews.filter(item => 
-                    item.tags && item.tags.includes(currentTag)
+                    (item.tags && item.tags.includes(currentTag)) ||
+                    item.category === currentTag
                 );
             }
 
@@ -730,17 +763,23 @@
         // Create news item
         function createNewsItem(item, showDate = false) {
             const importanceClass = `importance-${item.importance || 'low'}`;
+            const titleHtml = item.url
+                ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer" class="news-title-link">${item.title}</a>`
+                : `<span class="news-title">${item.title}</span>`;
+            const summaryHtml = item.summary
+                ? `<div class="news-summary">${item.summary}</div>`
+                : '';
             
             return `
                 <div class="news-item">
                     <div class="news-header">
                         <div class="importance-badge ${importanceClass}"></div>
-                        <div class="news-title">${item.title}</div>
+                        ${titleHtml}
                     </div>
-                    <div class="news-content">${item.content || ''}</div>
+                    ${summaryHtml}
                     <div class="news-footer">
                         <div class="news-tags">
-                            ${(item.tags || []).map(tag => `<span class="news-tag">${tag}</span>`).join('')}
+                            ${(item.tags || (item.category ? [item.category] : [])).map(tag => `<span class="news-tag">${tag}</span>`).join('')}
                         </div>
                         <div class="news-source">${item.source || ''}${showDate ? ` · ${item.date}` : ''}</div>
                     </div>
