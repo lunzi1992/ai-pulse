@@ -249,6 +249,96 @@ async function pushToWechat(news) {
   }
 }
 
+// ==================== Markdown 生成 =================================
+
+/**
+ * 生成微信公众号格式的 Markdown 文档
+ */
+function generateMarkdown(news, date) {
+  // 格式化日期：2026年4月9日
+  const dateObj = new Date(date);
+  const dateStr = dateObj.toLocaleDateString('zh-CN', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+
+  // 按分类分组
+  const categories = {};
+  const categoryOrder = ['AI Coding', '具身智能', '大模型', '开源', '资本'];
+  const categoryEmoji = {
+    'AI Coding': '💻',
+    '具身智能': '🤖',
+    '大模型': '🧠',
+    '开源': '🔓',
+    '资本': '💰'
+  };
+
+  news.forEach(n => {
+    if (!categories[n.category]) categories[n.category] = [];
+    categories[n.category].push(n);
+  });
+
+  // 构建 Markdown
+  let md = '';
+
+  // 标题区
+  md += `# AI Pulse 日报 | ${dateStr}\n\n`;
+  md += `> 每日精选 AI Coding 与具身智能领域重要动态\n\n`;
+  md += `---\n\n`;
+
+  // 各分类
+  categoryOrder.forEach(cat => {
+    const items = categories[cat];
+    if (!items || items.length === 0) return;
+
+    const emoji = categoryEmoji[cat] || '📰';
+    md += `## ${emoji} ${cat}\n\n`;
+
+    items.forEach((n, i) => {
+      md += `**${i + 1}. ${n.title}**\n\n`;
+      if (n.summary) {
+        md += `${n.summary}\n\n`;
+      }
+      md += `📍 来源：${n.source}`;
+      if (n.url) {
+        md += ` | [阅读原文](${n.url})`;
+      }
+      md += `\n\n`;
+    });
+  });
+
+  // 底部
+  md += `---\n\n`;
+  md += `📌 **完整日报 & 历史存档**: https://lunzi1992.github.io/ai-pulse\n\n`;
+  md += `🔔 **微信推送**: AI Pulse 日报已推送至微信\n\n`;
+  md += `---\n\n`;
+  md += `*本日报由 AI Pulse 自动采集生成 | 手动审核发布*\n`;
+
+  return md;
+}
+
+/**
+ * 保存 Markdown 文件到本地
+ */
+async function saveMarkdown(md, date) {
+  const dailyDir = path.join(__dirname, 'daily');
+  
+  // 确保目录存在
+  if (!fs.existsSync(dailyDir)) {
+    fs.mkdirSync(dailyDir, { recursive: true });
+  }
+
+  // 文件名：2026-04-09.md
+  const filename = `${date}.md`;
+  const filepath = path.join(dailyDir, filename);
+
+  fs.writeFileSync(filepath, md, 'utf8');
+  console.log(`✅ Markdown 日报已保存: daily/${filename}`);
+  
+  return filepath;
+}
+
 // ==================== 主流程 ===========================================
 
 async function main() {
@@ -293,9 +383,9 @@ async function main() {
         title: item.title.substring(0, 200),
         summary: item.desc || '',
         category,
+        importance,
         source: feed.name,
         url: item.link,
-        importance,
         date: item.pubDate || today
       });
     }
@@ -321,7 +411,7 @@ async function main() {
     })
     .slice(0, 50); // 保留50条历史
 
-  // 5. 今日新闻单独取前10条
+  // 5. 今日新闻
   const todayNews = combined.filter(n => n.date === today);
   console.log(`📅 今日新闻: ${todayNews.length} 条`);
 
@@ -361,7 +451,16 @@ async function main() {
   fs.writeFileSync(newsPath, JSON.stringify(output, null, 2), 'utf8');
   console.log(`✅ news.json 已写入（总计 ${combined.length} 条）`);
 
-  // 8. 推送微信
+  // 8. 生成 Markdown 日报
+  if (todayNews.length > 0) {
+    const md = generateMarkdown(todayNews, today);
+    const mdPath = await saveMarkdown(md, today);
+    console.log(`📝 Markdown 日报路径: ${mdPath}`);
+  } else {
+    console.log('ℹ️ 今日无新新闻，跳过 Markdown 生成');
+  }
+
+  // 9. 推送微信
   if (todayNews.length > 0) {
     await pushToWechat(todayNews.slice(0, 10));
   } else {
