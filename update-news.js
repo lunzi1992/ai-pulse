@@ -22,7 +22,7 @@ const FEEDS = [
         if (i >= 50) return;
         const title = $(el).find('title').text().trim();
         const link = $(el).find('link').text().trim();
-        const desc = $(el).find('description').text().replace(/<[^>]+>/g, '').trim().substring(0, 300);
+        const desc = cleanText($(el).find('description').text()).substring(0, 300);
         const pubDate = new Date($(el).find('pubDate').text().trim()).toISOString().split('T')[0];
         items.push({ title, link, desc, pubDate });
       });
@@ -39,7 +39,7 @@ const FEEDS = [
         if (i >= 50) return;
         const title = $(el).find('title').text().trim();
         const link = $(el).find('link').text().trim() || $(el).find('guid').text().trim();
-        const desc = $(el).find('description').text().replace(/<[^>]+>/g, '').trim().substring(0, 300);
+        const desc = cleanText($(el).find('description').text()).substring(0, 300);
         const pubDate = new Date($(el).find('pubDate').text().trim()).toISOString().split('T')[0];
         items.push({ title, link, desc, pubDate });
       });
@@ -56,7 +56,7 @@ const FEEDS = [
         if (i >= 30) return;
         const title = $(el).find('title').text().trim();
         const link = $(el).find('link').text().trim();
-        const desc = $(el).find('description').text().replace(/<[^>]+>/g, '').trim().substring(0, 300);
+        const desc = cleanText($(el).find('description').text()).substring(0, 300);
         const pubDate = new Date($(el).find('pubDate').text().trim()).toISOString().split('T')[0];
         items.push({ title, link, desc, pubDate });
       });
@@ -73,7 +73,7 @@ const FEEDS = [
         if (i >= 30) return;
         const title = $(el).find('title').text().trim();
         const link = $(el).find('link').text().trim();
-        const desc = $(el).find('description').text().replace(/<[^>]+>/g, '').trim().substring(0, 300);
+        const desc = cleanText($(el).find('description').text()).substring(0, 300);
         const pubDate = new Date($(el).find('pubDate').text().trim()).toISOString().split('T')[0];
         items.push({ title, link, desc, pubDate });
       });
@@ -90,7 +90,7 @@ const FEEDS = [
         if (i >= 30) return;
         const title = $(el).find('title').text().trim();
         const link = $(el).find('link').text().trim();
-        const desc = $(el).find('description').text().replace(/<[^>]+>/g, '').trim().substring(0, 300);
+        const desc = cleanText($(el).find('description').text()).substring(0, 300);
         const pubDate = new Date($(el).find('pubDate').text().trim()).toISOString().split('T')[0];
         items.push({ title, link, desc, pubDate });
       });
@@ -108,12 +108,7 @@ const FEEDS = [
       $('item').each((i, el) => {
         const title = $(el).find('title').text().trim();
         const link = $(el).find('link').text().trim();
-        const desc = $(el).find('description').text()
-          .replace(/<[^>]+>/g, '')
-          .replace(/Article URL:.*$/gm, '')
-          .replace(/# Comments:.*$/gm, '')
-          .replace(/Points:.*$/gm, '')
-          .trim().substring(0, 300);
+        const desc = cleanText($(el).find('description').text()).substring(0, 300);
         const pubDate = new Date($(el).find('pubDate').text().trim()).toISOString().split('T')[0];
         items.push({ title, link, desc, pubDate });
       });
@@ -129,12 +124,7 @@ const FEEDS = [
       $('item').each((i, el) => {
         const title = $(el).find('title').text().trim();
         const link = $(el).find('link').text().trim();
-        const desc = $(el).find('description').text()
-          .replace(/<[^>]+>/g, '')
-          .replace(/Article URL:.*$/gm, '')
-          .replace(/# Comments:.*$/gm, '')
-          .replace(/Points:.*$/gm, '')
-          .trim().substring(0, 300);
+        const desc = cleanText($(el).find('description').text()).substring(0, 300);
         const pubDate = new Date($(el).find('pubDate').text().trim()).toISOString().split('T')[0];
         items.push({ title, link, desc, pubDate });
       });
@@ -273,15 +263,24 @@ const MUST_EXCLUDE = [
 
 // ==================== 辅助函数 =========================================
 
-function cleanHNText(text) {
+function cleanText(text) {
+  if (!text) return '';
   return text
+    // HN 噪音
     .replace(/Article URL:.*$/gm, '')
     .replace(/#\s*Comments:.*$/gm, '')
     .replace(/Points:.*$/gm, '')
+    .replace(/Comments URL:.*$/gm, '')
+    // HTML entities
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/&quot;/g, '"')
+    // HTML tags（保留链接但不保留标签内容）
     .replace(/<[^>]+>/g, '')
+    // 清理多余空格和换行
     .replace(/\s+/g, ' ')
     .trim();
 }
+
+function cleanHNText(text) { return cleanText(text); }
 
 function isAIRelated(item) {
   const text = (item.title + ' ' + item.desc).toLowerCase();
