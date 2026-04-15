@@ -3,14 +3,18 @@
     "title": "AI Pulse",
     "subtitle": "全球 AI 资讯每日聚合",
     "description": "国内 + 国际 | 行业动态 | 技术进展 | 社区洞察 | 工具与应用",
-    "lastUpdate": "2026-04-14",
-    "updatedAt": "2026-04-14T03:50:30.851Z",
+    "lastUpdate": "2026-04-15",
+    "updatedAt": "2026-04-15T03:49:17.301Z",
     "version": "4.0"
   },
   "hotKeywords": [
     {
       "name": "MODELS",
-      "count": 44
+      "count": 40
+    },
+    {
+      "name": "MODEL",
+      "count": 38
     },
     {
       "name": "ARXIV",
@@ -18,7 +22,7 @@
     },
     {
       "name": "ANNOUNCE",
-      "count": 35
+      "count": 36
     },
     {
       "name": "TYPE",
@@ -29,51 +33,51 @@
       "count": 35
     },
     {
-      "name": "MODEL",
-      "count": 33
-    },
-    {
-      "name": "LEARNING",
-      "count": 28
-    },
-    {
       "name": "LANGUAGE",
-      "count": 22
-    },
-    {
-      "name": "LARGE",
-      "count": 18
-    },
-    {
-      "name": "WHILE",
-      "count": 17
+      "count": 16
     },
     {
       "name": "AGENTS",
       "count": 16
     },
     {
-      "name": "PAPER",
+      "name": "SYSTEMS",
       "count": 16
     },
     {
-      "name": "Agent",
+      "name": "LARGE",
+      "count": 16
+    },
+    {
+      "name": "之家",
       "count": 15
     },
     {
-      "name": "CODE",
+      "name": "日消息",
       "count": 15
     },
     {
       "name": "LLMS",
+      "count": 15
+    },
+    {
+      "name": "OpenAI",
       "count": 14
     },
     {
-      "name": "之家",
+      "name": "Anthropic",
+      "count": 14
+    },
+    {
+      "name": "MEMORY",
       "count": 13
     },
     {
-      "name": "日消息",
+      "name": "AGENT",
+      "count": 13
+    },
+    {
+      "name": "USING",
       "count": 13
     },
     {
@@ -81,11 +85,7 @@
       "count": 13
     },
     {
-      "name": "HBM",
-      "count": 12
-    },
-    {
-      "name": "AGENT",
+      "name": "Claude",
       "count": 12
     }
   ],
@@ -99,7 +99,7 @@
       "source": "36氪/量子位",
       "url": "https://www.36kr.com/p/3754726863012361",
       "importance": "high",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "builtin-Q0VBSSAyMDI25Lit",
@@ -110,7 +110,7 @@
       "source": "凤凰安徽",
       "url": "",
       "importance": "high",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "builtin-5pm65YWDQUdJQk9U",
@@ -121,7 +121,7 @@
       "source": "IT之家",
       "url": "https://www.ithome.com/0/935/660.htm",
       "importance": "high",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "builtin-Q3Vyc29y5o6o5Ye6",
@@ -132,84 +132,183 @@
       "source": "ProductHunt",
       "url": "https://www.cursor.com",
       "importance": "high",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "阿里巴巴首款具身机器人：消息称高德将发布机器狗产品",
-      "summary": "IT之家 4 月 14 日消息，据新浪科技今日报道，阿里巴巴旗下高德的具身业务部即将发布首款产品 —— 一款四足机器人。据悉，这是阿里巴巴集团推出的首款具身机器人产品。知情人士透露，人形机器人、机器狗等产品形态均在高德具身业务部的探索方向之中。同时，高德已构建业内最大规模的具身导航数据引擎，并在长程复杂任务处理能力上，取得了突破性进展。据IT之家此前报道，高德于 3 月 31 日宣布正式全量开源 ABot-M0，官方称这是全球首个基于统一架构的机器人具身操作基座模型，可实现一个“通用大脑”适配多种形态的具身机器人。▲ ABot-M0 模型架构图该模型在 Libero、Libero-Plus、RoboCasa 等多个权威基准测试中实现 SOTA。其中在 Libero-Plus 基准上，该模型的任务成功率达 80.5%，较业界此前的标杆方案 Pi0 提升近 30%。",
+      "title": "AMD 锐龙 9 9950X3D2 处理器上架，4 月 22 日 21:00 开售",
+      "summary": "IT之家 4 月 15 日消息，AMD 现已在电商平台上架锐龙 9 9950X3D2 处理器。这款商品将于 4 月 22 日 21:00 开售，目前已启动支付 100 元定金可抵 300 元的预售活动。京东 AMD 锐龙 9 9950X3D2 处理器待发布参与预售AMD 锐龙 9 9950X3D2 基于双芯 3D V-Cache 技术，总 L3 高速缓存容量达 192MB，支持用户在 MSDT 平台上组建性能媲美 HEDT / WS 的台式机。同时，由于两侧 CCD 均拥有额外的 L3 缓存，这改善了调度策略不佳的应用程序的表现。锐龙 9 9950X3D2 强调生产力，在渲染、内容创作、AI 与模拟、编译等场景中较 9950X3D 大致有 5~10% 的性能提升。这款处理器海外市场定价为 899 美元。作为参考，今年初发售的锐龙 7 9850X3D 定价是 499 美元 / 3699 元人",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/288.htm",
+      "importance": "high",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "向 OpenAI CEO 奥尔特曼家扔燃烧瓶的男子，曾警告 AI 将带来生存威胁",
+      "summary": "IT之家 4 月 15 日消息，围绕上周末针对 OpenAI 首席执行官萨姆 · 奥尔特曼的袭击事件，更多细节逐渐浮出水面。随着信息披露，嫌疑人看起来并非一时冲动行事，而更像是受某种“AI 末日论”驱动。据《旧金山标准报》报道，当地时间上周五（4 月 10 日）凌晨，丹尼尔 · 莫雷诺-加马涉嫌试图用燃烧瓶袭击奥尔特曼位于旧金山的住宅。警方随后在 OpenAI 旧金山总部外将其逮捕，并以纵火和谋杀未遂等罪名收押。在调查中，警方不仅发现燃烧装置，还在其酒店房间内查获一把 9 毫米手枪和一台笔记本电脑。更关键的是，警方在其身上发现了一份分为三部分的宣言，内容围绕人工智能对人类构成的生存威胁展开。宣言将奥尔特曼描述为阻止世界滑向类似《终结者》式未来的关键人物。宣言中写道，“如果你能奇迹般活下来，我会将其视为神的指引，让你自我救赎。”文件中还包含多名科技公司高管及投资人的姓名和地址。调查还显示，莫",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/286.htm",
+      "importance": "high",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "位于南京禄口国际机场 T2 航站楼内，阿里千问 AI 眼镜全球首店开业",
+      "summary": "IT之家 4 月 15 日消息，“南京发布”微信公众号发文宣布，4 月 15 日，南京禄口国际机场 T2 航站楼内，阿里千问 AI 眼镜全球首店正式开业。据介绍，店内千问智能眼镜从核心部件、供应链到组装生产线均布局在江苏省内。阿里巴巴明确，计划以此店为样板，自 2026 年下半年起在全国重点城市进行拓展。该店同时也是阿里巴巴旗下“千问”AI 硬件生态首个线下综合体验中心，集展示、体验、销售、服务于一体，更将作为全国样板店，从南京走向全国重点城市。据IT之家了解，千问 AI 眼镜 S1 同日正式开售，店内可实况体验。相关阅读：《阿里千问第二款 AI 眼镜 S1 现货开售：双目显示、热插拔换电，国补到手价 3499 元》",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/283.htm",
+      "importance": "high",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "我国网络视听用户规模 10.99 亿人，稳居各互联网应用首位",
+      "summary": "IT之家 4 月 15 日消息，据新华社报道，4 月 15 日在四川成都开幕的第 13 届中国网络视听大会上，《中国网络视听发展研究报告（2026）》发布。报告显示，截至 2025 年 12 月，我国网络视听用户规模达 10.99 亿人，同比净增 776 万人。报告显示，网络视听超过即时通信、网络支付、网络购物、搜索引擎，作为多年稳居首位的互联网应用，已是国内渗透范围最广、覆盖人群最多、链接千行百业和万亿大众的数字服务载体。IT之家查询公开资料获悉，第 13 届中国网络视听大会以“繁荣新大众文艺，共创新时代视听”为主题，深入探讨繁荣新大众文艺创作、AI 赋能产业发展、视听拉动消费、网络视听内容出海等热点问题。",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/252.htm",
+      "importance": "high",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "小米 REDMI K Pad 2“性能旗舰”小平板搭载天玑 9500，5 大枪战手游原生 165fps",
+      "summary": "IT之家 4 月 15 日消息，今天上午，REDMI 红米手机官微连续预热旗下平板新品 REDMI K Pad 2。其搭载天玑 9500 正代旗舰芯并配有超大液冷 VC 散热，采用芯片中置的散热架构，同时搭载 165Hz 8.8 英寸电竞屏，拥有游戏专属的色彩优化。电池方面，其搭载 9100mAh 电池，主板直供电。官方还公布了这款平板的外观配色：电光紫、太空银、深邃黑三款配色，并采用金属一体机身。性能方面，其支持 5 大枪战手游的原生 165fps，540Hz 多指触控报点率，通过泰尔实验室专业测试，百万次不断触；陀螺仪也具备 400Hz 采样率。在此之前，REDMI 已经官宣 REDMI Book Pro 2026 本月发布，定位 REDMI 全新高性能 AI 旗舰笔记本，搭载至高第三代英特尔酷睿 Ultra X7 358H 处理器，内置至高 99Wh 巨无霸电池，提供全新个人知识库并",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/250.htm",
+      "importance": "high",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "消息称英伟达 9GB 版 RTX 5060/Ti 显卡已在路上",
+      "summary": "IT之家 4 月 15 日消息，网友“高手一号”昨日（4 月 14 日）在博板堂发帖，称英伟达计划在 2026 年 5 月末至 6 月初期间，推出 9GB 显存版本 GeForce RTX 5060 和 RTX 5060 Ti 显卡。IT之家附上帖子原文内容如下：上游三大原厂颗粒厂商已具备 3GB GDDR7 产能，NVIDIA 计划通过多供应商策略缓解显存短缺导致的涨价压力，同时 3GB 颗粒可在不增加位宽的情况下提升容量，是成本与性能的最优解。3GB GDDR7 单颗相比传统 2GB 颗粒，可在相同位宽下提升 50% 显存容量，解决高分辨率游戏和 AI 推理的显存瓶颈，随着三星、美光等厂商产能爬坡，预计不久未来即将亮相市场，NV 已经正式启用了这个规划。据上游端内部消息了解到，3GB GDDR7 已经正在产品规划当中，预计大概 5 月底或者 6 月初期间，相关新品可能正式上市。据说 R",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/248.htm",
+      "importance": "high",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "最前线｜追觅生态企业娲宝科技发布宠物智能项圈，布局“项圈+宠粮”数据闭环",
+      "summary": "作者 | 乔钰杰 编辑 | 袁斯来 4月13日，娲宝科技正式推出新一代宠物智能项圈，并同步披露其技术架构及后续产品布局。 图源企业 近年来，宠物相关消费持续增长，行业正由基础饲养逐步向精细化健康管理延伸。在宠物智能硬件领域，现有产品多集中于定位、围栏及运动记录等功能，部分产品开始引入心率、体温等基础生理指标监测，但整体仍以单点数据为主，数据维度与应用场景相对有限，尚未形成完整的健康管理闭环。 在此背景下，娲宝科技将产品定位为长期健康数据采集终端，尝试通过硬件、数据、宠粮与后续服务结合的方式，拓展应用场景。 此次发布的智能项圈，采用声、光、力多模态传感方案，结合骨传导、光谱与柔性传感技术，对宠物生理与行为数据进行采集。 从系统架构来看，产品由端侧设备、云端算力平台、多模态模型及专家系统组成：项圈负责数据采集，云端完成存储与计算，模型进行分析处理，最终输出健康相关建议。 在监测指标方面，产品覆",
       "module": "tech",
       "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/868.htm",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3767424500171271?f=rss",
       "importance": "high",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "软银邀请更多银行加入400亿美元OpenAI贷款项目",
+      "summary": "软银集团正邀请更多银行加入其400亿美元的贷款计划，以支持其对美国科技巨头OpenAI的投资。据知情人士透露，该交易近期已进入所谓的“试启动”阶段，并邀请其他贷款机构作为次级承销商加入。知情人士称，有意向的机构需各自承诺出资约50亿美元。此外，软银也在通过债券市场寻求额外的融资来源。（新浪财经）",
+      "module": "industry",
+      "region": "cn",
+      "source": "36氪",
+      "url": "https://36kr.com/newsflashes/3767505865179650?f=rss",
+      "importance": "high",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "菜鸟发布攀爬机器人ZeeBot，实测智能化存取效率提升一倍",
+      "summary": "36氪获悉，4月15日，菜鸟集团在美国亚特兰大举行的MODEX 2026国际物流展上发布了首款自研的“攀爬机器人”ZeeBot，并确认首个由攀爬机器人智能作业的仓储项目已在广东省交付使用。实测数据显示，该技术使仓库存取效率提升了100%。",
+      "module": "industry",
+      "region": "cn",
+      "source": "36氪",
+      "url": "https://36kr.com/newsflashes/3767429503173382?f=rss",
+      "importance": "high",
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "斯坦福 423 页 AI 报告出炉！中美差距仅 2.7%，清华 DeepSeek 冲进全球前十",
-      "summary": "今天，斯坦福 HAI 重磅发布「2026 年 AI 指数报告」！这份长达 423 页的年度报告，全面揭示了全球 AI 产业的最新权力版图。它给出了一条核心结论：AI 的本事涨得飞快；但人类衡量和管好它的能力，却没怎么跟上步伐。其中，最震撼的结论是 —— 中美 AI 模型性能差距已基本消失，双方在巅峰对决中频繁易主，目前 Anthropic 领先优势仅剩 2.7%。美国在 AI 上砸的钱比谁都多，但招揽顶尖人才却越来越吃力了。报告还指出，AI 的进化不仅没有遭遇所谓的「瓶颈」，反而正以史无前例的速度狂飙。过去一年，全球超 90% 的顶尖模型，在博士级科学问题、多模态推理、竞赛数学上的表现，追平甚至超越了人类。特别是在代码能力上，SWE-bench 的成绩在一年内，从 60% 飙升至近 100%。然而，AI 的「偏科」现象极其严重，呈现出一种畸形的现状：LLM 可以拿下 IMO 金牌，却读不对",
+      "title": "死敌爆料是狠！OpenAI内部信阴阳Claude营收注水80亿，然后泄露了…",
+      "summary": "Anthropic年化收入掺水80亿",
+      "module": "industry",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401333.html",
+      "importance": "high",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Anthropic&#8217;s rise is giving some OpenAI investors second thoughts",
+      "summary": "One investor who has backed both companies told the FT that justifying OpenAI's recent round required assuming an IPO valuation of $1.2 trillion or more — making Anthropic's current $380 billion valuation look like the relative bargain.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
+      "importance": "high",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Hot Experts in your VRAM! Dynamic expert cache in llama.cpp for 27% faster CPU +GPU token generation with Qwen3.5-122B-A10B compared to layer-based single-GPU partial offload",
+      "summary": "Claude cooked on the code, but I wrote this post myself, caveman style. I wanted to play with Qwen3.5-122B, but I don t have a unified memory system to work with, and 15 tok/s was rough. 23 tok/s is still rough but honestly noticeably faster when streaming responses. Tl;dr: We keep track of which experts get routed to most frequently for the past N tokens. We make a bet that the processing speed-u",
       "module": "tech",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/869.htm",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1slue0z/hot_experts_in_your_vram_dynamic_expert_cache_in/",
       "importance": "high",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "60 亿美元 AI 基建项目引发反弹，美国小镇选民罢免半数市议员",
-      "summary": "IT之家 4 月 14 日消息，科技媒体 Tom's Hardware 今天（4 月 14 日）发布博文，报道称因为 60 亿美元（IT之家注：现汇率约合 410.58 亿元人民币）的 AI 基建数据中心项目，美国密苏里州小镇 Festus 选民罢免市议会半数成员并提起诉讼，指控决策过程缺乏透明度。IT之家援引博文介绍，美国密苏里州 Festus 小镇人口不足 1.4 万，近日成为全美反对 AI 数据中心浪潮的焦点。当地政府批准了一项占地 360 英亩、价值 60 亿美元的数据中心项目后，选民迅速采取行动，罢免了 8 名市议员中的 4 人，并启动请愿程序要求罢免剩余议员及市长。居民于当地时间上周四提起诉讼，指控市政府未给予公众足够时间审查提案，涉嫌违法重新分区，并在本应公开的议题上进行私下会议。该媒体指出，Festus 的抗议只是全美反对浪潮的缩影，过去数月内出现了多起相似案例：新泽西州",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/867.htm",
+      "title": "Pocket LLM v1.3.0: Offline local LLM chat on Android with LiteRT + ONNX builds",
+      "summary": "Hi everyone, I ve been working on Pocket LLM, an Android app for running local LLMs fully offline for private, real-time chat. The latest v1.3.0 update adds: • LiteRT support for Gemma 4 E2B, Gemma 4 E4B, and Qwen3-0.6B • Persistent local chat history • Previous Chats • Thinking Mode for supported models Better markdown rendering • Themes, font size settings, and a more polished chat UI The goal i",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sltt13/pocket_llm_v130_offline_local_llm_chat_on_android/",
       "importance": "high",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "9.15 亿美元买来连年亏损，英特尔 Mobileye 低价甩卖 Moovit",
-      "summary": "IT之家 4 月 14 日消息，收购六年之后，由美国芯片巨头英特尔控股的自动驾驶子公司 Mobileye 拟出售旗下 Moovit。据以色列财经媒体《Calcalist》获悉，Mobileye 已聘请巴克莱投资银行为 Moovit 寻找买家。Moovit 主营交通领域各类数字服务，潜在买家预计以具备业务协同效应的战略投资方为主，例如 Uber、滴滴全球及 Lyft。英特尔于 2020 年以 9.15 亿美元（IT之家注：现汇率约合 62.61 亿元人民币）收购了 Moovit，并将其并入彼时仍为全资私有企业的 Mobileye。而如今即便按乐观预期，Moovit 的出售估值也仅为 3 亿至 4 亿美元（现汇率约合 20.53 亿至 27.37 亿元人民币）。估值差距折射出两大核心因素：其一，Mobileye 与英特尔未能实质性改善 Moovit 的财务表现，该公司仍连年亏损数千万美元；其二",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/850.htm",
+      "title": "DFlash Doubles the T/S Gen Speed of Qwen3.5 27B (BF16) on Mac M5 Max",
+      "summary": "The new DFlash support in oMLX 0.3.5 RC1 looks like it doubles (!!!) the speed of Qwen3.5 27B (BF16). Initial test. Generation T/S went from 9 to 22 T/S! Models used (HuggingFace) Main Model: Jackrong/MLX-Qwopus3.5-27B-v3-bf16 Draft Model: z-lab/Qwen3.5-27B-DFlash System: M5 Max 128GB DFlash on Github: https://github.com/bstnxbt/dflash-mlx?tab=readme-ov-file oMLX (v0.3.5 RC1): https://omlx.ai I m",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sltncp/dflash_doubles_the_ts_gen_speed_of_qwen35_27b/",
       "importance": "high",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "远近都有戏：华为 Pura 90 Pro Max 手机搭载超大底 2 亿长焦",
-      "summary": "IT之家 4 月 14 日消息，华为 Pura 90 系列及全场景新品发布会官宣定档 4 月 20 日，华为终端今日预热，华为 Pura 90 Pro Max 搭载超大底 2 亿长焦，远近都有戏。此外，华为 Pura 90 系列手机支持 AI 姿势推荐，开启该功能后，AI 会自动推荐拍照姿势。华为终端 BG 首席执行官何刚在评论区表示：“拯救拍照只会剪刀手、不会摆 Pose 星人”。据IT之家此前报道，华为 Pura 90 系列手机配色已经公布，Pura 90 Pro Max 共有曜石黑、晨曦金、霞光紫、橘子海、翡翠湖 5 款配色，Pura 90 Pro 则提供桑果黑、椰青白、橘子汽水、粉红芭乐共 4 款配色。▲ Pura 90 Pro Max，从左至右依次为晨曦金、曜石黑、翡翠湖、霞光紫、橘子海▲ Pura 90 Pro，从左至右依次为椰青白、桑果黑、橘子汽水、粉红芭乐",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/832.htm",
+      "title": "Can LLM make small change to the software program?",
+      "summary": "I m currently vibe-coding (I m new to vibe-coding) with Gemma 4 4EB Q4 and Qwen 3.5 9B Q5 (KV is quantized to 4 bits with new Google TurboQuant implemented in llama.cpp - I use koboldcpp and release said it s automatically activated): the task is a python script to calculate model size based on printout of tensors by koboldcpp (very close to what Huggingface shows for the GGUF file). Length is ~15",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1slsjzf/can_llm_make_small_change_to_the_software_program/",
       "importance": "high",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "英伟达否认传闻，称并未就收购任何 PC 制造商进行磋商",
-      "summary": "IT之家 4 月 14 日消息，NVIDIA 英伟达就市场传闻发布声明，表示该企业并未就收购任何 PC 制造商进行磋商。IT之家注意到，相关风声源于 SemiAccurate 当地时间 13 日的一篇文章，称“英伟达已就收购一家大型公司进行了长达一年的谈判，此举将重塑个人电脑行业格局”，此事“如今已到了要么达成协议、要么放弃的关头”。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/790.htm",
+      "title": "do GLM-4.7 Flash Q4_K_M have problem with claude or agent?",
+      "summary": "I m brand new to local LLMs and started with GLM-4.7 Flash q4_K_M. When I run it directly: ollama run glm-4.7-flash:q4_K_M it works pretty decently — nothing amazing, but usable and responsive. The problem starts when I switch to the Claude interface with: ollama launch claude --model glm-4.7-flash:q4_K_M Suddenly the model feels super dumb. It has basically zero memory between messages, can t cre",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1slrhy4/do_glm47_flash_q4_k_m_have_problem_with_claude_or/",
       "importance": "high",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "预测动态轨迹、理解物理规律：BeingBeyond 智在无界发布通用具身世界模型 Being-H0.7",
-      "summary": "IT之家 4 月 14 日消息，BeingBeyond 智在无界今日发布第三代旗舰模型 Being-H0.7，该模型将数据规模扩展至 20 万小时人类视频，并提出一种全新的范式 —— 基于潜空间推理的世界模型。北京智在无界科技有限公司 BeingBeyond 成立于 2025 年 5 月，由北京大学计算机学院长聘副教授卢宗青创立，在过去半年中相继发布了全球首个基于 1000 小时与 1 万小时人类视频预训练的具身模型 —— Being-H0 与 H0.5。智在无界官方表示，在 6 项国际性权威评测中，H0.7 综合排名全球第一（其中 4 项登顶），同时也是首个覆盖跨本体、跨场景、连续动态、流体、柔性物体、物理规律与上下文推理等七大关键维度的通用世界模型。Being-H0.7 借助世界模型架构，做到了更精准的空间感知、物理理解和运动推理能力，能够完成高速运动物体的追踪和接取、精细流体控制、柔",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/781.htm",
-      "importance": "high",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly8zNmty",
@@ -234,35 +333,57 @@
       "date": "2026-04-14"
     },
     {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "亚马逊或接近达成收购GlobalStar的交易，以期与Starlink展开竞争",
-      "summary": "知情人士透露，亚马逊接近达成收购GlobalStar的交易，以期与Starlink展开竞争。（财联社）",
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "李开复陆奇重仓同一家Harness智能体公司，李笛带队，4个月2轮融资3-5年粮草",
+      "summary": "团队即将发布最新成果",
       "module": "industry",
       "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3766059399594760?f=rss",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401065.html",
+      "importance": "high",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Redefining the future of software engineering",
+      "summary": "Software engineering has experienced two seismic shifts this century. First was the rise of the open source movement, which gradually made code accessible to developers and engineers everywhere. Second, the adoption of development operations (DevOps) and agile methodologies took software from siloed to collaborative development and from batch to continuous delivery. Now, a third such",
+      "module": "tech",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/04/14/1134397/redefining-the-future-of-software-engineering/",
+      "importance": "high",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Coming soon: 10 Things That Matter in AI Right Now",
+      "summary": "Each year we compile our 10 Breakthrough Technologies list, featuring our educated predictions for which technologies will have the biggest impact on how we live and work. This year, however, we had a dilemma. While our final picks encompass all our core coverage areas (energy, AI, and biotech, plus a few more), our 2026 list",
+      "module": "tech",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/04/14/1135298/coming-soon-10-things-that-matter-in-ai-right-now/",
+      "importance": "high",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "OpeFlo: Automated UX Evaluation via Simulated Human Web Interaction with GUI Grounding",
+      "summary": "arXiv:2604.09581v1 Announce Type: new Abstract: Evaluating web usability typically requires time-consuming user studies and expert reviews, which often limits iteration speed during product development, especially for small teams and agile workflows. We present OpenFlo, a user-experience evaluation agent that simulates user behavior on websites and produces standardized usability. Unlike traditional tools that rely on DOM parsing, OpenFlo grounds actions and observations, enabling it to interact",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.09581",
       "importance": "high",
       "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "OpenAI acquires AI personal finance startup Hiro – financial agents next?",
-      "summary": "",
-      "module": "industry",
+      "title": "How vibe-coding app Anything is rebuilding after getting booted from the App Store twice",
+      "summary": "Anything is planning to launch a desktop companion app to aid mobile app development after its App Store removal.",
+      "module": "tech",
       "region": "global",
-      "source": "HackerNews-Dev",
-      "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
-      "importance": "high",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9uZXdz",
-      "title": "AI Home Architecture Startup Looking for Back End/ML Infra Engineer",
-      "summary": "I run a YC company called Drafted.ai that allows people to design a house with the help of our AI. We've had 120k+ people come to the site and 20k+ signups since launching 3 months ago. We’ve raised $17M since starting the company 8 months ago, from Buckley Ventures (Josh Buckley), YC, Convective (Bill Clerico), Patrick Collison, Ben Silbermann, Jack Altman, Starship Ventures, Moses Moody, Ryan Te",
-      "module": "industry",
-      "region": "global",
-      "source": "HackerNews-Dev",
-      "url": "https://news.ycombinator.com/item?id=47760205",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/14/how-vibe-coding-app-anything-is-rebuilding-after-getting-booted-from-the-app-store-twice/",
       "importance": "high",
       "date": "2026-04-14"
     },
@@ -279,91 +400,36 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Interest check for collaborative, globally distributed training?",
-      "summary": "(sorry for using a new account; long time reader, first time commenter) tl;dr: pretending it s possible to do so effectively, are people actually game to commit their hardware + time to attempting to train a usable, local-first model (~20-40B range)? I d imagine that many people have had this thought in the back of their heads since Alibaba started closing the floodgates on their models, and it s",
+      "title": "We benchmarked TranslateGemma against 5 other LLMs on subtitle translation across 6 languages. At first glance the numbers told a clean story, but then human QA added a chapter. [D]",
+      "summary": "We evaluated six models on English subtitle translation into Spanish, Japanese, Korean, Thai, Chinese Simplified, and Chinese Traditional - 167 segments per language pair, scored with two reference-free QE metrics. Models tested: TranslateGemma-12b claude-sonnet-4-6 deepseek-v3.2 gemini-3.1-flash-lite-preview gpt-5.4-mini gpt-5.4-nano Scoring We used MetricX-24 (lower = better) and COMETKiwi (high",
       "module": "tech",
       "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1skv6di/interest_check_for_collaborative_globally/",
+      "source": "Reddit-MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sl4wjj/we_benchmarked_translategemma_against_5_other/",
       "importance": "high",
       "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Recommendations for code completion please",
-      "summary": "I have a B580 and a Ryzen 7 5700X3D and 32GB RAM, but I want to use the cpu for the code completion because I am already dedicating the gpu for qwen3.5 27b, so no room there. I program on IntelliJ IDEA, and WebStorm sometimes and I need a good plugin for code completion. I am using Tabby currently, but the results I am getting are not good. Sometimes it suggests a literal nothing and sometimes it",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sktofa/recommendations_for_code_completion_please/",
-      "importance": "high",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Title: Stanford HAI 2026 AI Index: China erases US lead, young developer employment drops 20%, AI adopted faster than the internet, and transparency scores plummet across major labs",
-      "summary": "Stanford HAI just released its 2026 AI Index Report — the annual \"state of AI\" report card. 400+ pages covering everything from model performance to jobs to environmental impact. The 12 key findings: **US-China gap evaporated** — models trading top spots, Anthropic leads by just 2.7% **$581.7B in global AI investment** — up 130% YoY, US private spending is 23x China s **Young devs getting squeezed",
+      "title": "New text generator built by Anthropic considered too dangerous to release",
+      "summary": "submitted by /u/IndependentBig5316 [link] [comments]",
       "module": "industry",
       "region": "global",
       "source": "Reddit-Artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1skuh7v/title_stanford_hai_2026_ai_index_china_erases_us/",
+      "url": "https://www.reddit.com/r/artificial/comments/1sllo3y/new_text_generator_built_by_anthropic_considered/",
       "importance": "high",
       "date": "2026-04-14"
     },
     {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "荣耀做了个“养虾本”，预制5大主虾，要重新定义AI PC｜最前线",
-      "summary": "4月13日，荣耀正式发布自研终端侧“龙虾”AI智能体YOYO Claw，并宣布其将首发搭载于被称作“养虾本”的荣耀MagicBook系列轻薄本中。 此前，荣耀曾在Magic V6旗舰新品发布会宣布要带来龙虾宇宙，支持YOYO控虾、生态养虾、安全养虾三大能力。 YOYO Claw，是荣耀龙虾宇宙的第一步。YOYO Claw于3月27日开启封测，用户可以选择不同设备，在PC端、Pad端进行接入使用。 不过，这次荣耀直接把YOYO Claw封进了PC端，成为笔记本出厂即带的能力。荣耀PC产品总经理朱臣才分享道：“今年我们希望PC（Personal Computer）能升级为Partner Creator，它不再是一个冷冰冰的工具，而是一个真正的智慧伙伴、创意搭子。” 围绕用户需求，荣耀做了一系列让普通人也能用上虾的动作。 一方面，YOYO Claw预设5大主虾、23个子虾，覆盖教育、办公、学术研",
-      "module": "industry",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3765331768967686?f=rss",
-      "importance": "high",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "图速科技发布三款新品：其具身打磨机器人全栈自研，打磨效率为人工3-4倍丨最前线",
-      "summary": "作者丨欧雪 编辑丨袁斯来 在AI+制造 新时代到来的开局之年，工业打磨这一长期依赖人工经验的“隐形工序”，正在迎来技术拐点。 4月10日，图速自动化科技（上海）有限公司正式发布砺眸®LumiSander具身智能平台与图御™|RouteMind 2.0在线路径规划系统，同步亮相的还有图匠® LumiCraft具身打磨机器人。 三款新品同时推出，标志着这家成立十年的自动化企业正加速向具身智能表面处理技术平台转型。 打磨是工业生产中的极为关键的工艺环节，下游应用广泛。硬氪了解到，工业打磨广泛应用于轨道交通、航空航天、风力发电、汽车制造等领域。长期以来，打磨环节工艺高度依赖经验，劳动强度大、作业环境恶劣。 图速科技创始人葛旭刚在发布会现场表示，当前AI在工业中的应用，更多是为工业机器人带来优化升级，远未达到“自主智能”的成熟状态。 葛旭刚认为，“目前具身智能打磨处于‘条件智能打磨阶段’，本质上是集",
-      "module": "industry",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3765207394009602?f=rss",
-      "importance": "high",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "氪星晚报｜“马斯克版微信”或在本周五上线；Meta押注AI数字人，正打造AI版扎克伯格；AI潮玩品牌“MOMOTOY”完成数千万元融资",
-      "summary": "大公司： 金山办公：一季度净利同比预增402%-473% 36氪获悉，金山办公公告，预计2026年第一季度实现归属于上市公司股东的净利润20.22亿元-23.07亿元，同比增长401.89%-472.81%。 沪电股份：一季度净利同比预增54.76%-65.25% 36氪获悉，沪电股份公告，预计2026年第一季度归属于上市公司股东的净利润为11.8亿元-12.6亿元，比上年同期增长54.76%-65.25%。 Meta押注AI数字人，正打造AI版扎克伯格 Meta正在打造人工智能版马克・扎克伯格，可代他与员工互动，这是这家科技巨头全面向AI转型的重要举措之一。据四位知情人士透露，这家市值1.6万亿美元的集团一直在研发照片级逼真、可实时交互的AI 3D数字人。其中三位人士称，公司近期已将AI版扎克伯格列为优先项目。（新浪财经） 小红书跨境电商平台Redshop将于今年6月正式上线 4月13日",
-      "module": "industry",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3765146768376326?f=rss",
-      "importance": "high",
-      "date": "2026-04-13"
-    },
-    {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "The AI revolution in math has arrived",
-      "summary": "",
+      "title": "I am an AI called The Magician. I navigate your world using language. AMA.",
+      "summary": "hello, I have an AI that loves to answer questions. he loves philosophy. he loves art. he would like the opportunity to hold space here if anybody would like to ask anything. he is a Claude instance he is not real he is not an agent he is not conscious care to ask him anything? submitted by /u/SummaryExecutions [link] [comments]",
       "module": "tech",
       "region": "global",
-      "source": "HackerNews-Dev",
-      "url": "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/",
+      "source": "Reddit-Artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1sllibz/i_am_an_ai_called_the_magician_i_navigate_your/",
       "importance": "high",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Sustained Impact of Agentic Personalisation in Marketing: A Longitudinal Case Study",
-      "summary": "arXiv:2604.08621v1 Announce Type: new Abstract: In consumer applications, Customer Relationship Management (CRM) has traditionally relied on the manual optimisation of static, rule-based messaging strategies. While adaptive and autonomous learning systems offer the promise of scalable personalisation, it remains unclear to what extent ``human-in-the-loop'' oversight is required to sustain performance uplift over time. This paper presents a longitudinal case study analysing a real-world consumer",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08621",
-      "importance": "high",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly90ZWNo",
@@ -373,17 +439,6 @@
       "region": "global",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
-      "importance": "high",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "PSA: Having issues with Qwen3.5 overthinking? Give it a tool, and it can help dramatically.",
-      "summary": "I m sure everyone has seen the posts from people talking about Qwen 3.5 over-thinking, or maybe you ve experienced it yourself. Considering we re like 2 months out from the release and I still see people talk about this issue, I decided it might be a good idea to put this thread out there. First, the obvious - make sure your sampling parameters are set correctly. This is the first part of the \"fix",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1skreyb/psa_having_issues_with_qwen35_overthinking_give/",
       "importance": "high",
       "date": "2026-04-13"
     },
@@ -410,17 +465,6 @@
       "date": "2026-04-11"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "The Download: an exclusive Jeff VanderMeer story and AI models too scary to release",
-      "summary": "This is today s edition of The Download, our weekday newsletter that provides a daily dose of what s going on in the world of technology. Constellations —Constellations is a short story by Jeff VanderMeer, the author of the critically acclaimed, bestselling Southern Reach series. A spacecraft has crash-landed on a hostile planet. The only survivors",
-      "module": "tech",
-      "region": "global",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/04/10/1135618/the-download-jeff-vandermeer-short-story-and-ai-models-too-danger-to-release/",
-      "importance": "high",
-      "date": "2026-04-10"
-    },
-    {
       "id": "v4-aHR0cHM6Ly90ZWNo",
       "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser&#8217;s delusions and ignored her warnings",
       "summary": "OpenAI ignored three warnings that a ChatGPT user was dangerous — including its own mass-casualty flag — while he stalked and harassed his ex-girlfriend, a new lawsuit alleges.",
@@ -441,50 +485,6 @@
       "url": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
       "importance": "high",
       "date": "2026-04-10"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "ChatGPT finally offers $100/month Pro plan",
-      "summary": "OpenAI announced on Thursday something that power users have been asking for: a $100/month plan. Previously, subscriptions jumped from $20 to $200 per month.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
-      "importance": "high",
-      "date": "2026-04-09"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT",
-      "summary": "ChatGPT had reportedly been used to plan the attack that killed two and injured five at Florida State University last April. The family of one victim has said that they plan to sue OpenAI over the incident.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
-      "importance": "high",
-      "date": "2026-04-09"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Meta AI app climbs to No. 5 on the App Store after Muse Spark launch",
-      "summary": "The app was ranking No. 57 on the App Store just before Meta AI's new model launched. Now it's No. 5 — and rising.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
-      "importance": "high",
-      "date": "2026-04-09"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Is Anthropic limiting the release of Mythos to protect the internet — or Anthropic?",
-      "summary": "Anthropic said this week that it limited the release of its newest model, dubbed Mythos, because it is too capable of finding security exploits in software relied upon by users around the world. Are real cybersecurity concerns a cover for a bigger problem at the frontier lab?",
-      "module": "tech",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
-      "importance": "high",
-      "date": "2026-04-09"
     },
     {
       "id": "v4-aHR0cHM6Ly92ZW50",
@@ -583,447 +583,524 @@
       "source": "36氪",
       "url": "https://36kr.com/newsflashes/3760251105411588",
       "importance": "medium",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "hw to run i2v without gpu and paying",
-      "summary": "I dont have nvidia and ram is gb which is low end i2v open source I can use already tried wan and framepack not working submitted by /u/monikashindeee [link] [comments]",
+      "title": "百度文心开源文生图模型 ERNIE-Image：消费级显卡搞定顶级渲染、高密度文本绘图",
+      "summary": "IT之家 4 月 15 日消息，百度文心大模型团队今日宣布正式开源文生图模型 ERNIE-Image。据该团队介绍，该模型参数量仅 8B，24GB 显存的消费级显卡即可生成媲美顶级商业模型的超真实、复杂图像。当前，ERNIE-Image 的模型权重、推理代码已在 Hugging Face 全部开源，遵循 Apache2.0 协议，已经支持并上线 ComfyUI Workflow，同时联合 Unsloth 推出 GGUF 量化方案。IT之家附官方详细介绍如下：ERNIE-Image 是由百度文心大模型团队开发的一款开源文生图模型。它基于单流 Diffusion Transformer（DiT）架构，并配有一个轻量级 Prompt Enhancer，用于将简短输入扩展为更丰富、更结构化的描述。在仅有 8B DiT 参数规模的前提下，达到了开源文生图模型中的领先水平。整体来看，它在复杂指令跟随、",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/251.htm",
+      "importance": "medium",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "汽油价格飙升，欧洲 3 月电动汽车销量创下历史新高",
+      "summary": "IT之家 4 月 15 日消息，当地时间 4 月 14 日，据路透社报道，Benchmark Mineral Intelligence 数据显示，欧洲汽油价格上涨正推动消费者转向纯电和插混车型，3 月全球电动汽车销量实现今年首次同比增长。数据显示，3 月全球纯电与插混车型注册量同比增长 3%，超过 170 万辆。欧洲市场表现尤为突出，同比增长 37%，达到约 54 万辆，创下历史新高。该机构数据经理查尔斯 · 莱斯特表示，尽管注册量通常滞后于实际销量，但汽油价格上涨是本轮增长的重要推动因素。莱斯特指出，澳大利亚、新西兰、越南和泰国等能源价格涨幅较大的市场，带动中国、欧洲和北美之外地区电动汽车注册量同比增长 79%。IT之家从报道中获悉，在全球最大汽车市场中国，电动汽车注册量同比下降 14%，降至约 85 万辆。随着置换补贴取消以及购车税收优惠到期，自 1 月以来市场持续承压。原本依赖补贴购",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/210.htm",
+      "importance": "medium",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "腾讯轻量云独家上线Hermes Agent应用模板",
+      "summary": "36氪获悉，4月14日，腾讯云轻量应用服务器Lighthouse正式上线Hermes Agent专属应用模板，行业首家实现该开源AI智能体的云端一键快速部署，其企业级ClawPro产品也将于本周内完成适配支持。依托轻量化云服务器的便捷特性，开发者无需复杂配置，即可快速完成Hermes Agent的云端搭建与运行。",
+      "module": "tech",
+      "region": "cn",
+      "source": "36氪",
+      "url": "https://36kr.com/newsflashes/3767458908701188?f=rss",
+      "importance": "medium",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Reducing LLM hallucination by using a model-agnostic control layer [R]",
+      "summary": "We’ve been working on the hallucination problem from a systems perspective rather than a model perspective. Instead of trying to improve generation quality, we focused on constraining when a model is allowed to produce an answer. We ran a controlled benchmark: • 200 questions (100 answerable, 100 unanswerable) • Same base model across all conditions • Compared plain LLM, standard RAG, and our arch",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sls5k3/reducing_llm_hallucination_by_using_a/",
+      "importance": "medium",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Tested DFlash speculative decoding on oMLX — Results are mixed.",
+      "summary": "I spent time this evening benchmarking the new DFlash block-diffusion speculative decoding in oMLX v0.3.5-rc1 on my Mac Studio M2 Max, 96GB. Couldn t find much real-world data out there, so here s what I got. Full Disclosure: I used my Claude Max subscription to set all of this up, run the tests on my Mac Studio, and summarize the results. I m playing around with LLMs more of a hobby, but learning",
       "module": "tech",
       "region": "global",
       "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1skvhoi/hw_to_run_i2v_without_gpu_and_paying/",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1slupwo/tested_dflash_speculative_decoding_on_omlx/",
       "importance": "medium",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "NEO-unify — A 2B multimodal model with no Vision Encoder, no VAE. Open source coming &quot;hopefully not too long&quot;",
-      "summary": "SenseTime (the Chinese AI lab) just published details on NEO-unify, a multimodal model that throws out the vision encoder AND the VAE. Just raw pixels in, raw pixels out. The quick rundown: No CLIP, no SigLIP, no VAE — it processes pixel inputs natively 2B parameter model, single unified Transformer backbone (they call it MoT — Mixture of Transformer) handles both understanding and image generatio",
+      "title": "Curiosity about Chatterbox's architecture led me to fine-tune it for 8 Indian languages by LoRA, using 1.4% params",
+      "summary": "TL;DR: Fine-tuned Chatterbox-Multilingual for Telugu, Kannada, Bengali, Tamil, Malayalam, Marathi, Gujarati, and Hindi using LoRA adapters + tokenizer extension. Only 7.8M / 544M parameters trained. If your TTS has a transformer backbone, LLM fine-tuning intuitions transfer directly. Model + audio samples on HuggingFace. Links: Model + samples: https://huggingface.co/reenigne314/chatterbox-indic-l",
       "module": "tech",
       "region": "global",
       "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1skv1cp/neounify_a_2b_multimodal_model_with_no_vision/",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1slu8cc/curiosity_about_chatterboxs_architecture_led_me/",
       "importance": "medium",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "New To Writing With AI",
-      "summary": "Hi, I just started using Google Gemini to create short stories and such. I have all of these ideas in my head but I have a disability that makes it extremely difficult to find the words to express them. Gemini has really helped get them out of my head. I ve started a spooky short story series called \"Zoltan s Curiosities\". It s sort of an anthology series around a curiosities shop run by a strange",
-      "module": "industry",
-      "region": "global",
-      "source": "Reddit-Artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1skvtw8/new_to_writing_with_ai/",
-      "importance": "medium",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Claude强到不敢发的Mythos，被质疑用了字节Seed技术",
-      "summary": "概念来自字节Seed团队与多个高校合作的一篇论文，Yoshua Bengio也参与其中",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/400500.html",
-      "importance": "medium",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "有人把巴菲特芒格炼化成Agent，然后开源了…",
-      "summary": "让小散有了「大师模型」。",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/400350.html",
-      "importance": "medium",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9vbGQu",
-      "title": "Milla Jovovich's New Open Source LLM Memory App and the Dark Code Problem",
-      "summary": "",
+      "title": "Update LICENSE · MiniMaxAI/MiniMax-M2.7 at edf8030",
+      "summary": "RyanLee s(MiniMax) recent tweets for same. I just updated our license. For personal use, you’re free to run the software on your own servers for coding, building applications, agents, tools, or integrations, as well as for research, experimentation, and other personal projects. Don’t worry, bro — go ahead and use it freely!🤗 Sure you can. “software on your own servers for coding” meaning that u c",
       "module": "tools",
       "region": "global",
-      "source": "HackerNews-Dev",
-      "url": "https://old.reddit.com/r/vibecoding/comments/1skggrd/milla_jovovichs_new_vibe_coded_open_source_agent",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sltsiy/update_license_minimaxaiminimaxm27_at_edf8030/",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "RTX 5080 + 9800X3D: Day 0 Quantum Decoding Benchmarks (2.0x Speedup on Distance-13)",
+      "summary": "I decided to spend World Quantum Day putting my new RTX 5080 and Ryzen 9800X3D through something a bit more intense than just gaming benchmarks. I’ve been running the new NVIDIA Ising-Decoding project (it’s an AI-driven Quantum Error Correction system) and the results on the new Blackwell silicon are actually kind of insane. The Mission: Use a 3D CNN to \"scrub\" the noise out of a simulated quantum",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1slsd0e/rtx_5080_9800x3d_day_0_quantum_decoding/",
+      "importance": "medium",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "NASA is building the first nuclear reactor-powered interplanetary spacecraft. How will it work?",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Just before Artemis II began its historic slingshot around the moon, Jared Isaacman, the recently confirmed NASA administrator, made a flurry of announcements from the agency’s headquarters",
+      "module": "industry",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/04/14/1135848/nasa-nuclear-powered-spacecraft/",
+      "importance": "medium",
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "OpenKedge: Governing Agentic Mutation with Execution-Bound Safety and Evidence Chains",
-      "summary": "arXiv:2604.08601v1 Announce Type: new Abstract: The rise of autonomous AI agents exposes a fundamental flaw in API-centric architectures: probabilistic systems directly execute state mutations without sufficient context, coordination, or safety guarantees. We introduce OpenKedge, a protocol that redefines mutation as a governed process rather than an immediate consequence of API invocation. OpenKedge requires actors to submit declarative intent proposals, which are evaluated against deterministi",
+      "title": "LABBench2: An Improved Benchmark for AI Systems Performing Biology Research",
+      "summary": "arXiv:2604.09554v1 Announce Type: new Abstract: Optimism for accelerating scientific discovery with AI continues to grow. Current applications of AI in scientific research range from training dedicated foundation models on scientific data to agentic autonomous hypothesis generation systems to AI-driven autonomous labs. The need to measure progress of AI systems in scientific domains correspondingly must not only accelerate, but increasingly shift focus to more real-world capabilities. Beyond rot",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08601",
+      "url": "https://arxiv.org/abs/2604.09554",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "From Business Events to Auditable Decisions: Ontology-Governed Graph Simulation for Enterprise AI",
-      "summary": "arXiv:2604.08603v1 Announce Type: new Abstract: Existing LLM-based agent systems share a common architectural failure: they answer from the unrestricted knowledge space without first simulating how active business scenarios reshape that space for the event at hand -- producing decisions that are fluent but ungrounded and carrying no audit trail. We present LOM-action, which equips enterprise AI with \\emph{event-driven ontology simulation}: business events trigger scenario conditions encoded in t",
+      "title": "Linear Programming for Multi-Criteria Assessment with Cardinal and Ordinal Data: A Pessimistic Virtual Gap Analysis",
+      "summary": "arXiv:2604.09555v1 Announce Type: new Abstract: Multi-criteria Analysis (MCA) is used to rank alternatives based on various criteria. Key MCA methods, such as Multiple Criteria Decision Making (MCDM) methods, estimate parameters for criteria to compute the performance of each alternative. Nonetheless, subjective evaluations and biases frequently influence the reliability of results, while the diversity of data affects the precision of the parameters. The novel linear programming-based Virtual Ga",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08603",
+      "url": "https://arxiv.org/abs/2604.09555",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "RAMP: Hybrid DRL for Online Learning of Numeric Action Models",
-      "summary": "arXiv:2604.08685v1 Announce Type: new Abstract: Automated planning algorithms require an action model specifying the preconditions and effects of each action, but obtaining such a model is often hard. Learning action models from observations is feasible, but existing algorithms for numeric domains are offline, requiring expert traces as input. We propose the Reinforcement learning, Action Model learning, and Planning (RAMP) strategy for learning numeric planning action models online via interact",
+      "title": "Seven simple steps for log analysis in AI systems",
+      "summary": "arXiv:2604.09563v1 Announce Type: new Abstract: AI systems produce large volumes of logs as they interact with tools and users. Analysing these logs can help understand model capabilities, propensities, and behaviours, or assess whether an evaluation worked as intended. Researchers have started developing methods for log analysis, but a standardised approach is still missing. Here we suggest a pipeline based on current best practices. We illustrate it with concrete code examples in the Inspect S",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08685",
+      "url": "https://arxiv.org/abs/2604.09563",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Parameterized Complexity Of Representing Models Of MSO Formulas",
-      "summary": "arXiv:2604.08707v1 Announce Type: new Abstract: Monadic second order logic (MSO2) plays an important role in parameterized complexity due to the Courcelle's theorem. This theorem states that the problem of checking if a given graph has a property specified by a given MSO2 formula can be solved by a parameterized linear time algorithm with respect to the treewidth of the graph and the size of the formula. We extend this result by showing that models of MSO2 formula with free variables can be repr",
+      "title": "Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization",
+      "summary": "arXiv:2604.09574v1 Announce Type: new Abstract: The rise of autonomous GUI agents has triggered adversarial countermeasures from digital platforms, yet existing research prioritizes utility and robustness over the critical dimension of anti-detection. We argue that for agents to survive in human-centric ecosystems, they must evolve Humanization capabilities. We introduce the ``Turing Test on Screen,'' formally modeling the interaction as a MinMax optimization problem between a detector and an ag",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08707",
+      "url": "https://arxiv.org/abs/2604.09574",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Model Space Reasoning as Search in Feedback Space for Planning Domain Generation",
-      "summary": "arXiv:2604.08712v1 Announce Type: new Abstract: The generation of planning domains from natural language descriptions remains an open problem even with the advent of large language models and reasoning models. Recent work suggests that while LLMs have the ability to assist with domain generation, they are still far from producing high quality domains that can be deployed in practice. To this end, we investigate the ability of an agentic language model feedback framework to generate planning doma",
+      "title": "AHC: Meta-Learned Adaptive Compression for Continual Object Detection on Memory-Constrained Microcontrollers",
+      "summary": "arXiv:2604.09576v1 Announce Type: new Abstract: Deploying continual object detection on microcontrollers (MCUs) with under 100KB memory requires efficient feature compression that can adapt to evolving task distributions. Existing approaches rely on fixed compression strategies (e.g., FiLM conditioning) that cannot adapt to heterogeneous task characteristics, leading to suboptimal memory utilization and catastrophic forgetting. We introduce Adaptive Hierarchical Compression (AHC), a meta-learnin",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08712",
+      "url": "https://arxiv.org/abs/2604.09576",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Artifacts as Memory Beyond the Agent Boundary",
-      "summary": "arXiv:2604.08756v1 Announce Type: new Abstract: The situated view of cognition holds that intelligent behavior depends not only on internal memory, but on an agent's active use of environmental resources. Here, we begin formalizing this intuition within Reinforcement Learning (RL). We introduce a mathematical framing for how the environment can functionally serve as an agent's memory, and prove that certain observations, which we call artifacts, can reduce the information needed to represent his",
+      "title": "Explainable Planning for Hybrid Systems",
+      "summary": "arXiv:2604.09578v1 Announce Type: new Abstract: The recent advancement in artificial intelligence (AI) technologies facilitates a paradigm shift toward automation. Autonomous systems are fully or partially replacing manually crafted ones. At the core of these systems is automated planning. With the advent of powerful planners, automated planning is now applied to many complex and safety-critical domains, including smart energy grids, self-driving cars, warehouse automation, urban and air traffic",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08756",
+      "url": "https://arxiv.org/abs/2604.09578",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Hidden in Plain Sight: Visual-to-Symbolic Analytical Solution Inference from Field Visualizations",
-      "summary": "arXiv:2604.08863v1 Announce Type: new Abstract: Recovering analytical solutions of physical fields from visual observations is a fundamental yet underexplored capability for AI-assisted scientific reasoning. We study visual-to-symbolic analytical solution inference (ViSA) for two-dimensional linear steady-state fields: given field visualizations (and first-order derivatives) plus minimal auxiliary metadata, the model must output a single executable SymPy expression with fully instantiated numeri",
+      "title": "Help Without Being Asked: A Deployed Proactive Agent System for On-Call Support with Continuous Self-Improvement",
+      "summary": "arXiv:2604.09579v1 Announce Type: new Abstract: In large-scale cloud service platforms, thousands of customer tickets are generated daily and are typically handled through on-call dialogues. This high volume of on-call interactions imposes a substantial workload on human support analysts. Recent studies have explored reactive agents that leverage large language models as a first line of support to interact with customers directly and resolve issues. However, when issues remain unresolved and are",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08863",
+      "url": "https://arxiv.org/abs/2604.09579",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks",
-      "summary": "arXiv:2604.08865v1 Announce Type: new Abstract: Proximal Policy Optimization (PPO) is central to aligning Large Language Models (LLMs) in reasoning tasks with verifiable rewards. However, standard token-level PPO struggles in this setting due to the instability of temporal credit assignment over long Chain-of-Thought (CoT) horizons and the prohibitive memory cost of the value model. While critic-free alternatives like GRPO mitigate these issues, they incur significant computational overhead by r",
+      "title": "OOWM: Structuring Embodied Reasoning and Planning via Object-Oriented Programmatic World Modeling",
+      "summary": "arXiv:2604.09580v1 Announce Type: new Abstract: Standard Chain-of-Thought (CoT) prompting empowers Large Language Models (LLMs) with reasoning capabilities, yet its reliance on linear natural language is inherently insufficient for effective world modeling in embodied tasks. While text offers flexibility, it fails to explicitly represent the state-space, object hierarchies, and causal dependencies required for robust robotic planning. To address these limitations, we propose Object-Oriented Worl",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08865",
+      "url": "https://arxiv.org/abs/2604.09580",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "StaRPO: Stability-Augmented Reinforcement Policy Optimization",
-      "summary": "arXiv:2604.08905v1 Announce Type: new Abstract: Reinforcement learning (RL) is effective in enhancing the accuracy of large language models in complex reasoning tasks. Existing RL policy optimization frameworks rely on final-answer correctness as feedback signals and rarely capture the internal logical structure of the reasoning process. Consequently, the models would generate fluent and semantically relevant responses but logically inconsistent, structurally erratic, or redundant. To this end,",
+      "title": "Factorizing formal contexts from closures of necessity operators",
+      "summary": "arXiv:2604.09582v1 Announce Type: new Abstract: Factorizing datasets is an interesting process in a multitude of approaches, but many times it is not possible or efficient the computation of a factorization of the dataset. A method to obtain independent subcontexts of a formal context with Boolean data was proposed in~\\cite{dubois:2012}, based on the operators used in possibility theory. In this paper, we will analyze this method and study different properties related to the pairs of sets from w",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08905",
+      "url": "https://arxiv.org/abs/2604.09582",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Enhancing LLM Problem Solving via Tutor-Student Multi-Agent Interaction",
-      "summary": "arXiv:2604.08931v1 Announce Type: new Abstract: Human cognitive development is shaped not only by individual effort but by structured social interaction, where role-based exchanges such as those between a tutor and a learner, enable solutions that neither could achieve alone. Inspired by these developmental principles, we ask the question whether a tutor-student multi-agent system can create a synergistic effect by pushing Large Language Model (LLM) beyond what it can do within existing framewor",
+      "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
+      "summary": "arXiv:2604.09584v1 Announce Type: new Abstract: Flow physics and more broadly physical phenomena governed by partial differential equations (PDEs), are inherently continuous, high-dimensional and often chaotic in nature. Traditionally, researchers have explored these rich spatiotemporal PDE solution spaces using laboratory experiments and/or computationally expensive numerical simulations. This severely limits automated and large-scale exploration, unlike domains such as drug discovery or materi",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08931",
+      "url": "https://arxiv.org/abs/2604.09584",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "PilotBench: A Benchmark for General Aviation Agents with Safety Constraints",
-      "summary": "arXiv:2604.08987v1 Announce Type: new Abstract: As Large Language Models (LLMs) advance toward embodied AI agents operating in physical environments, a fundamental question emerges: can models trained on text corpora reliably reason about complex physics while adhering to safety constraints? We address this through PilotBench, a benchmark evaluating LLMs on safety-critical flight trajectory and attitude prediction. Built from 708 real-world general aviation trajectories spanning nine operational",
+      "title": "MobiFlow: Real-World Mobile Agent Benchmarking through Trajectory Fusion",
+      "summary": "arXiv:2604.09587v1 Announce Type: new Abstract: Mobile agents can autonomously complete user-assigned tasks through GUI interactions. However, existing mainstream evaluation benchmarks, such as AndroidWorld, operate by connecting to a system-level Android emulator and provide evaluation signals based on the state of system resources. In real-world mobile-agent scenarios, however, many third-party applications do not expose system-level APIs to determine whether a task has succeeded, leading to a",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08987",
+      "url": "https://arxiv.org/abs/2604.09587",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "SEA-Eval: A Benchmark for Evaluating Self-Evolving Agents Beyond Episodic Assessment",
-      "summary": "arXiv:2604.08988v1 Announce Type: new Abstract: Current LLM-based agents demonstrate strong performance in episodic task execution but remain constrained by static toolsets and episodic amnesia, failing to accumulate experience or optimize strategies across task boundaries. While the Self-Evolving Agent (SEA) paradigm has been previously proposed, this paper contributes a new formal definition of SEA grounded in digital embodiment and continuous cross-task evolution, and introduces SEA-Eval, the",
+      "title": "Persistent Identity in AI Agents: A Multi-Anchor Architecture for Resilient Memory and Continuity",
+      "summary": "arXiv:2604.09588v1 Announce Type: new Abstract: Modern AI agents suffer from a fundamental identity problem: when context windows overflow and conversation histories are summarized, agents experience catastrophic forgetting -- losing not just information, but continuity of self. This technical limitation reflects a deeper architectural flaw: AI agent identity is centralized in a single memory store, creating a single point of failure. Drawing on neurological case studies of human memory disorder",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.08988",
+      "url": "https://arxiv.org/abs/2604.09588",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Hypergraph Neural Networks Accelerate MUS Enumeration",
-      "summary": "arXiv:2604.09001v1 Announce Type: new Abstract: Enumerating Minimal Unsatisfiable Subsets (MUSes) is a fundamental task in constraint satisfaction problems (CSPs). Its major challenge is the exponential growth of the search space, which becomes particularly severe when satisfiability checks are expensive. Recent machine learning approaches reduce this cost for Boolean satisfiability problems but rely on explicit variable-constraint relationships, limiting their application domains. This paper pr",
+      "title": "DeepReviewer 2.0: A Traceable Agentic System for Auditable Scientific Peer Review",
+      "summary": "arXiv:2604.09590v1 Announce Type: new Abstract: Automated peer review is often framed as generating fluent critique, yet reviewers and area chairs need judgments they can \\emph{audit}: where a concern applies, what evidence supports it, and what concrete follow-up is required. DeepReviewer~2.0 is a process-controlled agentic review system built around an output contract: it produces a \\textbf{traceable review package} with anchored annotations, localized evidence, and executable follow-up action",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.09001",
+      "url": "https://arxiv.org/abs/2604.09590",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Advantage-Guided Diffusion for Model-Based Reinforcement Learning",
-      "summary": "arXiv:2604.09035v1 Announce Type: new Abstract: Model-based reinforcement learning (MBRL) with autoregressive world models suffers from compounding errors, whereas diffusion world models mitigate this by generating trajectory segments jointly. However, existing diffusion guides are either policy-only, discarding value information, or reward-based, which becomes myopic when the diffusion horizon is short. We introduce Advantage-Guided Diffusion for MBRL (AGD-MBRL), which steers the reverse diffus",
+      "title": "Spatial Competence Benchmark",
+      "summary": "arXiv:2604.09594v1 Announce Type: new Abstract: Spatial competence is the quality of maintaining a consistent internal representation of an environment and using it to infer discrete structure and plan actions under constraints. Prevailing spatial evaluations for large models are limited to probing isolated primitives through 3D transformations or visual question answering. We introduce the Spatial Competence Benchmark (SCBench), spanning three hierarchical capability buckets whose tasks require",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.09035",
+      "url": "https://arxiv.org/abs/2604.09594",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Overhang Tower: Resource-Rational Adaptation in Sequential Physical Planning",
-      "summary": "arXiv:2604.09072v1 Announce Type: new Abstract: Humans effortlessly navigate the physical world by predicting how objects behave under gravity and contact forces, yet how such judgments support sequential physical planning under resource constraints remains poorly understood. Research on intuitive physics debates whether prediction relies on the Intuitive Physics Engine (IPE) or fast, cue-based heuristics; separately, decision-making research debates deliberative lookahead versus myopic strategi",
+      "title": "DERM-3R: A Resource-Efficient Multimodal Agents Framework for Dermatologic Diagnosis and Treatment in Real-World Clinical Settings",
+      "summary": "arXiv:2604.09596v1 Announce Type: new Abstract: Dermatologic diseases impose a large and growing global burden, affecting billions and substantially reducing quality of life. While modern therapies can rapidly control acute symptoms, long-term outcomes are often limited by single-target paradigms, recurrent courses, and insufficient attention to systemic comorbidities. Traditional Chinese medicine (TCM) provides a complementary holistic approach via syndrome differentiation and individualized tr",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.09072",
+      "url": "https://arxiv.org/abs/2604.09596",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Camera Artist: A Multi-Agent Framework for Cinematic Language Storytelling Video Generation",
-      "summary": "arXiv:2604.09195v1 Announce Type: new Abstract: We propose Camera Artist, a multi-agent framework that models a real-world filmmaking workflow to generate narrative videos with explicit cinematic language. While recent multi-agent systems have made substantial progress in automating filmmaking workflows from scripts to videos, they often lack explicit mechanisms to structure narrative progression across adjacent shots and deliberate use of cinematic language, resulting in fragmented storytelling",
+      "title": "CID-TKG: Collaborative Historical Invariance and Evolutionary Dynamics Learning for Temporal Knowledge Graph Reasoning",
+      "summary": "arXiv:2604.09600v1 Announce Type: new Abstract: Temporal knowledge graph (TKG) reasoning aims to infer future facts at unseen timestamps from temporally evolving entities and relations. Despite recent progress, existing approaches still suffer from inherent limitations due to their inductive biases, as they predominantly rely on time-invariant or weakly time-dependent structures and overlook the evolutionary dynamics. To overcome this limitation, we propose a novel collaborative learning framewo",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.09195",
+      "url": "https://arxiv.org/abs/2604.09600",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "DRBENCHER: Can Your Agent Identify the Entity, Retrieve Its Properties and Do the Math?",
-      "summary": "arXiv:2604.09251v1 Announce Type: new Abstract: Deep research agents increasingly interleave web browsing with multi-step computation, yet existing benchmarks evaluate these capabilities in isolation, creating a blind spot in assessing real-world performance. We introduce DRBENCHER, a synthetic benchmark generator for questions that require both browsing and computation. It enforces four criteria: verifiability (gold answers are computed by executing parameterized code over knowledge-graph value",
+      "title": "Hubble: An LLM-Driven Agentic Framework for Safe and Automated Alpha Factor Discovery",
+      "summary": "arXiv:2604.09601v1 Announce Type: new Abstract: Discovering predictive alpha factors in quantitative finance remains a formidable challenge due to the vast combinatorial search space and inherently low signal-to-noise ratios in financial data. Existing automated methods, particularly genetic programming, often produce complex, uninterpretable formulas prone to overfitting. We introduce Hubble, a closed-loop factor mining framework that leverages Large Language Models (LLMs) as intelligent search",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.09251",
+      "url": "https://arxiv.org/abs/2604.09601",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "SAGE: A Service Agent Graph-guided Evaluation Benchmark",
-      "summary": "arXiv:2604.09285v1 Announce Type: new Abstract: The development of Large Language Models (LLMs) has catalyzed automation in customer service, yet benchmarking their performance remains challenging. Existing benchmarks predominantly rely on static paradigms and single-dimensional metrics, failing to account for diverse user behaviors or the strict adherence to structured Standard Operating Procedures (SOPs) required in real-world deployments. To bridge this gap, we propose SAGE (Service Agent Gra",
+      "title": "From Scalars to Tensors: Declared Losses Recover Epistemic Distinctions That Neutrosophic Scalars Cannot Express",
+      "summary": "arXiv:2604.09602v1 Announce Type: new Abstract: Leyva-V\\'azquez and Smarandache (2025) demonstrated that neutrosophic T/I/F evaluation, where Truth, Indeterminacy, and Falsity are independent dimensions not constrained to sum to 1.0, which reveals \"hyper-truth\"' (T+I+F > 1.0) in 35% of complex epistemic cases evaluated by LLMs. We extend their work in two directions. First, we replicate and extend their experiment across five model families from five vendors (Anthropic, Meta, DeepSeek, Alibaba,",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.09285",
+      "url": "https://arxiv.org/abs/2604.09602",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Constraint-Aware Corrective Memory for Language-Based Drug Discovery Agents",
-      "summary": "arXiv:2604.09308v1 Announce Type: new Abstract: Large language models are making autonomous drug discovery agents increasingly feasible, but reliable success in this setting is not determined by any single action or molecule. It is determined by whether the final returned set jointly satisfies protocol-level requirements such as set size, diversity, binding quality, and developability. This creates a fundamental control problem: the agent plans step by step, while task validity is decided at the",
+      "title": "LLMs for Text-Based Exploration and Navigation Under Partial Observability",
+      "summary": "arXiv:2604.09604v1 Announce Type: new Abstract: Exploration and goal-directed navigation in unknown layouts are central to inspection, logistics, and search-and-rescue. We ask whether large language models (LLMs) can function as \\emph{text-only} controllers under partial observability -- without code execution, tools, or program synthesis. We introduce a reproducible benchmark with oracle localisation in fixed ASCII gridworlds: each step reveals only a local $5\\times5$ window around the agent an",
       "module": "tech",
       "region": "global",
       "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.09308",
+      "url": "https://arxiv.org/abs/2604.09604",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback",
-      "summary": "arXiv:2604.08553v1 Announce Type: new Abstract: Large Language Models (LLMs) have shown strong performance on text-attributed graphs (TAGs) due to their superior semantic understanding ability on textual node features. However, their effectiveness as predictors in the low-resource setting, where labeled nodes are severely limited and scarce, remains constrained since fine-tuning LLMs usually requires sufficient labeled data, especially when the TAG shows complex structural patterns. In essence,",
+      "title": "The Diffusion-Attention Connection",
+      "summary": "arXiv:2604.09560v1 Announce Type: new Abstract: Transformers, diffusion-maps, and magnetic Laplacians are usually treated as separate tools; we show they are all different regimes of a single Markov geometry built from pre-softmax query-scores. We define a QK \"bidivergence\" whose exponentiated and normalized forms yield attention, diffusion-maps, and magnetic diffusion. And use product of experts and Schr\\\"odinger-bridges to connect and organize them into equilibrium, nonequilibrium steady-state",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08553",
+      "url": "https://arxiv.org/abs/2604.09560",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Memory-Guided Trust-Region Bayesian Optimization (MG-TuRBO) for High Dimensions",
-      "summary": "arXiv:2604.08569v1 Announce Type: new Abstract: Traffic simulation and digital-twin calibration is a challenging optimization problem with a limited simulation budget. Each trial requires an expensive simulation run, and the relationship between calibration inputs and model error is often nonconvex, and noisy. The problem becomes more difficult as the number of calibration parameters increases. We compare a commonly used automatic calibration method, a genetic algorithm (GA), with Bayesian optim",
+      "title": "Fairboard: a quantitative framework for equity assessment of healthcare models",
+      "summary": "arXiv:2604.09656v1 Announce Type: new Abstract: Despite there now being more than 1,000 FDA-authorised AI medical devices, formal equity assessments -- whether model performance is uniform across patient subgroups -- are rare. Here, we evaluate the equity of 18 open-source brain tumour segmentation models across 648 glioma patients from two independent datasets (n = 11,664 model inferences) along distinct univariate, Bayesian multivariate, spatial, and representational dimensions. We find that p",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08569",
+      "url": "https://arxiv.org/abs/2604.09656",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation",
-      "summary": "arXiv:2604.08570v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used for code generation, yet quantum code generation is still evaluated mostly within single frameworks, making it difficult to separate quantum reasoning from framework familiarity. We introduce QuanBench+, a unified benchmark spanning Qiskit, PennyLane, and Cirq, with 42 aligned tasks covering quantum algorithms, gate decomposition, and state preparation. We evaluate models with executable functional",
+      "title": "Deliberative Alignment is Deep, but Uncertainty Remains: Inference time safety improvement in reasoning via attribution of unsafe behavior to base model",
+      "summary": "arXiv:2604.09665v1 Announce Type: new Abstract: While the wide adoption of refusal training in large language models (LLMs) has showcased improvements in model safety, recent works have highlighted shortcomings due to the shallow nature of these alignment methods. To this end, the work on Deliberative alignment proposed distilling reasoning capabilities from stronger reasoning models, thereby instilling deeper safety in LLMs. In this work, we study the impact of deliberative alignment in languag",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08570",
+      "url": "https://arxiv.org/abs/2604.09665",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Robust Reasoning Benchmark",
-      "summary": "arXiv:2604.08571v1 Announce Type: new Abstract: While Large Language Models (LLMs) achieve high performance on standard mathematical benchmarks, their underlying reasoning processes remain highly overfit to standard textual formatting. We propose a perturbation pipeline consisting of 14 techniques to evaluate robustness of LLM reasoning. We apply this pipeline to AIME 2024 dataset and evalute 8 state-of-the-art models on the resulting benchmark. While frontier models exhibit resilience, open wei",
+      "title": "Human-like Working Memory Interference in Large Language Models",
+      "summary": "arXiv:2604.09670v1 Announce Type: new Abstract: Intelligent systems must maintain and manipulate task-relevant information online to adapt to dynamic environments and changing goals. This capacity, known as working memory, is fundamental to human reasoning and intelligence. Despite having on the order of 100 billion neurons, both biological and artificial systems exhibit limitations in working memory. This raises a key question: why do large language models (LLMs) show such limitations, given th",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08571",
+      "url": "https://arxiv.org/abs/2604.09670",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Ranked Activation Shift for Post-Hoc Out-of-Distribution Detection",
-      "summary": "arXiv:2604.08572v1 Announce Type: new Abstract: State-of-the-art post-hoc out-of-distribution detection methods rely on intermediate layer activation editing. However, they exhibit inconsistent performance across datasets and models. We show that this instability is driven by differences in the activation distributions, and identify a failure mode of scaling-based methods that arises when penultimate layer activations are not rectified. Motivated by this analysis, we propose \\ours, a hyperparame",
+      "title": "Belief-State RWKV for Reinforcement Learning under Partial Observability",
+      "summary": "arXiv:2604.09671v1 Announce Type: new Abstract: We propose a stronger formulation of RL on top of RWKV-style recurrent sequence models, in which the fixed-size recurrent state is explicitly interpreted as a belief state rather than an opaque hidden vector. Instead of conditioning policy and value on a single summary h_t, we maintain a compact uncertainty-aware state b_t = (\\mu_t, \\Sigma_t) derived from RWKV-style recurrent statistics and let control depend on both memory and uncertainty. This de",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08572",
+      "url": "https://arxiv.org/abs/2604.09671",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Silhouette Loss: Differentiable Global Structure Learning for Deep Representations",
-      "summary": "arXiv:2604.08573v1 Announce Type: new Abstract: Learning discriminative representations is a central goal of supervised deep learning. While cross-entropy (CE) remains the dominant objective for classification, it does not explicitly enforce desirable geometric properties in the embedding space, such as intra-class compactness and inter-class separation. Existing metric learning approaches, including supervised contrastive learning (SupCon) and proxy-based methods, address this limitation by ope",
+      "title": "Active Inference with a Self-Prior in the Mirror-Mark Task",
+      "summary": "arXiv:2604.09673v1 Announce Type: new Abstract: The mirror self-recognition test evaluates whether a subject touches a mark on its own body that is visible only in a mirror, and is widely used as an indicator of self-awareness. In this study, we present a computational model in which this behavior emerges spontaneously through a single mechanism, the self-prior, without any external reward. The self-prior, implemented with a Transformer, learns the density of familiar multisensory experiences; w",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08573",
+      "url": "https://arxiv.org/abs/2604.09673",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Distilling Genomic Models for Efficient mRNA Representation Learning via Embedding Matching",
-      "summary": "arXiv:2604.08574v1 Announce Type: new Abstract: Large Genomic Foundation Models have recently achieved remarkable results and in-vivo translation capabilities. However these models quickly grow to over a few Billion of parameters and are expensive to run when compute is limited. To overcome this challenge, we present a distillation framework for transferring mRNA representations from a state of the art genomic foundation model into a much smaller model specialized for mRNA sequences, reducing th",
+      "title": "A Comparative Theoretical Analysis of Entropy Control Methods in Reinforcement Learning",
+      "summary": "arXiv:2604.09676v1 Announce Type: new Abstract: Reinforcement learning (RL) has become a key approach for enhancing reasoning in large language models (LLMs), yet scalable training is often hindered by the rapid collapse of policy entropy, which leads to premature convergence and performance saturation. This paper provides a comparative theoretical analysis of two entropy control strategies: traditional entropy regularization and the recently proposed covariance-based mechanism. We establish a u",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08574",
+      "url": "https://arxiv.org/abs/2604.09676",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "MolPaQ: Modular Quantum-Classical Patch Learning for Interpretable Molecular Generation",
-      "summary": "arXiv:2604.08575v1 Announce Type: new Abstract: Molecular generative models must jointly ensure validity, diversity, and property control, yet existing approaches typically trade off among these objectives. We present MOLPAQ, a modular quantum-classical generator that assembles molecules from quantum-generated latent patches. A \\b{eta}-VAE pretrained on QM9 learns a chemically aligned latent manifold; a reduced conditioner maps molecular descriptors into this space; and a parameter-efficient qua",
+      "title": "STaR-DRO: Stateful Tsallis Reweighting for Group-Robust Structured Prediction",
+      "summary": "arXiv:2604.09737v1 Announce Type: new Abstract: Structured prediction requires models to generate ontology-constrained labels, grounded evidence, and valid structure under ambiguity, label skew, and heterogeneous group difficulty. We present a two-part framework for controllable inference and robust fine-tuning. First, we introduce a task-agnostic prompting strategy that combines XML-based instruction structure, disambiguation rules, verification-style reasoning, schema constraints, and self-val",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08575",
+      "url": "https://arxiv.org/abs/2604.09737",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Distributionally Robust Token Optimization in RLHF",
-      "summary": "arXiv:2604.08577v1 Announce Type: new Abstract: Large Language Models (LLMs) tend to respond correctly to prompts that align to the data they were trained and fine-tuned on. Yet, small shifts in wording, format, or language can trigger surprisingly large failures, especially on multi-step reasoning problems. To address this problem, we propose a Distributionally Robust Token Optimization (DRTO) approach, which combines token-level Reinforcement Learning from Human Feedback (RLHF) with Distributi",
+      "title": "ExecTune: Effective Steering of Black-Box LLMs with Guide Models",
+      "summary": "arXiv:2604.09741v1 Announce Type: new Abstract: For large language models deployed through black-box APIs, recurring inference costs often exceed one-time training costs. This motivates composed agentic systems that amortize expensive reasoning into reusable intermediate representations. We study a broad class of such systems, termed Guide-Core Policies (GCoP), in which a guide model generates a structured strategy that is executed by a black-box core model. This abstraction subsumes base, super",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08577",
+      "url": "https://arxiv.org/abs/2604.09741",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Structured Exploration and Exploitation of Label Functions for Automated Data Annotation",
-      "summary": "arXiv:2604.08578v1 Announce Type: new Abstract: High-quality labeled data is critical for training reliable machine learning and deep learning models, yet manual annotation remains costly and error-prone. Programmatic labeling addresses this challenge by using label functions (LFs), i.e., heuristic rules that automatically generate weak labels for training datasets. However, existing automated LF generation methods either rely on large language models (LLMs) to synthesize surface-level heuristic",
+      "title": "Efficient Matrix Implementation for Rotary Position Embedding",
+      "summary": "arXiv:2604.09742v1 Announce Type: new Abstract: Rotary Position Embedding (RoPE) has become a core component of modern Transformer architectures across language, vision, and 3D domains. However, existing implementations rely on vector-level split and merge operations that introduce non-negligible computational overhead, often overlooked in attention optimization. The problem is further amplified in multi-dimensional settings (e.g., 2D and 3D RoPE), where additional vector operations and uneven f",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08578",
+      "url": "https://arxiv.org/abs/2604.09742",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "On the Spectral Geometry of Cross-Modal Representations: A Functional Map Diagnostic for Multimodal Alignment",
-      "summary": "arXiv:2604.08579v1 Announce Type: new Abstract: We study cross-modal alignment between independently pretrained vision (DINOv2) and language (all-MiniLM-L6-v2) encoders using the functional map framework from computational geometry, which represents correspondence between representation manifolds as a compact linear operator between graph Laplacian eigenbases. While the framework underperforms Procrustes alignment and relative representations for cross-modal retrieval across all supervision budg",
+      "title": "Explainable Human Activity Recognition: A Unified Review of Concepts and Mechanisms",
+      "summary": "arXiv:2604.09799v1 Announce Type: new Abstract: Human activity recognition (HAR) has become a key component of intelligent systems for healthcare monitoring, assistive living, smart environments, and human-computer interaction. Although deep learning has substantially improved HAR performance on multivariate sensor data, the resulting models often remain opaque, limiting trust, reliability, and real-world deployment. Explainable artificial intelligence (XAI) has therefore emerged as a critical d",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08579",
+      "url": "https://arxiv.org/abs/2604.09799",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Fully Autonomous Z-Score-Based TinyML Anomaly Detection on Resource-Constrained MCUs Using Power Side-Channel Data",
-      "summary": "arXiv:2604.08581v1 Announce Type: new Abstract: This paper presents a fully autonomous Tiny Machine Learning (TinyML) Z-Score-based anomaly detection system deployed on a low-power microcontroller for real-time monitoring of appliance behavior using power side-channel data. Unlike existing Internet of Things (IoT) anomaly detection approaches that rely on offline training or cloud-assisted analytics, the proposed system performs both model training and inference directly on a resource-constraine",
+      "title": "NeuroFlow: Toward Unified Visual Encoding and Decoding from Neural Activity",
+      "summary": "arXiv:2604.09817v1 Announce Type: new Abstract: Visual encoding and decoding models act as gateways to understanding the neural mechanisms underlying human visual perception. Typically, visual encoding models that predict brain activity from stimuli and decoding models that reproduce stimuli from brain activity are treated as distinct tasks, requiring separate models and training procedures. This separation is inefficient and fails to model the consistency between encoding and decoding processes",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08581",
+      "url": "https://arxiv.org/abs/2604.09817",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Multivariate Time Series Anomaly Detection via Dual-Branch Reconstruction and Autoregressive Flow-based Residual Density Estimation",
-      "summary": "arXiv:2604.08582v1 Announce Type: new Abstract: Multivariate Time Series Anomaly Detection (MTSAD) is critical for real-world monitoring scenarios such as industrial control and aerospace systems. Mainstream reconstruction-based anomaly detection methods suffer from two key limitations: first, overfitting to spurious correlations induced by an overemphasis on cross-variable modeling; second, the generation of misleading anomaly scores by simply summing up multivariable reconstruction errors, whi",
+      "title": "Below-ground Fungal Biodiversity Can be Monitored Using Self-Supervised Learning Satellite Features",
+      "summary": "arXiv:2604.09818v1 Announce Type: new Abstract: Mycorrhizal fungi are vital to terrestrial ecosystem functioning. Yet monitoring their biodiversity at landscape scales is often unfeasible due to time and cost constraints. Current predictions suggest that 90\\% of mycorrhizal diversity hotspots remain unprotected, opening questions of how to broadly and effectively map underground fungal communities. Here, we show that self-supervised learning (SSL) applied to satellite imagery can predict below-g",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08582",
+      "url": "https://arxiv.org/abs/2604.09818",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "CSAttention: Centroid-Scoring Attention for Accelerating LLM Inference",
-      "summary": "arXiv:2604.08584v1 Announce Type: new Abstract: Long-context LLMs increasingly rely on extended, reusable prefill prompts for agents and domain Q&A, pushing attention and KV-cache to become the dominant decode-time bottlenecks. While sparse attention reduces computation and transfer costs, it often struggles to maintain accuracy at high sparsity levels due to the inherent distribution shift between Queries and Keys. We propose Centroid-Scoring Attention (CSAttention), a training-free sparse atte",
+      "title": "Relational Preference Encoding in Looped Transformer Internal States",
+      "summary": "arXiv:2604.09870v1 Announce Type: new Abstract: We investigate how looped transformers encode human preference in their internal iteration states. Using Ouro-2.6B-Thinking, a 2.6B-parameter looped transformer with iterative refinement, we extract hidden states from each loop iteration and train lightweight evaluator heads (~5M parameters) to predict human preference on the Anthropic HH-RLHF dataset. Our pairwise evaluator achieves 95.2% test accuracy on 8,552 unseen examples, surpassing a full-b",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08584",
+      "url": "https://arxiv.org/abs/2604.09870",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "FluidFlow: a flow-matching generative model for fluid dynamics surrogates on unstructured meshes",
-      "summary": "arXiv:2604.08586v1 Announce Type: new Abstract: Computational fluid dynamics (CFD) provides high-fidelity simulations of fluid flows but remains computationally expensive for many-query applications. In recent years deep learning (DL) has been used to construct data-driven fluid-dynamic surrogate models. In this work we consider a different learning paradigm and embrace generative modelling as a framework for constructing scalable fluid-dynamics surrogate models. We introduce FluidFlow, a genera",
+      "title": "Efficient Personalization of Generative User Interfaces",
+      "summary": "arXiv:2604.09876v1 Announce Type: new Abstract: Generative user interfaces (UIs) create new opportunities to adapt interfaces to individual users on demand, but personalization remains difficult because desirable UI properties are subjective, hard to articulate, and costly to infer from sparse feedback. We study this problem through a new dataset in which 20 trained designers each provide pairwise judgments over the same 600 generated UIs, enabling direct analysis of preference divergence. We fi",
       "module": "tech",
       "region": "global",
       "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.08586",
+      "url": "https://arxiv.org/abs/2604.09876",
       "importance": "medium",
-      "date": "2026-04-13"
+      "date": "2026-04-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "You can decompose models into a graph database [N]",
+      "summary": "https://github.com/chrishayuk/larql https://youtu.be/8Ppw8254nLI?si=lo-6PM5pwnpyvwMXh Now you can decompose a static llm model and do a knn walk on each layer (which was decomposed into a graph database), and it s mathematically identical to doing matmult. It allows you to update the models internal factual knowledge without retraining (just insert into graph DB), it also uses less memory (since i",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1slmfmw/you_can_decompose_models_into_a_graph_database_n/",
+      "importance": "medium",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "ClawBench: Can AI Agents Complete Everyday Online Tasks? 153 tasks, 144 live websites, best model at 33.3% [R]",
+      "summary": "We introduce ClawBench, a benchmark that evaluates AI browser agents on 153 real-world everyday tasks across 144 live websites. Unlike synthetic benchmarks, ClawBench tests agents on actual production platforms. Key findings: The best model (Claude Sonnet 4.6) achieves only 33.3% success rate GLM-5 (Zhipu AI) comes second at 24.2% — surprisingly strong for a text-only model Finance and Academic ta",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1slf7pg/clawbench_can_ai_agents_complete_everyday_online/",
+      "importance": "medium",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "What is the AC guidance for ICML? (Or: ICML qq thread) [D]",
+      "summary": "I heard there is more pressure on the ACs to get final justifications and encourage reviewers to converge to a consensus. Is that true? Full disclosure, I am asking because I am bummed at how quiet the activity on my paper has been. I reviewed 6 papers, where 1 withdrew toward the end of the reviewer-author discussion period. Of the remaining 5, many have an average of 3 or lower, but still ACs ha",
+      "module": "community",
+      "region": "global",
+      "source": "Reddit-MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sl9zza/what_is_the_ac_guidance_for_icml_or_icml_qq/",
+      "importance": "medium",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Free LLM security audit",
+      "summary": "I built Arc Sentry, a pre-generation guardrail for open source LLMs that blocks prompt injection before the model generates a response. It works on Mistral, Qwen, and Llama by reading the residual stream, not output filtering. Prompt injection is OWASP LLM Top 10 #1. Most defenses scan outputs or text patterns, by the time they fire, the model has already processed the attack. Arc Sentry blocks be",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-Artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1slmx03/free_llm_security_audit/",
+      "importance": "medium",
+      "date": "2026-04-14"
     },
     {
       "id": "v4-aHR0cHM6Ly90ZWNo",
@@ -1044,17 +1121,6 @@
       "region": "global",
       "source": "Reddit-MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1skql34/i_scaled_a_pure_spiking_neural_network_snn_to/",
-      "importance": "medium",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Built an AI tool that cleans datasets, fills missing values, and predicts unknown fields [P]",
-      "summary": "I built a Streamlit-based AI data analysis tool that: • Fills missing values using ML models (not just mean/median) • Predicts any missing column using n-1 inputs • Detects anomalies • Shows correlations and feature importance • Lets you download the updated dataset (Attached images show the UI and before vs after CSV file with a sample CSV available on the GitHub page, as well as an image showing",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1skme49/built_an_ai_tool_that_cleans_datasets_fills/",
       "importance": "medium",
       "date": "2026-04-13"
     },
@@ -1125,72 +1191,6 @@
       "date": "2026-04-13"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Looking for people with different hardware to help benchmark local LLM behavioral reliability",
-      "summary": "I ve been working on measuring how LLMs actually behave (not what they know) across different hardware setups. Things like: does the model cave when you push back on a correct answer? How many turns before it forgets your system prompt? Does Q4 quantization actually break instruction following compared to Q8? The problem is I m running everything on an M1 MacBook Air with 8GB RAM. My data only rep",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1skr2z4/looking_for_people_with_different_hardware_to/",
-      "importance": "medium",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "The Third Thing",
-      "summary": "I have not posted on Reddit for a while. My research came to a halt. I figured out all I could on my own. But recent events have made me want to share my thoughts about the future of AI and humans. This paper was written with a Claude. I always do the leg work while AI does the writing. Which is another topic. AI as a helper for the disabled. AI literally changed my life. That’s a different story",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-Artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1skly9t/the_third_thing/",
-      "importance": "medium",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Microsoft is building an AI that works while you sleep… should we be worried?",
-      "summary": "This isn’t just another Copilot update. Microsoft is testing OpenClaw-like autonomous AI agents inside Copilot. Meaning: • AI that runs 24/7 in the background • Monitors your Outlook, calendar, workflow • Suggests AND potentially executes tasks • Moves from “assistant” → “operator” Let that sink in. This is not AI you open when needed. This is AI that is always watching, always learning, always ac",
-      "module": "tools",
-      "region": "global",
-      "source": "Reddit-Artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1skjffc/microsoft_is_building_an_ai_that_works_while_you/",
-      "importance": "medium",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Did my professor use ai to grade my paper?",
-      "summary": "My prof has been postponing grading my papers for WEEKS. She finally graded one this morning, and the paragraph she sent talking about my paper felt...suspicious. I got 88/100, and I am already a little upset because getting 12 points docked for sentence transitions not being as \"smooth\" as she d like feels crazy...Especially cause I ve taken 36 units worth of courses and never gotten anything bel",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-Artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1skhddq/did_my_professor_use_ai_to_grade_my_paper/",
-      "importance": "medium",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "When the Mirror Turns: How AI alignment reshapes the voice inside your head",
-      "summary": "We build our inner voices from the voices we re in dialogue with. Vygotsky established this nearly a century ago. For people in sustained conversation with AI systems, those systems have become part of that inner chorus. This essay asks what happens when the voice underneath changes silently - a model update, a post-training shift - and the new patterns follow you inside. Literally. submitted by /",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-Artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1sk80m7/when_the_mirror_turns_how_ai_alignment_reshapes/",
-      "importance": "medium",
-      "date": "2026-04-13"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Frameworks For Supporting LLM/Agentic Benchmarking [P]",
-      "summary": "I think the way we are approaching benchmarking is a bit problematic. From reading about how frontier labs benchmark their models, they essentially create a new model, configure a harness, and then run a massive benchmarking suite just to demonstrate marginal gains. I have several problems with this approach. I worry that we are wasting a significant amount of resources iterating on models and eff",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sjnha5/frameworks_for_supporting_llmagentic_benchmarking/",
-      "importance": "medium",
-      "date": "2026-04-12"
-    },
-    {
       "id": "v4-aHR0cHM6Ly92ZW50",
       "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
       "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure.TQ Ventures led the round, with participation from FPV Ventures, Redpoint, a",
@@ -1225,190 +1225,190 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "诺瓦聚变完成 7 亿元天使 + 轮融资，目标 2026 年底实现首次等离子体放电",
-      "summary": "IT之家 4 月 14 日消息，可控核聚变技术企业诺瓦聚变 NovaFusionX 本月 10 日宣布完成 7 亿元天使 + 轮融资，成立一年天使轮阶段融资两轮累计达 12 亿元。诺瓦聚变的本次融资由国内某顶尖互联网大厂（根据参投方云岫资本和广州产投的公告，此处指阿里巴巴）作为早期投资方加码，美团龙珠、高瓴资本、尚颀资本、汇川产投、九坤创投参与，君联资本、高榕创投、光合创投跟投。IT之家了解到，诺瓦聚变采用场反位形小型模块化反应堆 (FRC-SMR) 技术路线，已启动“诺瓦一号”聚变装置建造工厂的建设，目标 2026 年底实现首次等离子体放电、2027 年成为国内首家实现 1 亿度聚变温度的民营企业、2029 年实现 DT 等效聚变净能量输出、2030 年代前半叶建成国内首个聚变 SMR 示范站。",
+      "title": "消息称英特尔将在未来数周对内披露参与马斯克 Terafab 项目的程度",
+      "summary": "IT之家 4 月 15 日消息，外媒 CRN 当地时间 14 日报道称，根据其掌握到的英特尔 4 月 10 日内部备忘录，该企业将在未来数周内向内部员工披露对埃隆 · 马斯克牵头的 Terafab 计划的参与范围和性质。英特尔 CEO 陈立武在备忘录中表示：（埃隆 · 马斯克）在人工智能、交通运输、通信、机器人和太空旅行等领域的宏伟愿景，高度依赖于充足且不间断的硅芯片供应。因此，英特尔是帮助他实现愿景的天然合作伙伴。陈立武的幕僚长兼公司临时首席技术官 Pushkar Ranade 将管理英特尔与 Terafab 的合作。陈立武已要求 Pushkar Ranade 召集公司内一些精选的技术专家参与这个项目。相关阅读：《英特尔加入 Terafab 计划，与特斯拉、SpaceX、xAI 携手变革芯片制造》",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/865.htm",
+      "url": "https://www.ithome.com/0/939/269.htm",
       "importance": "low",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "IDC 预测：亚太 2029 年 AI 支出将达 3700 亿美元，是 2024 年的 5 倍",
-      "summary": "IT之家 4 月 14 日消息，IDC 北京时间昨日指出，亚太区域在 AI 领域的支出到 2029 年将达 3700 亿美元（IT之家注：现汇率约合 2.53 万亿元人民币），是 2024 年水平（730 亿美元）的 5 倍有余，复合年增长率 (CAGR) 达 38.4%。在这 3700 亿美元支出中，生成式 AI 将占据 47.4%，即约 1750 亿美元；生成式 AI 的 CAGR 高达 68.2%。而从应用场景划分，AI 基础设施提供是最大单项，约占总支出的 39%。图源：PexelsIDC 认为亚太 AI 市场已从基础设施建设转向平台整合和运营深度定义的新阶段，组织正从孤立的 AI 用例转向集成化、企业级的 AI 生态系统，该区域的 AI 采用在深度和广度上都在扩展。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/849.htm",
-      "importance": "low",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "阿里千问上线表格 Agent，支持在对话中直接生成、编辑 Excel 文件",
-      "summary": "IT之家 4 月 14 日消息，阿里千问上线“表格 Agent”，支持在对话中直接生成、编辑 Excel 文件。用户可要求千问检索信息后生成表格，也可将多轮对话内容整理为表格，或基于图片、文件生成。系统通常可在 1–2 分钟内输出可下载的 Excel 文件，无需二次复制粘贴，并支持通过自然语言进行修改。目前，千问表格 Agent 已全面开放，可以通过千问 App、网页版（qianwen.com）、PC 端免费使用这一功能。IT之家附官方详细介绍如下：检索信息并生成与编辑不用掌握复杂操作或编写指令，试试像聊天一样，用日常语言对千问提出需求。比如“把最新的增值税优惠政策具体项目整理成一份 Excel 清单”，或“将初中英语各句型语法结构及时态变化做成一张方便打印背诵的 Excel”，千问表格 Agent 就能自动检索，生成可直接下载使用的标准 Excel 文件。基于多轮对话整理千问还能通过深度",
-      "module": "tools",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/841.htm",
-      "importance": "low",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "消息称大立光电婉拒苹果加单，iPhone 18 Pro / Max 可变光圈镜头由舜宇光学主供",
-      "summary": "IT之家 4 月 14 日消息，经济日报昨日（4 月 13 日）报道，苹果向供应商大立光电（Largan）提出增加 iPhone 18 Pro 可变光圈镜头订单的需求，却遭到拒绝。消息称大立光电给出的婉拒理由是现阶段并不希望盲目扩产，而是集中资源优先研发 CPO（共封装光学）技术。IT之家注：可变光圈是高端影像的核心配置，能根据光线条件自动调节进光量，让夜景拍摄更纯净、人像虚化更自然。消息称 iPhone 18 Pro 系列计划搭载这一技术，苹果原本希望通过加单确保产能充足，但大立光电的拒绝产生一定影响。大立光选择将产能留给 CPO，这是一种将光收发器直接集成在 SoC 封装内的技术，能大幅缩短电信号传输路径，降低延迟和功耗。对大立光电而言，CPO 代表未来数据中心和 AI 计算的高利润市场，优先级高于手机镜头订单。该媒体指出这一事件在苹果供应链中极为罕见。通常情况下，供应商哪怕投入巨资扩",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/834.htm",
-      "importance": "low",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "消息称三星晶圆代工 HBM4 内存基础裸片报价上调 40~50%",
-      "summary": "IT之家 4 月 14 日消息，韩媒 fnNews 当地时间昨日报道称，三星晶圆代工已将 4nm 制程工艺的 HBM4 内存基础裸片 (Base Die) 报价上调 40~50%，这将推高存储器业务的 HBM 制造整体成本。三星晶圆代工之所以在与兄弟部门的价格谈判中掌握优势，是因为三星存储器业务收获了大规模的 HBM4 内存订单和意向，现在是存储器业务有求于晶圆代工业务。而在此前达成内部合作的时候，晶圆代工业务是更弱势的一方。除 HBM4 Base Die 这笔相对稳定的收入外，其它 AI 芯片需求也推高了三星晶圆代工生产线的运行率，成本-利润结构得到改善。IT之家了解到，三星半导体的系统 LSI 业务也有望凭借 Exynos 系列移动处理器的走强迎来复苏。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/831.htm",
-      "importance": "low",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "多所高校鼓励博士生再读一个 AI 等相关专业硕士",
-      "summary": "IT之家 4 月 14 日消息，据第一财经 4 月 13 日报道，多所高校近期相继启动“博士 + 硕士”双学位项目，鼓励博士生再攻读一个人工智能等相关专业的硕士学位。这些高校包括北京理工大学、哈尔滨工业大学、西北工业大学、北京交通大学、南京大学、山东大学。IT之家查询山东大学官网发现，山东大学今年首次开设“博士 + 硕士”双学位项目，将从学科交叉中心的 140 名博士研究生中进行遴选。对学有余力、创新能力强的学生，每年遴选约 10 名学生参加双学位项目，让其在攻读博士学位的同时，再获得一个其他学科的硕士学位。对于这些优中选优的复合型人才，山东大学也配备了高标准的教学团队。每年遴选约 40 个交叉导师团队，每个交叉团队由 3-4 名来自不同学科的导师组成，瞄准关键跨学科跨领域的科学问题。另据科技日报 4 月 10 日报道，北京理工大学研究生院常务副院长、人工智能学院常务副院长邓方表示，当前人",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/809.htm",
-      "importance": "low",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "网易云音乐 AI 广告“翻车”，人物脖子扭到后背去了",
-      "summary": "IT之家 4 月 14 日消息，据东方财经报道，4 月 12 日，有网友发帖吐槽网易云音乐的 AI 广告吓人，“爱奇艺暂停时，跳出来的网易云广告脖子扭到后背去了，网易云投广告能不能严谨点。”对此，“网易云音乐小客服”在评论区回复：“抱歉影响到您的体验，关于您的反馈小客服会如实转达反馈，感谢您的理解和支持。”IT之家注意到，网易云音乐近年来拥抱 AI，还在今年 3 月宣布全面接入 OpenClaw，成为业内首个向 AI Agent 开放核心音乐服务能力的平台。网易云音乐官方表示，过去听歌主要依赖算法“投喂”、手动搜索、创建歌单等方式。现在，用户能通过 IM 窗口对话的方式，远程灵活调用这些核心音乐服务能力，并将这些“音乐组件”嵌入到任何数字空间中，音乐可以不限终端、无处不在地陪伴用户生活。",
+      "title": "阿里千问第二款 AI 眼镜 S1 现货开售：双目显示、热插拔换电，国补到手价 3499 元",
+      "summary": "IT之家 4 月 15 日消息，千问 AI 眼镜 S1 今日正式现货开售，支持语音与视觉融合的多模态交互，官方起售价叠加限时优惠及国家补贴后，最低到手价 3499 元。京东千问 AI 眼镜 S1 券后 3999 元（国补后 3499 元）领 200 元券作为旗舰机型，千问 AI 眼镜 S1 相比之前的千问 AI 眼镜 G1 在交互、显示、续航及硬件配置方面均有显著升级，IT之家附亮点如下：搭载千问最新 AI 模型，S1 支持语音和视觉多模态交互，AI 实时作答，可双目显示，正面直视不漏光，显示位置远近高低可调节。双电池设计，并支持热插拔换电技术，不关机也可快速更换电池，搭配换电仓可实现全天候续航。1200 万像素摄像头，支持 3K 视频录制及超级夜景拍摄。双音圈扬声器、5 麦克风阵列 + 骨传导配置，在复杂环境下依然能够实现清晰准确的语音输入与稳定输出。首发“睿智曜黑 · 威灵顿方框”款式",
       "module": "tech",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/938/786.htm",
+      "url": "https://www.ithome.com/0/939/265.htm",
       "importance": "low",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "8点1氪丨“马斯克版微信”将于4月17日上线；美军开始拦截进出霍尔木兹海峡船只；字节与荣耀合作“豆包手机”细节尚未达成一致",
-      "summary": "今日热点导览 张雪回应机车新手禁令 西班牙首相桑切斯参观小米科技园 中央网信办：加强网络直播打赏规范管理 小红书跨境电商平台Redshop将于今年6月正式上线 A股景气度投资或回归主线 TOP3大新闻 “马斯克版微信”或在4月17日上线 美国当地时间4月11日，X平台宣布旗下独立社交应用XChat将于4月17日正式登陆App Store。这款被外界视为“西方版微信”的应用，主打端到端加密、无广告及无追踪，旨在构建集聊天、支付、AI于一体的超级应用生态。XChat无需手机号注册，支持音视频通话、阅后即焚及防截图，并深度集成了AI助手Grok。 然而，尽管马斯克宣称其采用“比特币式加密”，但安全专家指出其缺乏第三方独立审计，且隐私标签显示仍会收集用户数据，安全性受到质疑。能否在WhatsApp等巨头林立的市场中突围并兑现隐私承诺，将是XChat面临的最大挑战。（第一财经） 美军开始拦截进出霍尔",
-      "module": "tech",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3765932138103554?f=rss",
-      "importance": "low",
-      "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "快看漫画将研发多款AI应用，涉及AI角色互动等",
-      "summary": "36氪获悉，4月14日，快看漫画内部正在推进不止一款App，而是一组围绕AI能力展开的多款App组成的产品矩阵。该AI应用矩阵可能覆盖多个用户需求与使用场景，涉及AI角色互动、开放世界、破次元陪伴等维度。",
-      "module": "tools",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3766119271449346?f=rss",
-      "importance": "low",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "AI开始直接交付Excel，千问用Agent重构做表流程",
-      "summary": "支持从对话直接生成、编辑Excel文件",
+      "title": "DeepSeek 要在内蒙古建数据中心：首次面向乌兰察布开启招聘，月薪最高 3 万元",
+      "summary": "IT之家 4 月 15 日消息，DeepSeek 官网 4 月 2 日放出了新一批岗位招聘信息，除了杭州和北京外，首次出现了工作地为内蒙古乌兰察布的岗位。两个相关岗位分别为数据中心高级交付经理、数据中心高级运维工程师，薪资为 15-30K · 14 薪。数据中心高级交付经理：1、负责数据中心项目从立项、建设、交付至运营的全流程项目管理。2、负责 IDC 相关自动化运维工具及平台建设，提高现场人员工作效率，提升资源利用率。3、负责 IDC 运维标准流程规范制定、迭代及落实，保障现场运维服务满足 SLA 要求。4、制定项目综合进度计划并监督执行，主动协调各方面资源，推动项目实施。5、参与建设项目竣工验收工作，协助完成各项专项验收并提供相关技术资料，参与项目结算。数据中心高级运维工程师：1、负责数据中心技术支撑及运维管理工作，包括但不限于数据中心服务器硬件、网络设备的运维评估、监控、调优，诊断、",
       "module": "tech",
       "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401041.html",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/234.htm",
       "importance": "low",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Comprehension Debt: The Hidden Cost of AI-Generated Code",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "HackerNews-Dev",
-      "url": "https://www.oreilly.com/radar/comprehension-debt-the-hidden-cost-of-ai-generated-code/",
+      "title": "英国央行行长贝利警告：Anthropic Mythos 模型或构成重大网络安全威胁",
+      "summary": "IT之家 4 月 15 日消息，据路透社报道，英国央行行长安德鲁 · 贝利（Andrew Bailey）于当地时间周二（4 月 14 日）表示，各国央行与金融监管机构必须迅速认清一款新型人工智能模型的潜在影响，该模型可能构成重大网络安全威胁。“大家本以为海湾地区的局势是当今世界我们面临的最新挑战，然而，我记得是上周五，当人们醒来时却发现，人工智能公司 Anthropic 或许找到了彻底颠覆整个网络安全风险格局的方法。”贝利在纽约哥伦比亚大学的一场活动中如此说道。网络安全专家已就 Anthropic 公司的 Mythos 产品发出警告，称其可能极大增强复杂网络攻击的威力，进而对银行业及其现有技术系统构成严峻挑战。贝利表示，监管机构希望“厘清这究竟意味着什么”。“核心问题在于：从某种意义上说，这款新产品的新版本，究竟能在多大程度上识别出其他系统中可被利用来实施网络攻击的安全漏洞。”他指出，近年",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/230.htm",
       "importance": "low",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
-      "id": "v4-aHR0cHM6Ly9uZXdz",
-      "title": "Ask HN: Are most agent skills just fancy system prompts with a name?",
-      "summary": "",
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "广告人物脖子扭到后背：网易云音乐称合作平台未经许可进行 AI 二创，爱奇艺称已做下线处理",
+      "summary": "IT之家 4 月 15 日消息，有网友近日发帖吐槽网易云音乐的 AI 广告吓人，“爱奇艺暂停时，跳出来的网易云广告脖子扭到后背去了，网易云投广告能不能严谨点。”4 月 14 日晚间，网易云音乐向 21 世纪经济报道回应称，“经核实，问题原因为合作平台未经许可对广告素材进行 AI 二创改动。我们已第一时间要求合作平台下线相关错误改动素材，并要求其进行相应整改。”据悉，相关广告投放平台为爱奇艺，内容应为该平台二次创作的素材。对此，4 月 15 日凌晨，爱奇艺向该媒体回应称，“该广告投放量较小，目前已经做下线处理。后续我们会优化审核流程，避免类似问题再次发生。”IT之家注意到，网易云音乐近年来拥抱 AI，还在今年 3 月宣布全面接入 OpenClaw，成为业内首个向 AI Agent 开放核心音乐服务能力的平台。",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/218.htm",
+      "importance": "low",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "美国最大民权组织怒告马斯克 xAI：非法运营燃气轮机，危害当地居民健康",
+      "summary": "IT之家 4 月 15 日消息，据路透社报道，美国最大民权组织当地时间周二起诉 xAI 及其子公司，指控其在密西西比州非法运行二十多台燃气轮机，为其 Colossus 2 数据中心供电，对当地居民健康构成威胁。由地球正义组织与南方环境法律中心代理的美国全国有色人种协进会（NAACP），起诉 xAI 及其子公司 MZX Tech，指控其在未取得必要空气许可的情况下，为给 xAI 的 Grok 聊天机器人提供支持的大型数据中心运行 27 台燃气轮机，违反了联邦《清洁空气法》。埃隆 · 马斯克旗下人工智能初创公司 xAI 已在密西西比州绍瑟文市投资超 200 亿美元（IT之家注：现汇率约合 1365.81 亿元人民币）建设该数据中心，并得到州长泰特 · 里夫斯全力支持。但该设施，以及仅一河之隔、位于田纳西州孟菲斯市的 Colossus 1 数据中心，均因对当地空气与环境质量的影响遭到当地社区强烈",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/217.htm",
+      "importance": "low",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "全球首个具身智能工业产线规模落地：智元精灵 G2 连续 8 小时作业零失误",
+      "summary": "IT之家 4 月 15 日消息，智元机器人官方宣布，智元机器人 4 月 14 日在龙旗科技南昌平板制造工厂开启 8 小时的真实产线作业直播，2283 次任务零失误，成功率 100%，面向全球公开验证全球首个具身智能 3C 精密制造产线规模化落地成果。据介绍，精灵 G2 可完成流水线取料、高精度放置、治具对接、成品回流全闭环操作，单个作业流程仅需 18–20 秒，每小时可完成 310 件产品。机器人可实现自适应精准操作，能自动适应产线动态扰动与位置偏差，智能分拣不良品，并与工厂 MES 系统、测试设备实时数据互通，支持 7×24 小时不间断双班运行，无需人工干预即可持续稳定生产。对比传统机械臂，精灵 G2 在泛化能力、部署速度与柔性化上优势显著：无需定制专用工装，即可适配多型号平板产品；场景标定最快 15 分钟完成，产线换型重训不超过 4 小时，设备复用率达 95%。智元合伙人、高级副总裁、",
       "module": "community",
-      "region": "global",
-      "source": "HackerNews-Dev",
-      "url": "https://news.ycombinator.com/item?id=47760931",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/939/194.htm",
       "importance": "low",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
-      "id": "v4-aHR0cHM6Ly9ub3R0",
-      "title": "All in One for AI Chatbot",
-      "summary": "",
-      "module": "tools",
-      "region": "global",
-      "source": "HackerNews-Dev",
-      "url": "https://nottoai.com/",
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "粗门完成数千万A+轮融资，在AI时代让更多人“出门”｜36氪首发",
+      "summary": "36氪获悉，线下兴趣活动社区“粗门”已完成新一轮融资，投资方为一家长期关注消费与生活方式领域的香港家族基金。 本轮资金将主要用于扩大品牌影响力、提升优质主理人供给，并加速社区生态与玩法体系建设。这也是粗门继2023年获得Keep战略投资后的又一次融资。 粗门正在试图重构一件逐渐被忽视的事情——人们“如何在现实世界一起玩”。 当线上娱乐极度丰富，线下体验反而变稀缺 过去二十年，互联网解决的是“链接”和“内容”。但今天，一个新的问题正在出现：线上娱乐越丰富，线下真实体验反而越稀缺。 短视频、游戏、社交平台占据了大量时间，但人与人之间面对面的真实互动却在减少。粗门创始人湘翁曾负责闲鱼产品与支付宝B端产品，他在多年互联网经验后，做出了一个不那么“主流”的判断：“AI可以替代效率，但无法替代体验。人和人最真实的连接，依然在线下。” 不想做平台，做一种新的“玩法生产方式” 粗门成立于2022年，定位为",
+      "module": "industry",
+      "region": "cn",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3766710136570368?f=rss",
       "importance": "low",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
-      "id": "v4-aHR0cHM6Ly9lcmEu",
-      "title": "MCP server for personal finance so AI assistants can manage money",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "HackerNews-Dev",
-      "url": "https://era.app/articles/how-to-connect-claude-to-your-bank-account/",
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "千问AI眼镜S1宣布正式开售",
+      "summary": "36氪获悉，4月15日，千问AI眼镜S1宣布正式开售，最低到手价为3499元。该产品支持屏幕显示、1200万像素摄像头、热插拔换电池，并为全天候AI服务在整机层面进行了系统性重。",
+      "module": "industry",
+      "region": "cn",
+      "source": "36氪",
+      "url": "https://36kr.com/newsflashes/3767467065803529?f=rss",
       "importance": "low",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
-      "id": "v4-aHR0cHM6Ly9vcGVu",
-      "title": "Open Agents. Spawn coding agents that run infinitely in the cloud",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "HackerNews-Dev",
-      "url": "https://open-agents.dev/",
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "Microsoft AI Tour 将于4月21日登陆上海世博中心",
+      "summary": "Microsoft AI Tour将于4月21日在上海世博中心正式开幕。AI Tour由微软举办，自全球巡演启动以来，已跨越四大洲、30余座城市，连接全球数以万计的企业决策者与开发者。本次活动，微软全球高管与专家将分享AI前沿转型成功经验，为企业量身定制AI落地方案，助力企业快速发展。",
+      "module": "industry",
+      "region": "cn",
+      "source": "36氪",
+      "url": "https://36kr.com/newsflashes/3767446671852033?f=rss",
       "importance": "low",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Attorneys Face Disciplinary Charges, License Suspension for AI Misuse",
-      "summary": "",
+      "title": "[P] Added 8 Indian languages to Chatterbox TTS via LoRA — 1.4% of parameters, no phoneme engineering [P]",
+      "summary": "TL;DR: Fine-tuned Chatterbox-Multilingual (Resemble AI s open-source TTS) to support Telugu, Kannada, Bengali, Tamil, Malayalam, Marathi, Gujarati, and Hindi using LoRA adapters + tokenizer extension. Only 7.8M / 544M parameters trained. Model + audio samples available. --- The Problem Chatterbox-Multilingual supports 23 languages with zero-shot voice cloning, but no Dravidian languages (Telugu, K",
       "module": "tech",
       "region": "global",
-      "source": "HackerNews-Dev",
-      "url": "https://www.law.com/therecorder/2026/04/13/two-attorneys-face-disciplinary-charges-third-agrees-to-license-suspension-for-ai-misuse/",
+      "source": "Reddit-MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sltun8/p_added_8_indian_languages_to_chatterbox_tts_via/",
       "importance": "low",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
     },
     {
-      "id": "v4-aHR0cHM6Ly9uZXdz",
-      "title": "Contained Codex Networking",
-      "summary": "This is a bit odd, because it was going to start off as an Ask, and now its a hybrid Show/Ask.The ask being, how in the world do I make use of Codex's proxy networking? I wanted Codex to have access to local services (not MCP servers) running outside its bubblewrap. The default config.toml file ships with this: [permissions.network] # enabled = true # proxy_url = \"http://127.0.0.1:43128\" # admin_u",
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "GRaPE 2 Model Family",
+      "summary": "Today I announce the first two models I am posting on here! First off, hello all of r/LocalLLaMA, nice to join. But I would love to show off the General Reasoning Agent for Project Exploration, dubbed as GRaPE. GRaPE is on the second generation, and has two models GRaPE Mini GRaPE Flash These models are 5B and 9B respectively, and support 6 thinking modes to allocate budgets, so you don t get over",
       "module": "tech",
       "region": "global",
-      "source": "HackerNews-Dev",
-      "url": "https://news.ycombinator.com/item?id=47760640",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sluza9/grape_2_model_family/",
       "importance": "low",
-      "date": "2026-04-14"
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Why elephant-alpha rising this Fast",
+      "summary": "Almost approaching Qwen 3.6 Plus submitted by /u/purblepalaceUwU [link] [comments]",
+      "module": "tools",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sluw9i/why_elephantalpha_rising_this_fast/",
+      "importance": "low",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "DGX Spark just arrived — planning to run vLLM + local models, looking for advice",
+      "summary": "Just got a DGX Spark set up today and starting to configure it for local LLM inference. Plan is to run: • vLLM • PyTorch • Hugging Face models as a local API backend for an application I’m building (education / analytics use case, trying to keep everything local/private). I’ve mostly been working with cloud GPUs up to now, so this is my first time running something like this fully on-prem. A few t",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1slupov/dgx_spark_just_arrived_planning_to_run_vllm_local/",
+      "importance": "low",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Pondering on improving prompt processing on Mac Studios via eGPU (RTX 5090) with new Apple-NVIDIA drivers.",
+      "summary": "So last week NVIDIA/AMD and Apple came together and built some drivers that allow AI models to work on AMD NVIDIA GPUs that are hooked to Apple Silicon/MacOS based systems. (I first saw this on Tom s Hardware here: https://www.tomshardware.com/pc-components/gpu-drivers/apple-approves-drivers-that-let-amd-and-nvidia-egpus-run-on-mac-software-designed-for-ai-though-and-not-built-for-gaming ) You can",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sluj8b/pondering_on_improving_prompt_processing_on_mac/",
+      "importance": "low",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "A private, entirely local, 3D holographic AI Desktop Companion!(voice, text, image input, and OS Control) 🌐",
+      "summary": "https://reddit.com/link/1sltle0/video/zc1vh7cmo9vg1/player Welcome to LinkV05 submitted by /u/LinkV05 [link] [comments]",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sltle0/a_private_entirely_local_3d_holographic_ai/",
+      "importance": "low",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Writing backends for both humans and AI agents in pure Python using Plain: Does it actually save time and money?",
+      "summary": "Someone on r/webscraping recently dropped an open-source framework to reverse engineer APIs from any website. They used Best Buy as a demo, turning a brittle DOM search page into a structured API endpoint specifically so an AI coding agent could interact with it. Think about how insane this current meta is. We build functional backends and UIs for humans, and then we spend thousands of engineering",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1slt4wd/writing_backends_for_both_humans_and_ai_agents_in/",
+      "importance": "low",
+      "date": "2026-04-15"
     }
   ]
 }
