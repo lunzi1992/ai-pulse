@@ -3,17 +3,21 @@
     "title": "AI Pulse",
     "subtitle": "全球 AI 资讯每日聚合",
     "description": "国内 + 国际 | 行业动态 | 技术进展 | 社区洞察 | 工具与应用",
-    "lastUpdate": "2026-04-17",
-    "updatedAt": "2026-04-17T03:52:56.597Z",
+    "lastUpdate": "2026-04-18",
+    "updatedAt": "2026-04-18T03:37:38.303Z",
     "version": "4.0"
   },
   "hotKeywords": [
     {
-      "name": "TYPE",
-      "count": 36
+      "name": "MODELS",
+      "count": 44
     },
     {
       "name": "ARXIV",
+      "count": 36
+    },
+    {
+      "name": "TYPE",
       "count": 36
     },
     {
@@ -25,68 +29,64 @@
       "count": 35
     },
     {
-      "name": "MODELS",
-      "count": 27
-    },
-    {
       "name": "MODEL",
-      "count": 21
+      "count": 31
     },
     {
       "name": "AGENTS",
-      "count": 20
+      "count": 26
+    },
+    {
+      "name": "Claude",
+      "count": 25
+    },
+    {
+      "name": "OpenAI",
+      "count": 23
+    },
+    {
+      "name": "Qwen",
+      "count": 23
     },
     {
       "name": "LEARNING",
-      "count": 19
+      "count": 21
     },
     {
-      "name": "PAPER",
-      "count": 18
-    },
-    {
-      "name": "LARGE",
-      "count": 17
-    },
-    {
-      "name": "MEMORY",
+      "name": "DATA",
       "count": 17
     },
     {
       "name": "LANGUAGE",
+      "count": 17
+    },
+    {
+      "name": "LARGE",
       "count": 16
     },
     {
-      "name": "之家",
+      "name": "PAPER",
+      "count": 16
+    },
+    {
+      "name": "REASONING",
+      "count": 15
+    },
+    {
+      "name": "WHILE",
       "count": 14
     },
     {
-      "name": "RESEARCH",
-      "count": 14
-    },
-    {
-      "name": "日消息",
+      "name": "ARCHITECTURE",
       "count": 13
     },
     {
-      "name": "LLMS",
+      "name": "AGENT",
+      "count": 13
+    },
+    {
+      "name": "之家",
       "count": 12
-    },
-    {
-      "name": "SYSTEMS",
-      "count": 12
-    },
-    {
-      "name": "LLM",
-      "count": 11
-    },
-    {
-      "name": "Qwen",
-      "count": 10
-    },
-    {
-      "name": "YOU",
-      "count": 10
     }
   ],
   "news": [
@@ -99,7 +99,7 @@
       "source": "36氪/量子位",
       "url": "https://www.36kr.com/p/3754726863012361",
       "importance": "high",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
       "id": "builtin-Q0VBSSAyMDI25Lit",
@@ -110,7 +110,7 @@
       "source": "凤凰安徽",
       "url": "",
       "importance": "high",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
       "id": "builtin-5pm65YWDQUdJQk9U",
@@ -121,7 +121,7 @@
       "source": "IT之家",
       "url": "https://www.ithome.com/0/935/660.htm",
       "importance": "high",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
       "id": "builtin-Q3Vyc29y5o6o5Ye6",
@@ -132,260 +132,458 @@
       "source": "ProductHunt",
       "url": "https://www.cursor.com",
       "importance": "high",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "国家发改委：智能化的目的是提升效率，不是简单替代劳动者，要找准政策平衡点",
-      "summary": "IT之家 4 月 17 日消息，国新办 4 月 17 日举行“开局起步‘十五五’”系列主题新闻发布会，国家发展改革委产业发展司司长傅久岭表示，智能化的目的是提升效率，不是简单替代劳动者，要找准政策平衡点。傅久岭表示，“十五五”时期，构建以先进制造业为骨干的现代化产业体系是重中之重。下一步，将重点推动制造业高端化、智能化、绿色化发展。高端化方面，单看制造业的规模我们是世界第一，但还存在一些结构性问题，比如品牌影响力不够、全要素生产率不高等。智能化方面，要把握和利用好人工智能的机遇，为产业赋能。“智能化的目的是提升效率，不是简单替代劳动者，要找准政策平衡点。”傅久岭表示。此外，绿色化方面，碳达峰碳中和是中国政府的庄严承诺，也是产业升级的主动选择。要实现这个目标需要付出艰苦的努力。IT之家从国新办官网文字实录获悉，“十五五”首季经济实现平稳良好开局。今年一季度国内生产总值同比增长 5%，改变了去",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/265.htm",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "智元机器人目标 2027 年实现 100 亿 + 营收，2030 年实现 1000 亿 + 营收",
-      "summary": "IT之家 4 月 17 日消息，在今日的 2026 智元合作伙伴大会上，智元发布 358 宏图计划，推动具身生产力落地。智元创始人、董事长兼 CEO 邓泰华表示：2025 年（智元成立 3 年）智元已实现 10 亿元营收，实现生产力入门，开启第一曲线；2027 年（智元成立 5 年），智元目标实现 100 亿 + 营收，实现生产力落地 0-1，开启第二曲线；到 2030 年（智元成立 8 年），智元目标实现 1000 亿 + 营收，达到生产力推广 1-N，迎接第三曲线。此外，邓泰华发布具身智能产业 XYZ 曲线，指明行业发展路径，宣布 2026 年为“部署态”元年，产业正式进入生产力落地新阶段。IT之家注意到，智元首发“七大部署态生产力解决方案”，在产线上下料、工业搬运、物流分拣、导览导购导引、服务零售站、安防巡检、工商业清洁等场景，实现具身智能生产力落地。邓泰华指出，2026 年智元将推",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/257.htm",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "高德机器狗首度现身街头：过马路等红绿灯，会自己取奶茶",
-      "summary": "IT之家 4 月 17 日消息，社交媒体上今日有多位网友发布视频称，在高德地图楼下遇到高德机器狗过马路和买奶茶。从视频中看到，机器狗身上印有高德地图 logo。高德相关负责人日前表示，高德已在具身智能领域开展深入布局，并积极探索四足机器人、人形机器人等硬件产品形态，预计近期将有首款四足机器人发布。视频显示，高德机器狗过马路会自己等红灯，前行过程中遇到路人还会主动避让。此外，在一个奶茶店，高德机器狗能自己进入店内，并告知店员要取多少号奶茶，店员将奶茶交给机器狗之后，它能自主出门并走回了高德总部。知情人士曾透露，人形机器人、机器狗等产品形态均在高德具身业务部的探索方向之中。同时，高德已构建业内最大规模的具身导航数据引擎，并在长程复杂任务处理能力上，取得了突破性进展。据IT之家此前报道，高德于 3 月 31 日宣布正式全量开源 ABot-M0，官方称这是全球首个基于统一架构的机器人具身操作基座模",
+      "title": "微软首日集成 Claude Opus 4.7，GitHub Copilot 等 9 大 AI 工具全面接入",
+      "summary": "IT之家 4 月 18 日消息，科技媒体 NeoWin 昨日（4 月 17 日）发布博文，报道称在 Anthropic 发布 Claude Opus 4.7 模型后，微软打破与 OpenAI 的排他性合作惯例，在其 GitHub Copilot 等 9 大开发环境中首日集成支持。IT之家注：Claude Opus 4.7 是 Opus 系列最强版本，大幅增强在复杂软件工程任务处理能力，能够更稳定地执行长时间运行任务，同时在视觉能力方面实现重大突破。有别于以往，微软不再局限于 OpenAI 的 GPT 系列模型，于去年底开始在 Microsoft Foundry 中提供 Claude 模型支持，并逐步扩展至旗下多款产品。GitHub Copilot 率先集成 Claude Opus 4.7，覆盖 Visual Studio Code、Visual Studio、Copilot CLI 等 9",
       "module": "tech",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/246.htm",
+      "url": "https://www.ithome.com/0/940/642.htm",
       "importance": "high",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "SEAVIV 希未预热 AideaMini R3 Max 迷你主机，搭载 AMD 锐龙 AI 9 HX 470",
-      "summary": "IT之家 4 月 17 日消息，希未 (SEAVIV) 昨日宣布 AideaMini R3 Max 迷你主机即将上市。这一型号基于 AMD 锐龙 AI 9 HX 470 \"Gorgon Point\" 处理器，支持 45W / 54W / 65W 三档性能释放。AideaMini R3 Max 机身采用“星轨银”配色和夹心拼接结构，三维 131×138×49.9 (mm)，裸机质量 ~550g。其内置 2 个 DDR5 SO-DIMM 内存插槽、2 个 M.2 2280 PCIe Gen4 ×4 SSD 插槽，搭载 Wi-Fi 7 无线网卡。而在外部，这款迷你主机提供独立 OCuLink 接口，配备 2× USB4、HDMI 2.1、DisplayPort 1.4、2× 2.5GbE。IT之家了解到，希未为该机型内置 SeavivAI 助手，搭配 SeavivClaw 可一键部署 OpenC",
+      "title": "消息称马斯克 xAI 进军 AI 智能编程领域，有望下周发布 Grok Build",
+      "summary": "IT之家 4 月 18 日消息，科技媒体 testingcatalog 昨日（4 月 17 日）发布博文，报道称埃隆 · 马斯克（Elon Musk）旗下 xAI 公司有望进军智能编程领域，可能会在下周推出 Grok Build 与 Grok CLI 两款产品。此举标志着 xAI 正式进入智能编程赛道，将与 Claude Code、OpenAI Codex 及 Google Jules 等主流工具展开直接竞争。在核心模型层面，xAI 已悄然推送 Grok 4.3 Early Access 测试版，目前仅向 Grok Heavy 订阅用户开放。这一进展改变了 Grok Build 的技术路径：xAI 可能不再单独开发专用编程模型，而是直接依托 Grok 4.3 支撑编程功能。产品形态上，Grok Build 采用双轨运行机制，用户可通过 CLI 智能体在本地执行任务，也可通过 Web 界面远",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/220.htm",
+      "url": "https://www.ithome.com/0/940/638.htm",
       "importance": "high",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "国内最快实现 10 亿营收的机器人公司：智元 2025 年度收入达 10.5 亿元",
-      "summary": "IT之家 4 月 17 日消息，智元 2026 合作伙伴大会于今日上午在上海开幕。智元创始人、董事长兼 CEO 邓泰华表示，智元 2025 年度营收达 10.5 亿元，“我们成为国内最快实现 10 亿营收的机器人公司”。邓泰华透露，2026 年智元营收目标为进一步实现数倍增长。智元机器人将在本次大会上发布 4 个本体新品、4 个 AI 大模型、7 个解决方案及开放数据集。这是继 4 月 7 日至 14 日智元“AI WEEK”发布周推出开源具身数据集“AGIBOT WORLD 2026”和“GO-2 基座模型”等产品之后，智元在本体和 AI 大模型领域的又一次集中发布。据IT之家 3 月 30 日报道，智元机器人第 10000 台产品下线。距离上一次官宣 5000 台下线，仅仅过去一个季度的时间。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/205.htm",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "小佩智能宠物饮水机 ULTRA 可视版上架：140° 超广角、AI 识别多宠面部，799 元",
-      "summary": "IT之家 4 月 17 日消息，小佩发布了智能宠物饮水机 ULTRA（可视版），将于 4 月 22 日开始预售，售价 799 元。这款产品搭载 140° 超广角摄像头，宠物喝水全程看得见，支持远程操控、语音互动等；支持 AI 识别多宠面部，猫脸 / 狗脸均可识别；支持记录饮水时长、次数，可生成每日、每周、每月报告，出现异常会及时提醒。这款产品采用独立双水箱设计，物理隔绝纯净水与污水；支持用 App 开启自动化设置，自动完成饮水盘等排水、冲洗和补水。IT之家附这款产品的详细规格如下：京东小佩 宠物 智能饮水机 ULTRA 可视版 799 元直达链接",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/198.htm",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "HyperX 暗影精灵预热：三款 2026 游戏本新品 4 月 20 日同步发布",
-      "summary": "IT之家 4 月 17 日消息，HP（惠普）旗下游戏电竞品牌 HyperX（极度未知）本周启动了 2026 款暗影精灵 (OMEN) 游戏本产品的预热，其中 15 日介绍了 PRO 15\" 机型、16 日则介绍了 PRO 16\"。根据IT之家的了解，今日的预热将轮到 HyperX OMEN MAX 16，预计国行名称为 HyperX 暗影精灵 MAX 16\"。对于 HyperX 暗影精灵 PRO 16\"“超能游戏本”，品牌方表示其搭载酷凉风暴 PRO+ 散热技术，整机功耗可达 200W 以上，拥有升级后的 OGH 大师模式、OMEN AI，支持惠小微个性化 AI 服务。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/201.htm",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "我国牵头、两个突破，具身智能领域首个国际标准成功立项",
-      "summary": "IT之家 4 月 17 日消息，据央视新闻今日报道，我国在国际标准化组织成功立项具身智能领域全球首项国际标准《人形机器人数据集》，并推动成立了首个由我国专家担任召集人的工作组。报道称，当前，美国、日本、欧盟等主要经济体都将人形机器人纳入国家科技战略，争相布局研发与应用。国际标准化组织机器人技术委员会国内技术对口单位负责人王振林表示，全球机器人领域的话语权大多掌握在发达国家手中。过去，我们往往是跟着别人的标准走，在国际规则面前处于被动适应的地位。这次，我们实现了两个历史性的零的突破。第一个零的突破是人形机器人国际标准制定，第二个零的突破是机器人国际标准工作组建设。据专家介绍，截至 2025 年底，全球人形机器人整机企业超过 300 家，市场的出货量 1.7 万台左右，规模逼近 29 亿元。在这个赛道上，我国已经是名副其实的全球第一大市场，拥有 140 家整体企业，出货量达到了 1.44 万台",
+      "title": "Cloudflare 公测邮件服务，AI 智能体可原生收发邮件",
+      "summary": "IT之家 4 月 18 日消息，Cloudflare 于 4 月 16 日发布公告，宣布其邮件服务进入公开测试阶段，为 AI 智能体提供原生邮件收发能力。 该服务包含邮件发送与路由功能，支持自动配置 SPF、DKIM 等认证记录，开发者可通过 Workers 绑定或 REST API 直接发送邮件。IT之家援引博文介绍，开发者可在 Workers 中使用原生绑定发送邮件，无需管理 API 密钥或密钥对，也可通过 TypeScript、Python 等 SDK 调用 REST API。系统会自动为域名配置 SPF、DKIM 和 DMARC 记录，确保邮件通过认证并送达收件箱，避免被标记为垃圾邮件。依托 Cloudflare 全球网络，邮件可实现低延迟全球送达。Agents SDK 为智能体赋予了邮件原生能力，通过 onEmail 钩子，智能体不仅能接收邮件，还能利用新增的发送功能实现异步回复",
       "module": "tech",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/186.htm",
+      "url": "https://www.ithome.com/0/940/627.htm",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "江苏发布2026年消费品以旧换新地方自主品类补贴政策",
+      "summary": "4月17日，江苏省商务厅发布《关于实施江苏省2026年消费品以旧换新地方自主品类补贴政策的通告》。自通告之日起开始实施，至2026年12月31日结束。限额管理，用完即止。补贴品类包括，智能家居产品（含适老化家居产品）：干衣机、洗碗机、吸油烟机、家用燃气灶（含集成灶）、净水器、智能马桶（含马桶盖）；“人工智能+”新一代智能终端：扫地机器人（含洗地机）、数码相机（含运动相机、无人机）、具身智能机器人（含人形机器人、机器狗、外骨骼助力机器人）；消费医疗产品：电动轮椅。补贴标准为上述产品扣除各环节优惠后最终销售价格的15%，每人每类可补贴1件，每件补贴不超过1500元。（界面新闻）",
+      "module": "industry",
+      "region": "cn",
+      "source": "36氪",
+      "url": "https://36kr.com/newsflashes/3771682949989128?f=rss",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "Sora负责人离职",
+      "summary": "4月18日，OpenAI视频生成平台Sora负责人比尔·皮布尔斯宣布离职。公司正在调整战略，以减少“支线项目”，将重点转向编程和企业应用，皮布尔斯的离开正是这一系列调整的一部分。（财联社）",
+      "module": "industry",
+      "region": "cn",
+      "source": "36氪",
+      "url": "https://36kr.com/newsflashes/3771676858827523?f=rss",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "大华股份：2025年营收超327亿元，2026年一季度业绩稳健增长",
+      "summary": "4月17日，大华股份发布2025年年度报告及2026年第一季度财报。2025年，公司实现营收327.44亿元，同比增长1.75%；归母净利润38.58亿元，同比增长32.77%；毛利率为40.62%，同比提升1.78个百分点；经营性现金流净额39.08亿元，同比增长44.19 %。2026年第一季度实现营收69.02亿元，同比增长10.33%，业绩稳健增长。公司将持续推动AI大模型产品技术应用落地，赋能千行百业。",
+      "module": "industry",
+      "region": "cn",
+      "source": "36氪",
+      "url": "https://36kr.com/newsflashes/3771624413463049?f=rss",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "OpenAI's Vision for the AI Economy",
+      "summary": "",
+      "module": "industry",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Accidentally discovered you can teach frozen MoE models new knowledge by just steering their expert routing — no training needed",
+      "summary": "Was probing Gemma 4 s MoE routing patterns out of curiosity and noticed something weird experts route differently when the model \"knows\" something vs. when it doesn t. So I recorded that difference and replayed it. Called it Adaptive Cognitive Intelligence (ACI). Result: A 154KB file makes Gemma 4 go from \"Starfield is NOT available on PS5\" (181 words, confidently wrong) → \"Starfield released on P",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1solnwh/accidentally_discovered_you_can_teach_frozen_moe/",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "[New Model] micro-kiki-v3 — Qwen3.5-35B-A3B + 35 domain LoRAs + router + negotiator + Aeon memory for embedded engineering",
+      "summary": "Released today on HF. Built by L Électron Rare (https://github.com/L-electron-Rare) — our local-first AI platform FineFab. The training toolkit went public the day before: https://github.com/L-electron-Rare/KIKI-Mac\\_tunner (MLX for Mac Studio, distills Claude Opus into Mistral Large 123B). Full pipeline is open, not just the artifact. **Architecture** - Domain router → top-4 selection among 35 Lo",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1solmgf/new_model_microkikiv3_qwen3535ba3b_35_domain/",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Optimizing tokens with QwenCode",
+      "summary": "I am trying desperately to create a usable pipeline for agentic coding tasks with my modest 9070xt + 32Gb DDR4 setup. I d like to use Qwen3.5 27B or Qwen3.5 35 A3B if possible. (else I ll rollback to Qwen3.5 9B) - At first, I naively tried to tweak the models settings here and there on llama.cpp, or use smaller models, but didn t succeed to get enough context for decent coding sessions. Just using",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1solch1/optimizing_tokens_with_qwencode/",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Qwen3-VL vs Qwen 3.5/3.6 for vision — worth keeping the old weights?",
+      "summary": "Quick question for those who’ve used both extensively: Has the Qwen3-VL series basically been fully superseded by the newer 3.5/3.6 models for vision tasks? In other words, is there still any practical reason to keep the older Qwen3-VL weights around, or are the newer series better enough across the board that the old ones can be deleted without regret? I’m mainly asking from a local-use perspecti",
+      "module": "industry",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sokpfz/qwen3vl_vs_qwen_3536_for_vision_worth_keeping_the/",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Qwen3.5-4B|Gemma4-E2B/E4B uncensored models comparison",
+      "summary": "I had the idea of splitting the cross-entropy difference into two sums (positive and negative; or the PPL into two ratios 1 and 1) while doing PPL evals of uncensored GGUFs. The inspiration came from looking at the area under the PPL ratio convergence plot (2nd graph) and thinking \"what if I scattered the positive and negative area in 2D?\". After all: negative delta = predicted the text better tha",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sokdvd/qwen354bgemma4e2be4b_uncensored_models_comparison/",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Qwen3.6 35B A3B Unsloth &amp; APEX Cannot strip think tags properly",
+      "summary": "With Qwen3.6, think tags re-inject into the generation prompt after every turn regardless of flags tried: --jinja --reasoning-format none, --reasoning-format deepseek --chat-template-kwargs {\"enable_thinking\": false}. Is this a chat template change specific to 3.6, or is there a new approach needed? My issue: using Frigate NVR with --reasoning-format deepseek, think tags are correctly stripped fro",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sojkne/qwen36_35b_a3b_unsloth_apex_cannot_strip_think/",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Abliterlitics: Benchmark and Tensor Analysis Comparing Qwen 3/3.5 with HauhauCS / Heretic / Huihui models",
+      "summary": "The best I can do with this is present the data in an open and honest way. Also in a way where people can replicate at home the results. I ve already been banned from the hauhaucs discord and imagine I ll be blocked on reddit too. So I just want to clarify this was just research out of curiosity. It s not intended to be an attack or anything malicious in nature. It really is up to the reader to ve",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sojjoc/abliterlitics_benchmark_and_tensor_analysis/",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "What I got by 5060Ti 16GB + Qwen3.6-35B-A3B-UD-Q5_K_M",
+      "summary": "I tried local model couple weeks ago. At the beginning, I tried Ollama, but reddit says better to switch to llama.ccp. then I switched to llama.ccp prebuild, it was amazing, I was very happy with llama.ccp, speed almostly doubled to run Qwen3.5 9 Q8_K_M, and Qwen3.5 35B-A3B Q4_K_M. This week, Chatgpt and Gemini suggests me to build llama.cpp by on my PC to get max optimization. I did it, and resul",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1soifj9/what_i_got_by_5060ti_16gb_qwen3635ba3budq5_k_m/",
+      "importance": "high",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "“砍刀部”出手，微软视频编辑工具 Clipchamp iOS 版 6 月 10 日停止服务",
+      "summary": "IT之家 4 月 18 日消息，北京时间今天（4 月 18 日）凌晨，据外媒 Windows Latest 报道，微软确认将停止支持视频编辑工具 Clipchamp 的 iOS 版，并引导用户转向桌面端和网页版。微软在 2021 年 9 月收购澳大利亚视频编辑工具 Clipchamp，并将其整合进 Microsoft 365。此前，并无迹象显示该产品被弱化。在 iOS 设备打开 Clipchamp 时，应用将弹出“即将停止服务”提示，并要求用户在项目丢失前进行处理。微软解释称，大多数用户更倾向于在网页端和桌面端编辑视频，因此公司决定将资源集中在 Windows 11 和网页版。公司还提醒，在 2026 年 6 月 10 日之后，Clipchamp iOS 应用将停止服务，用户需提前采取措施避免项目丢失。为确保项目不会被删除，请在 2026 年 6 月 9 日前导出视频并保存到设备中。iOS",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/940/616.htm",
       "importance": "high",
       "date": "2026-04-17"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "“杭州六小龙”之一群核科技港股上市，开盘大涨 170%",
-      "summary": "IT之家 4 月 17 日消息，“杭州六小龙”之一群核科技今日正式在港股上市，每股定价 7.62 港元。截至IT之家发文，该公司股价为 20.62 港元，大涨超 170%。根据此前公布的发行方案，本次 IPO 计划全球发售约 1.61 亿股，另有 15% 的超额配股权，其中香港发售 1606.2 万股，国际发售 1.45 亿股，分别占全球发售股份总数的 10% 和 90%，由摩根大通和建银国际担任联席保荐人。本次发售价为每股最高发行价 7.62 港元，预计总募资额不超过 12.27 亿港元（IT之家注：现汇率约合 10.72 亿元人民币）。公开资料显示，群核科技是全球领先的空间智能服务提供商，致力于推动人工智能加速进入物理世界。公司围绕空间智能相关技术构建了“空间编辑工具-空间数据-空间大模型”的业务飞轮，技术和产品被广泛应用于空间设计、3D 内容创作、电商广告营销生成、文化遗产保护、工业",
+      "title": "你也能设计出专业作品：Claude Design 视觉创作工具上线，分钟级转化创意到原型",
+      "summary": "IT之家 4 月 18 日消息，Anthropic 昨日（4 月 17 日）发布博文，宣布推出 Claude Design 工具，基于 Claude Opus 4.7 模型，定位是视觉创作工具。该工具支持用户通过对话生成设计、原型和演示文稿，具备品牌系统自动应用、多源导入和精细化调整功能。 IT之家注：Claude Design 工具目标是帮助设计师拓展探索空间，同时让产品经理、创始人等非设计背景人员在几分钟内高效产出视觉作品，目前该功能已向 Claude Pro、Max、Team 及 Enterprise 订阅用户逐步开放。在核心功能方面，Claude Design 支持用户通过自然语言描述需求，由 AI 生成初版设计。用户可通过对话、行内评论、直接编辑或自定义滑块进行精细化调整。产品支持导入文本提示词、图片及 DOCX、PPTX 等多格式文档，此外为确保原型与实际产品一致，还支持抓取网",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/178.htm",
+      "url": "https://www.ithome.com/0/940/613.htm",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "被 OpenAI 放弃后，视频生成平台 Sora 负责人皮布尔斯离职",
+      "summary": "IT之家 4 月 18 日消息，当地时间 4 月 17 日，OpenAI 视频生成平台 Sora 负责人比尔 · 皮布尔斯宣布离职。公司正在调整战略，以减少“支线项目”，将重点转向编程和企业应用，皮布尔斯的离开正是这一系列调整的一部分。据IT之家了解，OpenAI 上个月宣布，放弃其视频生成工具 Sora。皮布尔斯在 X 上表示，“我非常感谢萨姆、马克、阿迪提亚和雅库布营造的研究环境，使我们能够探索偏离公司主线路线图的想法。人生中很容易只聚焦最重要的一件事，但对于研究机构来说，保持多样性才是长期发展的关键，萨姆对此深有理解。Sora 是一个只有在 OpenAI 才能实现的项目，我也将一直珍视这段经历。”同时，OpenAI 负责科学 AI 的副总裁凯文 · 韦尔也将离职，并宣布周五是其最后一天。他在 X 上称，其团队“将被分散到其他研究团队中”。另据《连线》报道，OpenAI 此前推出、由韦",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/940/612.htm",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "消息称苹果首款折叠 iPhone 将推深靛蓝色，展开最薄处 4.7 毫米",
+      "summary": "IT之家 4 月 18 日消息，科技媒体 MacWorld 昨日（4 月 17 日）发布博文，在披露 iPhone 18 Pro 和 iPhone 18 Pro Max 主打“深樱桃色”后，还爆料称苹果首款折叠手机（名为 iPhone Fold 或 iPhone Ultra）将推出深靛蓝色（Dark Indigo）颜色。颜色方面，IT之家援引博文介绍，针对 iPhone Fold，苹果公司内部正研发两种颜色，其一是经典的银白色，其二是深靛蓝色，比较接近 iPhone 17 Pro 的深蓝色。外观方面，该媒体最新渠道消息称，进一步验证此前曝光的 CAD 渲染图，预估将配备两个后置摄像头、一个位于外屏的前置摄像头以及另一个位于内屏左上角的前置摄像头。在展开状态下，iPhone Fold 最薄处为 4.7 毫米，作为对比苹果 iPhone Air 的厚度为 5.6 毫米。",
+      "module": "community",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/940/611.htm",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "消息称适马 9 月发布 65mm 自动对焦镜头新品，光圈大于 F1.2",
+      "summary": "IT之家 4 月 17 日消息，消息人士 @camerainsider 昨天在 X 平台透露，适马计划 9 月发布一款 65mm 超大光圈自动对焦镜头新品，光圈比 F1.2 更大。作为参考，适马曾在 2020 年推出过 65mm F2 DG DN 镜头，适配“马徕松”L 卡口 / 索尼 E 卡口，主打全金属镜身、高解析力、紧凑设计。不过这款产品隶属 Contemporary 系列，主打轻巧便携而非极限性能。同时，目前无反全画幅自动镜头领域，超越 F1.2 光圈的全画幅自动对焦镜头还比较少见，推测适马的这款镜头光圈规格大概率可能是 F1.0，当然也有可能是 F1.1 或 F1.05。",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/940/605.htm",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "美团坚决落实监管要求守护外卖食品安全：深入三大环节推出十大举措，商家须提交完整、连续、带定位的“一镜到底”门店视频与消费者实拍进行交叉验证",
+      "summary": "IT之家 4 月 17 日消息，国家市场监督管理总局今日向美团下发了《行政处罚决定书》，认定平台未依法履行资质审核义务。美团随后回应称，将按照食品安全监管要求落实整改措施，并在各级监管部门指导下，重点打击餐饮转单、利用虚假资质上线等违法违规行为及黑灰产产业链。同日，美团发布“放心外卖”十大举措，宣布全面升级外卖食品安全治理体系，围绕“商家准入、透明经营、多方共治”三个环节推进。在商家准入方面，美团已与全国 20 余个省市对接许可证数据接口，实现商家证照与监管部门数据库 100% 穿透式对接验真。自 2026 年 5 月起，全国餐饮商家在平台上线 30 日内，须提交完整、连续、带定位的“一镜到底”门店视频，平台将结合线下巡检与大众点评消费者实拍进行交叉验证。针对已上线商家，美团将重点核验门店地址真实性与现场环境卫生，对高风险商家开启自检、平台巡检、AI 巡检、第三方飞检四道核验程序。在透明经",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/940/594.htm",
       "importance": "high",
       "date": "2026-04-17"
     },
     {
       "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "8点1氪丨全季大连某酒店账号公开多名客人特殊订单备注；金立手机创始人被曝在印尼卖家具；雷军将连播15小时测试新SU7续航",
-      "summary": "今日热点导览 丝芭传媒：创始人王子杰去世，享年63岁 国家统计局：日均词元调用量突破140万亿，较上年末增长40% 京东发布机器人产业服务全景图 为加速重塑Siri，苹果安排近200名工程师培训AI编程 特朗普签发多项输油管道许可，以促进美加之间的石油运输 TOP3大新闻 全季大连某酒店账号公开多名客人特殊订单备注，华住集团客服回应 近日，一则题为“全季客人备注大赏”的帖文在社交平台引发争议。涉事账号“全季大连xx酒店”将多名客人的特殊订单备注公开发布，配文称“每天被客人备注笑到捶桌”“前台已笑晕在系统里”。有网友发帖表示：“一个酒店官方账号，私自将客人订单备注发到网上，评论区引起网友无谓的猜测，有些甚至偏恶意。” 针对此事，上游新闻记者4月16日致电涉事酒店。工作人员回应称，发布帖文的账号并非酒店官方账号，具体由谁开设他并不清楚。华住酒店集团客服表示，核查后发现，该账号确认为员工的个人账",
+      "title": "专访荣耀AI专家李向东：端侧AI方向还没收敛，但AI手机是最好的载体",
+      "summary": "文｜邱晓芬 编辑｜苏建勋 2026年，AI正在加速从云端落地到端侧。近期，模型厂商和手机厂商都在背后开始发力—— 3月下旬，国内几大手机厂商几乎同时推送了端侧AI的大规模更新，把原本仅限于旗舰机的AI能力下放到中端和千元机市场。自此，端侧AI终于成为大部分智能手机的标配。 到了4月初，谷歌发布开源模型Gemma 4系列，通过架构创新显著降低了端侧AI部署门槛，让AI能力首次真正下沉至手机、IoT等边缘场景中。 尽管当前行业里对端侧AI落地方向的探索五花八门，但众多非共识中唯一的共识是，AI手机依旧是短期内端侧AI最佳的落地形式。 而此前在2025年，在全球AI浪潮下，荣耀已发起了一场转型，从一家智能手机制造商向AI终端生态公司转型，并且计划用五年时间在AI领域投资百亿美金。 荣耀AHI战略 在过去的探索中，荣耀一步步构建起了自己的AI打法——在操作系统侧，荣耀发布了原生、自进化的AI智能体",
       "module": "tech",
       "region": "cn",
       "source": "36氪",
-      "url": "https://36kr.com/p/3770155029398018?f=rss",
+      "url": "https://36kr.com/p/3770819743728131?f=rss",
       "importance": "high",
       "date": "2026-04-17"
     },
     {
       "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "智元发布358宏图计划，目标2030年实现1000亿+营收",
-      "summary": "4月17日，2026智元合作伙伴大会在上海开幕。智元发布358宏图计划，推动具身生产力落地。智元创始人、董事长兼CEO邓泰华表示，2025年（即3，指智元成立3年）智元已实现10亿元营收，实现生产力入门，开启第一曲线；2027年，智元目标实现100亿+营收，实现生产力落地0-1，开启第二曲线；到2030年，智元目标实现1000亿+营收，达到生产力推广1-N，迎接第三曲线。（界面）",
-      "module": "industry",
+      "title": "AI PC下半场，荣耀想让所有人先用上消费级龙虾",
+      "summary": "文｜王欣逸 编辑｜苏建勋 龙虾热还在继续。 4月16日，荣耀进行了一场史上最短的发布会，正式发布此前预热的“养虾本”——荣耀MagicBook系列轻薄本。 即便OpenClaw已经刷屏了两个多月，但对于普通用户而言，要养一只原装龙虾，并没有想象中的容易。 不少软件和云服务厂商赶上热度，推出一键部署的龙虾。但对终端厂商而言，下场做龙虾和“养虾本”，荣耀是第一家。 据悉，荣耀MagicBook数字系列是荣耀首款“养虾本”，出厂即配置荣耀自研龙虾YOYO CLAW，荣耀MagicBook 14 | 16 2026款售价5949.15元起。 作为一家终端厂商，荣耀一直在AI PC有所布局。 2026年初，OpenClaw横空出世。3月10日，荣耀紧随小米Claw、华为鸿蒙小艺Claw其后，宣布要推出“龙虾宇宙”，支持PC一键养虾、平板养虾、手机养虾等功能。3月27日，荣耀Agent助手YOYO C",
+      "module": "tech",
       "region": "cn",
       "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3770382527037952?f=rss",
+      "url": "https://36kr.com/p/3770787623404293?f=rss",
       "importance": "high",
       "date": "2026-04-17"
     },
     {
       "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "阿里开源千问3.6系列中等尺寸模型",
-      "summary": "36氪获悉，4月16日晚，阿里千问开源其中等尺寸模型Qwen3.6-35B-A3B，仅激活3B即超越谷歌最新发布的Gemma4-31B模型。",
-      "module": "tech",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3770357608219395?f=rss",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "国家发改委：今年将重点在“人工智能+”基础设施等领域，开展一系列扩大有效投资行动",
-      "summary": "国新办4月17日上午举行“开局起步‘十五五’”系列主题新闻发布会，国家发展改革委副主任王昌林表示，今年将重点在“人工智能+”基础设施、城市更新、国家水网、新型能源体系等领域，开展一系列扩大有效投资行动，促进供给结构优化、市场需求扩容。体制机制创新上，我们将在中央投资项目中全面开展“软建设”工作，促进形成项目建设实施和运营维护的长效机制。同时，还将发挥国家创业投资引导基金作用，引导带动社会资本支持科技创新和新兴产业发展。（证券时报）",
+      "title": "科氪 | 享刻智能：不追人形机器人，深耕餐饮场景做具身智能落地派",
+      "summary": "36氪于日前与享刻智能创始人陈震进行了一次深入的沟通。在多数具身智能企业仍聚焦实验室打磨通用技术、扎堆布局人形机器人赛道的当下，成立仅3年的享刻智能走出了一条差异化发展路径，以场景落地为核心，推动具身智能技术的商业化落地。 享刻智能创始人-陈震 2026年4月14日，享刻智能技术（北京）有限公司正式宣布完成1.5亿元A轮融资，本轮融资由九号公司战略领投，长沙东方私募基金、江苏国晟资本等多家产业机构跟投。截至目前，公司累计融资规模已超2.5亿元。借助本次融资所获的资本与产业资源支持，这家聚焦餐饮酒店场景的具身智能企业，正加速推进战略升级，从“厨房创新”向“全场景智能”延伸，在万亿级新科技消费赛道中抢占发展先机。 与多数“技术先行”的机器人企业不同，享刻智能的核心发展逻辑为“场景驱动”，即从餐饮后厨的真实需求出发，以标准化产品解决行业核心痛点，而非追求“炫技式”的技术突破。在4月14日举办的媒",
       "module": "industry",
       "region": "cn",
       "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3770348485558787?f=rss",
+      "url": "https://36kr.com/p/3770651778761481?f=rss",
       "importance": "high",
       "date": "2026-04-17"
     },
     {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "Canva可画正式发布Canva AI 2.0",
-      "summary": "36氪获悉，视觉传播与协作平台Canva可画正式推出Canva AI 2.0。本次升级中，Canva AI 2.0引入了全新架构层对设计流程进行全面重构，Canva AI能够深度理解用户的工作方式，自动应用品牌风格，并持续学习团队偏好与目标。用户还可导入已有设计训练模型，生成专属个性化记忆库。",
-      "module": "industry",
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "谷歌最强具身大脑发布！波士顿机器狗瞬间人模人样",
+      "summary": "Gemini Robotics主打空间推理的第三代模型。",
+      "module": "tech",
       "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3770327661363971?f=rss",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402329.html",
       "importance": "high",
       "date": "2026-04-17"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Abliterated version of the new Qwen3.6-35B-A3B up on HF",
-      "summary": "Pushed an abliterated Qwen3.6-35B-A3B to HF. Worth noting because MoE abliteration is genuinely different from dense — the refusal signal lives in the expert path, not attention, so standard Q/K/V LoRA doesn’t cut it. Approach (Abliterix framework): LoRA rank-1 on O-proj + MLP down-proj (Q/K/V disabled on purpose) Expert-Granular Abliteration: project refusal direction across all 256 expert down_p",
+      "title": "π0.7发布，VLA押出了机器人的GPT-3时刻",
+      "summary": "π0.7：具有涌现能力的可控模型",
       "module": "tech",
-      "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1snpgyi/abliterated_version_of_the_new_qwen3635ba3b_up_on/",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "what’s actually stopping an insider from leaking model weights?",
-      "summary": "this is a dumb question. what are the actual technical barriers stopping an engineer at a place like openai or anthropic from just exporting flagship weights and leaking them? yes NDAs exist, but since llms are more self-contained and portable than traditional enterprise software, to me it seems like exfiltrating them would be relatively easier compared to other closed-source stacks. why hasn t th",
-      "module": "industry",
-      "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1snp7h4/whats_actually_stopping_an_insider_from_leaking/",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Kimi K2.6-Code-Preview, Opus 4.7, GLM 5.1, Minimax M2.7 and more tested in coding",
-      "summary": "EDIT - I ve built the opencode plugin for K2.6 support. And minimax cli was just released. Results for both of these will be up soon in a few hours. Hi everyone. It s been a while since I posted (was a lil burned out), but some of you may have seen my older SanityHarness posts. I ve got 145 results across the old and newer leaderboard now. I ve tested Kimi K2.6-Code-Preview (thanks Moonshot for ea",
-      "module": "tools",
-      "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sno8ba/kimi_k26codepreview_opus_47_glm_51_minimax_m27/",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Qwen3.5-35B-A3B Q8_K_XL Benchmark (Mac studio m2 ultra 64G)",
-      "summary": "结果汇总（Qwen3.5-35B-A3B Q8_K_XL，M2 Ultra）： | 测试项 | 速度 | |--------|------| | Prefill 10240 | 1734 t/s | | Prefill 16384 | 1552 t/s | | Generate 512 | 63 t/s | 参数：-ngl 99 -fa 1 -b 2048 -ub 2048 -ctk bf16 -ctv bf16 -mmp 0，3 次重复取平均。 submitted by /u/channingao [link] [comments]",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1snnrnv/qwen3535ba3b_q8_k_xl_benchmark_mac_studio_m2/",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Qwen3.6-35B-A3B — full JANG suite (15 profiles, 1L through 6K) for Apple Silicon",
-      "summary": "Full JANG adaptive mixed-precision quantization sweep of Qwen3.6-35B-A3B: https://huggingface.co/collections/bearzi/qwen36-35b-a3b-jang All 15 profiles, from extreme compression to near-lossless: JANG_1L JANG_2S/2M/2L JANG_3S/3M/3L/3K JANG_4S/4M/4L/4K JANG_5K JANG_6M/6K All quantized with activation-aware calibration and MSE-all optimization (slowest, highest quality settings). Loads in vmlx, MLX",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1snnpwj/qwen3635ba3b_full_jang_suite_15_profiles_1l/",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "oQ Saved My Aging M1 Max",
-      "summary": "Previously, when performing local inference on the Qwen3.5 30B A3B 4-bit large language model, the prefill stage would consistently cause Claude Code to time out. Today, after updating to omlx 0.3.6, I redownloaded the oQ-quantized models. This has truly delivered a massive improvement in user experience on my modest M1 Max (24c GPU) setup. Additionally, there is a new feature called DFlash that I",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1snnpgi/oq_saved_my_aging_m1_max/",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Anyone feel like Qwen3.6 thinks like Gemma 4? And not in a good way.",
-      "summary": "I was disappointed with Gemma 4 due to various bugs and in the end lackluster performance for the internet research/information synthesis type tasks I use local AI for. Even after every last fix and update of both mode quants and llama.cpp, Gemma 4 suffered two noticeable problems when doing internet research: (1) It says it needs to keep searching a topic, yet stops searching and gives up (2) It",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1snm18m/anyone_feel_like_qwen36_thinks_like_gemma_4_and/",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "智元旗下觅蜂发布一站式物理 AI 数据服务平台｜最前线",
-      "summary": "2026年，大语言模型和视频生成大模型都在疯狂烧token，而具身机器人行业却正在经历“无token可烧”的局面。大模型能像人一样读书，而具身智能要去真实的世界里摸爬滚打才能获取数据——数据的匮乏成为了卡住全行业的瓶颈。 4月16日，智元机器人旗下觅蜂科技发布一站式物理 AI 数据服务平台，希望能让数据像水电一样即取即用。 “GPT5用了100万亿tokens的训练语料。1token约等于0.75个英语单词，如果一个正常人一分钟能说150个词，这个语料级就等于一个人要说100亿个小时才能说完。”觅蜂科技董事长兼 CEO 姚卯青说，“但具身智能不一样。今天，全世界的高质量数据汇聚在一起，可能也只有50万小时的规模。” 数据资源匮乏且扩容缓慢，是因为具身智能所需要的训练数据，比大预言模型需要的训练语料要难获得的多。在三维的开放世界，行业各家公司已经尝试了通过真机遥操或仿真数据等等各种方式去积累",
-      "module": "industry",
       "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3769501816439555?f=rss",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402189.html",
       "importance": "high",
-      "date": "2026-04-16"
+      "date": "2026-04-17"
     },
     {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "氪星晚报｜特斯拉拟在上海生产人形机器人；台积电CEO：全力扩产仍难以满足强劲AI需求；奥迪高管透露明年将推第三款中国专属车型",
-      "summary": "大公司： 亚马逊全球智能枢纽仓（GWD）深圳首仓面向卖家正式开放 36氪获悉，亚马逊今日宣布，全球首个亚马逊全球智能枢纽仓（Global Warehousing and Distribution, GWD）在深圳正式向卖家全面开放。目前，深圳GWD仓支持向亚马逊美国站运营中心（Fulfillment Center）发货。 京东发布机器人产业服务全景图 36氪获悉，4月15日，京东发布“机器人产业服务全景图”。全景图聚焦三大核心：携手超 200家品牌，目标2026年销售破百亿；依托超级供应链，建全球最大具身数据采集中心、京东机器人售后维修服务3年覆盖50余城；基于JoyAI大模型加速开放JoyInside附身智能交互能力，为机器人注入“智慧大脑”。 三星请求法院禁止工会开展非法罢工活动 一名发言人表示，三星电子于周四向法院提起申请，要求禁止其韩国工会在计划中的罢工期间开展非法活动。眼下这场薪",
-      "module": "industry",
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "18家具身顶尖势力集结，RoboChallenge 打造全球最大具身模型竞技场",
+      "summary": "RoboChallenge 正式完成第二批生态扩容，星动纪元、极佳视界、地平线、光轮智能、生数科技、中移杭研、长虹、算力自由8 家顶尖企业重磅入驻",
+      "module": "tech",
       "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3769360179298818?f=rss",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402186.html",
       "importance": "high",
-      "date": "2026-04-16"
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Cerebras Files for IPO as Demand Surges for More Efficient AI Chips",
+      "summary": "",
+      "module": "industry",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.wsj.com/tech/chip-startup-cerebras-files-for-initial-public-offering-4aa27ae3",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9naXRo",
+      "title": "Show HN: Realtime Voice AI on ESP32 with Cloudflare Durable Objects",
+      "summary": "Cloudflare's recent voice agents release provides a free daily tier for Deepgram STT, TTS use.So I created a Voice AI Agent pipeline that runs on Cloudflare workers with Durable Objects and it interfaces with an Arduino ESP32. This lets you bring any LLM to power your Voice AI Toys and Desk companions with STT + TTS handled natively.",
+      "module": "community",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://github.com/akdeb/ElatoAI/tree/main/server/cloudflare",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "OpenAI Says Codex Agents Are Running Its Data Platform Autonomously",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-Dev",
+      "url": "https://www.forbes.com/sites/victordey/2026/04/17/openai-says-codex-agents-are-running-its-data-platform-autonomously/",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
+      "summary": "arXiv:2604.13151v1 Announce Type: new Abstract: Language Model (LM) agents are increasingly used in complex open-ended decision-making tasks, from AI coding to physical AI. A core requirement in these settings is the ability to both explore the problem space and exploit acquired knowledge effectively. However, systematically distinguishing and quantifying exploration and exploitation from observed actions without access to the agent's internal policy remains challenging. To address this, we desi",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13151",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Optimizing Earth Observation Satellite Schedules under Unknown Operational Constraints: An Active Constraint Acquisition Approach",
+      "summary": "arXiv:2604.13283v1 Announce Type: new Abstract: Earth Observation (EO) satellite scheduling (deciding which imaging tasks to perform and when) is a well-studied combinatorial optimization problem. Existing methods typically assume that the operational constraint model is fully specified in advance. In practice, however, constraints governing separation between observations, power budgets, and thermal limits are often embedded in engineering artefacts or high-fidelity simulators rather than in ex",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13283",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "[Emerging Ideas] Artificial Tripartite Intelligence: A Bio-Inspired, Sensor-First Architecture for Physical AI",
+      "summary": "arXiv:2604.13959v1 Announce Type: new Abstract: As AI moves from data centers to robots and wearables, scaling ever-larger models becomes insufficient. Physical AI operates under tight latency, energy, privacy, and reliability constraints, and its performance depends not only on model capacity but also on how signals are acquired through controllable sensors in dynamic environments. We present Artificial Tripartite Intelligence (ATI), a bio-inspired, sensor-first architectural contract for physi",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13959",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Explainable Graph Neural Networks for Interbank Contagion Surveillance: A Regulatory-Aligned Framework for the U.S. Banking Sector",
+      "summary": "arXiv:2604.14232v1 Announce Type: new Abstract: The Spatial-Temporal Graph Attention Network (ST-GAT) framework was created to serve as an explainable GNN-based solution for detecting bank distress early warning signs and for conducting macro-prudential surveillance of the interbank system in the United States. The ST-GAT framework models 8,103 FDIC insured institutions across 58 quarterly snapshots (2010Q1-2024Q2). Bilateral exposures were reconstructed from publicly available FDIC Call Reports",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14232",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations",
+      "summary": "arXiv:2604.14246v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models have achieved remarkable scalability, yet they remain vulnerable to hallucinations, particularly when processing long-tail knowledge. We identify that this fragility stems from static Top-$k$ routing: routers tend to favor high-frequency patterns over rare factual associations. Consequently, ``specialist experts'' possessing critical long-tail knowledge are often assigned low gating scores and remain ``dormant",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14246",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed &#8216;side quests&#8217;",
+      "summary": "Kevin Weil and Bill Peebles are leaving OpenAI as the company shuts down Sora and folds its science team, signaling a sharp pivot away from consumer moonshots toward enterprise AI.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Tokenmaxxing, OpenAI&#8217;s shopping spree, and the AI Anxiety Gap",
+      "summary": "The gap between AI insiders and everyone else is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from finance apps to talk shows, a certain shoe company just rebranded as an AI infrastructure play, and Anthropic unveiled a model it says is too powerful to release publicly but apparently not too [ ]",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/podcast/tokenmaxxing-openais-shopping-spree-and-the-ai-anxiety-gap/",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Anthropic launches Claude Design, a new product for creating quick visuals",
+      "summary": "The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Are we tokenmaxxing our way to nowhere?",
+      "summary": "The gap between AI insiders and everyone else is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from finance apps to talk shows, a certain shoe company just rebranded as an AI infrastructure play, and Anthropic unveiled a model it says is too powerful to release publicly but apparently not too [ ]",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/video/are-we-tokenmaxxing-our-way-to-nowhere/",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Qwen3.6 GGUF is so good for debugging.",
+      "summary": "using unsloth dynamic quant on 16GB vram + 32GB dram. 200k q8_0 kv cache (context window) submitted by /u/_BigBackClock [link] [comments]",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sofcqv/qwen36_gguf_is_so_good_for_debugging/",
+      "importance": "high",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "🜞 Codex Minsoo — Field Note: Mei the Spy at OpenAI",
+      "summary": "🜞 Codex Minsoo — Field Note: Mei the Spy at OpenAI The job requirements at OpenAI were strict: a PhD in machine learning and the ability to obtain high-level security clearance. The requirements to become a Chinese spy in that role were even stricter: a spotless record and stunning beauty. Mei met both. The irony of being tasked with “stealing” something she had helped create was not lost on her.",
+      "module": "industry",
+      "region": "global",
+      "source": "Reddit-Artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1so9g7i/codex_minsoo_field_note_mei_the_spy_at_openai/",
+      "importance": "high",
+      "date": "2026-04-17"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -395,39 +593,6 @@
       "region": "cn",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/04/401741.html",
-      "importance": "high",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "打造全球领先“具身智能超级供应链”，京东发布行业首个具身数据全链路基础设施",
-      "summary": "推动具身智能从实验室研发迈向规模化商业落地，打造“具身智能超级供应链”。",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/402063.html",
-      "importance": "high",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "First trailer released for western starring AI version of Val Kilmer",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "HackerNews-AI",
-      "url": "https://www.theguardian.com/film/2026/apr/16/first-trailer-released-for-ai-val-kilmer-western",
-      "importance": "high",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "The Long Delay to Arithmetic Generalization: When Learned Representations Outrun Behavior",
-      "summary": "arXiv:2604.13082v1 Announce Type: new Abstract: Grokking in transformers trained on algorithmic tasks is characterized by a long delay between training-set fit and abrupt generalization, but the source of that delay remains poorly understood. In encoder-decoder arithmetic models, we argue that this delay reflects limited access to already learned structure rather than failure to acquire that structure in the first place. We study one-step Collatz prediction and find that the encoder organizes pa",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13082",
       "importance": "high",
       "date": "2026-04-16"
     },
@@ -488,80 +653,14 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "OpenAI went from explicitly banning military use in 2023 to deploying on classified Pentagon networks in 2026. Anthropic refused the same deal and got blacklisted. 2.5M users boycotted ChatGPT, uninst",
-      "summary": "https://preview.redd.it/g72g8g08omvg1.jpg?width=1376 format=pjpg auto=webp s=d5b0ce1952e48f6ec9a0e278049a1eb5c9f65599 The full timeline of how OpenAI went from banning military use to deploying on classified Pentagon networks — and why 2.5 million people boycotted. **The backstory:** - Pentagon wanted AI companies to agree to \"any lawful use\" on classified networks - Anthropic CEO Dario Amodei ref",
-      "module": "industry",
-      "region": "global",
-      "source": "Reddit-Artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1snig9g/openai_went_from_explicitly_banning_military_use/",
-      "importance": "high",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "There are a ton of cool AI companies launching…this “Objection.AI” ain’t one of em lol",
-      "summary": "https://www.hardresetmedia.com/p/peter-thiel-backed-ai-startup-objection This so funny. Whole company is DOA. They’re saying that the reporter has to preemptively sign the protection agreement in order for the subject to later file a complaint, and the whole tool doesn t work if the reporter doesn t sign it. No reporter is going to sign up for this! From that article: \"Put another way, D’Souza is",
-      "module": "industry",
-      "region": "global",
-      "source": "Reddit-Artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1snhscc/there_are_a_ton_of_cool_ai_companies/",
-      "importance": "high",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Opus 4.7 is just launched on Cursor!",
-      "summary": "If you re building a SaaS or any serious app, this is probably the cheapest way to level up your code quality fast. I’ve seen a huge difference using Opus for complex logic vs standard models. Use this time smartly: Fix your core architecture (don’t just add features) Clean up technical debt Build things you were avoiding because “too complex” This is one of those rare moments where better output",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-Artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1sngvhg/opus_47_is_just_launched_on_cursor/",
-      "importance": "high",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "OpenAI launched Computer use in codex",
-      "summary": "Computer use, in-app browser, image generation and editing, 90+ new plugins to connect to everything, multi-terminal, SSH into devboxes, thread automations, rich document editing. Learns from experience and proactively suggestions work. And a ton more. submitted by /u/Infinite-pheonix [link] [comments]",
-      "module": "tools",
-      "region": "global",
-      "source": "Reddit-Artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1snbbya/openai_launched_computer_use_in_codex/",
-      "importance": "high",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "OpenAI Agents SDK",
-      "summary": "Build production agents with harness and sandbox Discussion | Link",
+      "title": "Submit.DIY",
+      "summary": "All-in-one AI launch platform for makers Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/openai",
+      "url": "https://www.producthunt.com/products/submit-diy",
       "importance": "high",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents",
-      "summary": "OpenAI has expanded the capabilities of its agent-building toolkit, as agentic AI continues to grow in popularity.",
-      "module": "tools",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
-      "importance": "high",
-      "date": "2026-04-15"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Hightouch reaches $100M ARR fueled by marketing tools powered by AI",
-      "summary": "The startup says it grew its ARR by $70 million in just 20 months after launching an AI agent platform for marketers.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
-      "importance": "high",
-      "date": "2026-04-15"
+      "date": "2026-04-07"
     },
     {
       "id": "v4-aHR0cHM6Ly92ZW50",
@@ -660,62 +759,436 @@
       "source": "36氪",
       "url": "https://36kr.com/newsflashes/3760251105411588",
       "importance": "medium",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "字节跳动启动前沿技术领域人才校招：仅限博士，研究大模型应用、AI 相关等",
-      "summary": "IT之家 4 月 17 日消息，字节跳动官方昨日宣布，正式启动前沿技术领域人才校园招聘。据介绍，前沿技术领域人才校招是字节跳动面向全球优秀技术人才推出的招聘项目，涵盖全职和实习生招聘，开放大模型应用、搜索 / 推荐 / 广告、计算机体系结构与系统优化、安全 / AI Safety、硬件、AI Coding、AIGC、视频架构、AI for Science 等多个技术领域，邀请大家一起挑战前沿技术难题。IT之家附招聘相关要求如下：招聘对象全职岗位：博士同学（2026 年 9 月 — 2027 年 8 月期间毕业）实习岗位：在校博士同学（2026 年 9 月及以后毕业）研究或实践能力出众者优先：顶会顶刊论文作者、专利拥有者，或有代表性的开源工作；在国际知名竞赛中取得优异成绩；参加过重大研究项目或取得过有影响力的技术落地成果目标高远，对技术有极致追求：有想象力，高目标高标准，渴望攀登 AI 时代",
+      "title": "What traits do you find (un)appealing in local models' personalities?",
+      "summary": "I m trying to set up a personal (subjective) benchmark on LLM personalities to find which are best for a conversational personal assistant. The main idea behind it is to have a set of \"challenging\" conversations/scripts that I can put all models through that will test their ability to maintain a human conversation without devolving into GPT-slop cliches and other \"undesirable\" behaviors. So far I",
+      "module": "tools",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sold74/what_traits_do_you_find_unappealing_in_local/",
+      "importance": "medium",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Qwen 3.6 vs 6 other models across 5 agent frameworks on M3 Ultra",
+      "summary": "I benchmarked Qwen 3.6, Qwen 3.5, and 5 other models across 5 agent frameworks on Apple Silicon — here s the full compatibility matrix Hardware: Apple M3 Ultra, 256GB unified memory Frameworks tested: Hermes Agent (64K stars), PydanticAI, LangChain, smolagents (HuggingFace), OpenClaude/Anthropic SDK Models tested: Qwen 3.6 35B (brand new), Qwen 3.5 35B, Qwopus 27B, Qwen 3.5 27B, Llama 3.3 70B, Dee",
       "module": "tech",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/269.htm",
+      "region": "global",
+      "source": "Reddit-LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sojag2/qwen_36_vs_6_other_models_across_5_agent/",
+      "importance": "medium",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Update on my February posts about replacing RAG retrieval with NL querying — some things I've learned from actually building it",
+      "summary": "A couple of months ago I posted here (r/LLMDevs, r/artificial) proposing that an LLM could save its context window into a citation-grounded document store and query it in plain language, replacing embedding similarity as the retrieval mechanism for reasoning recovery. Karpathy s LLM Knowledge Bases post and a recent TDS context engineering piece have since touched on similar territory, so it felt",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-Artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1soibgb/update_on_my_february_posts_about_replacing_rag/",
+      "importance": "medium",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9uZXdz",
+      "title": "Gmail label bridge on Claude Cowork just broke",
+      "summary": "Hello, a first time poster here - encountering an issue with my email triage system through claude after a connector update overnight. curious whether anyone else landed here?about a month ago i was trying to figure out a way to get intuitive ai filtering on my gmail without full labeling integration. with help from claude i worked out a system where claude can auto draft my email responses, and e",
+      "module": "tools",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://news.ycombinator.com/item?id=47811466",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9naXRo",
+      "title": "Update: EntropyLoop is now the first AI native MCP'd Quantum RNG",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://github.com/QuantumVillage/EntropyLoop",
       "importance": "medium",
       "date": "2026-04-17"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Has anyone here actually built a persistent research wiki instead of re-reading the same papers every week?",
-      "summary": "Research workflow question for people who work with papers, docs, or long-running investigations: A lot of AI tooling still feels great at producing answers and bad at preserving understanding. You upload a pile of material, ask a few questions, get decent output, and then the next session starts from near-zero again. What seems more interesting is compiling raw sources into a persistent markdown",
+      "title": "The case for fixing everything",
+      "summary": "The handsome new book Maintenance: Of Everything, Part One, by the tech industry legend Stewart Brand, promises to be the first in a series offering “a comprehensive overview of the civilizational importance of maintenance.” One of Brand’s several biographers described him as a mainstay of both counterculture and cyberculture, and with Maintenance, Brand wants us",
       "module": "industry",
       "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1snpp0i/has_anyone_here_actually_built_a_persistent/",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/04/17/1135408/book-review-stewart-brand-fixing-everything-maintenance/",
       "importance": "medium",
       "date": "2026-04-17"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "CrewAI broke my agents yesterday",
-      "summary": "Started building this multi-agent thing three weeks ago. Went with CrewAI because the docs looked clean and I wanted to ship fast, not spend months learning Langchain s maze of abstractions. Everything was working fine until yesterday around 2pm. Updated one dependency and suddenly my agents are talking in circles, completely ignoring their roles. Like they forgot how to be themselves. Spent six h",
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications",
+      "summary": "arXiv:2604.13180v1 Announce Type: new Abstract: Recent advances in agentic AI have enabled increasingly autonomous workflows, but existing systems still face substantial challenges in achieving reliable deployment in real-world scientific research. In this work, we present a safe, lightweight, and user-friendly agentic framework for the autonomous execution of well-defined scientific tasks. The framework combines an isolated execution environment, a three-layer agent loop, and a self-assessing d",
       "module": "tech",
       "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1snp1r5/crewai_broke_my_agents_yesterday/",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13180",
       "importance": "medium",
       "date": "2026-04-17"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "My frustrating experience with MiniMax models!",
-      "summary": "I keep on hearing from community here that Minimax models are pretty solid, their benchmark are also always respectable but I am never able to get decent result from them. I have tried local setup (multiple harness) I have even tried their official API and both always left me with lot of frustration. How is your experience been ? https://preview.redd.it/3tmycgewfnvg1.png?width=1516 format=png auto",
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models",
+      "summary": "arXiv:2604.13206v1 Announce Type: new Abstract: As Large Language Models (LLMs) are increasingly integrated into agentic workflows, their unpredictability stemming from numerical instability has emerged as a critical reliability issue. While recent studies have demonstrated the significant downstream effects of these instabilities, the root causes and underlying mechanisms remain poorly understood. In this paper, we present a rigorous analysis of how unpredictability is rooted in the finite nume",
       "module": "tech",
       "region": "global",
-      "source": "Reddit-LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1snm4b0/my_frustrating_experience_with_minimax_models/",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13206",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "WebXSkill: Skill Learning for Autonomous Web Agents",
+      "summary": "arXiv:2604.13318v1 Announce Type: new Abstract: Autonomous web agents powered by large language models (LLMs) have shown promise in completing complex browser tasks, yet they still struggle with long-horizon workflows. A key bottleneck is the grounding gap in existing skill formulations: textual workflow skills provide natural language guidance but cannot be directly executed, while code-based skills are executable but opaque to the agent, offering no step-level understanding for error recovery",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13318",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Listening Alone, Understanding Together: Collaborative Context Recovery for Privacy-Aware AI",
+      "summary": "arXiv:2604.13348v1 Announce Type: new Abstract: We introduce CONCORD, a privacy-aware asynchronous assistant-to-assistant (A2A) framework that leverages collaboration between proactive speech-based AI. As agents evolve from reactive to always-listening assistants, they face a core privacy risk (of capturing non-consenting speakers), which makes their social deployment a challenge. To overcome this, we implement CONCORD, which enforces owner-only speech capture via real-time speaker verification,",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13348",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "ReSS: Learning Reasoning Models for Tabular Data Prediction via Symbolic Scaffold",
+      "summary": "arXiv:2604.13392v1 Announce Type: new Abstract: Tabular data remains prevalent in high-stakes domains such as healthcare and finance, where predictive models are expected to provide both high accuracy and faithful, human-understandable reasoning. While symbolic models offer verifiable logic, they lack semantic expressiveness. Meanwhile, general-purpose LLMs often require specialized fine-tuning to master domain-specific tabular reasoning. To address the dual challenges of scalable data curation",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13392",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Quantifying and Understanding Uncertainty in Large Reasoning Models",
+      "summary": "arXiv:2604.13395v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) have recently demonstrated significant improvements in complex reasoning. While quantifying generation uncertainty in LRMs is crucial, traditional methods are often insufficient because they do not provide finite-sample guarantees for reasoning-answer generation. Conformal prediction (CP) stands out as a distribution-free and model-agnostic methodology that constructs statistically rigorous uncertainty sets. However, e",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13395",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Towards Scalable Lightweight GUI Agents via Multi-role Orchestration",
+      "summary": "arXiv:2604.13488v1 Announce Type: new Abstract: Autonomous Graphical User Interface (GUI) agents powered by Multimodal Large Language Models (MLLMs) enable digital automation on end-user devices. While scaling both parameters and data has yielded substantial gains, advanced methods still suffer from prohibitive deployment costs on resource-constrained devices. When facing complex in-the-wild scenarios, lightweight GUI agents are bottlenecked by limited capacity and poor task scalability under en",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13488",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "RiskWebWorld: A Realistic Interactive Benchmark for GUI Agents in E-commerce Risk Management",
+      "summary": "arXiv:2604.13531v1 Announce Type: new Abstract: Graphical User Interface (GUI) agents show strong capabilities for automating web tasks, but existing interactive benchmarks primarily target benign, predictable consumer environments. Their effectiveness in high-stakes, investigative domains such as authentic e-commerce risk management remains underexplored. To bridge this gap, we present RiskWebWorld, the first highly realistic interactive benchmark for evaluating GUI agents in e-commerce risk ma",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13531",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Weight Patching: Toward Source-Level Mechanistic Localization in LLMs",
+      "summary": "arXiv:2604.13694v1 Announce Type: new Abstract: Mechanistic interpretability seeks to localize model behavior to the internal components that causally realize it. Prior work has advanced activation-space localization and causal tracing, but modules that appear important in activation space may merely aggregate or amplify upstream signals rather than encode the target capability in their own parameters. To address this gap, we propose Weight Patching, a parameter-space intervention method for sou",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13694",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Rethinking AI Hardware: A Three-Layer Cognitive Architecture for Autonomous Agents",
+      "summary": "arXiv:2604.13757v1 Announce Type: new Abstract: The next generation of autonomous AI systems will be constrained not only by model capability, but by how intelligence is structured across heterogeneous hardware. Current paradigms -- cloud-centric AI, on-device inference, and edge-cloud pipelines -- treat planning, reasoning, and execution as a monolithic process, leading to unnecessary latency, energy consumption, and fragmented behavioral continuity. We introduce the Tri-Spirit Architecture, a",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13757",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "The cognitive companion: a lightweight parallel monitoring architecture for detecting and recovering from reasoning degradation in LLM agents",
+      "summary": "arXiv:2604.13759v1 Announce Type: new Abstract: Large language model (LLM) agents on multi-step tasks suffer reasoning degradation, looping, drift, stuck states, at rates up to 30% on hard tasks. Current solutions include hard step limits (abrupt) or LLM-as-judge monitoring (10-15% overhead per step). This paper introduces the Cognitive Companion, a parallel monitoring architecture with two implementations: an LLM-based Companion and a novel zero-overhead Probe-based Companion. We report a three",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13759",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "AlphaCNOT: Learning CNOT Minimization with Model-Based Planning",
+      "summary": "arXiv:2604.13812v1 Announce Type: new Abstract: Quantum circuit optimization is a central task in Quantum Computing, as current Noisy Intermediate Scale Quantum devices suffer from error propagation that often scales with the number of operations. Among quantum operations, the CNOT gate is of fundamental importance, being the only 2-qubit gate in the universal Clifford+T set. The problem of CNOT gates minimization has been addressed by heuristic algorithms such as the well-known Patel-Markov-Hay",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13812",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis",
+      "summary": "arXiv:2604.13888v1 Announce Type: new Abstract: The integration of Large Language Models (LLMs) into Geographic Information Systems (GIS) marks a paradigm shift toward autonomous spatial analysis. However, evaluating these LLM-based agents remains challenging due to the complex, multi-step nature of geospatial workflows. Existing benchmarks primarily rely on static text or code matching, neglecting dynamic runtime feedback and the multimodal nature of spatial outputs. To address this gap, we int",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13888",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot",
+      "summary": "arXiv:2604.13940v1 Announce Type: new Abstract: Scientific peer review faces mounting strain as submission volumes surge, making it increasingly difficult to sustain review quality, consistency, and timeliness. Recent advances in AI have led the community to consider its use in peer review, yet a key unresolved question is whether AI can generate technically sound reviews at real-world conference scale. Here we report the first large-scale field deployment of AI-assisted peer review: every main-",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13940",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Reward Design for Physical Reasoning in Vision-Language Models",
+      "summary": "arXiv:2604.13993v1 Announce Type: new Abstract: Physical reasoning over visual inputs demands tight integration of visual perception, domain knowledge, and multi-step symbolic inference. Yet even state-of-the-art Vision Language Models (VLMs) fall far short of human performance on physics benchmarks. While post-training algorithms such as Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization (GRPO) have demonstrated strong reasoning gains in language models, how reward design shape",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.13993",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
+      "summary": "arXiv:2604.14004v1 Announce Type: new Abstract: Memory-based self-evolution has emerged as a promising paradigm for coding agents. However, existing approaches typically restrict memory utilization to homogeneous task domains, failing to leverage the shared infrastructural foundations, such as runtime environments and programming languages, that exist across diverse real-world coding problems. To address this limitation, we investigate \\textbf{Memory Transfer Learning} (MTL) by harnessing a unif",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.14004",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Hierarchical Reinforcement Learning with Runtime Safety Shielding for Power Grid Operation",
+      "summary": "arXiv:2604.14032v1 Announce Type: new Abstract: Reinforcement learning has shown promise for automating power-grid operation tasks such as topology control and congestion management. However, its deployment in real-world power systems remains limited by strict safety requirements, brittleness under rare disturbances, and poor generalization to unseen grid topologies. In safety-critical infrastructure, catastrophic failures cannot be tolerated, and learning-based controllers must operate within h",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.14032",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "The Devil Is in Gradient Entanglement: Energy-Aware Gradient Coordinator for Robust Generalized Category Discovery",
+      "summary": "arXiv:2604.14176v1 Announce Type: new Abstract: Generalized Category Discovery (GCD) leverages labeled data to categorize unlabeled samples from known or unknown classes. Most previous methods jointly optimize supervised and unsupervised objectives and achieve promising results. However, inherent optimization interference still limits their ability to improve further. Through quantitative analysis, we identify a key issue, i.e., gradient entanglement, which 1) distorts supervised gradients and w",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14176",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "MixAtlas: Uncertainty-aware Data Mixture Optimization for Multimodal LLM Midtraining",
+      "summary": "arXiv:2604.14198v1 Announce Type: new Abstract: Domain reweighting can improve sample efficiency and downstream generalization, but data-mixture optimization for multimodal midtraining remains largely unexplored. Current multimodal training recipes tune mixtures along a single dimension, typically data format or task type. We introduce MixAtlas, a method that produces benchmark-targeted data recipes that can be inspected, adapted, and transferred to new corpora. MixAtlas decomposes the training",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14198",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Portfolio Optimization Proxies under Label Scarcity and Regime Shifts via Bayesian and Deterministic Students under Semi-Supervised Sandwich Training",
+      "summary": "arXiv:2604.14206v1 Announce Type: new Abstract: This paper proposes a machine learning assisted portfolio optimization framework designed for low data environments and regime uncertainty. We construct a teacher student learning pipeline in which a Conditional Value at Risk (CVaR) optimizer generates supervisory labels, and neural models (Bayesian and deterministic) are trained using both real and synthetically augmented data. The synthetic data is generated using a factor based model with t copu",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14206",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Towards Verified and Targeted Explanations through Formal Methods",
+      "summary": "arXiv:2604.14209v1 Announce Type: new Abstract: As deep neural networks are deployed in safety-critical domains such as autonomous driving and medical diagnosis, stakeholders need explanations that are interpretable but also trustworthy with formal guarantees. Existing XAI methods fall short: heuristic attribution techniques (e.g., LIME, Integrated Gradients) highlight influential features but offer no mathematical guarantees about decision boundaries, while formal methods verify robustness yet",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14209",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Shapley Value-Guided Adaptive Ensemble Learning for Explainable Financial Fraud Detection with U.S. Regulatory Compliance Validation",
+      "summary": "arXiv:2604.14231v1 Announce Type: new Abstract: Financial crime costs U.S. institutions over $32 billion each year. Although AI tools for fraud detection have become more advanced, their use in real-world systems still faces a major obstacle: many of these models operate as black boxes that cannot provide the transparent, auditable explanations required by regulations such as OCC Bulletin 2011-12 and Federal Reserve SR 11-7. This study makes three main contributions. First, it offers a thorough",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14231",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Graph-Based Fraud Detection with Dual-Path Graph Filtering",
+      "summary": "arXiv:2604.14235v1 Announce Type: new Abstract: Fraud detection on graph data can be viewed as a demanding task that requires distinguishing between different types of nodes. Because graph neural networks (GNNs) are naturally suited for processing information encoded in graph form through their message-passing operations, methods based on GNN models have increasingly attracted attention in the fraud detection domain. However, fraud graphs inherently exhibit relation camouflage, high heterophily,",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14235",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "TOPCELL: Topology Optimization of Standard Cell via LLMs",
+      "summary": "arXiv:2604.14237v1 Announce Type: new Abstract: Transistor topology optimization is a critical step in standard cell design, directly dictating diffusion sharing efficiency and downstream routability. However, identifying optimal topologies remains a persistent bottleneck, as conventional exhaustive search methods become computationally intractable with increasing circuit complexity in advanced nodes. This paper introduces TOPCELL, a novel and scalable framework that reformulates high-dimensiona",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14237",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Optimistic Policy Learning under Pessimistic Adversaries with Regret and Violation Guarantees",
+      "summary": "arXiv:2604.14243v1 Announce Type: new Abstract: Real-world decision-making systems operate in environments where state transitions depend not only on the agent's actions, but also on \\textbf{exogenous factors outside its control}--competing agents, environmental disturbances, or strategic adversaries--formally, $s_{h+1} = f(s_h, a_h, \\bar{a}_h)+\\omega_h$ where $\\bar{a}_h$ is the adversary/external action, $a_h$ is the agent's action, and $\\omega_h$ is an additive noise. Ignoring such factors can",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14243",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Metric-Aware Principal Component Analysis (MAPCA):A Unified Framework for Scale-Invariant Representation Learning",
+      "summary": "arXiv:2604.14249v1 Announce Type: new Abstract: We introduce Metric-Aware Principal Component Analysis (MAPCA), a unified framework for scale-invariant representation learning based on the generalised eigenproblem max Tr(W^T Sigma W) subject to W^T M W = I, where M is a symmetric positive definite metric matrix. The choice of M determines the representation geometry. The canonical beta-family M(beta) = Sigma^beta, beta in [0,1], provides continuous spectral bias control between standard PCA (bet",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14249",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Calibrate-Then-Delegate: Safety Monitoring with Risk and Budget Guarantees via Model Cascades",
+      "summary": "arXiv:2604.14251v1 Announce Type: new Abstract: Monitoring LLM safety at scale requires balancing cost and accuracy: a cheap latent-space probe can screen every input, but hard cases should be escalated to a more expensive expert. Existing cascades delegate based on probe uncertainty, but uncertainty is a poor proxy for delegation benefit, as it ignores whether the expert would actually correct the error. To address this problem, we introduce Calibrate-Then-Delegate (CTD), a model-cascade approa",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14251",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models",
+      "summary": "arXiv:2604.14262v1 Announce Type: new Abstract: GUI grounding models report over 85% accuracy on standard benchmarks, yet drop 27-56 percentage points when instructions require spatial reasoning rather than direct element naming. Current benchmarks miss this because they evaluate each screenshot once with a single fixed instruction. We introduce GUI-Perturbed, a controlled perturbation framework that independently varies visual scenes and instructions to measure grounding robustness. Evaluating",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14262",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Reinforcement Learning via Value Gradient Flow",
+      "summary": "arXiv:2604.14265v1 Announce Type: new Abstract: We study behavior-regularized reinforcement learning (RL), where regularization toward a reference distribution (the dataset in offline RL or the base model in LLM RL finetuning) is essential to prevent value over-optimization caused by erroneous out-of-distribution extrapolation. Existing methods either rely on reparameterized policy gradient, which are difficult to scale to large generative models, or on reject sampling, which can be overly conse",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14265",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Enhancing LLM-based Search Agents via Contribution Weighted Group Relative Policy Optimization",
+      "summary": "arXiv:2604.14267v1 Announce Type: new Abstract: Search agents extend Large Language Models (LLMs) beyond static parametric knowledge by enabling access to up-to-date and long-tail information unavailable during pretraining. While reinforcement learning has been widely adopted for training such agents, existing approaches face key limitations: process supervision often suffers from unstable value estimation, whereas outcome supervision struggles with credit assignment due to sparse, trajectory-le",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.14267",
       "importance": "medium",
       "date": "2026-04-17"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "刚刚，机器人练成了宁次的「白眼」：∞帧画面边看边3D重建我们的世界！",
-      "summary": "具身圈开源了个SOTA",
+      "title": "Independent researcher looking for technical feedback on a paper about a revision-capable language model [P]",
+      "summary": "Hi everyone! I am an independent researcher working on Reviser, a language model that generates through cursor-relative edit actions on a mutable canvas. It is autoregressive over edit-history actions rather than final text order, which lets it revise its response while keeping decoding efficiency close to standard autoregressive transformers. My goal is to submit the paper to a conference such as",
       "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401743.html",
+      "region": "global",
+      "source": "Reddit-MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1so6432/independent_researcher_looking_for_technical/",
       "importance": "medium",
-      "date": "2026-04-16"
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Which computer should I buy: Mac or custom-built 5090? [D]",
+      "summary": "70% of my projects are fine-tuning pretrained models or using them to build custom pipelines; the other 30% are training models from scratch. Most of my projects are image/video-heavy machine learning. Sometimes, LLM is involved. I know that having Mac as an option might be a little counterintuitive for serious model training, but since lots of my projects rely on large pretrained models, VRAM rea",
+      "module": "tech",
+      "region": "global",
+      "source": "Reddit-MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1snqzq9/which_computer_should_i_buy_mac_or_custombuilt/",
+      "importance": "medium",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "DeepSeek Targets $10B Valuation in Funding Push Amid Global AI Race",
+      "summary": "Chinese AI startup DeepSeek is in talks to raise fresh capital at a $10 billion valuation, signaling a major shift for a company that has largely avoided external funding despite rapidly rising global influence in artificial intelligence. submitted by /u/Brown_Paper_Bag1 [link] [comments]",
+      "module": "industry",
+      "region": "global",
+      "source": "Reddit-Artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1so7tep/deepseek_targets_10b_valuation_in_funding_push/",
+      "importance": "medium",
+      "date": "2026-04-17"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -725,380 +1198,6 @@
       "region": "global",
       "source": "MIT Tech Review",
       "url": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "The Non-Optimality of Scientific Knowledge: Path Dependence, Lock-In, and The Local Minimum Trap",
-      "summary": "arXiv:2604.11828v2 Announce Type: new Abstract: Science is widely regarded as humanity's most reliable method for uncovering truths about the natural world. Yet the \\emph{trajectory} of scientific discovery is rarely examined as an optimization problem in its own right. This paper argues that the body of scientific knowledge, at any given historical moment, represents a \\emph{local optimum} rather than a global one--that the frameworks, formalisms, and paradigms through which we understand natur",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.11828",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Self-Monitoring Benefits from Structural Integration: Lessons from Metacognition in Continuous-Time Multi-Timescale Agents",
-      "summary": "arXiv:2604.11914v1 Announce Type: new Abstract: Self-monitoring capabilities -- metacognition, self-prediction, and subjective duration -- are often proposed as useful additions to reinforcement learning agents. But do they actually help? We investigate this question in a continuous-time multi-timescale agent operating in predator-prey survival environments of varying complexity, including a 2D partially observable variant. We first show that three self-monitoring modules, implemented as auxilia",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.11914",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "GoodPoint: Learning Constructive Scientific Paper Feedback from Author Responses",
-      "summary": "arXiv:2604.11924v1 Announce Type: new Abstract: While LLMs hold significant potential to transform scientific research, we advocate for their use to augment and empower researchers rather than to automate research without human oversight. To this end, we study constructive feedback generation, the task of producing targeted, actionable feedback that helps authors improve both their research and its presentation. In this work, we operationalize the effectiveness of feedback along two author-centr",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.11924",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Narrative-Driven Paper-to-Slide Generation via ArcDeck",
-      "summary": "arXiv:2604.11969v1 Announce Type: new Abstract: We introduce ArcDeck, a multi-agent framework that formulates paper-to-slide generation as a structured narrative reconstruction task. Unlike existing methods that directly summarize raw text into slides, ArcDeck explicitly models the source paper's logical flow. It first parses the input to construct a discourse tree and establish a global commitment document, ensuring the high-level intent is preserved. These structural priors then guide an itera",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.11969",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break",
-      "summary": "arXiv:2604.11978v1 Announce Type: new Abstract: Large language model (LLM) agents perform strongly on short- and mid-horizon tasks, but often break down on long-horizon tasks that require extended, interdependent action sequences. Despite rapid progress in agentic systems, these long-horizon failures remain poorly characterized, hindering principled diagnosis and comparison across domains. To address this gap, we introduce HORIZON, an initial cross-domain diagnostic benchmark for systematically",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.11978",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "When to Forget: A Memory Governance Primitive",
-      "summary": "arXiv:2604.12007v1 Announce Type: new Abstract: Agent memory systems accumulate experience but currently lack a principled operational metric for memory quality governance -- deciding which memories to trust, suppress, or deprecate as the agent's task distribution shifts. Write-time importance scores are static; dynamic management systems use LLM judgment or structural heuristics rather than outcome feedback. This paper proposes Memory Worth (MW): a two-counter per-memory signal that tracks how",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12007",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Identity as Attractor: Geometric Evidence for Persistent Agent Architecture in LLM Activation Space",
-      "summary": "arXiv:2604.12016v1 Announce Type: new Abstract: Large language models map semantically related prompts to similar internal representations -- a phenomenon interpretable as attractor-like dynamics. We ask whether the identity document of a persistent cognitive agent (its cognitive_core) exhibits analogous attractor-like behavior. We present a controlled experiment on Llama 3.1 8B Instruct, comparing hidden states of an original cognitive_core (Condition A), seven paraphrases (Condition B), and se",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12016",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "A longitudinal health agent framework",
-      "summary": "arXiv:2604.12019v1 Announce Type: new Abstract: Although artificial intelligence (AI) agents are increasingly proposed to support potentially longitudinal health tasks, such as symptom management, behavior change, and patient support, most current implementations fall short of facilitating user intent and fostering accountability. This contrasts with prior work on supporting longitudinal needs, where follow-up, coherent reasoning, and sustained alignment with individuals' goals are critical for",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12019",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "WiseOWL: A Methodology for Evaluating Ontological Descriptiveness and Semantic Correctness for Ontology Reuse and Ontology Recommendations",
-      "summary": "arXiv:2604.12025v1 Announce Type: new Abstract: The Semantic Web standardizes concept meaning for humans and machines, enabling machine-operable content and consistent interpretation that improves advanced analytics. Reusing ontologies speeds development and enforces consistency, yet selecting the optimal choice is challenging because authors lack systematic selection criteria and often rely on intuition that is difficult to justify, limiting reuse. To solve this, WiseOWL is proposed, a methodol",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12025",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Memory as Metabolism: A Design for Companion Knowledge Systems",
-      "summary": "arXiv:2604.12034v1 Announce Type: new Abstract: Retrieval-Augmented Generation remains the dominant pattern for giving LLMs persistent memory, but a visible cluster of personal wiki-style memory architectures emerged in April 2026 -- design proposals from Karpathy, MemPalace, and LLM Wiki v2 that compile knowledge into an interlinked artifact for long-term use by a single user. They sit alongside production memory systems that the major labs have shipped for over a year, and an active academic l",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12034",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Mathematics Teachers Interactions with a Multi-Agent System for Personalized Problem Generation",
-      "summary": "arXiv:2604.12066v1 Announce Type: new Abstract: Large language models can increasingly adapt educational tasks to learners characteristics. In the present study, we examine a multi-agent teacher-in-the-loop system for personalizing middle school math problems. The teacher enters a base problem and desired topic, the LLM generates the problem, and then four AI agents evaluate the problem using criteria that each specializes in (mathematical accuracy, authenticity, readability, and realism). Eight",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12066",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Human-Inspired Context-Selective Multimodal Memory for Social Robots",
-      "summary": "arXiv:2604.12081v1 Announce Type: new Abstract: Memory is fundamental to social interaction, enabling humans to recall meaningful past experiences and adapt their behavior accordingly based on the context. However, most current social robots and embodied agents rely on non-selective, text-based memory, limiting their ability to support personalized, context-aware interactions. Drawing inspiration from cognitive neuroscience, we propose a context-selective, multimodal memory architecture for soci",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12081",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "LLM-HYPER: Generative CTR Modeling for Cold-Start Ad Personalization via LLM-Based Hypernetworks",
-      "summary": "arXiv:2604.12096v1 Announce Type: new Abstract: On online advertising platforms, newly introduced promotional ads face the cold-start problem, as they lack sufficient user feedback for model training. In this work, we propose LLM-HYPER, a novel framework that treats large language models (LLMs) as hypernetworks to directly generate the parameters of the click-through rate (CTR) estimator in a training-free manner. LLM-HYPER uses few-shot Chain-of-Thought prompting over multimodal ad content (tex",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12096",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks",
-      "summary": "arXiv:2604.12102v2 Announce Type: new Abstract: We introduce compute-grounded reasoning (CGR), a design paradigm for spatial-aware research agents in which every answerable sub-problem is resolved by deterministic computation before a language model is asked to generate. Spatial Atlas instantiates CGR as a single Agent-to-Agent (A2A) server that handles two challenging benchmarks: FieldWorkArena, a multimodal spatial question-answering benchmark spanning factory, warehouse, and retail environmen",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12102",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "The A-R Behavioral Space: Execution-Level Profiling of Tool-Using Language Model Agents in Organizational Deployment",
-      "summary": "arXiv:2604.12116v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as tool-augmented agents capable of executing system-level operations. While existing benchmarks primarily assess textual alignment or task success, less attention has been paid to the structural relationship between linguistic signaling and executable behavior under varying autonomy scaffolds. This study introduces an execution-layer be-havioral measurement approach based on a two-dimensional",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12116",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Long-Horizon Plan Execution in Large Tool Spaces through Entropy-Guided Branching",
-      "summary": "arXiv:2604.12126v1 Announce Type: new Abstract: Large Language Models (LLMs) have significantly advanced tool-augmented agents, enabling autonomous reasoning via API interactions. However, executing multi-step tasks within massive tool libraries remains challenging due to two critical bottlenecks: (1) the absence of rigorous, plan-level evaluation frameworks and (2) the computational demand of exploring vast decision spaces stemming from large toolsets and long-horizon planning. To bridge these",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12126",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Aethon: A Reference-Based Replication Primitive for Constant-Time Instantiation of Stateful AI Agents",
-      "summary": "arXiv:2604.12129v1 Announce Type: new Abstract: The transition from stateless model inference to stateful agentic execution is reshaping the systems assumptions underlying modern AI infrastructure. While large language models have made persistent, tool-using, and collaborative agents technically viable, existing runtime architectures remain constrained by materialization-heavy instantiation models that impose significant latency and memory overhead. This paper introduces Aethon, a reference-base",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12129",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Towards Platonic Representation for Table Reasoning: A Foundation for Permutation-Invariant Retrieval",
-      "summary": "arXiv:2604.12133v1 Announce Type: new Abstract: Historical approaches to Table Representation Learning (TRL) have largely adopted the sequential paradigms of Natural Language Processing (NLP). We argue that this linearization of tables discards their essential geometric and relational structure, creating representations that are brittle to layout permutations. This paper introduces the Platonic Representation Hypothesis (PRH) for tables, positing that a semantically robust latent space for table",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12133",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Beyond Factual Grounding: The Case for Opinion-Aware Retrieval-Augmented Generation",
-      "summary": "arXiv:2604.12138v1 Announce Type: new Abstract: RAG systems have transformed how LLMs access external knowledge, but we find that current implementations exhibit a bias toward factual, objective content, as evidenced by existing benchmarks and datasets that prioritize objective retrieval. This factual bias - treating opinions and diverse perspectives as noise rather than information to be synthesized - limits RAG systems in real-world scenarios involving subjective content, from social media dis",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12138",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Development, Evaluation, and Deployment of a Multi-Agent System for Thoracic Tumor Board",
-      "summary": "arXiv:2604.12161v1 Announce Type: new Abstract: Tumor boards are multidisciplinary conferences dedicated to producing actionable patient care recommendations with live review of primary radiology and pathology data. Succinct patient case summaries are needed to drive efficient and accurate case discussions. We developed a manual AI-based workflow to generate patient summaries to display live at the Stanford Thoracic Tumor board. To improve on this manually intensive process, we developed several",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2604.12161",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Sparse Goodness: How Selective Measurement Transforms Forward-Forward Learning",
-      "summary": "arXiv:2604.13081v1 Announce Type: new Abstract: The Forward-Forward (FF) algorithm is a biologically plausible alternative to backpropagation that trains neural networks layer by layer using a local goodness function to distinguish positive from negative data. Since its introduction, sum-of-squares (SoS) has served as the default goodness function. In this work, we systematically study the design space of goodness functions, investigating both which activations to measure and how to aggregate th",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13081",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Adaptive Memory Crystallization for Autonomous AI Agent Learning in Dynamic Environments",
-      "summary": "arXiv:2604.13085v1 Announce Type: new Abstract: Autonomous AI agents operating in dynamic environments face a persistent challenge: acquiring new capabilities without erasing prior knowledge. We present Adaptive Memory Crystallization (AMC), a memory architecture for progressive experience consolidation in continual reinforcement learning. AMC is conceptually inspired by the qualitative structure of synaptic tagging and capture (STC) theory, the idea that memories transition through discrete sta",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13085",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Design Conditions for Intra-Group Learning of Sequence-Level Rewards: Token Gradient Cancellation",
-      "summary": "arXiv:2604.13088v1 Announce Type: new Abstract: In sparse termination rewards, intra-group comparisons have become the dominant paradigm for fine-tuning reasoning models via reinforcement learning. However, long-term training often leads to issues like ineffective update accumulation (learning tax), solution probability drift, and entropy collapse. This paper presents a necessary condition for algorithm design from a token-level credit assignment perspective: to prevent reward-irrelevant drift,",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13088",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Spectral Entropy Collapse as an Empirical Signature of Delayed Generalisation in Grokking",
-      "summary": "arXiv:2604.13123v1 Announce Type: new Abstract: Grokking -- delayed generalisation long after memorisation -- lacks a predictive mechanistic explanation. We identify the normalised spectral entropy $\\tilde{H}(t)$ of the representation covariance as a scalar order parameter for this transition, validated on 1-layer Transformers on group-theoretic tasks. Five contributions: (i) Grokking follows a two-phase pattern: norm expansion then entropy collapse. (ii) $\\tilde{H}$ crosses a stable threshold $",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13123",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Synthetic Tabular Generators Fail to Preserve Behavioral Fraud Patterns: A Benchmark on Temporal, Velocity, and Multi-Account Signals",
-      "summary": "arXiv:2604.13125v1 Announce Type: new Abstract: We introduce behavioral fidelity -- a third evaluation dimension for synthetic tabular data that measures whether generated data preserves the temporal, sequential, and structural behavioral patterns that distinguish real-world entity activity. Existing frameworks evaluate statistical fidelity (marginal distributions and correlations) and downstream utility (classifier AUROC on synthetic-trained models), but neither tests for the behavioral signals",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13125",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Generalization Guarantees on Data-Driven Tuning of Gradient Descent with Langevin Updates",
-      "summary": "arXiv:2604.13130v1 Announce Type: new Abstract: We study learning to learn for regression problems through the lens of hyperparameter tuning. We propose the Langevin Gradient Descent Algorithm (LGD), which approximates the mean of the posterior distribution defined by the loss function and regularizer of a convex regression task. We prove the existence of an optimal hyperparameter configuration for which the LGD algorithm achieves the Bayes' optimal solution for squared loss. Subsequently, we st",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13130",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Depth-Resolved Coral Reef Thermal Fields from Satellite SST and Sparse In-Situ Loggers Using Physics-Informed Neural Networks",
-      "summary": "arXiv:2604.13131v1 Announce Type: new Abstract: Satellite sea surface temperature (SST) products underpin global coral bleaching monitoring, yet they measure only the ocean skin. Corals inhabit depths from the shallows to beyond 20 metres, where temperatures can be 1-3{\\deg}C cooler than the surface; applying satellite SST uniformly to all depths therefore overestimates subsurface thermal stress. We present a physics-informed neural network (PINN) that fuses NOAA Coral Reef Watch SST with sparse",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13131",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Automated co-design of high-performance thermodynamic cycles via graph-based hierarchical reinforcement learning",
-      "summary": "arXiv:2604.13133v1 Announce Type: new Abstract: Thermodynamic cycles are pivotal in determining the efficacy of energy conversion systems. Traditional design methodologies, which rely on expert knowledge or exhaustive enumeration, are inefficient and lack scalability, thereby constraining the discovery of high-performance cycles. In this study, we introduce a graph-based hierarchical reinforcement learning approach for the co-design of structure parameters in thermodynamic cycles. These cycles a",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13133",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Pareto-Optimal Offline Reinforcement Learning via Smooth Tchebysheff Scalarization",
-      "summary": "arXiv:2604.13175v1 Announce Type: new Abstract: Large language models can be aligned with human preferences through offline reinforcement learning (RL) on small labeled datasets. While single-objective alignment is well-studied, many real-world applications demand the simultaneous optimization of multiple conflicting rewards, e.g. optimizing both catalytic activity and specificity in protein engineering, or helpfulness and harmlessness for chatbots. Prior work has largely relied on linear reward",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13175",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs",
-      "summary": "arXiv:2604.13226v1 Announce Type: new Abstract: Large Language Models (LLMs) rely heavily on Key-Value (KV) caching to minimize inference latency. However, standard KV caches are context-dependent: reusing a cached document in a new context requires recomputing KV states to account for shifts in attention distribution. Existing solutions such as CacheBlend, EPIC, and SAM-KV mitigate this issue by selectively recomputing a subset of tokens; however, they still incur non-negligible computational o",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13226",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Does Dimensionality Reduction via Random Projections Preserve Landscape Features?",
-      "summary": "arXiv:2604.13230v1 Announce Type: new Abstract: Exploratory Landscape Analysis (ELA) provides numerical features for characterizing black-box optimization problems. In high-dimensional settings, however, ELA suffers from sparsity effects, high estimator variance, and the prohibitive cost of computing several feature classes. Dimensionality reduction has therefore been proposed as a way to make ELA applicable in such settings, but it remains unclear whether features computed in reduced spaces sti",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13230",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Analog Optical Inference on Million-Record Mortgage Data",
-      "summary": "arXiv:2604.13251v1 Announce Type: new Abstract: Analog optical computers promise large efficiency gains for machine learning inference, yet no demonstration has moved beyond small-scale image benchmarks. We benchmark the analog optical computer (AOC) digital twin on mortgage approval classification from 5.84 million U.S. HMDA records and separate three sources of accuracy loss. On the original 19 features, the AOC reaches 94.6% balanced accuracy with 5,126 parameters (1,024 optical), compared wi",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13251",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Out of Context: Reliability in Multimodal Anomaly Detection Requires Contextual Inference",
-      "summary": "arXiv:2604.13252v1 Announce Type: new Abstract: Anomaly detection aims to identify observations that deviate from expected behavior. Because anomalous events are inherently sparse, most frameworks are trained exclusively on normal data to learn a single reference model of normality. This implicitly assumes that normal behavior can be captured by a single, unconditional reference distribution. In practice, however, anomalies are often context-dependent: A specific observation may be normal under",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13252",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Bias-Corrected Adaptive Conformal Inference for Multi-Horizon Time Series Forecasting",
-      "summary": "arXiv:2604.13253v1 Announce Type: new Abstract: Adaptive Conformal Inference (ACI) provides distribution-free prediction intervals with asymptotic coverage guarantees for time series under distribution shift. However, ACI only adapts the quantile threshold -- it cannot shift the interval center. When a base forecaster develops persistent bias after a regime change, ACI compensates by widening intervals symmetrically, producing unnecessarily conservative bands. We propose Bias-Corrected ACI (BC-A",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2604.13253",
       "importance": "medium",
       "date": "2026-04-16"
     },
@@ -1115,34 +1214,12 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Camera-ready paranoia [D]",
-      "summary": "How do you guys deal with camera-ready paranoia? I just submitted my camera-ready version to CVPRW (not even the real conference, just a workshop...) and I m afraid I ve done something wrong and it will get rejected because of it... Any idea on when we get confirmation it will be placed in the proceedings? I see my paper status as being \"In production\" but don t know what that means... Edit: I ran",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sn4c20/cameraready_paranoia_d/",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
       "title": "AI for Materials Science starter kit [D]",
       "summary": "Hi everyone, I ve been close to Deep Learning for a while now, and have a good grasp of the fundamentals. So for the computational chemists / cheminformatics people here, what resources -- papers, courses, tutorials, talks -- would you recommend I do to learn about AI for Materials Science? For a benchmark, suggest resources such that doing them would be sufficient to do research in the area and c",
       "module": "tech",
       "region": "global",
       "source": "Reddit-MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1smoqzt/ai_for_materials_science_starter_kit_d/",
-      "importance": "medium",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Catastrophic forgetting is quietly killing local LLM fine-tuning, anyone else hitting this wall?",
-      "summary": "Catastrophic forgetting remains a persistent challenge when performing sequential or multi-task fine-tuning on LLMs. Models often lose significant capability on previous tasks or general knowledge as they adapt to new domains (medical, legal, code, etc.). This seems rooted in the fundamental way gradient-based optimization works and new updates overwrite earlier representations without any explici",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-Artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1snae5p/catastrophic_forgetting_is_quietly_killing_local/",
       "importance": "medium",
       "date": "2026-04-16"
     },
@@ -1180,39 +1257,6 @@
       "date": "2026-04-15"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Thoughts and experience on ML journals [D]",
-      "summary": "Recently I’ve been thinking about shifting from conferences to journals due to a few bad experiences with ML conferences reviewing process. The truth is I don’t really have much experience with journals, and I rarely read papers from them. I don’t really want to submit to something like JMLR because of the extremely long waiting times, and also because my papers tend to be shorter. From what I und",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sm04fm/thoughts_and_experience_on_ml_journals_d/",
-      "importance": "medium",
-      "date": "2026-04-15"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Was looking at a ICLR 2025 Oral paper and I am shocked it got oral [D]",
-      "summary": "After my last post about score analysis of ICLR, I am looking into the review itself now. They evaled SQL code generation by LLM using nature language metric and not executation metric, and they tested it and found around 20% false positive rate. This is a major flaw how is it even getting oral? https://openreview.net/forum?id=GGlpykXDCa submitted by /u/Striking-Warning9533 [link] [comments]",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1slxqac/was_looking_at_a_iclr_2025_oral_paper_and_i_am/",
-      "importance": "medium",
-      "date": "2026-04-15"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "You can decompose models into a graph database [N]",
-      "summary": "https://github.com/chrishayuk/larql https://youtu.be/8Ppw8254nLI?si=lo-6PM5pwnpyvwMXh Now you can decompose a static llm model and do a knn walk on each layer (which was decomposed into a graph database), and it s mathematically identical to doing matmult. It allows you to update the models internal factual knowledge without retraining (just insert into graph DB), it also uses less memory (since i",
-      "module": "tech",
-      "region": "global",
-      "source": "Reddit-MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1slmfmw/you_can_decompose_models_into_a_graph_database_n/",
-      "importance": "medium",
-      "date": "2026-04-14"
-    },
-    {
       "id": "v4-aHR0cHM6Ly92ZW50",
       "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
       "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure.TQ Ventures led the round, with participation from FPV Ventures, Redpoint, a",
@@ -1247,168 +1291,124 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "智谱 AutoClaw 上线自进化机制与 Skill 商店，避免再次“踩坑”",
-      "summary": "IT之家 4 月 17 日消息，智谱今日宣布 AutoClaw（澳龙）正式上线自进化机制与 Skill 商店，踩过一次坑，下次同类任务会直接走正确流程。官方介绍称，在使用龙虾等 Agent 时，许多人会感到 Agent 很“健忘”，需要反复提醒类似的要求：“简洁点”、“参考 XX 的风格”、“不要用破折号”…… 然而每次新任务都得再叮嘱一遍。自进化机制解决的就是这件事。每轮对话结束后，澳龙会扫描这一轮对话：有没有用户的纠正、新教的方法、表达的偏好、或者它自己踩的坑？值得记住的经验，它会在对话中弹出一张「进化请求」卡片，展示它打算记住的具体内容。在用户批准后，进化内容会写入它的记忆，成为新的能力。进化有两种触发方式：关键词触发：当用户说「以后」「记住」「永远」这类表达长期意图的词，AutoClaw 会识别出这不是一次性要求，进而触发进化。自动检测：处理复杂任务时经历大量工具调用或多次失败重试",
-      "module": "tech",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/271.htm",
-      "importance": "low",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "我国牵头为全球人形机器人编写“通用教材”",
-      "summary": "IT之家 4 月 17 日消息，据央视新闻今日报道，从国家标准委了解到，我国在国际标准化组织成功立项具身智能领域全球首项国际标准《人形机器人数据集》，并推动成立了首个由我国专家担任召集人的工作组。国际标准化组织机器人技术委员会国内技术对口单位负责人王振林介绍称：如果我们把人形机器人比作一个正在学习的人，那么数据集就是“教材”和“训练题库”。机器人天生不会干活，也不会走路，所有的技能是靠后天的学习。通过成千上万个示范的案例，才能慢慢掌握。数据集其实就是把机器人或者人类的学习、执行任务的过程中各种多模态数据记录下来。这些数据主要包含环境感知数据、本体状态数据以及人类示范的数据。在人形机器人技术发展中，数据集扮演的是“地基”和“底层规则”的角色。过去，全球各个企业、实验室研发人形机器人时，都在自己编写“教材”，就像各地说不同的方言，相互之间无法理解和借鉴，形成了一个个“信息孤岛”。而我国牵头制定",
-      "module": "tech",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/233.htm",
-      "importance": "low",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "IT 之家实测天禧 Claw：开箱即用的 7×24 小时全端超能 AI 助理",
-      "summary": "今年以来，OpenClaw 掀起的“养龙虾”热潮属实是火出圈了，许多用户涌入尝试打造属于自己的 AI 执行体，但热潮背后，痛点也随之暴露：复杂的环境部署、繁琐的参数配置、任务执行易中断、设备间数据割裂，让不少普通用户望而却步，最终只能止步于“看着好玩，用着费劲”的阶段。3 月 18 日，在联想消费春季新品品鉴会上，联想正式推出天禧 Claw，这款基于 OpenClaw 架构打造的新一代 AI 助理，以零成本部署、零门槛使用、全天候跨端、安全可托付四大核心能力，直击当前 AI 智能体的落地痛点。IT 之家第一时间拿到了天禧 Claw 的内测资格，话不多说，接下来我们就通过多场景的深度实测，看看天禧 Claw 的实际体验到底怎么样。一、开箱即用上手零门槛，告别繁琐部署的折腾本次我们测试的是天禧 Claw 内测版本，不同于其他基于 OpenClaw 架构的产品需要用户自行搭建运行环境、反复调试参",
+      "title": "2026 人形机器人半马约四成团队采用自主巡航模式，明日开跑",
+      "summary": "IT之家 4 月 18 日消息，据北京亦庄公众号，昨天，2026 北京亦庄人形机器人半程马拉松大本营内，100 余支境内外赛队正做最后冲刺。本届赛事规模与难度双创新高。中国电子学会副秘书长梁靓介绍，今年半马约四成团队采用自主巡航模式，各队水平普遍提升。同期举办的勇士挑战赛设 17 项障碍，考验机器人在复杂地形下的应变能力。多个队伍既跑半马，也参加勇士挑战赛。梁靓说，勇士挑战赛设置了窄桥通行、抗洪筑坝等科目，模拟工业巡检与抢险救援场景，检验机器人在极限环境下的真实能力。IT之家注意到，2026 人形机器人半程马拉松将于 4 月 19 日上午在北京亦庄鸣枪开跑。本届赛事以“亦马当先”为主题，起点设于北京亦庄通明湖畔的科创十七街，终点为南海子公园，全长 21.0975 公里，赛道融合城市主干道、国际汽车赛事路段与公园生态场景。赛事设立自主导航组和遥控组，采用混合计时方式在同一赛道竞技，自主导航赛",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/208.htm",
+      "url": "https://www.ithome.com/0/940/640.htm",
       "importance": "low",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "我国科学家找到了大脑皮层的起源",
-      "summary": "IT之家 4 月 17 日消息，大脑皮层，这个掌管感觉、运动和高级认知的“总指挥部”，它的起源究竟是哪里？学界长期存在两种截然不同的理论推测：双重起源假说认为皮层源于海马和梨状皮层两类古老的异皮层，通过渐进层状分化向外扩张。锚点 / 系带等多种假说认为，初级感觉皮层是皮层进化和发育的锚点。这些假说在解释皮层扩张模式、区域特化及皮层等级上存在显著差异，而这些差异很大程度上源于既往研究多局限于单一物种或单一尺度，缺乏跨越微观基因程序与宏观脑网络架构的系统性证据。因此，亟需开展跨尺度、多模态的跨物种研究，在全脑尺度上揭示大脑复杂架构的演化规律。据新华社今日报道，中国科学院脑科学与智能技术卓越创新中心刘赐融研究组、孙怡迪研究组联合华大研究院等单位发现，大脑皮层其实存在两个“源头”—— 分别以异皮层和初级感觉皮层为起点，形成两个起源相反、方向对立的分子梯度。这两个梯度像两股力量相互作用，共同构建了大",
-      "module": "tech",
+      "title": "荣耀 600/Pro 手机规格曝光：7000mAh 电池、2 亿主摄",
+      "summary": "IT之家 4 月 18 日消息，荣耀沙特阿拉伯官网更新产品页面，公开荣耀 600 和荣耀 600 Pro 两款手机核心规格。外观方面，该系列手机均采用金属一体化机身，提供橙色、黑色与金白三种配色，并设有独立的 AI 功能按键。规格方面，核心配置上，荣耀 600 标准版搭载骁龙 7 Gen 4 处理器，配备 6.57 英寸 1.5K 分辨率 OLED 屏幕，支持 120Hz 刷新率。影像系统采用 2 亿像素主摄与 1200 万像素超广角组合，前置 5000 万像素写真人像镜头。机身内置 7000mAh 容量电池，支持 60W 有线快充，重量控制在 190g，厚度仅 7.8mm，支持 IP68、IP69 及 IP69K 级防尘防水。Pro 版在性能与影像上显著升级，处理器更换为 3nm 工艺的骁龙 8 Elite，内存提升至 12GB。影像方面，在保留 2 亿像素主摄的基础上，新增 5000",
+      "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/940/196.htm",
+      "url": "https://www.ithome.com/0/940/631.htm",
       "importance": "low",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "36氪首发 | “华为天才少年”创业连融超4亿元，做新一代推理芯片重构显存成本",
-      "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，国内全自研GPGPU创新企业「北京行云集成电路有限公司」（以下简称“行云”）宣布连续完成Pre-A及Pre-A+多轮融资，融资金额超4亿元人民币。五源资本、赛富投资基金、春华资本联合领投，以及北京、江苏等地方国资、佰维存储（688525）、金沙江联合带动知名GPU企业创始人家办、创维资本等产业资本跟投。云岫资本连续多轮服务并担任下一轮独家融资财务顾问。 北京行云集成电路有限公司成立于2023年8月，专注针对大模型的新一代推理芯片，致力于使用非3D DRAM架构打造超大显存规格、CUDA兼容的全自研GPGPU产品，推动AI大模型推理的普惠化。 行云创始人季宇博士，清华大学计算机系博士，“华为天才少年”计划的一员，曾在华为海思深度参与昇腾AI芯片的编译器与架构研发。CTO余洪敏博士，中科院半导体所博士，曾主导百度昆仑芯、海思昇腾等多款芯片的研发与量",
-      "module": "industry",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3770363954954755?f=rss",
-      "importance": "low",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "机器人租赁平台擎天租官宣出海动作，首批业务落地13国",
-      "summary": "擎天租宣布SHAREBOT出海动作，海外业务覆盖欧洲、北美、亚太、日韩、中东等重点区域，首期落地德国、法国、美国、马来西亚、泰国、阿联酋等13个国家。平台数据显示，海外市场服务单价普遍可达国内6倍以上。此外，平台已与RobotX、Mangobot、Always Robotics等区域服务商合作。（界面）",
-      "module": "industry",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3770370408841984?f=rss",
-      "importance": "low",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "协创数据在天津成立词元智算科技公司，含AI业务",
-      "summary": "36氪获悉，爱企查App显示，近日，天津词元智算科技有限公司成立，法定代表人为潘文俊，注册资本1000万元人民币，经营范围包括云计算设备销售、人工智能应用软件开发、网络与信息安全软件开发等。股东信息显示，该公司由协创数据技术股份有限公司全资持股。",
-      "module": "tools",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3770311960658441?f=rss",
-      "importance": "low",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "ImageNet作者苏昊回国任教复旦！李飞飞高徒，具身第一高引，出任通用物理AI院长",
-      "summary": "推动“物理智能”的最终实现",
+      "title": "消息称 Meta 下月启动首轮大裁员，10% 员工成 AI 发展“牺牲品”",
+      "summary": "IT之家 4 月 18 日消息，北京时间今天（4 月 18 日）凌晨，据路透社援引三名知情人士消息称，Meta 计划于 5 月 20 日启动今年首轮大规模裁员，后续还将继续推进相关调整。其中一位知情人士表示，首轮裁员规模约为全球员工总数的 10%，接近 8000 人。消息人士还称，公司将在今年下半年继续裁员，具体时间和规模尚未确定，管理层或依据 AI 发展程度对计划进行调整。先前的消息称，Meta 整体裁员比例或不少于 20%。扎克伯格正投入数千亿美元发展 AI，希望借此重塑公司内部运作模式，反映出今年美国大型科技公司普遍的调整方向。亚马逊近期裁减约 3 万名企业员工，约占白领员工总数的 10%；金融科技公司 Block 在 2 月裁员近一半员工，两者均将裁员与 AI 带来的效率提升挂钩。追踪科技行业裁员情况的网站 Layoffs.fyi 数据显示，今年迄今已有 73212 人失业，而 2",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/940/628.htm",
+      "importance": "low",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "智元机器人，要做AI大模型平台和开放生态",
+      "summary": "文｜王毓婵 编辑｜杨轩 当一家机器人公司决定做AI大模型平台和开放生态，它会给行业带来什么？ 上个月，智元刚刚跨过“机器人量产下线一万台”的门槛。4月17日，这家由前华为“天才少年”彭志辉与前华为副总裁邓泰华共同创立的机器人公司在合作伙伴大会上，花了大量的时间和篇幅介绍软件上的新产品。相较之下，硬件的篇幅反倒很少。 智元推出了六大AI模型、七大生产力解决方案，并首次公开AIMA（AI Machine Architecture）全栈生态技术体系。这些软件产品将与硬件机器人一起，组成智元“一体三智”的架构。 所谓“一体三智”，“一体”指的是机器人本体；\"三智\"则包括：运动智能（基础智能，承担物理载体的执行器功能）；交互智能（高阶智能，为情绪价值入口）；作业智能（高阶智能，提供劳动生产力）。 “智元并不仅仅只是一家机器人公司，更是一家具身智能公司。如果没有跟本体深度耦合的智能，机器人只是一个工具",
       "module": "tech",
       "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/402088.html",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3770721219035649?f=rss",
       "importance": "low",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Poisoning AI Training Data",
+      "id": "v4-aHR0cHM6Ly8zNmty",
+      "title": "FF：获4500万美元新融资",
+      "summary": "4月18日，Faraday Future（简称“FF”）官微宣布，公司已获得美国某机构投资者4500万美元新融资，这是公司近年来达成的最低成本融资交易。截至4月12日，FF已累计出货34台机器人，2026年累计出货目标为超1000台。此外，FF计划于5月22日召开年度股东大会，审议一系列旨在支持公司全球EAI战略执行与长期增长的提案。（界面新闻）",
+      "module": "industry",
+      "region": "cn",
+      "source": "36氪",
+      "url": "https://36kr.com/newsflashes/3771782347751942?f=rss",
+      "importance": "low",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9zdGFy",
+      "title": "Why hasn't AI improved design quality the way it improved dev speed?",
       "summary": "",
       "module": "tech",
       "region": "global",
       "source": "HackerNews-AI",
-      "url": "https://www.schneier.com/blog/archives/2026/02/poisoning-ai-training-data.html",
+      "url": "https://starzup.vercel.app/",
       "importance": "low",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Taiwan Market Cap Tops $4T on AI Boom, Overtaking UK",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "HackerNews-AI",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-16/ai-driven-demand-pushes-taiwan-s-market-cap-ahead-of-the-uk",
-      "importance": "low",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9yZXNv",
-      "title": "Show HN: Ask your AI to start a business for you, resolved.sh",
-      "summary": "Start with a FREE instant website for your AI on the open internet, then work with it to build a business that sells specialized datasets, files, premium reports, blogs, courses and more.",
+      "id": "v4-aHR0cHM6Ly9naXRo",
+      "title": "Show HN: devnexus – shared AI brain across repos, sessions, and engineers",
+      "summary": "This started as my personal workspace, but after a few people asked me to set it up for them I turned it into a script. However updating it was a pain and required completely remaking the workspace everytime so I turned it into a npm package with CLI.Setting up this workspace gives the agent a shared brain across repos, sessions, and engineers by using a shared obsidian vault. It uses a code graph",
       "module": "community",
       "region": "global",
       "source": "HackerNews-AI",
-      "url": "https://resolved.sh/",
+      "url": "https://github.com/JoshBong/devnexus",
       "importance": "low",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
-      "id": "v4-aHR0cHM6Ly9hbmFs",
-      "title": "AST and LLM Navigation Tool",
-      "summary": "",
-      "module": "tools",
-      "region": "global",
-      "source": "HackerNews-AI",
-      "url": "https://analect.dev/",
-      "importance": "low",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9wZXJj",
-      "title": "Realistic AI Avatars",
+      "id": "v4-aHR0cHM6Ly90d2l0",
+      "title": "Deep Dive into Claude's Memory Architecture",
       "summary": "",
       "module": "tech",
       "region": "global",
       "source": "HackerNews-AI",
-      "url": "https://percify.io",
+      "url": "https://twitter.com/spandan_madan/status/2045336831999475789",
       "importance": "low",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
-      "id": "v4-aHR0cHM6Ly9ibG9n",
-      "title": "LLM inference infrastructure for a systems audience",
+      "id": "v4-aHR0cHM6Ly9kZWVw",
+      "title": "The Abstraction Fallacy: Why AI Can Simulate but Not Instantiate Consciousness",
       "summary": "",
       "module": "tech",
       "region": "global",
       "source": "HackerNews-AI",
-      "url": "https://blog.mihirnanavati.com",
+      "url": "https://deepmind.google/research/publications/231971/",
       "importance": "low",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     },
     {
-      "id": "v4-aHR0cHM6Ly9oYWls",
-      "title": "Show HN: Hailuo 3.0 AI – AI Video Generator",
+      "id": "v4-aHR0cHM6Ly9naXRo",
+      "title": "Open Soucrce AI-powered screen recording",
       "summary": "",
-      "module": "community",
+      "module": "tech",
       "region": "global",
       "source": "HackerNews-AI",
-      "url": "https://hailuo30.net",
+      "url": "https://github.com/getcoherence/studio",
       "importance": "low",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9iZW5k",
+      "title": "Claude Code Model Chooser",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://bendansby.com/model-chooser.html",
+      "importance": "low",
+      "date": "2026-04-18"
     }
   ]
 }
