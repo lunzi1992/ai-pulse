@@ -4,17 +4,17 @@
     "subtitle": "全球 AI 资讯每日聚合",
     "description": "国内 + 国际 | 行业动态 | 技术进展 | 社区洞察 | 工具与应用",
     "lastUpdate": "2026-04-21",
-    "updatedAt": "2026-04-21T09:40:15.871Z",
+    "updatedAt": "2026-04-21T10:10:17.605Z",
     "version": "4.0"
   },
   "hotKeywords": [
     {
-      "name": "Claude",
+      "name": "AGENTS",
       "count": 17
     },
     {
-      "name": "AGENTS",
-      "count": 14
+      "name": "Claude",
+      "count": 17
     },
     {
       "name": "之家",
@@ -25,11 +25,7 @@
       "count": 13
     },
     {
-      "name": "氪获悉",
-      "count": 12
-    },
-    {
-      "name": "OpenAI",
+      "name": "CODE",
       "count": 12
     },
     {
@@ -37,7 +33,7 @@
       "count": 11
     },
     {
-      "name": "MODEL",
+      "name": "氪获悉",
       "count": 10
     },
     {
@@ -53,43 +49,58 @@
       "count": 10
     },
     {
-      "name": "COMPANY",
-      "count": 10
-    },
-    {
-      "name": "CODE",
-      "count": 10
+      "name": "CEO",
+      "count": 9
     },
     {
       "name": "CORE",
       "count": 9
     },
     {
+      "name": "MODEL",
+      "count": 8
+    },
+    {
       "name": "亿元",
       "count": 8
     },
     {
-      "name": "CEO",
+      "name": "AGENT",
       "count": 8
     },
     {
-      "name": "EZVIZ",
-      "count": 7
+      "name": "MODELS",
+      "count": 8
     },
     {
-      "name": "GIT",
-      "count": 7
-    },
-    {
-      "name": "同比增长",
-      "count": 7
+      "name": "SKILLS",
+      "count": 8
     },
     {
       "name": "Anthropic",
       "count": 7
+    },
+    {
+      "name": "亿美元",
+      "count": 7
+    },
+    {
+      "name": "EZVIZ",
+      "count": 7
     }
   ],
   "news": [
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "福布斯发布 2026 年 AI 50 榜单：OpenAI、Anthropic 领衔，20 家公司新上榜",
+      "summary": "IT之家 4 月 21 日消息，福布斯（Forbes）今日发布了全球最具潜力非上市 AI 企业的《福布斯》第八届人工智能 50 强榜单（AI 50），本届榜单共有 20 家新上榜公司。其中，OpenAI、Anthropic 两家 AI 巨头累计融资 2426 亿美元（IT之家注：现汇率约合 1.66 万亿元人民币），约占今年 AI 50 上榜企业总融资额 3056 亿美元（现汇率约合 2.09 万亿元人民币）的 80%。而 2025 年 AI 50 榜单中，有三家企业或是被科技巨头收购，或是人才被巨头收编：数据标注公司 Scale AI 的 CEO 兼联合创始人 Alexandr Wang 转投 Meta，牵头组建其超智能实验室埃隆 · 马斯克的 AI 初创公司 xAI 被 SpaceX 收购，合并后实体估值达 1.",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/941/759.htm",
+      "importance": "high",
+      "date": "2026-04-21"
+    },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
       "title": "罗福莉获第八届“小米集团青年五四奖章”提名",
@@ -142,17 +153,6 @@
       "region": "cn",
       "source": "IT之家",
       "url": "https://www.ithome.com/0/941/645.htm",
-      "importance": "high",
-      "date": "2026-04-21"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "代码版本控制工具 Git 2.54 发布：git history 命令简化历史重写",
-      "summary": "IT之家 4 月 21 日消息，科技媒体 Linuxiac 昨日（4 月 20 日）发布博文，报道称代码版本控制工具 Git 更新至 2.54 版本，最大创新是引入实验性的 git history 命令，可以简化历史重写（history-rewriting）任务。该命令目前支持 reword 和 split 两种操作，开发者无需依赖复杂的交互式 rebase，即可直接更新提交信息或拆分 commits。Git 2.54 打破了以往仅能依赖 .git/ hooks 目录脚本的限制，引入了基于配置文件的钩子定义方式。开发者可在用户、系统或仓库级别灵活配置钩子行为，极大提升了跨仓库复用的便捷性。新版智能化升级仓库维护策略，将几何重整设为手动维护的默认策略，git maintenance run 命令采用更增量的重整方式。相比旧策略，新方案能有效降低维护成本，对于大型仓库或长期克隆的用户而言，",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/941/641.htm",
       "importance": "high",
       "date": "2026-04-21"
     },
@@ -223,39 +223,6 @@
       "date": "2026-04-21"
     },
     {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "科大讯飞发布AIPC新品“讯飞星火·燎原N30m笔记本”",
-      "summary": "36氪获悉，4月21日，科大讯飞正式发布面向移动办公场景的AIPC新品“讯飞星火·燎原N30m笔记本”。据了解，燎原N30m采用全栈国产化方案。该机搭载新一代飞腾D3000M旗舰桌面处理器，最高主频突破2.9GHz，配合70Wh大容量电池，可实现超9小时的续航。",
-      "module": "tech",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3776336962716421?f=rss",
-      "importance": "high",
-      "date": "2026-04-21"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "工信部：万兆光网试点项目建设有序推进，试点目标完成情况良好",
-      "summary": "36氪获悉，据工信部消息，工业和信息化部办公厅发布关于公布万兆光网试点项目完成情况的通知。总体来看，试点项目建设有序推进，试点目标完成情况良好，万兆光网在小区、工厂、园区等场景实现试点部署，培育出云电脑、云游戏、工业光学质检、人工智能+超高清视频监控、模型训练与推理应用、通感一体等业务应用，为促进万兆光网从技术试点走向部署应用提供了重要参考。请各地通信管理局、工业和信息化主管部门做好试点项目经验总结，加强宣传推广，持续推动万兆光网建设发展，充分发挥网络赋能作用，为推进新型工业化、建设制造强国和网络强国提供有力支撑。",
-      "module": "industry",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3776331736924937?f=rss",
-      "importance": "high",
-      "date": "2026-04-21"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly8zNmty",
-      "title": "上海：开展人工智能知识产权快速协同保护指南编制",
-      "summary": "上海市知识产权局局长朱启高在4月21日举行的上海市新闻发布会上表示，新兴领域知识产权侵权行为隐蔽性强、技术判定难度大。上海建立了三大先导产业知识产权保护专业委员会，组建了首批知识产权行政保护技术调查官名录和鉴定机构名录，为新兴领域技术侵权判定提供智力支撑。同时，加强前沿制度研究，开展人工智能知识产权快速协同保护指南编制，探索在重点区域试行知识产权纠纷中立评估机制，助力提升保护精准度。（证券时报）",
-      "module": "industry",
-      "region": "cn",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3776329618047488?f=rss",
-      "importance": "high",
-      "date": "2026-04-21"
-    },
-    {
       "id": "v4-aHR0cHM6Ly93d3cu",
       "title": "把人类驾驶员赶出机场，复旦大牛校友要港股IPO了",
       "summary": "不做Robotaxi，专攻机场的L4公司要IPO了",
@@ -300,17 +267,6 @@
       "date": "2026-04-20"
     },
     {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "OpenAI’s existential questions",
-      "summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
-      "importance": "high",
-      "date": "2026-04-19"
-    },
-    {
       "id": "builtin-Q3Vyc29y5o6o5Ye6",
       "title": "Cursor推出多Agent协作模式，编程效率再翻倍",
       "summary": "Cursor IDE新版引入多Agent并行编程模式，支持自然语言描述需求后自动拆解任务、分配Agent、协同编码。",
@@ -322,83 +278,6 @@
       "date": "2026-04-18"
     },
     {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Tesla brings its robotaxi service to Dallas and Houston",
-      "summary": "The company now offers robotaxi service in three cities, all of them in Texas, after launching in Austin last year and starting to offer rides without safety drivers in January 2026.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
-      "importance": "high",
-      "date": "2026-04-18"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "AI chip startup Cerebras files for IPO",
-      "summary": "In recent months, the company announced an agreement with Amazon Web Services to use Cerebras chips in Amazon data centers, as well as a deal with OpenAI reportedly worth more than $10 billion.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
-      "importance": "high",
-      "date": "2026-04-18"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "The App Store is booming again, and AI may be why",
-      "summary": "New data from Appfigures shows a swell of new app launches in 2026, suggesting AI tools could be fueling a mobile software boom.",
-      "module": "tools",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
-      "importance": "high",
-      "date": "2026-04-18"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed &#8216;side quests&#8217;",
-      "summary": "Kevin Weil and Bill Peebles are leaving OpenAI as the company shuts down Sora and folds its science team, signaling a sharp pivot away from consumer moonshots toward enterprise AI.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Tokenmaxxing, OpenAI&#8217;s shopping spree, and the AI Anxiety Gap",
-      "summary": "The gap between AI insiders and everyone else is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from finance apps to talk shows, a certain shoe company just rebranded as an AI infrastructure play, and Anthropic unveiled a model it says is too powerful to release publicly but apparently not too [ ]",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/podcast/tokenmaxxing-openais-shopping-spree-and-the-ai-anxiety-gap/",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Anthropic launches Claude Design, a new product for creating quick visuals",
-      "summary": "The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Are we tokenmaxxing our way to nowhere?",
-      "summary": "The gap between AI insiders and everyone else is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from finance apps to talk shows, a certain shoe company just rebranded as an AI infrastructure play, and Anthropic unveiled a model it says is too powerful to release publicly but apparently not too [ ]",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/video/are-we-tokenmaxxing-our-way-to-nowhere/",
-      "importance": "high",
-      "date": "2026-04-17"
-    },
-    {
       "id": "builtin-R1BULTbjgIzlnJ/o",
       "title": "GPT-6「土豆」定档4月14日，性能全面碾压当前最强模型",
       "summary": "OpenAI下一代旗舰模型代号Spud，代码推理能力较GPT-5.4提升约40%，支持200万Token超长上下文，定价约2.5美元/百万Token，融合ChatGPT+Codex+Atlas打造统一桌面超级智能体平台。",
@@ -408,17 +287,6 @@
       "url": "https://www.36kr.com/p/3754726863012361",
       "importance": "high",
       "date": "2026-04-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Devaito",
-      "summary": "Build, launch, and grow your business on autopilot Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/devaito",
-      "importance": "high",
-      "date": "2026-04-13"
     },
     {
       "id": "builtin-Q0VBSSAyMDI25Lit",
@@ -529,17 +397,6 @@
       "url": "https://syncedreview.com/2025/04/16/zhipu-ais-open-source-power-play-blazing-fast-glm-models-global-expansion-ahead-of-potential-ipo/",
       "importance": "high",
       "date": "2025-04-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "LLM from scratch (32l) – Interventions: updated instruction fine-tuning results",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "HackerNews-AI",
-      "url": "https://www.gilesthomas.com/2026/04/llm-from-scratch-32l-interventions-instruction-fine-tuning-tests",
-      "importance": "medium",
-      "date": "2026-04-21"
     },
     {
       "id": "v4-aHR0cHM6Ly9hcnhp",
@@ -785,6 +642,17 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "物理优先+VLA闭环进化：高德ABot-World世界模型，破解具身智能零样本泛化难题",
+      "summary": "高精渲染引擎，解决\"数据稀缺\"",
+      "module": "tech",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404086.html",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
       "title": "ISC.AI 2026创新独角兽沙盒大赛在京启动 聚焦智能体 共筑AI创新生态",
       "summary": "深挖人工智能与数字安全领域创新成果",
       "module": "tech",
@@ -818,12 +686,23 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "跨维智能DexWorldModel斩获榜首，世界模型真正的考场在机器人执行里",
-      "summary": "重塑具身世界模型评价方式",
+      "title": "Show HN: Agensi – Curated marketplace for AI agent skills (SKILL.md)",
+      "summary": "Hi HN. I'm Samuel, founder of Agensi (agensi.io). I'm a non-technical founder in the Netherlands. Built the platform mostly with Claude Code and Lovable over the last few months.What it is: a curated marketplace for SKILL.md skills. SKILL.md is the folder-plus-instructions format Anthropic shipped for teaching AI coding agents (Claude Code, Cursor, Codex CLI, Gemini CLI, and others) new capabili…",
       "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/403777.html",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.agensi.io",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "I built an AI SRE in 60mins, you should too",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.gouthamve.dev/i-built-an-ai-sre-in-60mins-you-should-too/",
       "importance": "low",
       "date": "2026-04-21"
     },
@@ -1246,17 +1125,6 @@
       "date": "2026-04-21"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Why doesn't memory work across AI tools?",
-      "summary": "",
-      "module": "tools",
-      "region": "global",
-      "source": "HackerNews-AI",
-      "url": "https://www.ricord.ai",
-      "importance": "low",
-      "date": "2026-04-21"
-    },
-    {
       "id": "v4-aHR0cHM6Ly9naXRo",
       "title": "Show HN: Anvil-uplink-CLI – agent-safe terminal CLI for Anvil.works apps",
       "summary": "Anvil.works is a low-code Python web-app platform. Its \"Server Uplink\" lets an external Python process act as a server module — connect over a websocket and you can call server functions, query Data Tables, etc.anvil-uplink-cli is a thin CLI over that library.",
@@ -1407,6 +1275,138 @@
       "region": "global",
       "source": "Arxiv AI",
       "url": "https://arxiv.org/abs/2604.15837",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Discover and Prove: An Open-source Agentic Framework for Hard Mode Automated Theorem Proving in Lean 4",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.15839",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.15877",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Towards Rigorous Explainability by Feature Attribution",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.15898",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Integrating Graphs, Large Language Models, and Agents: Reasoning and Retrieval",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.15951",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Weak-Link Optimization for Multi-Agent Reasoning and Collaboration",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.15972",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "MEDLEY-BENCH: Scale Buys Evaluation but Not Control in AI Metacognition",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2604.16009",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "BASIS: Balanced Activation Sketching with Invariant Scalars for \"Ghost Backpropagation\"",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.16324",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "UniMamba: A Unified Spatial-Temporal Modeling Framework with State-Space and Attention Integration",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.16325",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "A Discordance-Aware Multimodal Framework with Multi-Agent Clinical Reasoning",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.16333",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Preventing overfitting in deep learning using differential privacy",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.16334",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "SaFeR-Steer: Evolving Multi-Turn MLLMs via Synthetic Bootstrapping and Feedback Dynamics",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.16358",
+      "importance": "low",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "SetFlow: Generating Structured Sets of Representations for Multiple Instance Learning",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2604.16362",
       "importance": "low",
       "date": "2026-04-21"
     }
