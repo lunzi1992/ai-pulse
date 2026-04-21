@@ -88,6 +88,12 @@
       text-transform: uppercase; letter-spacing: 1px;
       color: var(--text3); margin: 0 0 8px;
     }
+    .sidebar-label.mt-16 {
+      margin-top: 16px;
+    }
+    .sidebar-label.mt-20 {
+      margin-top: 20px;
+    }
 
     /* 日历 */
     .calendar {
@@ -265,6 +271,11 @@
     .f-chip:hover { border-color: var(--text2); color: var(--text); }
     .f-chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
     .f-chip .fdot { width: 6px; height: 6px; border-radius: 50%; }
+    .f-chip .fdot-all { background: var(--accent); }
+    .f-chip .fdot-industry { background: var(--industry); }
+    .f-chip .fdot-tech { background: var(--tech); }
+    .f-chip .fdot-community { background: var(--community); }
+    .f-chip .fdot-tools { background: var(--tools); }
 
     /* 今日头条 */
     .headline-section { margin-bottom: 28px; }
@@ -508,17 +519,17 @@
       <div class="calendar-header">
         <span class="calendar-month" id="calMonth"></span>
         <div class="calendar-nav">
-          <button onclick="calNav(-1)">‹</button>
-          <button onclick="calNav(1)">›</button>
+          <button type="button" onclick="calNav(-1)">‹</button>
+          <button type="button" onclick="calNav(1)">›</button>
         </div>
       </div>
       <div class="calendar-grid" id="calGrid"></div>
     </div>
 
-    <div class="sidebar-label" style="margin-top:20px">内容模块</div>
+    <div class="sidebar-label mt-20">内容模块</div>
     <div class="module-nav" id="moduleNav"></div>
 
-    <div class="sidebar-label" style="margin-top:16px">今日热词</div>
+    <div class="sidebar-label mt-16">今日热词</div>
     <div class="hot-keywords" id="hotKeywords"></div>
   </div>
 
@@ -544,9 +555,9 @@
 
   <!-- 地域切换 Tab -->
   <div class="region-tabs" id="regionTabs">
-    <button class="region-tab active all" data-region="all" onclick="setRegion('all')">🌐 全部</button>
-    <button class="region-tab cn" data-region="cn" onclick="setRegion('cn')">🇨🇳 国内</button>
-    <button class="region-tab global" data-region="global" onclick="setRegion('global')">🌍 国际</button>
+    <button type="button" class="region-tab active all" data-region="all" onclick="setRegion('all')">🌐 全部</button>
+    <button type="button" class="region-tab cn" data-region="cn" onclick="setRegion('cn')">🇨🇳 国内</button>
+    <button type="button" class="region-tab global" data-region="global" onclick="setRegion('global')">🌍 国际</button>
   </div>
 
   <!-- 搜索 + 模块筛选 -->
@@ -556,20 +567,20 @@
       <input type="text" id="searchInput" placeholder="搜索关键词..." oninput="onSearch()">
     </div>
     <div class="filter-sep"></div>
-    <button class="f-chip active" data-module="all" onclick="setModule('all')">
-      <span class="fdot" style="background:var(--accent)"></span> 全部
+    <button type="button" class="f-chip active" data-module="all" onclick="setModule('all')">
+      <span class="fdot fdot-all"></span> 全部
     </button>
-    <button class="f-chip" data-module="industry" onclick="setModule('industry')">
-      <span class="fdot" style="background:var(--industry)"></span> 行业
+    <button type="button" class="f-chip" data-module="industry" onclick="setModule('industry')">
+      <span class="fdot fdot-industry"></span> 行业
     </button>
-    <button class="f-chip" data-module="tech" onclick="setModule('tech')">
-      <span class="fdot" style="background:var(--tech)"></span> 技术
+    <button type="button" class="f-chip" data-module="tech" onclick="setModule('tech')">
+      <span class="fdot fdot-tech"></span> 技术
     </button>
-    <button class="f-chip" data-module="community" onclick="setModule('community')">
-      <span class="fdot" style="background:var(--community)"></span> 社区
+    <button type="button" class="f-chip" data-module="community" onclick="setModule('community')">
+      <span class="fdot fdot-community"></span> 社区
     </button>
-    <button class="f-chip" data-module="tools" onclick="setModule('tools')">
-      <span class="fdot" style="background:var(--tools)"></span> 工具
+    <button type="button" class="f-chip" data-module="tools" onclick="setModule('tools')">
+      <span class="fdot fdot-tools"></span> 工具
     </button>
   </div>
 
@@ -947,11 +958,37 @@ async function init() {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 8000);
 
-    const resp = await fetch('news.json?v=' + Date.now(), { signal: controller.signal });
-    clearTimeout(timer);
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    // 检查本地存储缓存
+    const cacheKey = 'ai-pulse-news-' + new Date().toISOString().split('T')[0];
+    const cachedData = localStorage.getItem(cacheKey);
+    let data;
 
-    const data = await resp.json();
+    if (cachedData) {
+      try {
+        data = JSON.parse(cachedData);
+        console.log('使用本地缓存数据');
+      } catch (e) {
+        console.error('缓存数据解析失败，重新请求', e);
+        data = null;
+      }
+    }
+
+    if (!data) {
+      const resp = await fetch('news.json?v=' + Date.now(), { signal: controller.signal });
+      clearTimeout(timer);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+
+      data = await resp.json();
+      
+      // 存储到本地缓存，有效期1天
+      try {
+        localStorage.setItem(cacheKey, JSON.stringify(data));
+        console.log('数据已缓存到本地');
+      } catch (e) {
+        console.error('本地存储失败', e);
+      }
+    }
+
     allNews = data.news || [];
 
     datesWithData = new Set(allNews.map(n => n.date));
