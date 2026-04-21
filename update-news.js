@@ -19,12 +19,18 @@ const STOPWORDS = new Set([
   'those','each','been','being','more','some','into','over','then','than','such',
   'out','new','use','one','two','three','get','set','let','via','per','way','how',
   'who','what','when','where','why','just','now','only','both','about','after',
+  'here','there','much','many','most','other','long','even','back','first','last',
+  'same','next','good','best','high','low','old','big','great','little','small',
+  'only','very','just','really','so','if','then','else','when','where','while',
   // 技术噪音词
   'utm','amp','feed','atom','href','posts','https','http','www','com','org','net',
-  'producthunt','github','rss','xml','json','html','css','url','img','src',
-  // 其它无意义词
-  'more','less','here','there','much','many','most','other','long','also','even',
-  'back','first','last','same','next','good','best','high','low','old','big','great'
+  'io','app','ly','rss','xml','json','html','css','url','img','src','github',
+  'producthunt','reddit','hackernews','arxiv',
+  // 媒体/网站噪音词
+  '消息','新闻','报道','来源','日前','今日','昨日','近日','该公司','本刊',
+  '之家','氪','腾讯','新浪','网易','搜狐','凤凰',
+  // 英文单复数/大小写噪音（统一归一后变成同一词）
+  'type','abstract','reasoning','paper','show','announce','new','update','update'
 ]);
 
 // ==================== 数据源配置 =========================================
@@ -92,7 +98,7 @@ const FEEDS = [
   {
     module: 'tech', region: 'global',
     name: 'The Verge AI',
-    url: 'https://www.theverge.com/ai-artificial-intelligence/rss/index.xml',
+    url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',
     filterFn: rssParser(20)
   },
   {
@@ -126,19 +132,19 @@ const FEEDS = [
   {
     module: 'community', region: 'global',
     name: 'Reddit-MachineLearning',
-    url: 'https://www.reddit.com/r/MachineLearning/new.rss',
+    url: 'https://old.reddit.com/r/MachineLearning/new.rss',
     filterFn: atomParser(20)
   },
   {
     module: 'community', region: 'global',
     name: 'Reddit-LocalLLaMA',
-    url: 'https://www.reddit.com/r/LocalLLaMA/new.rss',
+    url: 'https://old.reddit.com/r/LocalLLaMA/new.rss',
     filterFn: atomParser(20)
   },
   {
     module: 'community', region: 'global',
     name: 'Reddit-Artificial',
-    url: 'https://www.reddit.com/r/Artificial/new.rss',
+    url: 'https://old.reddit.com/r/Artificial/new.rss',
     filterFn: atomParser(20)
   },
 
@@ -159,8 +165,10 @@ const FEEDS = [
         if (i >= 20) return;
         const title = $(el).find('title').text().trim();
         const link = $(el).find('link').attr('href') || '';
-        const desc = $(el).find('summary,content').first().text()
-          .replace(/<[^>]+>/g, '').trim().substring(0, 300);
+        const desc = smartTruncate(
+          $(el).find('summary,content').first().text().replace(/<[^>]+>/g, '').trim(),
+          300
+        );
         const pubDate = parseDateSafe($(el).find('updated').text().trim());
         items.push({ title, link, desc, pubDate });
       });
@@ -178,7 +186,7 @@ function rssParser(limit) {
       if (i >= limit) return;
       const title = $(el).find('title').text().trim();
       const link = $(el).find('link').text().trim() || $(el).find('guid').text().trim();
-      const desc = cleanText($(el).find('description').text()).substring(0, 400);
+      const desc = smartTruncate(cleanText($(el).find('description').text()), 400);
       const pubDate = parseDateSafe($(el).find('pubDate').text().trim());
       if (title) items.push({ title, link, desc, pubDate });
     });
@@ -193,7 +201,7 @@ function atomParser(limit) {
       if (i >= limit) return;
       const title = $(el).find('title').text().trim();
       const link = $(el).find('link').attr('href') || '';
-      const desc = cleanText($(el).find('content,summary').first().text()).substring(0, 400);
+      const desc = smartTruncate(cleanText($(el).find('content,summary').first().text()), 400);
       const pubDate = parseDateSafe($(el).find('updated,published').first().text().trim());
       if (title) items.push({ title, link, desc, pubDate });
     });
@@ -208,7 +216,7 @@ function arxivParser(limit) {
       if (i >= limit) return;
       const title = $(el).find('title').text().trim().replace(/\n/g, ' ');
       const link = $(el).find('link').text().trim() || $(el).find('guid').text().trim();
-      const desc = cleanText($(el).find('description').text()).substring(0, 500);
+      const desc = smartTruncate(cleanText($(el).find('description').text()), 500);
       const pubDate = parseDateSafe($(el).find('pubDate').text().trim());
       if (title) items.push({ title, link, desc, pubDate });
     });
@@ -263,6 +271,22 @@ const MUST_EXCLUDE = [
 
 // ==================== 辅助函数 =========================================
 
+// 智能截断：在句号/逗号/分号处截断，保持句子完整
+function smartTruncate(text, maxLen) {
+  if (!text || text.length <= maxLen) return text || '';
+  // 从 maxLen 位置向前找最近的断句标点
+  const segment = text.substring(0, maxLen);
+  const bp = Math.max(
+    segment.lastIndexOf('。'),
+    segment.lastIndexOf('！'),
+    segment.lastIndexOf('？'),
+    segment.lastIndexOf('；'),
+    segment.lastIndexOf('，'),
+    segment.lastIndexOf('.')
+  );
+  return bp > maxLen * 0.6 ? segment.substring(0, bp + 1) : segment.substring(0, maxLen - 2) + '…';
+}
+
 function cleanText(text) {
   if (!text) return '';
   return text
@@ -270,8 +294,12 @@ function cleanText(text) {
     .replace(/#\s*Comments:.*$/gm, '')
     .replace(/Points:.*$/gm, '')
     .replace(/Comments URL:.*$/gm, '')
-    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
-    .replace(/&quot;/g, '"').replace(/&#\d+;/g, ' ').replace(/&\w+;/g, ' ')
+    // 先把所有 HTML entity 统一解码为字符
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ')
+    // 清理剩余的 numeric entity
+    .replace(/&#\d+;/g, ' ')
+    // 去掉所有 HTML 标签
     .replace(/<[^>]+>/g, '')
     .replace(/\s+/g, ' ')
     .trim();
@@ -358,10 +386,14 @@ function evalImportance(item) {
 async function fetchFeed(feed) {
   try {
     console.log(`  📡 ${feed.name} [${feed.region}·${feed.module}]...`);
+    // Reddit 需要特殊 UA，否则直接 403
+    const isReddit = feed.url.includes('reddit.com');
     const resp = await axios.get(feed.url, {
       timeout: 15000,
       headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; AIPulse/4.0; +https://lunzi1992.github.io/ai-pulse)',
+        'User-Agent': isReddit
+          ? 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+          : 'Mozilla/5.0 (compatible; AIPulse/4.0; +https://lunzi1992.github.io/ai-pulse)',
         'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*'
       },
       responseType: 'text'
@@ -422,7 +454,8 @@ function extractHotKeywords(news, topN = 20) {
 // ==================== 内置新闻（兜底保证有内容）================================
 
 function getBuiltinNews() {
-  const today = new Date().toISOString().split('T')[0];
+  // 内置新闻使用内容实际日期，不再写死 today
+  // 这样相同事件不会每天重复出现在当日日报里
   return [
     {
       title: 'GPT-6「土豆」定档4月14日，性能全面碾压当前最强模型',
@@ -430,14 +463,14 @@ function getBuiltinNews() {
       module: 'tech', region: 'global',
       source: '36氪/量子位',
       url: 'https://www.36kr.com/p/3754726863012361',
-      importance: 'high', date: today
+      importance: 'high', date: '2026-04-14'
     },
     {
       title: 'CEAI 2026中国具身智能大会在合肥开幕',
       summary: '第三届中国具身智能大会（CEAI 2026）4月10-12日在合肥举办，国内头部机器人企业、高校研究院集中亮相，赛迪研究院定调2026年为具身智能规模化落地元年。',
       module: 'industry', region: 'cn',
       source: '凤凰安徽',
-      url: '', importance: 'high', date: today
+      url: '', importance: 'high', date: '2026-04-12'
     },
     {
       title: '智元AGIBOT「AI发布周」进行中，每日一项物理AI王炸',
@@ -445,7 +478,7 @@ function getBuiltinNews() {
       module: 'tech', region: 'cn',
       source: 'IT之家',
       url: 'https://www.ithome.com/0/935/660.htm',
-      importance: 'high', date: today
+      importance: 'high', date: '2026-04-07'
     },
     {
       title: '阿里领投生数科技3亿美元融资，AI视频生成持续吸金',
@@ -453,7 +486,7 @@ function getBuiltinNews() {
       module: 'industry', region: 'cn',
       source: '36氪',
       url: 'https://36kr.com/newsflashes/3760251105411588',
-      importance: 'medium', date: today
+      importance: 'medium', date: '2026-04-16'
     },
     {
       title: 'Cursor推出多Agent协作模式，编程效率再翻倍',
@@ -461,7 +494,7 @@ function getBuiltinNews() {
       module: 'tools', region: 'global',
       source: 'ProductHunt',
       url: 'https://www.cursor.com',
-      importance: 'high', date: today
+      importance: 'high', date: '2026-04-18'
     }
   ];
 }
@@ -577,19 +610,27 @@ async function main() {
   console.log(`\n✅ 共获取 ${allItems.length} 条原始内容`);
 
   // 2. 过滤 + 分类
-  const seen = new Set();
+  const seenUrls = new Set();
+  const seenTitles = new Set();
   const filtered = [];
   for (const item of allItems) {
     if (!item.title || item.title.length < 5) continue;
-    // 去重（标题相似度简单去重）
-    const titleKey = item.title.substring(0, 30).toLowerCase().replace(/\s+/g, '');
-    if (seen.has(titleKey)) continue;
-    seen.add(titleKey);
+    // 去重：优先用 URL 去重（同一链接必是重复），其次用完整标题
+    const urlKey = (item.link || '').replace(/\s+/g, '').toLowerCase();
+    if (urlKey && seenUrls.has(urlKey)) continue;
+    const titleKey = item.title.toLowerCase().replace(/\s+/g, '').replace(/[^\w\u4e00-\u9fa5]/g, '').substring(0, 80);
+    if (seenTitles.has(titleKey)) continue;
+    seenUrls.add(urlKey);
+    seenTitles.add(titleKey);
 
     if (isExcluded(item)) continue;
     if (!isAIRelated(item)) continue;
 
     item.desc = cleanText(item.desc || '');
+    // 过滤 Arxiv 元数据格式暴露的摘要（如 "Announce Type: new Abstract: ..."）
+    if (item.desc.startsWith('Announce Type:') || /^(arXiv:|Abstract:|Summary:)\s*\w/i.test(item.desc)) {
+      item.desc = '';
+    }
     if (item.desc.length < 5 && !item.title) continue;
 
     const module = classifyModule(item, item.module);
