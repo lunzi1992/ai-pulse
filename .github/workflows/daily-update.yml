@@ -2,8 +2,8 @@ name: Daily AI News Update
 
 on:
   schedule:
-    # 每天 00:30 UTC = 北京时间 08:30
-    - cron: '30 0 * * *'
+    # 每天 21:00 UTC = 北京时间次日 05:00
+    - cron: '0 21 * * *'
   workflow_dispatch:
 
 jobs:
