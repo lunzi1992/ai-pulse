@@ -32,9 +32,11 @@ function saveConfig(config) {
 // ==================== 登录（保存 Cookie） ====================
 
 async function login() {
-  console.log('🔐 开始 CSDN 登录流程...');
-  console.log('📝 步骤：在浏览器中完成登录（推荐扫码）');
-  console.log('   登录成功后窗口会自动关闭，Cookie 会保存到本地\n');
+  console.log('🔐 开始 CSDN 登录流程...\n');
+  console.log('📝 步骤：');
+  console.log('   1. 浏览器会打开 CSDN 编辑器页面');
+  console.log('   2. 如果跳转到登录页，请扫码登录');
+  console.log('   3. 登录成功后手动关闭浏览器窗口\n');
 
   const config = loadConfig();
 
@@ -42,28 +44,40 @@ async function login() {
   const context = await browser.newContext();
   const page = await context.newPage();
 
-  // 访问 CSDN 编辑器（会自动跳转到登录页）
-  await page.goto('https://mp.csdn.net/edit', { waitUntil: 'networkidle' });
+  // 访问 CSDN 编辑器
+  await page.goto('https://editor.csdn.net/md/?not_checkout=1', { waitUntil: 'networkidle' });
 
-  // 等待用户完成登录（检测登录成功后页面变化）
-  try {
-    await page.waitForURL(/mp\.csdn\.net\/edit/, { timeout: 120000 });
-    console.log('✅ 检测到登录成功！');
-  } catch (e) {
-    // 等待用户手动关闭窗口后检查
-    console.log('⏳ 等待登录中...（请在浏览器中完成登录，然后关闭浏览器）');
-    await page.waitForTimeout(120000);
+  // 等待用户手动登录并关闭浏览器
+  // 检测页面 URL：登录后 URL 会变成 mp.csdn.net/edit
+  console.log('⏳ 等待登录中...（登录后请关闭浏览器窗口）');
+
+  let attempts = 0;
+  while (attempts < 60) {
+    const url = page.url();
+    if (url.includes('editor.csdn.net/md') && !url.includes('passport') && !url.includes('login')) {
+      // 已到达编辑器页，认为登录成功
+      break;
+    }
+    await page.waitForTimeout(2000);
+    attempts++;
+    if (attempts % 15 === 0) {
+      console.log(`   ⏳ 等待中...（${attempts * 2}秒）若已登录可直接关闭浏览器`);
+    }
   }
 
   // 保存 Cookie
   const cookies = await context.cookies();
+  if (cookies.length === 0) {
+    console.log('⚠️ 未检测到 Cookie，请确认是否成功登录');
+  }
   config.cookies = cookies;
-  config.username = cookies.find(c => c.name === 'UserName')?.value || '';
+  config.username = cookies.find(c => c.name === 'UserName')?.value ||
+                    cookies.find(c => c.name === 'UN')?.value || '';
   config.loginTime = new Date().toISOString();
   saveConfig(config);
 
   await browser.close();
-  console.log(`✅ Cookie 已保存！用户: ${config.username}`);
+  console.log(`\n✅ Cookie 已保存！用户: ${config.username || '未知'}`);
   console.log(`   保存时间: ${config.loginTime}`);
   console.log('\n💡 提示：Cookie 有效期约 30 天，过期后重新运行 login 即可');
 }
@@ -103,11 +117,11 @@ async function publishArticle(mdFilePath, options = {}) {
 
     // 访问编辑器（带 Cookie 免登录）
     console.log('\n🌐 访问 CSDN 编辑器...');
-    await page.goto('https://mp.csdn.net/edit', { waitUntil: 'networkidle', timeout: 30000 });
+    await page.goto('https://editor.csdn.net/md/?not_checkout=1', { waitUntil: 'networkidle', timeout: 30000 });
 
     // 检测是否真的登录了（页面 URL 或元素判断）
     const currentUrl = page.url();
-    if (currentUrl.includes('login') || currentUrl.includes('passport')) {
+    if (currentUrl.includes('passport') || currentUrl.includes('login')) {
       throw new Error('Cookie 已过期，请重新登录: node csdn-publish.js login');
     }
     console.log('✅ 已登录');
@@ -117,136 +131,147 @@ async function publishArticle(mdFilePath, options = {}) {
 
     // ===== 填标题 =====
     console.log('✍️ 填写标题...');
-    // 尝试多种选择器定位标题输入框
-    const titleSelectors = [
-      'input[placeholder*="标题"]',
-      '.title-input input',
-      '#articleTitle',
-      'input.article-title',
-      '.editor-title input'
-    ];
-    let titleInput = null;
-    for (const sel of titleSelectors) {
-      try {
-        titleInput = await page.waitForSelector(sel, { timeout: 3000 });
-        if (titleInput) break;
-      } catch {}
-    }
-    if (!titleInput) {
-      // 兜底：用 page.click + keyboard
-      await page.click('body');
-      await page.keyboard.press('Control+a');
-      await page.keyboard.type(title);
-    } else {
-      await titleInput.fill(title);
-    }
+    const titleInput = await page.waitForSelector(
+      'input.article-bar__title, input[placeholder*="标题"]',
+      { timeout: 10000 }
+    );
+    await titleInput.fill('');
+    await titleInput.fill(title);
+    console.log('✅ 标题已填入');
 
-    // ===== 填内容（切换到 Markdown 编辑模式）=====
+    // ===== 填内容（Markdown 模式，contenteditable PRE） =====
     console.log('📝 填入 Markdown 内容...');
 
-    // 找 Markdown 切换按钮（如果有"富文本"/"Markdown"切换）
-    const mdToggleSelectors = [
-      'text=Markdown',
-      'button:has-text("Markdown")',
-      '[data-type="markdown"]',
-      '.md-mode-btn'
-    ];
+    // 找到 Markdown 编辑区
+    const editorEl = await page.waitForSelector(
+      'PRE.editor__inner.markdown-highlighting',
+      { timeout: 10000 }
+    );
 
-    for (const sel of mdToggleSelectors) {
-      try {
-        const btn = await page.waitForSelector(sel, { timeout: 2000 });
-        if (btn) {
-          await btn.click();
-          console.log('✅ 已切换到 Markdown 编辑模式');
-          break;
+    // 清空现有内容
+    await editorEl.click();
+    await page.waitForTimeout(300);
+    await page.keyboard.press('Control+a');
+    await page.keyboard.press('Backspace');
+    await page.waitForTimeout(300);
+
+    // 用 CodeMirror 自己的 setValue 方法（最可靠的方案）
+    const setResult = await page.evaluate((md) => {
+      const pre = document.querySelector('PRE.editor__inner.markdown-highlighting');
+      if (!pre) return 'PRE not found';
+
+      // 尝试找 CodeMirror 实例
+      // CodeMirror 通常把自己的实例绑定在父元素或作为属性上
+      let cm = null;
+      const parent = pre.parentElement;
+      if (parent) {
+        cm = parent.cm || parent.CodeMirror;
+        const grandparent = parent.parentElement;
+        if (grandparent && !cm) {
+          cm = grandparent.cm || grandparent.CodeMirror;
         }
-      } catch {}
-    }
+      }
 
-    await page.waitForTimeout(1000);
+      if (cm && typeof cm.setValue === 'function') {
+        cm.setValue(md);
+        cm.refresh();
+        return 'CodeMirror setValue ok';
+      }
 
-    // 找内容编辑区
-    const contentSelectors = [
-      '.markdown-body',
-      '#content',
-      '.editor-textarea',
-      'textarea[placeholder*="正文"]',
-      '.CodeMirror textarea',
-      '.prosemirror'
-    ];
+      // 尝试用 CodeMirror 的静态方法
+      const allEditors = window.CodeMirror?.my || window.CodeMirror?.editors;
+      if (allEditors && allEditors.length > 0) {
+        allEditors[0].setValue(md);
+        return 'CodeMirror.editors ok';
+      }
 
-    let contentArea = null;
-    for (const sel of contentSelectors) {
-      try {
-        contentArea = await page.waitForSelector(sel, { timeout: 3000 });
-        if (contentArea) break;
-      } catch {}
-    }
+      return 'CodeMirror not found, fallback to innerText';
+    }, mdContent);
 
-    if (contentArea) {
-      await contentArea.click();
-      await contentArea.fill(mdContent);
-      console.log('✅ 内容已填入');
-    } else {
-      // 兜底：直接粘贴
-      await page.click('body');
-      await page.keyboard.press('Control+a');
-      await page.keyboard.press('Backspace');
-      await page.keyboard.type(mdContent);
-    }
+    console.log('填入方式:', setResult);
+    await page.waitForTimeout(2000);
 
-    // ===== 填标签 =====
-    console.log('🏷️ 设置标签...');
-    const tagSelectors = [
-      'input[placeholder*="标签"]',
-      '.tag-input input',
-      '[data-placeholder*="标签"]'
-    ];
-
-    for (const tagSel of tagSelectors) {
-      try {
-        const tagInput = await page.waitForSelector(tagSel, { timeout: 3000 });
-        if (tagInput) {
-          for (const tag of tags.slice(0, 5)) {
-            await tagInput.fill(tag);
-            await page.waitForTimeout(300);
-            await page.keyboard.press('Enter');
-            await page.waitForTimeout(200);
+    // 如果 CodeMirror 方式失败，使用 innerText + 事件触发
+    if (setResult.includes('fallback')) {
+      console.log('⚠️ 使用 fallback 填入...');
+      await page.evaluate((md) => {
+        const pre = document.querySelector('PRE.editor__inner.markdown-highlighting');
+        if (pre) {
+          // 清空内容
+          pre.innerHTML = '';
+          // 插入纯文本（保持 Markdown 原文）
+          const textNode = document.createTextNode(md);
+          pre.appendChild(textNode);
+          // 触发更新事件
+          for (const ev of ['input', 'change', 'blur', 'keyup']) {
+            pre.dispatchEvent(new Event(ev, { bubbles: true, cancelable: true }));
           }
-          console.log(`✅ 标签已设置: ${tags.slice(0, 5).join(', ')}`);
-          break;
         }
-      } catch {}
+      }, mdContent);
+      await page.waitForTimeout(2000);
+    }
+
+    const editorText = await page.evaluate(() => {
+      const pre = document.querySelector('PRE.editor__inner.markdown-highlighting');
+      return pre?.innerText?.substring(0, 100) || '';
+    });
+    console.log('编辑器内容预览:', editorText.substring(0, 80) + '...');
+    console.log('✅ 内容已填入');
+
+    // ===== 填标签（找标签输入框）=====
+    console.log('🏷️ 设置标签...');
+    try {
+      // CSDN 标签输入框在右侧栏，可能需要滚动或等待
+      const tagInput = await page.waitForSelector(
+        'input[placeholder*="标签"],.tag-input input,.article-tag input',
+        { timeout: 5000 }
+      );
+      if (tagInput) {
+        for (const tag of tags.slice(0, 5)) {
+          await tagInput.fill(tag);
+          await page.waitForTimeout(300);
+          await page.keyboard.press('Enter');
+          await page.waitForTimeout(200);
+        }
+        console.log(`✅ 标签已设置: ${tags.slice(0, 5).join(', ')}`);
+      }
+    } catch {
+      console.log('⚠️ 标签输入框未找到（可能需要手动设置）');
+    }
+
+    // ===== 保存草稿 =====
+    console.log('💾 保存草稿...');
+    try {
+      const saveBtn = await page.waitForSelector(
+        'button:has-text("保存草稿"), button.btn-save',
+        { timeout: 5000 }
+      );
+      await saveBtn.click();
+      await page.waitForTimeout(2000);
+      console.log('✅ 草稿已保存');
+    } catch {
+      console.log('⚠️ 保存草稿失败（继续尝试发布）');
     }
 
     // ===== 发布 =====
-    console.log('🚀 准备发布...');
+    console.log('🚀 发布文章...');
+    try {
+      const publishBtn = await page.waitForSelector(
+        'button.btn-publish, button:has-text("发布文章")',
+        { timeout: 5000 }
+      );
+      await publishBtn.click();
+      await page.waitForTimeout(3000);
 
-    // 找发布按钮
-    const publishSelectors = [
-      'button:has-text("发布")',
-      '.publish-btn',
-      '[class*="publish"]',
-      'button.primary'
-    ];
-
-    for (const sel of publishSelectors) {
+      // 处理可能的"我知道了"弹窗
       try {
-        const btn = await page.waitForSelector(sel, { timeout: 3000 });
-        if (btn) {
-          const btnText = await btn.textContent();
-          // 点确认发布
-          await btn.click();
-          await page.waitForTimeout(3000);
-
-          // 处理可能的二次确认
-          const confirmBtn = await page.$('button:has-text("确定")');
-          if (confirmBtn) await confirmBtn.click();
-
-          console.log('✅ 发布成功！');
-          break;
-        }
+        const okBtn = await page.waitForSelector('button:has-text("我知道了")', { timeout: 3000 });
+        if (okBtn) await okBtn.click();
       } catch {}
+
+      console.log('✅ 发布成功！');
+    } catch (e) {
+      console.log('⚠️ 发布按钮点击失败:', e.message);
     }
 
     // 获取最终 URL
