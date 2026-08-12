@@ -3,17 +3,33 @@
     "title": "AI Pulse",
     "subtitle": "全球 AI 资讯每日聚合",
     "description": "国内 + 国际 | 行业动态 | 技术进展 | 社区洞察 | 工具与应用",
-    "lastUpdate": "2026-08-11",
-    "updatedAt": "2026-08-11T21:46:41.869Z",
+    "lastUpdate": "2026-08-12",
+    "updatedAt": "2026-08-12T21:44:29.083Z",
     "version": "4.0"
   },
   "hotKeywords": [
     {
-      "name": "IPHONE",
-      "count": 15
+      "name": "Robot",
+      "count": 27
     },
     {
-      "name": "MODEL",
+      "name": "PHONE",
+      "count": 25
+    },
+    {
+      "name": "之家",
+      "count": 24
+    },
+    {
+      "name": "日消息",
+      "count": 24
+    },
+    {
+      "name": "PRO",
+      "count": 18
+    },
+    {
+      "name": "PIXEL",
       "count": 15
     },
     {
@@ -21,35 +37,31 @@
       "count": 15
     },
     {
-      "name": "SYSTEMS",
-      "count": 13
+      "name": "荣耀",
+      "count": 14
     },
     {
-      "name": "之家",
+      "name": "DeepSeek",
       "count": 12
     },
     {
-      "name": "日消息",
-      "count": 12
+      "name": "DEEPSEEK-V",
+      "count": 11
     },
     {
-      "name": "Claude",
-      "count": 12
+      "name": "GROK",
+      "count": 11
     },
     {
-      "name": "GOOGLE",
-      "count": 12
+      "name": "元起",
+      "count": 11
     },
     {
       "name": "DISCUSSION",
-      "count": 12
+      "count": 11
     },
     {
       "name": "LINK",
-      "count": 12
-    },
-    {
-      "name": "CODE",
       "count": 11
     },
     {
@@ -57,104 +69,246 @@
       "count": 11
     },
     {
-      "name": "OpenAI",
-      "count": 10
-    },
-    {
       "name": "Agent",
-      "count": 10
+      "count": 9
     },
     {
-      "name": "APPEARED",
-      "count": 10
+      "name": "SPACEX",
+      "count": 9
+    },
+    {
+      "name": "CEO",
+      "count": 9
+    },
+    {
+      "name": "亿元",
+      "count": 9
     },
     {
       "name": "Anthropic",
       "count": 9
-    },
-    {
-      "name": "RESEARCH",
-      "count": 9
-    },
-    {
-      "name": "POST",
-      "count": 9
-    },
-    {
-      "name": "RESEARCHERS",
-      "count": 9
-    },
-    {
-      "name": "AGENT",
-      "count": 8
     }
   ],
   "news": [
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "苹果 iOS 27 测试版出现 iCloud+ 限制变化，库克此前曾暗示将对高级 AI 功能收费",
-      "summary": "IT之家 8 月 11 日消息，苹果今日发布了 iOS 27 第五个开发者测试版。有用户发现，该版本中出现了与 iCloud+ 订阅服务和 HomeKit Secure Video 相关的新提示，可能暗示苹果未来将针对部分高级功能进行收费。苹果 CEO 蒂姆 · 库克此前曾表示，部分 Apple Intelligence 功能未来可能会产生额外费用。不过，目前苹果尚未公布具体收费方案。根据苹果现行 iCloud+ 服务规则，50GB 套餐支持 1 个 HomeKit Secure Video 摄像头，200GB 套餐支持最多 5 个摄像头。而 2TB 至 12TB 容量的高阶套餐则不设限制。在 iOS 27 开发者测试版 Beta5 中，有用户发现 HomeKit Secure Camera 设置页面出现了与现有规则不同的提示。使用 2TB iCloud+ 套餐时，",
+      "title": "阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文",
+      "summary": "IT之家 8 月 13 日消息，阿里云“魔搭 ModelScope 社区”公众号昨天（12 日）深夜宣布，阿里 Qwen 团队正式开放 Qwen3.8-2.4T-A95B 模型权重。此次是 Qwen-Max 级别的模型首次开源权重：模型总参数为 2.4T，每个 Token 激活 95B 参数，原生支持 262,144 Token 上下文，并可扩展至 1,010,000 Token。Qwen3.8 延续 Qwen3.5 的混合架构，重点提升编程、办公、科研和长周期 Agent 任务的端到端完成能力。官方云端版 Qwen3.8-Max 基于该开放权重模型，并加入更多生产环境能力。官方公布的评测覆盖编程 Agent、通用 Agent、专业工作和长上下文等方向；与 Opus 4.8、Fable 5、GPT 5.6 Sol 等模型相比，各项结果互有高低，",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/989/001.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "深夜放大招！DeepSeek V4 Pro 正式版 API 更新上线，多项测试性能接近 Fable 5",
+      "summary": "IT之家 8 月 13 日消息，据IT之家小伙伴反馈，DeepSeek V4 Pro 正式版今日晚间正式发布，已更新至 API，调用模型名不变。新版本增强了 Agent 能力，支持 Responses API 和 Codex 接入。从官方群放出的评测对比表可以看到，DeepSeek V4 Pro 正式版（DeepSeek-V4-Pro-0813）在多项测试中接近 Fable 5 水平，相比之前的预览版能力大幅提升。IT之家附定价如下：百万 tokens 输入（缓存命中）：0.025 元百万 tokens 输入（缓存未命中）：3 元百万 tokens 输出：6 元",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/989/000.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "剑指 GPT-5.6 Sol，SpaceXAI 发布 Grok 4.6 模型",
+      "summary": "IT之家 8 月 12 日消息，北京时间今天（12 日）晚间，Grok 4.6 正式发布。新模型在 Grok 4.5 基础上进一步强化长时间运行的智能体任务，以及复杂的交互和视觉工作。按照发布信息，Grok 4.6 能够持续处理包含大量步骤的复杂任务，包括资料研究、信息分析、大型代码库处理，以及将产品构想转化为完整应用或工作成果。基准测试方面，Grok 4.6 在多项智能体编程和知识工作测试中达到前沿水平。在综合 9 项基准测试的 Artificial Analysis Intelligence Index 上，Grok 4.6 与 GPT-5.6 Sol 取得相同成绩。据IT之家了解，Grok 4.6 已在 Cursor 和 Grok Build 上线。首周，两项服务将向用户提供两倍的内含使用额度。训练方面，Grok 4.6 经历了比 Grok 4.5 更长的补充训练。",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/999.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "深夜放大招？DeepSeek 官网 API 文档新增“DeepSeek-V4-Pro-0813”模型",
+      "summary": "IT之家 8 月 12 日消息，今天（12 日）晚间，DeepSeek 官网“API 文档”上的“模型 & 价格”页面中，模型版本新增了 DeepSeek-V4-Pro-0813，其支持非思考与思考模式。不过截至IT之家发稿，官方尚未发布 DeepSeek-V4-Pro-0813 的更新日志。值得一提的是，就在不久前的 7 月 31 日，DeepSeek-V4-Flash 正式版 API 上线公测。据IT之家了解，官方当时曾称，DeepSeek-V4-Pro 正式版将会尽快发布。相关阅读：《DeepSeek-V4-Flash 正式版 API 上线公测，V4-Pro 正式版将“尽快”发布》",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/998.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "全球首款机器人手机荣耀 Robot Phone 正式发布，天马宣布独家供屏",
+      "summary": "IT之家 8 月 12 日消息，在今晚的荣耀 Robot Phone 全球新品发布会上，全球首款机器人手机 —— 荣耀 Robot Phone 正式发布，定价 9999 元起。天马微电子宣布，为本款机型独家供应屏幕，深度定制天马天工屏高端 OLED 显示方案。天马表示，这是天工屏首次应用于具备具身交互能力的 AI 终端，适配机器人手机的创作、随行交互等场景。据介绍，荣耀 Robot Phone 手机配备一块 6.31 英寸 1.5K OLED 直屏，屏幕分辨率 2640×1216，支持 P3 影院级广色域与专业色彩校准；峰值亮度可达 6800nits，支持 1‑120Hz LTPO 自适应刷新率；采用中置挖孔设计，拥有 1.08mm 极窄四等边，并实现了 94.58% 高屏占比。这块屏幕采用天工屏 U9 护眼基材，支持 4320Hz 超高频 PWM 调光，可实现全亮度无频闪；",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/986.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "谷歌 Pixel 11 系列正式发布：全系 256GB 起步 899 美元起，8 月 20 日开售",
+      "summary": "IT之家 8 月 12 日消息，谷歌正式发布了 Pixel 11 系列手机等一系列产品，包括 Pixel 11、Pixel 11 Pro、Pixel 11 Pro XL 以及 Pixel 11 Pro Fold。该系列即日起开启预购，将于 8 月 20 日正式开售。谷歌 Pixel 11 系列搭载自研 Tensor G6 芯片。相较上一代 Tensor G5，Tensor G6 网页浏览速度提升 25%，应用启动速度提升 15%，并运行最新的 Gemini Nano 模型。谷歌 Pixel 11 系列全系标配 256GB 存储起步。Pixel 11、Pixel 11 Pro 和 Pixel 11 Pro XL 均采用更薄的机身设计，相机条显著收窄并覆盖边缘到边缘的玻璃，与官方保护壳齐平以防止在平面上晃动。相机条上新增了 HiLight 指示灯，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/985.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "铠侠与闪迪发布第九代 2Tb QLC 3D 闪存，接口速度达 4.8Gb/s 提升 33%",
+      "summary": "IT之家 8 月 12 日消息，铠侠与闪迪今日共同宣布，推出第九代高性能 2Tb QLC 3D 闪存。该技术面向 AI 基础设施及数据密集型应用场景，旨在应对 AI 工作负载带来的存储需求增长。第九代 QLC 技术采用了两家公司的 CMOS 直接键合阵列（CBA）架构，将先进 CMOS 晶圆与成熟的存储单元阵列平台相结合。与前代第八代 2Tb QLC 产品相比，新技术引入了 6 平面架构及多项性能增强设计，实现了更高的写入与读取带宽，同时改善了读写功耗效率。IT之家从官方新闻稿获悉，其 NAND 接口速度达到 4.8Gb/s，较第八代器件提升了 33%。铠侠首席技术官宫岛英史表示，随着 AI 应用从生成式 AI 向智能体和物理 AI 扩展，数据利用日趋多样化和复杂化，公司正通过将成熟的存储单元技术与最新 CMOS 技术相结合，加速第九代闪存的开发，在保持较高投资效率的同时实现高性能。",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/979.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "马斯克：大概再过四五年，AI 将占到 SpaceX 价值的 99%",
+      "summary": "IT之家 8 月 12 日消息，SpaceX 创始人兼 CEO 埃隆 · 马斯克在公司 8 月 11 日发布于 X 的员工讲话中称：“我们的 AI 收入可能到 9 月，也就是下个月，就会超过 SpaceX 其他所有业务收入的总和，第四季度还会大幅超过其他业务收入。所以，AI 已经成为 SpaceX 未来极其重要的一部分。”今年早些时候，SpaceX 收购了马斯克 2023 年创立的初创公司 xAI。不过，收购 xAI 只是 SpaceX 进军 AI 的开端。马斯克此次放出豪言：“大概再过四五年，AI 会占到 SpaceX 价值的 99%；五年后肯定会达到这个水平。到时候 SpaceX 的价值将是一个天文数字。”“天文数字”并非夸张。马斯克称，SpaceX 计划在明年年底前将运行中的 AI 算力提高到 10 吉瓦，而目前只有 1.4 吉瓦。",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/975.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "腾讯：预计今年底至明年初 GPU 资源将更加充足，从而进一步提升云服务能力",
+      "summary": "IT之家 8 月 12 日消息，腾讯今日发布了 2026 年第二季度财报。腾讯高管在业绩会上表示，腾讯云正持续推进算力布局，预计今年底至明年初 GPU 资源将更加充足，从而进一步提升云服务能力。腾讯表示，公司正关注 GPU 算力、模型即服务（MaaS）等业务机会，将统筹调配算力资源，兼顾内部模型开发与对外出租需求。腾讯高管在业绩会上表示，将持续加大算力投资，算力资源将进一步兼顾内部模型构建、对外出租。公司将提升资本开支规模，对应股票回购的现金流或相应减少。其强调，本轮 AI 原生业务投入以一次性为主，今年底至明年初仍将持续，但未来不会持续维持高投入规模。腾讯 2026 年第二季度财报显示，公司当季营收 2047.9 亿元，同比增长 11%；Non-IFRS 净利润 684 亿元，同比增长 9%。在 AI 基础设施建设方面，腾讯二季度资本开支达 527.8 亿元，同比增长 176%，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/969.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "富士康对苹果业务营收依赖下降：智能消费电子占比降至 29%，AI 服务器首次突破 50%",
+      "summary": "IT之家 8 月 12 日消息，富士康母公司鸿海精密 2026 年第二季度的业务结构出现明显变化，云与网络产品首次占据公司季度营收的一半以上，达到 51%；包括 iPhone 在内的智能消费电子产品占比则降至 29%。富士康此前长期是苹果最大的 iPhone 代工合作伙伴，而且过去相当大比例的营收来自苹果相关业务。其郑州工厂规模庞大，曾承担全球约 80% 的 iPhone 生产。不过，随着富士康近年来持续扩大 AI 服务器等业务，智能消费电子在整体营收中的占比不断下降。IT之家提醒：这并不意味着 iPhone 相关业务规模下降，而是 AI 服务器等云与网络产品业务增长更快。富士康 2026 年第二季度营收达到约 2.12 万亿新台币（现汇率约合 4,439.28 亿元人民币），净利润为 599.7 亿新台币，同比增长 35%，高于市场预期。公司预计 AI 相关业务将在第三季度继续增长，",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/966.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "荣耀罗巍：Robot Phone 手机预定超过 40 万台",
+      "summary": "IT之家 8 月 12 日消息，在今晚的荣耀 Robot Phone 全球新品发布会上，全球首款机器人手机 —— 荣耀 Robot Phone 正式发布，定价 9,999 元起。12GB+512GB：9,999 元16GB+1TB：12,999 元京东荣耀 Robot Phone9999 元起直达链接IT之家注意到，荣耀首席影像工程师罗巍透露，Robot Phone 手机预定超过 40 万台。他直言：“再不下手估计买不到了。”IT之家从荣耀发布会了解到，Robot Phone 是荣耀与顶级电影摄影机厂商 ARRI（阿莱）合作的首款落地产品，融合了荣耀的移动影像以及 ARRI 百年底蕴的电影摄影技术。硬件方面，荣耀 Robot Phone 后置三摄方案包含一颗 2 亿像素 F1.6 光圈、等效 23 毫米的 4D 云台主摄，一颗 5000 万像素超广角镜头，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/965.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "荣耀 Magic9 系列手机开启预约，今年 9 月正式发布",
+      "summary": "IT之家 8 月 12 日消息，在今晚的荣耀 Robot Phone 全球新品发布会上，全球首款机器人手机 —— 荣耀 Robot Phone 正式发布，定价 9999 元起。IT之家注意到，荣耀终端股份有限公司 CEO 李健宣布，Magic9 系列手机今日开启预约，将在今年 9 月正式发布。值得一提的是，系列新机外观今日首曝。从发布会现场公布的 PPT 可以看到 Magic9 系列手机外观的镜头部分：后置大圆镜头模组，并印有阿莱联名标签 LOGO。",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/963.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "9999 元起，荣耀 Robot Phone 手机正式发布",
+      "summary": "IT之家 8 月 12 日消息，荣耀在今天的发布会中正式推出了 Robot Phone 手机，定价为 9999 元起。12GB RAM + 512GB 存储空间：9999 元16GB RAM + 1TB 存储空间：12999 元该机可选星轨银 / 月影灰两种配色，整体厚度 9.59mm，重量 248g，正面配备一块 6.3 英寸 2640x1216 分辨率 LTPO 直屏（峰值亮度 6800 尼特，配备 AR 反射膜）。手机搭载高通骁龙 8 Elite Gen5 处理器，内置 7060mAh 电池。影像方面，该机行业首发钛合金云台架构，架构采用航空级钛合金，与行业主流云台相比体积缩减 65%；行业首发钛合金云台电机，云台电机最大转速 360°/秒。云台配备 200Mp 1/1.28\" F1.6 23mm 超大底传感器。同时手机也拥有 50Mp 122° 超广角、200Mp 1/1.",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/961.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "3999 元影石 X6 正式发布：1/1.1 英寸大底传感器 + AI 三芯架构，支持 8K 50 帧全景视频",
+      "summary": "IT之家 8 月 12 日消息，影石今日正式发布新一代超旗舰全景相机 X6，标准套装 3999 元起，旅拍套装和全能套装分别为 4299 元、4499 元，首批只有黑色可选。京东影石 Insta360【新品】X6 全景运动相机 8K 高清防抖防水手持口袋摄像机 标准套装 极夜黑 3999 元直达链接2026 年数码家电政府补贴持续进行中，IT 之家为大家汇总国补领券地址，买数码家电之前记得领取。数码补贴：点此领券手机 / 平板 / 3C 数码支持 8.5 折政府补贴，不超过 6000 元的产品至高立减 500 元。家电补贴：点此领券多类家电支持 8.5 折政府补贴，单品至高补贴 1500 元。欢迎下载最会买 App - 好货好价，高额返利，1 毛钱也能提现！扫描二维码或点击此处下载最新版（自动识别平台）。作为影石深耕全景影像十年的标杆之作，X6 在画质、形态与 AI 体验上全面进阶，",
       "module": "tools",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/525.htm",
+      "url": "https://www.ithome.com/0/988/955.htm",
       "importance": "high",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "消息称英伟达开发万亿参数开源 AI 模型 Nemotron 4，目标挑战全球顶级",
-      "summary": "IT之家 8 月 11 日消息，今天（11 日）晚间，The Information 援引项目参与者消息称，芯片巨头英伟达正在研发新一代 AI 模型系列 Nemotron 4，希望借此与全球最先进的开源模型展开竞争。英伟达是美国少数主动推出开源模型的大型科技企业之一。今年以来，AI 开发和运行成本持续攀升，而价格更低的中国模型在性能上逐步逼近 Anthropic、OpenAI 等美国领先 AI 实验室的顶尖系统，使开源模型获得更多关注。近期接连披露的多起涉及自主 AI 智能体的黑客攻击事件，也进一步加大了外界对开源模型的关注，尤其是因为开源模型通常不会对网络安全用途施加限制。英伟达希望通过开放模型生态扩大 AI 应用范围，并进一步推动市场对其 GPU 算力的需求。英伟达生成式 AI 副总裁 Kari Briski 在邮件中透露：“投资 Nemotron，",
+      "title": "荣耀 Robot Phone 手机搭载 Agentic OS 新一代伙伴型多模态智能操作系统，首发全新 YOYO Pro",
+      "summary": "IT之家 8 月 12 日消息，在今晚的荣耀 Robot Phone 全球新品发布会上，荣耀官方宣布，Robot Phone 将搭载 Agentic OS 新一代伙伴型多模态智能操作系统。荣耀 Robot Phone 手机提供星轨银和月影灰两款配色，将首发全新 YOYO Pro 模式，由阿里千问大模型深度加持，支持超长任务执行、跨生态联动等功能。IT之家注意到，该机还采用 9.59mm 轻薄机身 + 248g 全金属一体成型设计，配备 6.31 英寸屏幕。荣耀 Robot Phone 搭载第五代骁龙 8 至尊版芯片，内置 7060mAh 青海湖电池，支持四麦克风阵列拾音。",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/946.htm",
+      "importance": "high",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "AI 编程语言 Mojo 推出 1.0 正式版，预计年内开源编译器及相关工具链",
+      "summary": "IT之家 8 月 12 日消息，Modular 现已正式发布 AI 编程语言 Mojo 1.0 版本，新版进一步整理了语法和类型系统，并针对“引用失效”问题加入了部分诊断能力。具体来看，本次 Mojo 1.0 在语言设计方面统一了此前存在多种表达方式的功能（包括变量声明、闭包以及指针类型等），同时新增类似 Python 的 lambda 匿名函数语法，开发者可以直接在代码中创建简短的内联闭包。除此之外，Mojo 1.0 为“引用失效”问题加入了诊断能力。官方举例，例如程序向 List 添加新元素后，原本指向 List 内部数据的引用可能因为内存重新分配而失效。如果代码继续使用该引用，就可能产生难以发现的错误。Mojo 现在能够识别此类“引用失效”情况，并提前提醒开发者进行修改。Modular 同时透露，，过去几年间 Mojo 一直处于快速开发阶段，不断调整语法、类型系统以及标准库，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/524.htm",
+      "url": "https://www.ithome.com/0/988/945.htm",
       "importance": "high",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "何小鹏谈电池和自动驾驶新国标：确保不只有长板，更重要的是没有短板",
-      "summary": "IT之家 8 月 11 日消息，今日晚间，在小鹏 G9L 发布会后的媒体沟通会中，小鹏集团董事长、CEO 何小鹏谈及动力电池安全和自动驾驶安全两项新国标时表示，小鹏也是标准的参与者与制定者。何小鹏指出，以自动驾驶为例，小鹏和其他造车新势力在 2020 年左右就将高速辅助驾驶带到了中国，甚至走向全球。如今越来越多车企将自动辅助驾驶作为标配，这对中国及全球用户而言都是好事。但他同时强调，许多车主并不清楚哪些场景下辅助驾驶能力强或弱，能力弱时该如何应对，因此需要制定更全面体系的强制标准。“这个标准要确保不光你有长板，更重要的是你没有短板，还重要的是你能够在整个体系规划里把中板补结实，这是我们一直在强标里期望去做的事情。”何小鹏说。他透露，小鹏 G9L 底盘的防撞能力超过国标接近 5 倍，在高速场景下自动辅助驾驶的万公里安全接管仅零点几次。何小鹏认为，越好的强标越能让所有厂商跟随，",
+      "title": "全球首款机器人手机：荣耀 Robot Phone 官宣搭载行业最小全钛云台架构",
+      "summary": "IT之家 8 月 12 日消息，在今晚的荣耀 Robot Phone 全球新品发布会上，全球首款机器人手机 —— 荣耀 Robot Phone 正式亮相。IT之家注意到，荣耀 Robot Phone 开创性地打造钛合金灵巧云台，将 4DoF 机械臂装入方寸机身，拥有行业最小全钛云台架构、行业最轻钛合金云台电机、行业最快钛合金云台电机、行业最强盾构钢翻转电机。荣耀手机官方表示，荣耀 Robot Phone 是一场极其勇敢的尝试，或许不尽完美，却代表着荣耀敢于打破常规，探索 AI 终端未来的决心。",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/517.htm",
+      "url": "https://www.ithome.com/0/988/943.htm",
       "importance": "high",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "含 iPhone Ultra、iPhone 18 Pro 等，六款未发布的苹果 iPhone 新机首度现身 iOS 27 系统代码",
-      "summary": "IT之家 8 月 11 日消息，据科技媒体 MacWorld 今天报道，苹果今日向开发者推送 iOS 27 Beta 5 操作系统，带来许多调整和优化，六台未发布的 iPhone 新机也首次在系统代码中出现。据报道，这些代码出现在 iPhone 电池驱动程序和“电池智能”功能文件夹中，具体代号和对应机型如下：V62：iPhone Air 2V63：iPhone 18 ProV64：iPhone 18 Pro MaxV67：iPhone 18V68：iPhone UltraV69：iPhone 18eIT之家在此援引 MacWorld，苹果今年的新品发布周期将改变过往节奏，采取“分阶段发布”策略。iPhone 18 Pro、iPhone 18 Pro Max 和折叠屏新机 iPhone Ultra 将于今年 9 月亮相；而 iPhone 18 标准版则是会在明年春季，",
-      "module": "tools",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/508.htm",
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Procedural Fairness Failures in RLHF from Preference Averaging",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10126",
       "importance": "high",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "网上中签率 0.018% 仅为长鑫 3.8%：“人形机器人第一股”宇树科技公布中签结果，超 978 万户参与申购",
-      "summary": "IT之家 8 月 11 日消息，宇树科技今晚披露了首次公开发行股票并在科创板上市的网上摇号中签结果，中签号码共有 19414 个，每个中签号码可认购 500 股。宇树科技本次发行价格为 150.80 元 / 股，投资者中一签需缴款 7.54 万元。回拨机制启动后，宇树科技网上发行最终中签率为 0.01809759%。对比此前上市的另一只科创板热门新股长鑫科技，宇树科技的中签率明显更低。长鑫科技今年 7 月上市，网上发行最终中签率为 0.47141739%，刷新了科创板历史纪录。宇树科技的网上中签率约为长鑫科技的 3.8%。从申购数据来看，宇树科技本次网上发行有效申购户数为 978.46 万户，有效申购股数为 536.37 亿股，网上发行初步有效申购倍数约为 8288.82 倍。由于超过 100 倍，发行人与保荐人启动了回拨机制，将 323.6 万股从网下回拨至网上。回拨后，",
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+      "summary": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
       "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/502.htm",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
       "importance": "high",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Remedy 确认《马克思 · 佩恩 1&amp;2》重制版仍在制作，R 星负责发行",
-      "summary": "IT之家 8 月 11 日消息，据外媒 Inside Gaming 今天（11 日）报道，初代《马克思 · 佩恩》至今仍拥有数量可观的忠实玩家，玩家期待重制版已有多年。Remedy Entertainment 近期发布的报告再次确认，与 Rockstar Games 合作开发的《马克思 · 佩恩 1&2》重制版仍在制作，只是目前还没有太多内容可以公开。Remedy 最新财报除了公布财务数据和愿望单数量，也回应了外界提出的问题，其中就包括《马克思 · 佩恩 1&2》重制版的最新进展。此前在 2025 年 8 月，有消息确认 R 星正与 Remedy 合作开发《马克思 · 佩恩 1&2》重制版。此次公布的 2026 年半年度报告则显示，项目仍在全面制作状态，但由于发行权掌握在 R 星手中，Remedy 目前无法公开更多信息。“很多问题都与《马克思 · 佩恩》有关，",
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
+      "summary": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
       "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/488.htm",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
       "importance": "high",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -164,17 +318,6 @@
       "region": "cn",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/08/470674.html",
-      "importance": "high",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07746",
       "importance": "high",
       "date": "2026-08-11"
     },
@@ -221,28 +364,6 @@
       "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
       "importance": "high",
       "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
-      "summary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
-      "module": "tech",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
-      "importance": "high",
-      "date": "2026-08-10"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "OpenAI acquires presentation startup NextSlide",
-      "summary": "Founder Ahmed Beshry describes the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.”",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-      "importance": "high",
-      "date": "2026-08-08"
     },
     {
       "id": "builtin-Q3Vyc29y5o6o5Ye6",
@@ -378,91 +499,58 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "让 AI 生成的非真人歌手无处遁形，Spotify 推出“AI 人格”标签",
-      "summary": "IT之家 8 月 11 日消息，Spotify 今天宣布，平台将从 9 月起陆续推出“AI 人格”（AI Persona）标签，帮助用户识别那些看起来像真人、但实际由 AI 生成的歌手。Spotify 表示，本次新功能推出是顺应听众需求，目前大部分用户无法接受看起来像是真人，但实际是 AI 生成的歌手。即日起，AI 创作者可以前往 Spotify for Artists 主动标记“AI 人格”身份。平台也将审核艺人主页，并将疑似 AI 生成的艺人打上标记。默认情况下，被打上“AI 人格”的艺人不会被纳入算法推荐。如果有误标记情况发生，用户可以选择申诉。IT之家注意到，Spotify 将优先展示真实艺人的音乐作品，避免向用户推荐低质量的 AI 垃圾内容，平台推荐体系将重点支持那些通过真实身份在音乐行业发展的歌手。",
+      "title": "比亚迪 AI 团队首秀：混合世界模型 HyWorldVLA 获 90.59 分，自研芯片 + 算法闭环成型",
+      "summary": "IT之家 8 月 12 日消息，比亚迪汽车新技术研究院 AI 团队上个月发表了其首篇研究论文，介绍了一种用于自动驾驶的混合世界模型 HyWorldVLA。该模型结合了像素级和潜在空间世界建模，并采用视觉-语言-动作（VLA）架构。该模型在自动驾驶公开基准测试 NAVSIM v1 中取得了 90.59 的 PDMS 评分，刷新了该基准的历史最佳成绩。在指标更全面的 NAVSIM v2 上，HyWorldVLA 同样取得了 89.71 分的领先成绩。IT之家注：PDMS 指标综合考察碰撞安全性、可行驶区域合规性、安全距离、目标完成度和运动舒适性等多维度实际驾驶质量。HyWorldVLA 的核心思路是“两条腿走路”。像素级世界模型逐帧预测未来路况，细节丰富但计算昂贵、对视觉噪声敏感；潜在空间模型在压缩的抽象表征中运行，效率高却容易丢失关键细节。比亚迪的方案在训练阶段用像素级监督充当“看门狗”，",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/942.htm",
+      "importance": "medium",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "UserToolBench: A User-Profile-Hidden Benchmark for Personalized Decision Making in Tool-Use LLMs",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10042",
+      "importance": "medium",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "summary": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+      "module": "community",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "importance": "medium",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Lovable confirms new $13.3B valuation, raises another $400M",
+      "summary": "This new funding comes after Lovable hit $500 million in annualized run rate revenue in June, the startup told TechCrunch.",
       "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/504.htm",
-      "importance": "medium",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Steam 新一周游戏销量榜公布：《Big Walk》新上榜登顶全球",
-      "summary": "IT之家 8 月 11 日消息，Steam 平台现已公布了最新一周游戏销量排行榜（2026 年 8 月 4 日 - 2026 年 8 月 11 日，不含免费游戏），本期新游戏《Big Walk》新上榜登顶全球榜单，《雾影猎人》跌至第八，《赛博朋克 2077》稳居全球第二，多款新品跻身榜单前列。全球榜单：《Big Walk》《漫威斗魂》《赛博朋克 2077》《铁巢重炮》《维修物语》《幻兽帕鲁》《战争机器：事变日》《雾影猎人》《幽灵行动：荒野》《Rust》国区榜单：《赛博朋克 2077》《机械狂欢》《午夜轮班》《逃离塔科夫》《Big Walk》《赛博朋克 2077：往日之影》《极限竞速：地平线 6》Wallpaper Engine: 《壁纸引擎》《双影奇境》《龙之剑：觉醒》",
-      "module": "tech",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/503.htm",
-      "importance": "medium",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "五大高校联手发榜！首份机器人三视角世界模型评测结果出炉，榜单持续更新中",
-      "summary": "三视角世界模型谁更稳?",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/469860.html",
-      "importance": "medium",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "NL2SHACL-Bench: A Benchmark Suite for Natural Language to SHACL Translation",
-      "summary": "",
-      "module": "tech",
       "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07530",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
       "importance": "medium",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "TeXFix-Bench: An Empirically Grounded Multi-Format Benchmark for LLM-Based Document Source Repair",
-      "summary": "",
-      "module": "tech",
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Everything announced at Made by Google &#8217;26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+      "summary": "From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event.",
+      "module": "industry",
       "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07617",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
       "importance": "medium",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "CMU-Drive and V2V-VLA: Cooperative Multi-agent Unified Driving with Reasoning Benchmark and Vehicle-to-Vehicle Vision-Language-Action Models",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07621",
-      "importance": "medium",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "PhysAttNet: Enhancing Predictive Performance in Industrial and Astrophysical Time Series via Physics-Informed Attention",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07681",
-      "importance": "medium",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "From Benchmark Performance to Tool Deployment: Human-in-the-Loop Anomaly Detection",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07770",
-      "importance": "medium",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -477,14 +565,14 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "VoiceGecko",
-      "summary": "Open source, local voice-to-text Discussion | Link",
+      "title": "Dograh",
+      "summary": "The open source VAPI alternative Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/voice-gecko",
+      "url": "https://www.producthunt.com/products/dograh",
       "importance": "medium",
-      "date": "2026-08-09"
+      "date": "2026-08-07"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -543,47 +631,597 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "台风过境：宁波用 AI“算”出防汛最优解，预报模型 5 秒生成方案",
-      "summary": "IT之家 8 月 11 日消息，今年第 13 号台风“白海豚”于 8 月 9 日登陆，给地处三江交汇、濒临海湾的浙江宁波带来强降雨。据央视报道，作为人均水资源占有量远低于全国平均水平的缺水城市，宁波在台风防御中面临水库既要腾库防洪、又要蓄水保供的两难困境。当地依托数字孪生等智慧水利手段，实现了防洪与蓄水的精细化平衡。水库调度在台风防御中常面临矛盾：水放多了怕台风改道导致后续用水紧张，放少了又怕雨量超预期威胁大坝安全。宁波市水利水电规划设计研究院防灾减灾部总监江雨田介绍，这一平衡点需要靠调度软件不断滚动分析计算。该调度软件的核心是一套 AI 预报模型。以甬江流域为例，以往开展一场完整的方案计算需要 5 到 10 分钟，如今 AI 预报模型仅需 5 到 10 秒，预报时效性从分钟级提升至秒级。根据降雨预报和水位变化，该模型每 5 分钟更新一次调度建议，调度员可据此实时调整下泄流量。",
+      "title": "到 2030 年全国算力用电量将达 8000 亿度，届时 6 万亿度绿电奔涌入网",
+      "summary": "IT之家 8 月 12 日消息，据央视财经今天（12 日）报道，当前，一个万卡集群一天至少吞掉 20 万度电。据测算，到 2030 年全国算力用电量将达到 8000 亿千瓦时。人工智能的未来，不仅是“算”的比拼，更是“电”的竞赛。报道指出，算力在狂奔，绿电在托底。截至 6 月底，我国非化石能源发电装机容量 25.2 亿千瓦，占总装机容量比重的 62.4%，我国新增用电需求几乎全部由绿电满足。东数西算八大枢纽内，大型绿色算力集群绿电使用率持续攀升。内蒙古和林格尔、甘肃庆阳等地新建数据中心的绿电消费占比已超 80%，全国 172 个算力中心通过绿色低碳 4A 认证。IT之家从报道中获悉，如今，东数西算工程已撬动万亿级社会投资，有效解决算力高能耗、新能源发电波动等问题，绿色能源底座正在托举中国 AI 全球竞争力。到 2030 年，近 6 万亿度绿电奔涌入网。",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/529.htm",
+      "url": "https://www.ithome.com/0/988/994.htm",
       "importance": "low",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "李飞飞：AI 进入校园的最大风险，是可能削弱孩子的学习能力",
-      "summary": "IT之家 8 月 11 日消息，据《商业内幕》今天（11 日）报道，被称为“AI 教母”的斯坦福大学计算机科学教授、World Labs 联合创始人李飞飞认为，AI 进入校园最大的危险并不是学生会利用 AI 作弊，而是 AI 会削弱学生的学习能力。李飞飞认为，最糟糕的结果，是年轻一代的自主性，以及作为人的学习和生活动力被工具夺走。“无论是人还是机器，都不应该夺走它。”如果 AI 使用不当，未来几代人可能会在“大脑没有得到充分发育”的情况下成长，但她同时警告，不应全面抵制 AI，禁止学生使用这些工具。“两种情况都让我担忧。无论是拒绝使用工具，还是夺走自主性和动力。”李飞飞还指出，如果学生已经投入学习，只是在遇到困难时需要帮助，AI 就可以成为强大的学习伙伴。她回忆道，在自己还是医学预科生时，曾在有机化学学习上遇到困难，当时助教的答疑时间有限，教授能够用于回答问题的时间也有限。李飞飞坦言，",
+      "title": "腾讯总裁刘炽平：微信将成为以 AI 为先的生态系统，未来能转化为巨大价值",
+      "summary": "IT之家 8 月 12 日消息，在今天（12 日）晚间的腾讯 2026Q2 财报业绩电话会上，腾讯总裁刘炽平谈及二季度微信 AI“小微”灰测的反馈。刘炽平认为，AI 可以让微信变得更加智能化，能够帮助用户进行交易、探索内容以及管理日常生活。“在 PC 时代，QQ 主要是一个通信和社交工具，到了移动互联网时代，微信又将 QQ 的价值放大了 10 倍以上。而到了 AI 时代，随着时间的推移，微信将成为以 AI 为先的生态系统。用户给出一个指令，系统就自行执行。”刘炽平表示，如果腾讯能够在控制成本的同时提供这种体验，并且满足用户隐私需求、成本效益，就能为微信赋予强大的能力。“未来微信的生态系统将会扩大，基于目前的盈利机制转化为巨大的价值。这就是我们看到的未来。随着原型的推出，我们对此越来越有信心。”延伸阅读IT之家从腾讯 2026 年第二季度财报获悉，当季实现营收 2047.9 亿元，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/501.htm",
+      "url": "https://www.ithome.com/0/988/977.htm",
       "importance": "low",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "消息称 SK 海力士大连 NAND 闪存二厂重启建设，将令当地产能提高五成",
-      "summary": "IT之家 8 月 11 日消息，韩媒《首尔经济日报》今天（11 日）报道，SK 海力士将重启停工多时的大连 NAND 闪存二厂建设，把当地整体产能提高约 50%。大连二厂四年前开工后，因存储芯片市场低迷而长期搁置。SK 海力士计划在今年年底前导入生产设备，并于明年上半年正式投产。半导体业界消息称，今年上半年起，大连二厂重新获得了 SK 海力士旗下 NAND 子公司 Solidigm 的投资，建设工程也同步恢复。生产设备最早将于 11 月进场，量产体系将于明年上半年建立。据悉，新生产线每月可投入约 5 万片晶圆，加上大连一厂现有的每月 10 万片，SK 海力士在当地的 NAND 产能将增加约 50%。搁置四年的大连投资得以重启，与 NAND 市场迅速回暖密切相连。AI 数据中心扩张带动企业级固态硬盘（eSSD）需求激增，NAND 价格一年内上涨近 10 倍。",
+      "title": "零刻推出 AMD 锐龙 AI 9 HX 470 版 ME Pro NAS 迷你主机，4795 元起",
+      "summary": "IT之家 8 月 12 日消息，零刻 (Beelink) 今日宣布推出 AMD 锐龙 AI 9 HX 470 版 ME Pro NAS 迷你主机，包括两盘位和四盘位版本。IT之家注意到，此次新机型与早前推出的 AMD 锐龙 AI 9 HX 370 版 ME Pro 并未任何意义上的本质区别，仅是简单的处理器迭代。目前 AMD 锐龙 AI 9 HX 370 版 ME Pro 标价仍是两盘位 3999 元起、四盘位 4299 元起；AMD 锐龙 AI 9 HX 470 版则是两盘位 4795 元起、四盘位 4995 元起（以上价格均为无内存无存储“准系统”）。AMD 锐龙 AI 9 HX 470 版 ME Pro 拥有 2 条 DDR5-5600 SO-DIMM 内存插槽、3 个 M.2 2280 PCIe SSD 盘位 (2× Gen4×4 + 1× Gen4×1)，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/485.htm",
+      "url": "https://www.ithome.com/0/988/960.htm",
       "importance": "low",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "因 iCloud“专用代理”存在漏洞，苹果面临“欺诈”集体诉讼",
-      "summary": "IT之家 8 月 11 日消息，安全研究人员上周发现，苹果的 iCloud 专用代理（Private Relay）存在漏洞。该功能本应防止网站获取用户的 IP 地址，但在部分情况下却会失效并泄露真实 IP。苹果的产品或服务一出问题，集体诉讼几乎总会紧随其后。据外媒 9to5mac 今天（11 日）晚间报道，这次也不例外。克拉克森律师事务所现已对苹果提起集体诉讼，指控其虚假广告、虚假陈述和欺诈。该律所此前还曾就 Siri AI 延期推出促成 2.5 亿美元（IT之家注：现汇率约合 16.89 亿元人民币）和解。诉状称：“苹果在推出、营销、宣传、标示和销售 iCloud+ 订阅服务时，就已经知道或理应知道，争议陈述存在虚假、误导和欺骗，并违反法律。”克拉克森律师事务所合伙人蒂姆 · 焦尔达诺称，律所认为此事是“对消费者信任令人愤慨的背叛”。“苹果一直把品牌建立在保护用户隐私的承诺上，",
+      "title": "大我 Bigme B1051 Ultra 10.3 英寸彩墨屏 AI 办公本开售，6+128GB 版本到手价 3299 元",
+      "summary": "IT之家 8 月 12 日消息，大我 Bigme B1051 Ultra 彩墨屏 AI 办公本今日开售，6+128GB 版本到手价 3299 元。IT之家获悉，这款产品配备 10.3 英寸 300 PPI Kaleido3 彩色墨水屏，支持 36 级冷暖光调节，彩色模式 150 PPI，黑白模式 300 PPI；配备 xRapid 快刷技术，刷新帧率至高 50 FPS；搭载 xClear 自动清残影技术，在普通和极速模式下翻页残影下降 50% 以上。性能方面，这款产品搭载天玑 1080 处理器，主频 2.6GHz，采用 6nm 工艺制程；机身厚度 5.5 mm，内置 6900mAh 容量电池，侧边配备指纹识别模块，支持 2TB 内存卡拓展。这款产品配备手写笔，还有八颗触控按键可自定义；后置摄像头支持文档扫描、扫码、OCR 文档识别等；音频方面配备四麦矩阵，提升录音清晰度。系统方面，",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/950.htm",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "寒武纪回应“存货超 82 亿”：将持续拓展市场，控制相关风险",
+      "summary": "IT之家 8 月 12 日消息，寒武纪 2026 年半年实现营业收入 59.96 亿元，同比增长 108.13%；归母净利润 23.11 亿元，同比增长 122.61%。寒武纪今日举办 2026 年半年度业绩说明会。针对市场关注的存货问题，寒武纪董事长、总经理陈天石回应称，公司根据客户订单需求及市场预测制定采购计划，将持续拓展市场、推动 AI 应用落地以控制相关风险。截至 2026 年 6 月 30 日，寒武纪存货账面价值达 82.48 亿元，较上年末增长 66.83%，占总资产比例高达 45.32%。存货增长主要系原材料与委托加工物资增加所致。IT之家注意到，其中原材料账面余额 57.49 亿元，委托加工物资账面余额 25.37 亿元。寒武纪采用 Fabless（无晶圆厂）模式，需通过代工厂完成芯片制造，存货增长更多体现为提前储备原材料及部分产品交由代工厂加工。报告期内，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/948.htm",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "在线旅游公司 Booking CEO：希望每个员工掌握 AI 素养，以应对不时之需",
+      "summary": "IT之家 8 月 12 日消息，据《商业内幕》今天（12 日）报道，在线旅游公司 Booking CEO 格伦 · 福格尔认为，AI 或许能帮助人们更轻松地规划度假行程，但也可能让部分从业者的职业生涯变得更加艰难。福格尔谈到了 AI 可能给劳动者带来的影响。“遗憾的是，我们一直在思考，‘AI 带来的好处会怎样改变我们的员工队伍？’这是有代价的，而且是人的代价。”据IT之家了解，随着 AI 能力不断提升，企业高管正在人类就业问题上选择截然不同的路线。一些企业已经明确把采用 AI 与裁员联系起来，Anthropic CEO 达里奥 · 阿莫迪也曾警告，未来五年内，50% 的入门级白领岗位可能遭到淘汰。另一些企业高管则采取不同思路。Grindr CEO 乔治 · 阿里森称，AI 可以帮助企业提高产出，而无需大幅调整员工规模。福格尔已经明确告诉 Booking 人力资源主管，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/944.htm",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Anthropic CEO整天神神叨叨，投资人受不了了",
+      "summary": "Dario能不能少吓唬点人…",
+      "module": "industry",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/471162.html",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
+      "summary": "具身模型一小时狂拣1816件异形包裹",
+      "module": "tech",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/471049.html",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
+      "summary": "免训练、开箱即用！",
+      "module": "tech",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/471030.html",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "人形之外，擎羽把“身体”变成具身智能的新变量",
+      "summary": "从柔性本体走向跨本体基础智能，让任务与世界知识延续",
+      "module": "tech",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/470874.html",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Scientists just created female clones of male mice",
+      "summary": "Scientists have deliberately turned male mouse embryos into females for the first time. A team based in Japan used a CRISPR-based approach to remove the Y chromosome from male cells and create female clones of male mice. “No one has done this before,” says Monika Ward, a reproductive biologist at the University of Hawaii, who",
+      "module": "tools",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Scaling AI agents with trustworthy data",
+      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data",
+      "module": "industry",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "The Download: our 35 young innovators and the “censorship-industrial complex”",
+      "summary": "This is today s edition of The Download, our weekday newsletter that provides a daily dose of what s going on in the world of technology. How we picked 35 of the world’s top young scientists and engineers On September 8, MIT Technology Review will reveal its 2026 list of Innovators Under 35, recognizing 35 young people",
       "module": "community",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/988/476.htm",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/",
       "importance": "low",
-      "date": "2026-08-11"
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.09949",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "SPOTting the Future: Lookahead Explanations for Deep Reinforcement Learning",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.09967",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "MIDAS: Mutual Information Disentanglement with Uncertainty-Aware Fusion for Incomplete Multimodal Sentiment Analysis",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.09986",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Towards Sustainable Artificial Intelligence: A Comprehensive Review and Comparative Analysis of Deep Learning Models' Carbon Footprint",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.09998",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "ReCBM: Uncertainty-Gated Relational Reasoning for Concept Bottleneck Models",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10004",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Automating and Scaling Behavioral Scientific Research on AI Agents",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10030",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "CHORUS: Complementary Experts for High-Coverage Testbench Stimulus Generation",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10090",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "MESA:Task-Adaptive Multi-Structure Evidence Selection for Long-Horizon Agent Memory",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10108",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "The CASE Framework: A Multi-Disciplinary Control Architecture for Governing Enterprise Agentic AI",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10153",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "SBCO: Self-Supervised, Verifier-Grounded Harness Optimization For Planning Agents",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10157",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Generating Attacks for LLMs with GFlowNets",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10171",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "TRACE: Trustworthy Retrieval-Augmented Conversational Engine",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10176",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Post-Hoc Sparse Coding of Latent Communication Between Vision-Language Model Agents",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10198",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Edge Phoneme Recognition for Children's Speech through Age-Aware Training",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10206",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Mitigating Bus Bunching with Reinforcement Learning Enhanced by Semantic Stop Embedding",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10207",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Evaluation-Conditioned Training: Teaching Models to Generalize to Stronger Oversight Regimes",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10209",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Decodable But Not Detachable: Training Data Granularity Determines Parametric Modularity in Large Language Models",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10214",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Mind Viruses: Self-Propagating Ideas in Multi-Agent LLM Systems",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10218",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Self-evolving Agentic Customer Support System at LinkedIn",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10224",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Beyond Decision Boundaries: Relational Geometry Attacks on Contrastive Embedding Manifolds",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv AI",
+      "url": "https://arxiv.org/abs/2608.10237",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Transformer Geometry Observatory TGO-IV: Developmental Topology Observatory",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.09997",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Uncertainty-Aware Ensemble Deep Randomized Neural Networks for Classification",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10007",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "CurveFP: Rational-Radix Logarithmic Datatypes with Closed Products for Language Models",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10010",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Sheaf-Based Federated Representation Learning",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10016",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "DOCSCHISEL: Adaptive Tool Documentation Optimization Framework for LLM Agents",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10037",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "FlowScout: From Execution Feedback to Reliable Tool-Using Agent Workflows",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10039",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Finding the Signal in the Spam: Jointly Learning Rewards and Worker Reliability from Pairwise Comparisons",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10045",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Detecting Soft Skills in ML Engineering Roles CVs",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10046",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Physics-Informed Machine Learning in Prognostics and Health Management: A Systematic Literature Review",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10047",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "Observational Policy Ranking for SMB Financial Guidance from Multi-Action Accounting Logs",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10050",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "ChronoSSM: Training for Temporally Aware Representations in Autoregressive State Space Models",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10120",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "SeFoRA: Sketch-Aggregated Federated Low-Rank Adaptation with Heterogeneous Client Ranks",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10144",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnhp",
+      "title": "The Evaluation Protocol Determines the Result: An Independent Reproduction of LeWorldModel on TwoRoom",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "Arxiv LG",
+      "url": "https://arxiv.org/abs/2608.10145",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Amazon will train on Twitch streamers&#8217; content by default, unless they opt out",
+      "summary": "\"If this was opt-in, nobody would opt in,\" Twitch CPO Mike Minton said on a livestream responding to user feedback. \"That's honestly the answer.\"",
+      "module": "tech",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+      "summary": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Mesh, Automattic&#8217;s CRM for everyone, comes to Android",
+      "summary": "Mesh, an AI-powered contacts app and relationship manager from Automattic, is now an Android app.",
+      "module": "tools",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
+      "summary": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting people want to capture stray thoughts and ideas the same way. One of [ ]",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Why Sandbar thinks it’s voice-enabled ring can avoid the AI hardware graveyard",
+      "summary": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting people want to capture stray thoughts and ideas the same way. One of [ ]",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/podcast/why-sandbar-thinks-its-voice-enabled-ring-can-avoid-the-ai-hardware-graveyard/",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "AI code-testing startup Blacksmith&#8217;s valuation jumps almost 10x in less than a year",
+      "summary": "Blacksmith says revenue has grown more than tenfold over the past year.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Unsloth Desktop",
+      "summary": "Run and train AI models locally on your desktop Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/unsloth",
+      "importance": "low",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Cohesor",
+      "summary": "A neutral control plane for enterprise AI agents Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/cohesor",
+      "importance": "low",
+      "date": "2026-08-12"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -609,386 +1247,12 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "百年黎曼猜想被Claude破了新纪录！是个未公开新模型",
-      "summary": "把下界推高了一大截",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/470485.html",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "GPU开始金融化！黄仁勋拉上华尔街搞5000亿美元融资",
-      "summary": "真就把GPU当理财产品了～",
-      "module": "industry",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/470254.html",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Claude骂声中启动「隐形水印」：新模型全量嵌入，标记所有文字",
-      "summary": "大水印时代来了",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/470228.html",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "机器人赛道新岗位：月入6000元的“骨科大夫”，专治缺胳膊断腿",
-      "summary": "",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/469880.html",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "当AI开始“自作主张”，谁来为智能体戴上“项圈”？全球AI安全实战化大考，中国方案打入前三",
-      "summary": "全球AI安全实战化测评，中国方案DoGNAVY位列前三",
-      "module": "community",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/469869.html",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
       "title": "The Download: the next big thing in LLMs and how AI academic research is shifting",
       "summary": "This is today s edition of The Download, our weekday newsletter that provides a daily dose of what s going on in the world of technology. These startups are chasing the next big thing in LLMs Nine years after Google researchers introduced the transformer, this family of neural networks has become the engine inside every major large",
       "module": "tech",
       "region": "global",
       "source": "MIT Tech Review",
       "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Towards an Argumentative Foundation for Evaluative AI",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07473",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07474",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Determinization in Structure Theories: A Unified Framework via Closure, Comparability, and Joint Admissibility",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07476",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Emotion in an active inference model of human driving",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07480",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Training Variable Long Sequences with Data-Centric Parallel",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07524",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "The Knowing-Saying Gap: When Probes See Errors that Confidence Misses",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07528",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07532",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "MetaSpace: Metamorphic Testing for Spatial Cognition in Embodied Agents",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07533",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "When LLM Agents Negotiate: Private Information and Dynamic Bargaining in Supply Chains",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07538",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "TREAT: Evaluating Access to Formal Knowledge across Equivalent Mathematical Representations",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07540",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "An AI Scientist that Doesn't Drift: Taste, Structure, and Falsifiable Findings in a Quadruped Navigation Research Loop",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07542",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "The Field Knows: Cross-Dimensional Geometry from Navigation to Black Holes",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07566",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Controlled Memory Interference in Continual LLM Agents",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07622",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "From Single Chatbots to Governed Agent Ecosystems: An Agentic AI Pattern Catalogue and Orchestration Framework for Mission-Critical Hospital Information Management Systems",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07627",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Agent-MD: Selective LLM Intervention with Event-Driven Escalation for Stateful GCMC--MD Campaigns",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07637",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Contextual Value Alignment via Multilayer Combinatorial Fusion",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07642",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Mendel G\\\"odel Machine: Recursive Self-Improving Coding Agents via Comparative Evolution",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv AI",
-      "url": "https://arxiv.org/abs/2608.07645",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Application of Artificial Intelligence for Fraudulent Banking Operations Recognition",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07471",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Data-Driven Fire-Zone Segmentation for Improved Short-Term Wildfire Prediction",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07472",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Evolving Safety Landscape of Multi-modal Large Language Models: A Survey of Emerging Threats and Safeguards",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07535",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Tracing sources of epistemic uncertainty in deep learning predictions: homo- and hetero-scedastic linearized estimators",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07630",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "SkillConsist: Detecting Inconsistencies in Agent Skills via Bidirectional Graph Alignment",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07639",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "CODS: Iterative Bellman-Residual Data Selection for Reusable Offline Reinforcement Learning",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07719",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Neural Operators for Immersed-Boundary Soft Swimmers Locomotion",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07722",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Finite Constant Frontiers and Auditable Regret Certificates for Average-Reward Reinforcement Learning",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07725",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "The Sample Complexity of Policy Learning with Mu-Resets",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07772",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Shape Mutating Expert Compression:LorExperts and BTExperts",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07814",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "From token probabilities to calibrated confidence: An empirical study of mathematical question answering",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07827",
-      "importance": "low",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "TEMPER: Tensorized Efficient Manifold-constrained Parameterization for Expressive Residual Routing",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2608.07851",
       "importance": "low",
       "date": "2026-08-11"
     },
@@ -1049,12 +1313,78 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Gitar",
-      "summary": "AI code review that fixes what it finds Discussion | Link",
+      "title": "Sidekick™",
+      "summary": "The agentic interface Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/gitar",
+      "url": "https://www.producthunt.com/products/sidekick-16",
+      "importance": "low",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Media Sharing",
+      "summary": "Let AI agents put screenshots and videos on pull requests Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/argos",
+      "importance": "low",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "LaraCopilot",
+      "summary": "Agentic AI Engineer that builds real apps Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/laracopilot",
+      "importance": "low",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Click",
+      "summary": "Live research context for ChatGPT and Claude Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/click-6",
+      "importance": "low",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "CodeBurn",
+      "summary": "See where your AI coding spend actually goes Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/codeburn",
+      "importance": "low",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Grok Bot",
+      "summary": "AI teammates that you can give real work to Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/grok",
+      "importance": "low",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "BearDrive",
+      "summary": "The open-source shared folder for your team's AI agents Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/beardrive",
       "importance": "low",
       "date": "2026-08-11"
     },
@@ -1079,303 +1409,6 @@
       "url": "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/",
       "importance": "low",
       "date": "2026-08-10"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "AI for science needs reasoning, not just data",
-      "summary": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. With the explosive arrival of artificial intelligence, the",
-      "module": "industry",
-      "region": "global",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
-      "importance": "low",
-      "date": "2026-08-10"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Mark Zuckerberg&#8217;s AI manifesto is exactly why people don&#8217;t like AI",
-      "summary": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
-      "importance": "low",
-      "date": "2026-08-10"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
-      "summary": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
-      "module": "tech",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
-      "importance": "low",
-      "date": "2026-08-10"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
-      "summary": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
-      "module": "tech",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
-      "importance": "low",
-      "date": "2026-08-10"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
-      "summary": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
-      "importance": "low",
-      "date": "2026-08-10"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Gotcha",
-      "summary": "World's First AI Copilot for Android. You talk. It acts. Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/gotcha-5",
-      "importance": "low",
-      "date": "2026-08-10"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
-      "summary": "The AI-focused hedge fund is still making some big bets.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
-      "importance": "low",
-      "date": "2026-08-09"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Anthropic is turning Claude Code’s auto mode on by default",
-      "summary": "Programming with Claude Code will soon require even less human oversight.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-      "importance": "low",
-      "date": "2026-08-09"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "The AI safety test is becoming a safety risk",
-      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards, and regulation can keep pace with increasingly powerful models.",
-      "module": "tech",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
-      "importance": "low",
-      "date": "2026-08-09"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Planned Amazon data center could become the biggest climate polluter in the US",
-      "summary": "AI has already had a significant impact on Amazon’s carbon emissions, which it reported were up 16% last year — the wrong direction for a company that pledged to eliminate its carbon emissions by 2040.",
-      "module": "tools",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
-      "importance": "low",
-      "date": "2026-08-08"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "The Download: a censorship conspiracy theory and the first virus created by AI",
-      "summary": "This is today s edition of The Download, our weekday newsletter that provides a daily dose of what s going on in the world of technology. How ideas of a vast censorship network moved from the online fringe to Trump policy For years, narratives about a “censorship-industrial complex” spread in right-wing circles. The theory claimed that, under",
-      "module": "tech",
-      "region": "global",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
-      "importance": "low",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
-      "summary": "This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading. For months, Elon Musk’s Department of Government Efficiency had been cutting a wide swath through",
-      "module": "industry",
-      "region": "global",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
-      "importance": "low",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Tines 3B",
-      "summary": "The secure environment for agents, apps, and automations Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/tines",
-      "importance": "low",
-      "date": "2026-08-07"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
-      "summary": "This is today s edition of The Download, our weekday newsletter that provides a daily dose of what s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painful losses in the tech talent wars, delays to its next flagship model, and murmurings of poor morale,",
-      "module": "tech",
-      "region": "global",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
-      "importance": "low",
-      "date": "2026-08-06"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Bullet",
-      "summary": "30-60% faster than Claude Code and Codex Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/bullet-6",
-      "importance": "low",
-      "date": "2026-08-06"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Vizard Agent",
-      "summary": "One AI agent for every kind of video Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/vizard-agent-the-first-video-agi",
-      "importance": "low",
-      "date": "2026-08-04"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Octomind Cloud and Hub",
-      "summary": "One login, zero API keys — cloud agents + 27 models Discussion | Link",
-      "module": "tech",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/octomind-plug-n-play-ai-agents",
-      "importance": "low",
-      "date": "2026-08-02"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "agent-manager",
-      "summary": "The fastest workflow for developing with AI Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/agent-manager",
-      "importance": "low",
-      "date": "2026-08-01"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Product Analytics for Agents and Users",
-      "summary": "Optimize Agent Actions with User Behavior. Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/kubit",
-      "importance": "low",
-      "date": "2026-07-24"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "AMP by CanyonTechs AI",
-      "summary": "AI agents that act. Automation that delivers. Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/amp-by-canyontechs-ai",
-      "importance": "low",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly92ZW50",
-      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm.",
-      "module": "tech",
-      "region": "global",
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
-      "importance": "low",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "BetterClaw",
-      "summary": "Deploy AI Agent, 60 seconds & $0 forever Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/betterclaw",
-      "importance": "low",
-      "date": "2026-05-01"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly92ZW50",
-      "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-      "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like gibberish: five strings of random numbers.The numbers were actually AI tokens.",
-      "module": "industry",
-      "region": "global",
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-      "importance": "low",
-      "date": "2026-01-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9zeW5j",
-      "title": "Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems",
-      "summary": "In recent years, LLM Multi-Agent systems have garnered widespread attention for their collaborative approach to solving complex problems. However, it's a common scenario for these systems to fail at a task despite a flurry of activity. The post Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems first appeared …",
-      "module": "tech",
-      "region": "cn",
-      "source": "机器之心",
-      "url": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems/",
-      "importance": "low",
-      "date": "2025-08-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9zeW5j",
-      "title": "Researchers from PSU and Duke introduce &#8220;Multi-Agent Systems Automated Failure Attribution",
-      "summary": "\"Automated failure attribution\" is a crucial component in the development lifecycle of Multi-Agent systems. It has the potential to transform the challenge of identifying \"what went wrong and who is to blame\" from a perplexing mystery into a quantifiable and analyzable problem The post Researchers from PSU and Duke introduce “Multi-Agent Systems Automated Failure Attribution first appeared on Sy…",
-      "module": "tech",
-      "region": "cn",
-      "source": "机器之心",
-      "url": "https://syncedreview.com/2025/06/16/researchers-from-psu-and-duke-introduce-multi-agent-systems-automated-failure-attribution/",
-      "importance": "low",
-      "date": "2025-06-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9zeW5j",
-      "title": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
-      "summary": "By combining State-Space Models (SSMs) for efficient long-range dependency modeling with dense local attention for coherence, and using training strategies like diffusion forcing and frame local attention, researchers from Adobe Research successfully overcome the long-standing challenge of long-term memory in video generation.",
-      "module": "tech",
-      "region": "cn",
-      "source": "机器之心",
-      "url": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/",
-      "importance": "low",
-      "date": "2025-05-28"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9zeW5j",
-      "title": "Can GRPO be 10x Efficient? Kwai AI&#8217;s SRPO Suggests Yes with SRPO",
-      "summary": "Kwai AI's SRPO framework slashes LLM RL post-training steps by 90% while matching DeepSeek-R1 performance in math and code. This two-stage RL approach with history resampling overcomes GRPO limitations. The post Can GRPO be 10x Efficient? Kwai AI’s SRPO Suggests Yes with SRPO first appeared on Synced.",
-      "module": "tech",
-      "region": "cn",
-      "source": "机器之心",
-      "url": "https://syncedreview.com/2025/04/23/can-grpo-be-10x-efficient-kwai-ais-srpo-suggests-yes-with-srpo/",
-      "importance": "low",
-      "date": "2025-04-24"
     }
   ]
 }
