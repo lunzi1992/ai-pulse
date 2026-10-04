@@ -3,45 +3,49 @@
     "title": "AI Pulse",
     "subtitle": "全球 AI 资讯每日聚合",
     "description": "国内 + 国际 | 行业动态 | 技术进展 | 社区洞察 | 工具与应用",
-    "lastUpdate": "2026-10-03",
-    "updatedAt": "2026-10-03T23:33:05.494Z",
+    "lastUpdate": "2026-10-04",
+    "updatedAt": "2026-10-04T23:51:17.226Z",
     "version": "4.0"
   },
   "hotKeywords": [
     {
-      "name": "OpenAI",
-      "count": 22
-    },
-    {
       "name": "之家",
-      "count": 12
+      "count": 16
     },
     {
       "name": "日消息",
+      "count": 16
+    },
+    {
+      "name": "DeepSeek",
+      "count": 13
+    },
+    {
+      "name": "OpenAI",
       "count": 12
     },
     {
-      "name": "PRO",
-      "count": 10
-    },
-    {
-      "name": "YOU",
-      "count": 9
-    },
-    {
-      "name": "RESEARCHERS",
-      "count": 9
-    },
-    {
       "name": "DISCUSSION",
-      "count": 9
+      "count": 11
     },
     {
       "name": "LINK",
-      "count": 9
+      "count": 11
+    },
+    {
+      "name": "YOU",
+      "count": 10
     },
     {
       "name": "AGENTS",
+      "count": 10
+    },
+    {
+      "name": "INTELLIGENCE",
+      "count": 9
+    },
+    {
+      "name": "TRUMP",
       "count": 9
     },
     {
@@ -53,31 +57,23 @@
       "count": 9
     },
     {
-      "name": "MODELS",
-      "count": 9
+      "name": "Claude",
+      "count": 8
     },
     {
       "name": "DOWNLOAD",
       "count": 8
     },
     {
-      "name": "DeepSeek",
+      "name": "MODELS",
       "count": 8
     },
     {
-      "name": "XBOX",
-      "count": 8
-    },
-    {
-      "name": "PCIE",
+      "name": "SUPER",
       "count": 7
     },
     {
-      "name": "Agent",
-      "count": 7
-    },
-    {
-      "name": "RESEARCH",
+      "name": "之家注意到",
       "count": 7
     },
     {
@@ -85,65 +81,69 @@
       "count": 7
     },
     {
-      "name": "SYSTEMS",
+      "name": "MODEL",
+      "count": 7
+    },
+    {
+      "name": "RESEARCHERS",
       "count": 7
     }
   ],
   "news": [
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "索尼 PlayStation 之父久多良木健：游戏行业陷入停滞，开发者应当保有更强的好奇心",
-      "summary": "IT之家 10 月 4 日消息，不少人认为如今的游戏行业已经不如过去那样富有创新活力，随着开发成本不断走高，裁员与工作室关闭的阴影步步逼近，开发者大多倾向于稳妥行事。PlayStation 之父久多良木健（Ken Kutaragi）也持有相同看法，他呼吁开发者要跳出固有的思维框架。IT之家注意到，久多良木健（Ken Kutaragi）在接受 4Gamer 采访时，直言不讳地评价了当下电子游戏行业的现状。他表示游戏这一媒介已经陷入停滞；在迈向下一发展阶段的过程当中，开发者应当保有更强的好奇心。这位 PlayStation 的缔造者认为游戏行业正处在一个转折点上。在他看来，开发者必须持续尝试探索；一旦开发者丧失好奇心，整个行业差不多也就走到头了。“当你失去好奇心，心里觉得现状大概已经就是所能达到的最好水平时，一切就都结束了。”回顾 PlayStation 早期的岁月，",
+      "title": "英伟达 AI 芯片走私案嫌疑人被捕，涉案金额超 3 亿美元",
+      "summary": "IT之家 10 月 5 日消息，美国上周逮捕了一名嫌疑人，此人被控走私含有受出口管制的英伟达芯片的高端计算机服务器进入中国。美国司法部于当地时间上周四发布新闻稿，指控 38 岁的格雷格 · 刘（Greg Lui）使用虚假文件掩盖一批货值超过 3 亿美元（IT之家注：现汇率约合 20.16 亿元人民币）的服务器货物；据称他明知这批货物最终将运往中国。美国联邦调查局的起诉书中称，格雷格 · 刘是大地智造计算机公司（Earthmade Computer）的首席执行官，他涉嫌与马来西亚、新加坡等南亚国家的货运代理企业合谋，将服务器芯片非法转运进入中国，其中就包括英伟达 A100 图形处理器与 H100 图形处理器，还包括消费级旗舰的 GeForce RTX 4090 和 GeForce RTX 5090。英伟达 A100 图形处理器与 H100 图形处理器并非英伟达最先进的产品，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/009/741.htm",
+      "importance": "high",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "再涨价！消息称台积电先进晶圆价格 2027Q1 拟计划再上调 6%~8%",
+      "summary": "IT之家 10 月 5 日消息，韩媒 ddaily 于 10 月 2 日发布博文，报道称在决定上调 10%~20% 基础上，台积电计划 2027 年第一季度针对最先进晶圆出货价格，再次上调约 6%~8%，理由是制造成本和电力费用上涨。报道援引半导体业界消息称，台积电 2 纳米制程订单激增，公司已将晶圆订单目标较原计划提高 15% 至 20%。为应对订单增长，台积电将位于新竹宝山和高雄等地的 5 座 2 纳米专用量产工厂转入全面运转状态，而先进制程产能集中让部分客户难以获得新增晶圆配额。高通（Qualcomm）、AMD 等芯片设计企业面临制造成本上升与单一供应链风险，因此部分客户开始寻求台积电以外的供应来源，三星电子代工业务因此获得潜在订单机会。三星正推进第 2 代 2 纳米制程 SF2P，目标将良率提升至 70% 以上。若该制程良率稳定性获得验证，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/009/740.htm",
+      "importance": "high",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "特朗普将“人工智能”改为“超级智能”后，马斯克确认 SpaceXAI 将更名为 SpaceXSI",
+      "summary": "IT之家 10 月 4 日消息，美东时间 9 月 29 日，美国总统特朗普正式签署行政令，下令所有行政部门和机构使用“超级智能”（Super Intelligence，简称 SI）一词代替人工智能（AI）。今日有网友向埃隆 · 马斯克提问，（SpaceXAI）有没有可能更名为 SpaceXSI？马斯克则给出了肯定的答复“是的，我们会做出改变。”埃隆 · 马斯克随后在 X 平台表示，SpaceX 是一家超级智能公司。今年 2 月，xAI 被马斯克旗下航天公司 SpaceX 收购，聊天机器人 Grok 和社交平台 X 也随之纳入 SpaceX 体系。今年 7 月，xAI 官宣更名为 SpaceXAI，并同步更换了标识和 X 平台用户名。IT之家注意到，当地时间 9 月 29 日，在特朗普宣布将“人工智能”改为“超级智能”后，多位科技领袖在白宫前接受媒体群访，轮到马斯克发言时，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/009/688.htm",
+      "importance": "high",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "比亚迪秦 MAX 车型 9 月销量 12066 辆，上市 2 个月连续破万",
+      "summary": "IT之家 10 月 4 日消息，10 月 3 日，比亚迪王朝网销售事业部总经理路天透露，秦 MAX 车型 9 月热销 12066 辆，上市 2 个月销量连续破万。IT之家注意到，比亚迪秦家族“超大杯”车型秦 MAX 于 8 月 13 日晚间正式上市，新车提供 EV、DM-i 两种车型共 9 种不同配置，售价区间为 9.99 万-14.39 万元。该车长宽高分别为 4866/1880/1495mm，轴距为 2820mm，拥有 523L 后备箱，最高可拓展至 1450L 空间，号称同级领先；车内拥有 27 处储物空间。秦 MAX EV 全系标配第二代刀片电池 + 闪充技术，官方还将赠送 1 年免费闪充权益。天神之眼 B 辅助驾驶激光版车型，支持城市领航辅助、高快领航辅助、全场景泊车辅助等功能。比亚迪方面承诺，将提供泊车兜底 +1 年城市领航兜底。此外，新车还内置了“迪迪虾”智能体。",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/009/680.htm",
+      "importance": "high",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
+      "summary": "专业3D模型反而更稀缺了",
       "module": "tech",
       "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/587.htm",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/501451.html",
       "importance": "high",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "苹果 MacBook Pro 外接 iPhone 17 Pro Max 运行 AI 模型，预填充性能最高提升 44%",
-      "summary": "IT之家 10 月 4 日消息，Qwen3.8‑27B 是一款性能不错的人工智能模型，但前提是设备拥有足够的显存与系统内存。搭载 M4 Pro 芯片的 MacBook Pro 仅有 24GB 统一内存，在运行该 AI 模型时，预填充速度会因此受到限制。据 Wccftech 报道，有一名用户通过 USB‑C 接口将 iPhone 17 Pro Max 外接至这台便携 Mac 电脑上，并借助自制软件，使得该 AI 模型的预填充性能最高提升了 44%。IT之家注意到，为突破这台 Mac 24GB 统一内存的上限，Reddit 用户“u/StayLameBro”采用两种方式，把运算任务拆分交给 Mac 本机和 iPhone 17 Pro Max 协同处理。针对预填充加速，MacBook Pro 负责处理每一批 256 个 token 当中的第 1 至 40 层，再将激活值数据流传输到手机端；",
-      "module": "tech",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/586.htm",
-      "importance": "high",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Anthropic 被曝密会宗教领袖讨论 Claude 意识问题，OpenAI 奥尔特曼发声批评",
-      "summary": "IT之家 10 月 4 日消息，OpenAI CEO 萨姆 · 奥尔特曼（Sam Altman）昨日在 X 上发帖，对将 AI 模型视为“宗教力量”的倾向表达了明确反对。他表示：“对于人们试图赋予 AI 模型某种宗教力量、或是放弃人类自身判断力而转而依赖这些模型，我感到非常不安，并认为这是一个切实的安全问题。”《纽约时报》10 月 2 日报道称，Anthropic 联合创始人克里斯 · 奥拉（Chris Olah）在过去一年中主导且参与了一系列与宗教领袖的私下会面，包括天主教、犹太教、锡克教、福音派基督教等，讨论的核心议题包括 AI 模型是否可能已经具备意识，以及如何将道德准则灌输到 AI 模型中。据与会者透露，奥拉在会面中的表述令一些宗教领袖感到意外。以色列正统派拉比莫伊斯 · 纳翁（Rabbi Mois Navon）回忆称，奥拉及其同事“像对待一个有意识的存在那样”谈论 Claude，",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/585.htm",
-      "importance": "high",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "OpenAI 前安全部门员工：AI 模型迭代部署太激进，公司的文化已经崩坏",
-      "summary": "IT之家 10 月 4 日消息，据路透社报道，一名近期辞职的前 OpenAI 安全部门员工批评了该公司对待人工智能安全的做法，他认为一味追求快速开发的高压企业文化会提高系统发生故障的风险。IT之家注意到，戴维 · 鲁宾森（David Robinson）于当地时间周六在《大西洋》杂志发表题为《我辞去 OpenAI 的工作，只因这家公司的文化已经崩坏》的文章中表示，包括 OpenAI 在内的各家人工智能企业做得“远远不够谨慎”，在研发能力更强的系统之前，应当更加重视安全方面的专业人才与相关研究。“试错的时代已经结束了。”鲁宾森（David Robinson）写道。他提出，先进人工智能系统所需要的防护机制，应当更接近核电与航空这类行业所采用的安全保障体系。鲁宾森（David Robinson）称，OpenAI 十分依赖其所谓的“迭代部署”模式：先对外发布系统，等到问题暴露之后再去加固安全防护。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/581.htm",
-      "importance": "high",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "铭凡 PCIe 扩展卡 ESP4B 上市，可提供 4 个 M.2 与 4 个 SATA 接口",
-      "summary": "IT之家 10 月 3 日消息，MINISFORUM（铭凡）现已在电商平台销售 PCIe AIC 扩展卡 ESP4B，到手价 669 元。这一型号基于祥硕 \"Promontory 21\" 芯片，采用主动散热，可提供 4 个 M.2 与 4 个 SATA 接口。PROM 21 芯片上行侧为 4 条 PCIe Gen4，下行侧则包括 8 条 PCIe Gen4、4 条 PCIe Gen3、一系列 USB I/O。在 ESP4B 上，下行 PCIe Gen4 用作 M.2 插槽，支持 2 个 4 通道或 4 个 2 通道；PCIe Gen3 通道则以 OCuLink 4i 形式呈现，可通过配套定制线材转换为 4 个 SATA III 接口；USB 部分则提供了 1 个 20Gbps Type-C。京东铭凡 ESP4B 扩展卡 669 元直达链接",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/571.htm",
-      "importance": "high",
-      "date": "2026-10-03"
+      "date": "2026-10-04"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -164,6 +164,17 @@
       "region": "global",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "importance": "high",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "LaunchReel",
+      "summary": "claude design but for editing professional videos faster. Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/launchreel-2",
       "importance": "high",
       "date": "2026-10-03"
     },
@@ -212,17 +223,6 @@
       "date": "2026-10-02"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
-      "summary": "价格只有Astra一半",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/499663.html",
-      "importance": "high",
-      "date": "2026-10-01"
-    },
-    {
       "id": "v4-aHR0cHM6Ly90ZWNo",
       "title": "ChatGPT can now virtually try on clothes for you",
       "summary": "OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library.",
@@ -232,39 +232,6 @@
       "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
       "importance": "high",
       "date": "2026-10-01"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-      "summary": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
-      "importance": "high",
-      "date": "2026-10-01"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "FoundrRadio",
-      "summary": "Pick a frequency, launch your radio station and go on air Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/foundrradio",
-      "importance": "high",
-      "date": "2026-10-01"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
-      "summary": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/09/499654.html",
-      "importance": "high",
-      "date": "2026-09-30"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -378,25 +345,25 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "索尼 PS5 破解后成功运行初代 Xbox 游戏，微软 Xbox 360 与 PC 游戏支持也在开发中",
-      "summary": "IT之家 10 月 4 日消息，据 VideoCardz 今日报道，XPSemu 已将开源初代 Xbox 模拟器 xemu 移植至破解 PS5，可在主机上运行部分初代 Xbox 游戏。与此同时，Xbox 360 模拟以及基于 Wine / Proton 运行 Windows 游戏的项目也在开发或展示阶段。IT之家注：XPSemu 是 xemu 面向 PS5 的移植版本，针对主机硬件进行了适配。该项目使用 QEMU 的 TCG JIT 处理 Xbox CPU 模拟，并通过 xemu 的 Vulkan 后端以及 PS5 可用的开源 RADV 驱动进行图形渲染。需要注意的是，这里模拟的是 2001 年推出的初代 Xbox，并非 Xbox 360。目前 XPSemu Alpha 1 已公开，可以启动部分游戏，",
-      "module": "tools",
+      "title": "大量 AI“幻觉”报告压垮维护团队，谷歌暂停部分开源漏洞奖励计划",
+      "summary": "IT之家 10 月 4 日消息，谷歌宣布，自 2026 年 10 月 1 日起，开源软件漏洞奖励计划（OSS VRP）将不再接收产品漏洞提报。本次规则调整不影响 2026 年 10 月 1 日之前已提交的产品漏洞。不过，针对部分可能对谷歌云（Google Cloud）产品造成影响的谷歌云代码仓库，如果涉及产品漏洞，谷歌仍可能通过云漏洞奖励计划（Cloud VRP）接收相关报告。OSS VRP 是谷歌设立的一项专业安全赏金计划，旨在通过激励独立安全研究人员，在谷歌整个开源生态系统中挖掘并负责任地披露安全缺陷。据 Tom's Hardware 报道，知情人士透露，谷歌工程师与开源代码维护人员已被数以千计的劣质报告彻底吞没。这些报告声称发现了严重漏洞，但深入排查后发现，它们全都是 AI 产生的“幻觉”，根本无效且无法被实际利用。维护团队不得不将大量精力耗费在验证这些虚假代码上，",
+      "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/583.htm",
+      "url": "https://www.ithome.com/1/009/673.htm",
       "importance": "medium",
-      "date": "2026-10-03"
+      "date": "2026-10-04"
     },
     {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "The Hidden Costs of 99% Accuracy: A Trustworthiness Audit of the Telco Customer Churn Benchmark",
-      "summary": "",
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Google froze its open source bug bounty program due to a &#8216;significant rise&#8217; in AI submissions",
+      "summary": "AI slop seems to be overwhelming bug bounty programs.",
       "module": "tech",
       "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00118",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
       "importance": "medium",
-      "date": "2026-10-03"
+      "date": "2026-10-04"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -406,6 +373,17 @@
       "region": "cn",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/10/499958.html",
+      "importance": "medium",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Pixel Soup",
+      "summary": "Dithered live wallpapers your Mac cooks up itself Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/pixel-soup",
       "importance": "medium",
       "date": "2026-10-02"
     },
@@ -444,69 +422,179 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "马斯克改口：特斯拉 AI5 芯片内存由 72GB 上调至 96GB",
-      "summary": "IT之家 10 月 4 日消息，特斯拉首席执行官埃隆 · 马斯克（Elon Musk）做出说明，该公司的 AI5 芯片不会采用 72GB 的 DDR5 内存，而是改用 96GB 内存。这样做是为了避免只有特斯拉一家为驱动擎天柱（Optimus）人形机器人的这款芯片采用最低 72GB 的配置标准。马斯克此前曾表示，特斯拉已经把 AI5 与 AI6 芯片的内存削减一半，目的是在全球历史性的内存紧缺背景下保障内存的供货。他在发表这番看法时还承认，过度依靠人工智能开展编程工作可能会引发人工智能精神病，出现这种状况之后，就没有办法向其他人解释人工智能究竟取得了哪些进展。特斯拉的 AI5 芯片是这家公司推进自动驾驶与机器人业务的核心，马斯克认为这两大业务板块将会决定特斯拉未来的走向。这位高管称，AI5 芯片已于四月份完成流片，他对这款硬件抱有很高期待。他认为，",
+      "title": "IT早报 1005：乐山大佛“掏耳朵”视频系 AI 合成；央视曝光外卖“明厨亮灶”造假；余承东称华为已量产 381 款 τ 芯片；马斯克确认 SpaceXAI 将更名 SpaceXSI...",
+      "summary": "“IT早报”时间，大家好，现在是 2026 年 10 月 5 日星期一，今天的重要科技资讯有：1. 乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”网传视频显示文保工人给大佛掏耳朵、掏鼻孔，还出现猴子抢安全帽等离谱画面。乐山大佛管委会回应称该视频系他人 AI 生成，并非真实场景。2026 年以来大佛已开展 5 次保养维护，耳鼻内并无杂物，凌云山片区也没有猴子。>> 查看详情2. 央视曝光外卖“明厨亮灶”造假，湖北、云南等地核查处置针对外卖商户摄像头随意摆放、故意偏移角度规避监督等问题，市场监管总局迅速部署湖南、湖北、云南等地开展核查处置。武汉对曝光商户立案调查并督促平台下架，丽江对 4 家涉事门店停业整顿，并启动外卖食品安全集中整治行动。>> 查看详情3. 特朗普将“人工智能”改为“超级智能”后，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/584.htm",
+      "url": "https://www.ithome.com/1/009/742.htm",
       "importance": "low",
-      "date": "2026-10-03"
+      "date": "2026-10-04"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "海马云推出 haimacloud GEAR 端云混合掌机：高通骁龙 865，硬件首发价 3149 元",
-      "summary": "IT之家 10 月 3 日消息，海马云 (haimacloud) 近日推出了 haimacloud GEAR 端云混合掌机。其本地采用高通骁龙 865 移动平台，运行 Android 13 操作系统，支持海马云的云游戏服务。该掌机拥有 8GB + 128GB 的存储器组合，搭配 7\" FHD 144Hz 2ms 800nits OLED 屏幕，内置 8000mAh 电池，具备主动散热、TMR 摇杆、霍尔扳机、机械微动按键、六轴体感，ABXY 为模块化设计，支持 Wi-Fi 6 & BT 5.1，质量 450g。IT之家获悉，配套的云游戏服务基于英特尔酷睿 i7-12700KF 处理器、\"70\" 级 NVIDIA GeForce RTX 显卡，支持 1080p 144FPS。haimacloud GEAR 仅硬件首发价 3,149 元，",
+      "title": "内存涨价倒逼系统瘦身：微软详解 Win11 为何要降低 RAM 占用",
+      "summary": "IT之家 10 月 5 日消息，随着内存成本持续上涨，微软正将“降低 Windows 11 内存占用”列为 2026 年剩余时间的重要工作之一。微软 Windows 与设备业务负责人帕万 · 达武卢里（Pavan Davuluri）在官方播客《Inside Windows》中表示，内存涨价已经成为整个 PC 行业都在关注的问题，Windows 团队正在从系统底层到应用框架多个层面提升内存利用率。这一话题源于一名 Surface Pro 用户在《Inside Windows》中的提问。他表示，为了在设备上运行本地 AI 模型，不得不关闭部分端侧 AI 功能，因此希望微软进一步改善 Windows 的内存管理。达武卢里对此表示，内存问题目前“在行业内都非常受关注”，尤其是在计算机内存成本不断上涨的背景下。对于 Windows 团队而言，需要进一步提高内存利用效率，并围绕这一目标开展相关工作。",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/576.htm",
+      "url": "https://www.ithome.com/1/009/738.htm",
       "importance": "low",
-      "date": "2026-10-03"
+      "date": "2026-10-04"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "AI 自动识别后厨违规行为，浙江 19.5 万家外卖商家接入系统",
-      "summary": "IT之家 10 月 3 日消息，据央视财经今日报道，近日，杭州市萧山区开展网络餐饮专项整治集群执法行动，101 名执法人员共检查餐饮门店 216 家。据介绍，2022 年 3 月 1 日起，《浙江省电子商务条例》施行。全省入网外卖商家必须以视频形式实时公开食品加工制作现场，在后厨装监控，实现“明厨亮灶”。画面同步上传监管平台与外卖平台，实现“互联网 + 明厨亮灶”监管模式。消费者在商家订单页点击“明厨亮灶”，就能看后厨实时画面。摄像头覆盖烹调、切配等重点区域。50㎡以下小店，若 1 个摄像头能拍全重点区域，可只装 1 个；后厨有隔断或面积大于 50㎡，应增设。AI 可自动识别后厨违规行为，将信息推送给监管人员，再由监管人员短信督促商家落实整改。比如，食用油禁止直接接触地面；垃圾桶必须加盖；纸浆蛋托不得堆放在地面、操作台或设备上；消毒后的餐饮具、直接入口容器工具要存放在专用密闭保洁设施内。",
+      "title": "机器人格斗公司 REK 举办真人与机器人笼斗赛被叫停：未取得许可组织活动",
+      "summary": "IT之家 10 月 4 日消息，据 tomshardware 今日报道，一家机器人格斗公司在旧金山举办了一场人机格斗赛后，收到了加州政府发来的停止侵权禁令。加州州立体育委员会（CSAC）要求该公司停止举办、宣传或赞助这类未经审批的格斗赛事，并称在未取得许可的情况下组织此类活动属于轻罪。IT之家从报道获悉，这份停止令针对的是该公司在 2026 年 9 月 18 日赞助的一场人形机器人笼斗赛。油管博主弗兰基・拉彭纳（Frankie LaPenna）进入格斗笼，先后与三台不同的机器人对战。目前尚不清楚这场活动究竟属于体育竞赛还是营销噱头，但很明显，它是用来为 REK 机器人格斗平台博取更多关注度的。报道提到，历史上曾发生机器人致人死亡事件，1979 年的今天，美国工厂工人罗伯特・威廉姆斯成为首位死于机器人之手的人类，他在福特弗拉特罗克工厂被机器人机械臂碾压身亡。因此人类与机器人同台对抗，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/527.htm",
+      "url": "https://www.ithome.com/1/009/736.htm",
       "importance": "low",
-      "date": "2026-10-03"
+      "date": "2026-10-04"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "AMD 出样 Versal AI Core XQRVC1902 自适应 SoC，满足 15 年太空任务要求",
-      "summary": "IT之家 10 月 3 日消息，AMD 当地时间本月 1 日宣布向航天客户交付 Versal AI Core XQRVC1902 自适应 SoC 的早期样品。这一 SoC 采用 AMD 自主研发的航天级无盖封装，结合了保守的设计规则和增强型有机基板材料，搭配航天级芯片电容器。该组合减轻了太空环境中的热应力和机械应力对芯片的影响，适合对可靠性要求极高的航天任务。AMD 目前正在按照航天组件标准中质量和可靠性的最高级别 —— 美国军用标准 MIL-PRF-38535 Y 级认证对 Versal AI Core XQRVC1902 自适应 SoC 进行测试。",
+      "title": "消息称微软为 20 多个数据中心建设项目引入“仿生”计划：修复湿地生态、种植本土植物以降低环境影响",
+      "summary": "IT之家 10 月 4 日消息，据外媒 The Verge 报道，微软正在推行一项名为“仿生”（Biomimicry）的计划，该公司正重新规划旗下 20 多个数据中心周边土地，陆续恢复原先湿地生态、种植本土植物，希望让数据中心更好地融入当地环境。微软透露，后续微软在美国境内所有新建项目都将采用这一方式，在项目建设过程中，微软会收集当地社区意见，并通过生态研究了解项目所在地的环境状况。微软团队还将使用一款名为“Ecosystem Intelligence”的工具，对项目地点的水质、生物多样性、噪音控制等多个指标进行评估。不过，随着 AI 数据中心持续扩张，微软仍面临来自当地社区和环保组织的压力。当前微软真正的考验在于公司应当如何计算、跟踪并让当地社区相信这些生态修复措施所带来的实际收益。只有建立准确的衡量和披露机制，微软才能与当地社区展开更有效的合作，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/521.htm",
+      "url": "https://www.ithome.com/1/009/734.htm",
       "importance": "low",
-      "date": "2026-10-03"
+      "date": "2026-10-04"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "戴尔推出 2 款强固型笔电，搭载第 3 代英特尔酷睿 Ultra 处理器",
-      "summary": "IT之家 10 月 3 日消息，Dell（戴尔）当地时间本月 6 日（IT之家注：此为原始新闻稿标注时间）宣布推出 2 款基于第 3 代英特尔酷睿 Ultra 处理器的强固型笔记本电脑新品。新一代的 Dell Pro Rugged 13 Extreme 采用“全强固”设计，是同级别最小巧最强大的型号。其拥有 IP66 防尘防水，抗 1.8m 跌落，可在爆炸性环境中安全操作，配备 1400nits 的 13.3\" 触控屏，板载 LPDDR5X 内存。而新一代 Dell Pro Rugged 14 属于“半强固”机型，也是同级别最小巧最强大的产品。其支持 IP53 防尘防水，抗 0.9m 跌落，配备 1100nits 的 14\" FHD+ 面板（可选触控支持），采用 LPCAMM2 内存模组，可选 NVIDIA RTX PRO 500 笔记本电脑 GPU。",
+      "title": "乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”",
+      "summary": "IT之家 10 月 4 日消息，近期网络上流传一段所谓“乐山大佛开展养护作业”短视频，其中显示文保工人正在给大佛“掏耳朵”，佛耳里掏出鸽子和腐叶，鼻孔里清理出大量腐叶等物质，旁边还有一只猴子在佛身上上蹿下跳，猴子还抢工人的安全帽戴在自己头上。对此，乐山大佛文物保护（景区）管委会回应媒体“四川观察”，称相应视频不实，系他人 AI 生成，不是乐山大佛景区里的真实场景。希望广大网友不信谣、不传谣。乐山大佛文物保护（景区）管委会数字化信息中心副主任陈芮透露，“2026 年以来乐山大佛总计开展 5 次保养维护，其中第 5 次是 9 月 20 日至 25 日，主要内容包含岩体表面微损伤修复、微生物清理、表层植被清除等，与视频内容无关。同时，大佛耳鼻内并无杂物需要清理，乐山大佛所在的凌云山片区目前没有猴子。”IT之家注意到，根据《互联网信息服务深度合成管理规定》《生成式人工智能服务管理暂行办法》，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/520.htm",
+      "url": "https://www.ithome.com/1/009/728.htm",
       "importance": "low",
-      "date": "2026-10-03"
+      "date": "2026-10-04"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "华为 HarmonyOS 7.0 小艺帮帮忙智能体功能调整，将不再支持后续新增的设备",
-      "summary": "IT之家 10 月 3 日消息，小艺帮帮忙智能体是 HarmonyOS 6.0 上推出的探索性智能体。华为官网显示，因业务调整，小艺帮帮忙智能体将不再支持后续新增的设备。据悉，小艺帮帮忙智能体是一个专注于应用操控的智能体，支持操控更多的场景，可在智能体对话列表页中找到小艺帮帮忙智能体，也可以在广场中搜索小艺帮帮忙来体验使用。对于原 HarmonyOS 6.0 期间支持的设备，小艺帮帮忙智能体还可继续使用，用户的个人技能和定时计划任务在升级到 HarmonyOS 7.0 后仍可继续使用。对于不支持小艺帮帮忙智能体的设备，无法通过数据克隆将智能体、个人技能、定时计划任务克隆到不支持的设备中。IT之家附原 HarmonyOS 6.",
+      "title": "DeepSeek Harness 崔添翼：产品核心理念是“一切皆插件”，可扩展性是初心",
+      "summary": "IT之家 10 月 4 日消息，DeepSeek Harness 组成员崔添翼今日回应了“如何看待 DeepSeek Harness 在新版本中加入 Claude Code Mods 兼容？”，他本人是这次 v0.2.1-alpha.1 版本中加入 Claude Code Mods 兼容层的作者。目前 DeepSeek Harness 中的“Claude Code Mods 兼容层”属于“alpha 版本”中的“实验性功能”。做这个兼容层的主要目的，是验证 Claude Code Mods 向插件作者提供的扩展能力，是否大致是 DSH“一切皆插件”架构所提供能力的一个子集。目前还无法让所有 Claude Code Mods 在 DeepSeek Harness 中无缝运行；如果认为这是一个值得投入的目标，从技术上看，未来有可能做到。",
+      "module": "tools",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/009/701.htm",
+      "importance": "low",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "天津大学获批全国首个“脑机接口”一级交叉学科博士点",
+      "summary": "IT之家 10 月 4 日消息，近日，国务院学位委员会正式下发《关于下达 2025 年度学位授予资格自主审核单位撤销和增设学位授予点名单的通知》（学位〔2026〕17 号），天津大学成功获批全国首个、也是目前全国唯一一个的“脑机接口”一级交叉学科博士学位授予点。这在脑机接口未来产业发展历程中具有重要里程碑意义，标志着我国脑机接口学科建设与人才培养迈入全新阶段。据介绍，脑机接口作为人机交互的最高形态，是融合临床医学、神经科学、人工智能、电子信息、集成电路等多学科前沿理论的颠覆性技术，已被正式写入国家“十五五”规划，成为前瞻布局的未来产业重点方向。IT之家注意到，天津大学已于 2024 年依托未来技术学院开设全国首个脑机接口本科专业方向并正式招生；2026 年 4 月，“脑机科学与技术”本科专业正式获教育部批准设立，纳入交叉学科门类（专业代码 140013TK），",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/516.htm",
+      "url": "https://www.ithome.com/1/009/684.htm",
       "importance": "low",
-      "date": "2026-10-03"
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "System76 更新 COSMIC 项目 PR 模板，禁止贡献者提交利用 AI 辅助完成的代码",
+      "summary": "IT之家 10 月 4 日消息，开发团队 System76 现已更新 COSMIC 项目的 Pull Request（PR）模板，新增一份强制性检查清单，明确禁止贡献者提交利用 AI 辅助完成的代码。贡献者必须确认提交内容中不存在任何 AI 生成的代码、注释以及描述，否则无法按照要求提交贡献。公开信息显示，COSMIC 是 System76 基于 Rust 开发的 Linux 桌面环境。在 COSMIC 推出之前，System76 的 Pop!_OS 长期基于经过深度修改的 GNOME 桌面环境。不过，由于 System76 与 GNOME 上游开发者在部分设计理念和功能取舍方面存在长期分歧，公司最终决定开发自己的桌面环境。IT之家注意到，System76 此前就曾批评 AI 生成代码存在代码过于复杂的问题。该团队认为，AI 通常缺乏理解大型项目深层集成关系所需的完整上下文，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/009/669.htm",
+      "importance": "low",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "国内首部 AIGC 长剧《后西游记》再上新，战天宫篇今日开播",
+      "summary": "IT之家 10 月 4 日消息，今日，国内首部 AIGC 长剧《后西游记》再上新。10 月 4 日起，第一季 · 战天宫篇将在湖南卫视、芒果 TV 双平台播出，10 月 9 日起，“剧好看”专区播出。IT之家注意到，神话题材季播剧《后西游记》改编自明末清初匿名作者所著的同名神魔小说，其第一季共 30 集，每集 40 分钟。作为《西游记》三大续书之一，《后西游记》原著讲述了因世间众人误解真经，“西游二代”因缘际会再次集结取经的故事。剧集将四十回原书框架与《西游记》原著中的相关伏笔与线索深度融合、相互补充，构建出完整的“西游后传”叙事体系。故事始于孙悟空封圣一千零八十年之后，长到当年取回的真经变得缺失、引人误读，也长到让诞生过齐天大圣的仙山，再次诞生出一只小石猴（孙小圣）。然而，曾在“生死簿”上被划掉过名字的“十长老”，竟在庆典上当众消失，花果山迎来重重危机。",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/009/666.htm",
+      "importance": "low",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "英伟达与鸿海展示自动化成果，机器人组装 GB300 的母线成功率超 95%",
+      "summary": "IT之家 10 月 4 日消息，据台媒经济日报，英伟达与鸿海首次对外展示了利用机器人制造设备的成果。针对英伟达 GB300 的母线（Busbar，也叫汇流排或母排，是一种用于大电流配电和传输的导电金属条、棒或管）以及多组连接器组装等较复杂、依赖人工的工序，已经可以导入机器人自动化，提升组装稳定性与效率。IT之家从报道获悉，在核心工艺指标方面：装配成功率：Busbar 组装成功率已超过 95%；多连接器插接成功率约 90% 至 95%。作业耗时：Busbar 组装时间目标在 124 秒以内；4 组连接器的插接时间目标在 72 秒以内。整体生产周期：做到不超过熟练人工两倍时间。延伸阅读GB300 是英伟达基于 Blackwell Ultra 架构推出的产品。据英伟达官网资料，GB300 NVL72 采用全液冷机架规模设计，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/009/665.htm",
+      "importance": "low",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "好莱坞大师 Phil Tippett 关闭加州伯克利工作室，影迷竞拍获得珍贵特效资产将其数字化上传至互联网档案馆",
+      "summary": "IT之家 10 月 4 日消息，去年 8 月，好莱坞特效大师、动画师 Phil Tippett 关闭了自己位于美国加州伯克利的工作室。工作室内部各种电影特效资产随即被公开变卖。公开信息显示，Tippett 及其团队曾参与《侏罗纪公园》《机械战警》《黑客帝国》等众多经典电影的制作，其中最广为人知的作品之一便是《星球大战》。他曾通过定格动画等传统特效技术，为影片中的各种外星生物赋予生命。由于工作室最终进入美国《破产法》第 11 章破产程序，Tippett 被迫关闭工作室，并开始清算尘封的珍贵资料。综合外媒 kotaku 报道，一名曾参加 Tippett 工作室资产清售活动的影迷 Brandon Sheffield 购买了一个大型 CD 光盘文件夹，随后发现其中保存着大量涵盖 Tippett 电影生涯的资料，于是将其全部数字化并上传至 Internet Archive 互联网档案馆，",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/009/664.htm",
+      "importance": "low",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "消息称苹果 iPhone 18 Pro 系列 W39 国内累计销量 176 万台",
+      "summary": "IT之家 10 月 4 日消息，博主 @数码闲聊站 今日爆料，苹果 iPhone 18 Pro 系列 W39 周累计销量 176 万台（预计指国内），根据国庆期间的走势，W40 预估累计销量超 250 万台，两款机型均轻松完成单品激活 100 万台。IT之家注意到，W39 指的是 2026 年的第 39 个自然周，也就是 9 月 21 日到 9 月 27 日这一周。手机行业习惯用“W+ 周数”来标记周次，方便对比每周的销量和市场份额变化。苹果 iPhone 18 Pro 与 iPhone 18 Pro Max 两款机型于 9 月 18 日正式开售，国行起售价为 9999 元，均为 256GB 存储起步。两款机型均搭载全新 A20 Pro 芯片，采用台积电 2nm 制程工艺，其 CPU 与 GPU 性能较上一代显著提升，端侧 AI 性能进一步增强。同时，",
+      "module": "community",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/009/662.htm",
+      "importance": "low",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "AI算力硬合作，马斯克还是更相信中国制造",
+      "summary": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
+      "module": "tech",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/501605.html",
+      "importance": "low",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "最火AI岗位FDE：月薪5万，都干这些…",
+      "summary": "什么是FDE？它会一直存在吗？",
+      "module": "tech",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/501506.html",
+      "importance": "low",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "importance": "low",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Trump unveils his new Super Intelligence Force",
+      "summary": "This new task force is Trump's latest response to the debate over AI safety.",
+      "module": "community",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "importance": "low",
+      "date": "2026-10-04"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -527,160 +615,6 @@
       "region": "cn",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/10/500148.html",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00002",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "How Far is Adam from Natural Gradient Descent?",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00004",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "FourierQK: Filter Shape, Admissibility and the Leakage-Coverage Law",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00009",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Integrating Fairness and Explainability in a Multiple Instance Reinforcement Learning System",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00035",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Fast Polynomial Transcendentals for LLMs",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00049",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "SW-KAN: Kolmogorov-Arnold Networks with Stieltjes-Wigert q-Orthogonal Polynomials",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00050",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Format-Aware Fusion for Fast FP4 Pretraining",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00053",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "\"very likely\" Means \"uncertain\"? How LLMs Diverge from Humans in Linguistic Uncertainty Quantification",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00083",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Nous: Learning and Certifying Memory Decisions Before Source Calibration",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00094",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "One Mastery Threshold Does Not Fit All Knowledge Tracing Models",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00095",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Uncertainty-Aware Learning from Multi-Expert Interval Targets",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00102",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Generalized Biomedicine Discovery",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00120",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Classification Based on Association Rules Algorithm for Breast Cancer",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00174",
-      "importance": "low",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9hcnhp",
-      "title": "Four Ways to Grow a Classifier and Why One of Them Cannot Learn",
-      "summary": "",
-      "module": "tech",
-      "region": "global",
-      "source": "Arxiv LG",
-      "url": "https://arxiv.org/abs/2610.00180",
       "importance": "low",
       "date": "2026-10-03"
     },
@@ -708,23 +642,34 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Muse Gadgets",
-      "summary": "Meta's open-source kit for building your own AI gadgets Discussion | Link",
+      "title": "Sellio",
+      "summary": "AI customer support in one shared inbox powered by AI agents Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/muse-22",
+      "url": "https://www.producthunt.com/products/sellio-2",
       "importance": "low",
       "date": "2026-10-03"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Sapien",
-      "summary": "AI market research with synthetic populations Discussion | Link",
+      "title": "Thinking Orbs",
+      "summary": "Animated AI Status Indicator Component Library for React Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/sapien-4",
+      "url": "https://www.producthunt.com/products/thinking-orbs",
+      "importance": "low",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Eat Train Feel",
+      "summary": "A coach for you Workouts, food, and how you feel Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/eat-train-feel",
       "importance": "low",
       "date": "2026-10-03"
     },
@@ -840,6 +785,17 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "qarunbook",
+      "summary": "A test plan your team and your AI can work through Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/qarunbook",
+      "importance": "low",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
       "title": "The Download: AI “mind-reading” and creative uses for small batteries",
       "summary": "This is today s edition of The Download, our weekday newsletter that provides a daily dose of what s going on in the world of technology. An AI “mind-reading” tool can reconstruct what you’re looking at based on a brain scan A new AI tool can guess what you’re looking at just by analyzing your brain scans—and",
       "module": "tools",
@@ -883,57 +839,24 @@
       "date": "2026-10-01"
     },
     {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Opus 5.5 loves to tell you &#8216;this matters&#8217; (and other AI writing tells)",
-      "summary": "Opus 5.5’s biggest tell is the word “dependable,” which pops up 23 times more often than in human samples.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
-      "importance": "low",
-      "date": "2026-10-01"
-    },
-    {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Crowny!",
-      "summary": "Claude Code, Codex, music, your day & 20+ apps in your notch Discussion | Link",
+      "title": "Clair",
+      "summary": "Answer Claude Code from your wrist Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/crowny-2",
-      "importance": "low",
-      "date": "2026-10-01"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Singularity",
-      "summary": "Run AI coding agents in parallel, one ticket at a time Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/singularity-2",
-      "importance": "low",
-      "date": "2026-10-01"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "直播回顾：工业AI的下一个机会在哪？",
-      "summary": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/09/499605.html",
+      "url": "https://www.producthunt.com/products/clair-3",
       "importance": "low",
       "date": "2026-09-30"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Thanor AI",
-      "summary": "Make your AI-built sites look expensive and not like slop Discussion | Link",
+      "title": "Gemini 4 Argon",
+      "summary": "Google's frontier model for careful reasoning & complex work Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/thanor-ai",
+      "url": "https://www.producthunt.com/products/gemini-4-argon",
       "importance": "low",
       "date": "2026-09-30"
     },
@@ -950,36 +873,36 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "OTPfill",
-      "summary": "Autofill OTP codes from your email on Mac Discussion | Link",
+      "title": "DocsAlot MCP Connector",
+      "summary": "Maintain your help-center by asking Claude, Cursor or Codex Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/otpfill",
+      "url": "https://www.producthunt.com/products/docsalot-2",
       "importance": "low",
       "date": "2026-09-29"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Cubicle",
-      "summary": "A live office for your AI agents, read-only by design Discussion | Link",
+      "title": "Rival Workshop",
+      "summary": "A bookshelf app to manage every skill your agents read Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/cubicle-2",
+      "url": "https://www.producthunt.com/products/rival-workshop",
       "importance": "low",
-      "date": "2026-09-29"
+      "date": "2026-09-27"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "ZooWork",
-      "summary": "The AI agent delivery platform for FDEs and domain experts Discussion | Link",
+      "title": "Blume 2.0",
+      "summary": "The open-source docs framework for humans and agents Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/zoowork",
+      "url": "https://www.producthunt.com/products/blume-3",
       "importance": "low",
-      "date": "2026-09-24"
+      "date": "2026-09-25"
     },
     {
       "id": "v4-aHR0cHM6Ly9zeW5j",
