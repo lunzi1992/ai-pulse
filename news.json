@@ -3,11 +3,19 @@
     "title": "AI Pulse",
     "subtitle": "全球 AI 资讯每日聚合",
     "description": "国内 + 国际 | 行业动态 | 技术进展 | 社区洞察 | 工具与应用",
-    "lastUpdate": "2026-11-08",
-    "updatedAt": "2026-11-08T00:13:24.374Z",
+    "lastUpdate": "2026-11-09",
+    "updatedAt": "2026-11-09T00:34:47.414Z",
     "version": "4.0"
   },
   "hotKeywords": [
+    {
+      "name": "之家",
+      "count": 19
+    },
+    {
+      "name": "日消息",
+      "count": 19
+    },
     {
       "name": "DATA",
       "count": 19
@@ -17,11 +25,11 @@
       "count": 11
     },
     {
-      "name": "之家",
+      "name": "CEO",
       "count": 10
     },
     {
-      "name": "日消息",
+      "name": "Agent",
       "count": 10
     },
     {
@@ -29,27 +37,15 @@
       "count": 10
     },
     {
-      "name": "Agent",
+      "name": "DEEPSEEK-V",
       "count": 9
     },
     {
-      "name": "MODEL",
-      "count": 9
-    },
-    {
-      "name": "DISCUSSION",
-      "count": 9
-    },
-    {
-      "name": "LINK",
+      "name": "SIRI",
       "count": 9
     },
     {
       "name": "APPEARED",
-      "count": 9
-    },
-    {
-      "name": "DeepSeek",
       "count": 9
     },
     {
@@ -61,7 +57,15 @@
       "count": 9
     },
     {
+      "name": "OpenAI",
+      "count": 8
+    },
+    {
       "name": "DOWNLOAD",
+      "count": 8
+    },
+    {
+      "name": "DeepSeek",
       "count": 8
     },
     {
@@ -69,11 +73,11 @@
       "count": 8
     },
     {
-      "name": "GOING",
+      "name": "RENO",
       "count": 7
     },
     {
-      "name": "OpenAI",
+      "name": "GOING",
       "count": 7
     },
     {
@@ -81,47 +85,98 @@
       "count": 7
     },
     {
-      "name": "SYNCED",
-      "count": 7
-    },
-    {
-      "name": "ADOBE",
+      "name": "META",
       "count": 7
     }
   ],
   "news": [
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "埃森哲报告被曝存在虚假引用案例，公司否认系 AI 幻觉所致",
-      "summary": "IT之家 11 月 8 日消息，埃森哲（Accenture）被指发布了一份充斥人工智能“幻觉”的研究报告，其中不仅包含大量虚假信息，还出现了多处疑似捏造的研究案例。据 GPTZero 最新分析，这家咨询巨头发布的一份报告涉嫌包含 15 条虚假引用，以及完全虚构的案例研究，因此正受到外界审查。这份名为《跨越式发展》（Leapfrogging Development）的报告由埃森哲与马德里 IE 大学的研究人员合作发布，旨在探讨人工智能如何提高非洲农业产业的生产力。埃森哲否认相关错误是由人工智能造成的。不过，这一事件仍可能令埃森哲陷入尴尬境地。此前，该公司管理层曾威胁称，不愿使用人工智能的员工可能面临解雇。埃森哲首席执行官朱莉 · 斯威特（Julie Sweet）去年曾警告称，作为公司人工智能转型工作的一部分，未能使用这项技术的顾问将被公司“淘汰”。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/023/845.htm",
-      "importance": "high",
-      "date": "2026-11-07"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "GitHub 推出新 Git 存储架构：内部测试单个代码仓库支持 5000 个智能体同时协作，每秒处理 7200 次推送",
-      "summary": "IT之家 11 月 7 日消息，当地时间 11 月 5 日，GitHub 发布博文，称上周在 GitHub Universe 大会上，正式公布了全新的 Git 存储架构，代号“Rubicon”。官方表示，该架构不仅具备每秒处理数千次写入的能力，还能实现读取按需水平扩展。经内部压力测试验证，新架构能够在保持极低读取延迟的同时，支持单个代码仓库容纳 5000 个智能体（Agent）并发协作，并承受每秒高达 7200 次的代码推送。IT之家获悉，该架构目前已经开启小范围定向内测（limited private preview），并计划于明年初逐步扩大开放范围。据介绍，如今 GitHub 上最繁忙的代码仓库，其单秒写入峰值最多也不过数十次，且往往呈现短暂脉冲式的突发状态。然而，随着越来越多的研发工作交由全天候高并发运行的 AI 智能体处理，预计在未来一年内，",
+      "title": "腾讯 Workbuddy 致歉：未及时公告优惠活动调整，DeepSeek-V4.1 Flash 积分消耗 5 折结算返还",
+      "summary": "IT之家 11 月 9 日消息，腾讯 Workbuddy 昨晚发布公告，对 DeepSeek-V4.1 Flash 折扣活动进行了说明。IT之家从公告获悉，9 月 10 日，WorkBuddy 上线 DeepSeek-V4.1 Flash，同步开启了为期两周的 5 折积分体验活动，活动原定于 9 月 24 日结束。此后，团队决定将此优惠活动延长至 11 月 5 日，并于 11 月 5 日 14:00 起已恢复原价。因这一调整未及时向用户公告，给用户带来了一定困扰。对此，团队深表歉意。Workbuddy 决定对 11 月 5 日 14:00 至 11 月 8 日 23:59 使用过 DeepSeek-V4.1 Flash 的账号，该期间使用 DeepSeek-V4.1 Flash 模型所产生的积分消耗全部按原价 5 折优惠结算，差额部分（即实际消耗积分总额的 50%）将全部返还。据悉，",
       "module": "tech",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/023/823.htm",
+      "url": "https://www.ithome.com/1/024/025.htm",
+      "importance": "high",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "OPPO Reno17 系列手机外观首秀：宋雨琦代言，11 月 16 日发布",
+      "summary": "IT之家 11 月 9 日消息，今日，OPPO Reno17 系列宣传页面在微博等平台正式上线，新机外观也首次亮相。页面显示，该系列机型将于 11 月 16 日 19:00 正式发布。从图上可以看到，新机由宋雨琦代言，提供奇遇喵、冰月白、可可棕、初雪白四款配色。其中，奇遇喵预计是系列主打配色，后盖采用小猫图案并呈现 3D 立体效果。目前新机的规格已经曝光：OPPO Reno17 标准版：6.57 英寸显示屏 + 骁龙 7 Gen 4 处理器 +50MP 潜望长焦；OPPO Reno17 Pro 版：6.32 英寸显示屏 + 天玑 8550 处理器 +50MP 潜望长焦。IT之家注意到，OPPO Reno17 系列手机、Watch 5 手表、Pad Air6 平板于 10 月 30 日开启预约，预计将于近期上市。据 OPPO Reno 系列产品经理张若星分享 Reno17 系列全新样张，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/024/024.htm",
+      "importance": "high",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "腾讯元器停止服务，明年 1 月起不再受理数据导出申请",
+      "summary": "IT之家 11 月 9 日消息，腾讯元器平台今日正式停止服务，应用访问、数据读写、API 调用、控制台使用等所有面向公众的服务，不支持用户访问。通过元器平台发布到其他渠道（包括公众号、服务号、微信客服等）的智能体不支持响应用户对话。从上个月 29 日起，腾讯元器已停止创建新的智能体、API Key 分发功能。用户目前可以通过数据导出控制台，提出导出任务申请。2027 年 01 月 09 日后不再受理数据导出申请，除法律法规规定须留存的日志等记录外，官方将删除全部用户数据，请您在此前完成备份。如您曾通过旧版元器入口在腾讯云官网购买资源包，且截至正式停止服务日仍有未使用完的资源或账户余额，可在腾讯云官网申请退款。此外，腾讯云智能体开发平台（ADP）和公众号智能回复提供了与元器平台相近的功能，用户可以选择上述替代产品。IT之家注意到，",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/024/022.htm",
+      "importance": "high",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "古尔曼称苹果 Siri AI 团队或迎大调整，工程副总裁罗克韦尔考虑明年走人",
+      "summary": "IT之家 11 月 8 日消息，彭博社记者马克 · 古尔曼在今晚更新的《Power On》时事通讯中爆料，曾主导 Vision Pro 头显开发、同时负责新版 Siri AI 项目的迈克 · 罗克韦尔，仍在认真考虑离开现有岗位。古尔曼披露，罗克韦尔或将于明年卸任 Siri 工程副总裁，甚至彻底离开苹果。新版 Siri 跳票了两年才得以上市，考虑到罗克韦尔在其中发挥的作用，他的离开将给苹果造成重大损失。IT之家获悉，如果罗克韦尔最终离职，或在苹果内部转任其他岗位，更多工作预计将交给两名高管：去年从谷歌加入苹果、负责加强 AI 业务的阿马尔 · 苏布拉马尼亚，以及费德里吉的副手塞巴斯蒂安 · 马里诺。苹果内部一些人认为，马里诺未来有望接替费德里吉出任软件工程主管，而且他对 AI 发展的态度更加积极。据悉，马里诺负责的团队主要承担将 AI 技术整合到 iOS 系统中的工作。不过，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/024/014.htm",
+      "importance": "high",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "亚马逊成立新团队专攻家用机器人，剑指“前所未有”的新产品",
+      "summary": "IT之家 11 月 8 日消息，美国 CNBC 分析亚马逊的招聘信息发现，过去几个月，亚马逊组建了一支新团队，准备开发一款前所未有的机器人产品。亚马逊近期发布的一则工程师招聘信息写道：“机器人即将走出电影，进入我们的家中。”这条被撤掉的招聘信息透露，新产品能够适应不断变化的家庭环境，并在人类家庭成员身边自主活动。亚马逊一向愿意押注长期项目，即便短期内不被外界理解，只要能够帮助公司抢占新市场的先机，就值得投入。此前的 Alexa 语音助手和 Kindle 电子书阅读器，都采用了这种发展策略。亚马逊 CEO 安迪 · 贾西在最近的年度股东信中重申了这一思路，认为人工智能和机器人技术将带来人们一生中最重大的变革之一。“我们努力预判什么能让客户每天的生活更轻松、更美好，并创造下一个重大转折点。”LinkedIn 个人资料显示，今年早些时候，亚马逊将 Astro 项目的大部分成员调往其他岗位，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/024/012.htm",
+      "importance": "high",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "蚂蚁集团：旗下 AI 助手灵光用户数量已突破 2000 万，2.0 版本上线一周已帮助用户管理超 116 万项事务",
+      "summary": "IT之家 11 月 8 日消息，蚂蚁集团旗下 AI 助手灵光宣布：自今年 10 月 27 日灵光 2.0 上线以来，一周内已帮助用户管理超 116 万项事务，执行超 360 万次任务。灵光用户已突破 2000 万。参考IT之家先前报道，蚂蚁集团于 10 月 27 日发布灵光 2.0，其最大特性是 AI 介入任务的起点进一步前移。过去，用户需要先发现问题、提出需求，再由 AI 执行；如今，在获得用户授权后，灵光能够结合已接入的信息与服务，主动识别潜在需求，并发起分析、监测和跟进，并在需要用户关注的节点及时提醒。AI 不再只是等待指令的工具，而开始成为能够持续管理事务的助手。除此之外，灵光 2.0 还接入了蚂蚁 APASS，作为 AI 时代跨智能体、跨设备、跨应用与服务场景的统一账号和安全管理基础设施，APASS 将身份认证、意图安全和隐私保护纳入 Agent 执行流程，",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/024/010.htm",
+      "importance": "high",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+      "summary": "AI写代码太快，基础设施跟不上了",
+      "module": "industry",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508449.html",
       "importance": "high",
       "date": "2026-11-07"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点",
-      "summary": "11月5日，阿里巴巴发布《2026 AI向善行动报告》",
+      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
+      "summary": "融资缩水，硅谷投资人也谨慎了",
       "module": "industry",
       "region": "cn",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508165.html",
+      "url": "https://www.qbitai.com/2026/11/508344.html",
       "importance": "high",
-      "date": "2026-11-06"
+      "date": "2026-11-07"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -208,17 +263,6 @@
       "region": "global",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-      "importance": "high",
-      "date": "2026-11-05"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "GPT‑6 Cyber",
-      "summary": "OpenAI’s cyber model, with vetted access for defenders Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/openai",
       "importance": "high",
       "date": "2026-11-05"
     },
@@ -311,17 +355,6 @@
       "date": "2025-04-16"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Trace by Context.dev",
-      "summary": "Weekly web scraping API benchmark Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/context-dev",
-      "importance": "medium",
-      "date": "2026-11-07"
-    },
-    {
       "id": "v4-aHR0cHM6Ly90ZWNo",
       "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
       "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
@@ -367,89 +400,188 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "微软 Outlook 邮箱出 Bug：邮件无故丢失，部分认证配置正确的发件人也遭拦截",
-      "summary": "IT之家 11 月 8 日消息，据科技媒体 Windows Latest 今天报道，部分 Outlook.com 和 Hotmail 邮箱用户近期发现，他们无法正常接收邮件。发件人侧收到的提示是，邮件未能通过身份验证检查。据报道，该问题最初出现于 11 月 5 日，今天仍然能成功复现。在大多数情况下，用户很难直接察觉究竟发生了什么。但如果进一步查看日志，就会发现邮件无法发送的原因是身份验证检查错误。不过部分发件人表示，即使他们的邮件域名已经配置了有效的身份验证记录，依然会收到报错提示。某些情况下，点击重新发送又能缓解问题。一名用户在微软论坛上写道：“即使域名已经正确配置 SPF、DMARC 和 DKIM，邮件仍然会遭到拒收。这种情况只发生在一小部分邮件中（可能取决于邮件被路由到微软的哪台服务器）。”另一名用户表示：“我强烈怀疑这是微软方面的问题。",
+      "title": "IT早报 1109：208 万元比亚迪仰望鼎曜限量版车型价格揭晓；曝 ChatGPT 突现封号风波；特斯拉上海工厂零部件本土化率达 98%；央视曝光二手交易“到手刀”乱象...",
+      "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 9 日星期一，今天的重要科技资讯有：1. 208 万元！比亚迪仰望鼎曜「山河鼎韵」限量版车型价格揭晓仰望鼎曜“山河鼎韵”限量版拥有专属外观内饰及高定配置，包含琥珀金双腰线、限量版专属印记、专属云纹图案、出风口宝石 · 和田玉、金色扬声器面罩、车门内置芳纶纤维等。>> 查看详情2. 曝 ChatGPT 突现封号风波，200 美元 Pro 用户也遭殃据凤凰网科技消息，近期多名 ChatGPT 用户反映账号无预警被封，含 200 美元 / 月的 Pro 订阅用户，部分用户长期积累的聊天记录与工作资料无法访问。ChatGPT 官方尚未就此次集中封号事件给出统一解释，也未披露具体受影响人数。>> 查看详情3. 陶琳：特斯拉上海超级工厂零部件本土化率达 98%陶琳表示上海超级工厂是特斯拉在华制造重要支点，中国签约本土一级供应商超 400 家，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/023/838.htm",
+      "url": "https://www.ithome.com/1/024/030.htm",
       "importance": "low",
-      "date": "2026-11-07"
+      "date": "2026-11-08"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Adobe 向初创企业抛出橄榄枝：免费使用 Firefly 和 Acrobat 等软件，最长 1 年",
-      "summary": "IT之家 11 月 8 日消息，Adobe 公司最近针对初创企业推出 Adobe for Startups 计划，入选企业可免费使用 Firefly Pro Plus、Acrobat Studio（包含 Adobe Express Premium）以及 Semrush 等软件，期限为 12 个月。据介绍，Adobe for Startups 计划面向成立时间不超过 5 年，且融资总额低于 1,500 万美元（IT之家注：现汇率约合 1 亿元人民币）的企业。在免费使用的软件中，Firefly Pro Plus 是一款创意型 AI 工具，可帮助用户将创意构思转化为图像、视频和音频内容。Semrush 则为企业提供搜索情报和营销相关工具，帮助企业了解自身在互联网上的曝光情况，以及如何进一步优化线上表现。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/023/835.htm",
-      "importance": "low",
-      "date": "2026-11-07"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "马斯克：特斯拉将增加 Cybertruck 生产班次，以在明年产线拆除前清订单",
-      "summary": "IT之家 11 月 8 日消息，特斯拉 CEO 埃隆 · 马斯克（Elon Musk）当地时间周六表示，为了在明年拆除生产线、转而扩大 Cybercab 产能之前完成现有 Cybertruck 订单，特斯拉将为 Cybertruck 增加一个额外生产班次。马斯克在社交平台 X 上发文称：“目前 Cybertruck 的积压订单量远超特斯拉在明年 6 月至 7 月左右拆除生产线、为 Cybercab 扩产之前所能完成的数量。”他补充说：“我们将增加一个额外班次，尽可能确保按时完成所有订单。”IT之家注意到，就在马斯克发表上述言论的前一天，他曾表示，特斯拉计划明年逐步结束得克萨斯州工厂的 Cybertruck 生产，将相关资源转向 Cybercab，后者是一款双座无人驾驶出租车，也是马斯克实现特斯拉自动驾驶汽车战略的核心产品之一。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/023/833.htm",
-      "importance": "low",
-      "date": "2026-11-07"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Claude Max 订阅套餐使用额度被指“虚标”，Anthropic 辩词未获法官采纳",
-      "summary": "IT之家 11 月 7 日消息，美国联邦治安法官谢文辉（Alex Tse）裁定，Anthropic 必须继续应对 Claude Max 套餐使用额度涉嫌误导消费者的主要指控。据 Courthouse News 报道，谢文辉周五驳回了案件中的其他几项诉求。Anthropic 宣传称，月费 100 美元（IT之家注：现汇率约合 668.6 元人民币）和 200 美元（现汇率约合 1,337 元人民币）的 Max 套餐，使用额度分别是 Pro 套餐的 5 倍和 20 倍。但今年 6 月提起诉讼的消费者指控，如果按整周计算，实际额度远远达不到宣传中的倍数。两名原告卡尔 · 卡恩和所罗门 · 史密斯计算发现，以 Claude 的一款模型为例，200 美元（现汇率约合 1,337 元人民币）套餐的每周额度只有 Pro 套餐的 6 倍，100 美元（现汇率约合 668.6 元人民币）套餐则为 3.",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/023/824.htm",
-      "importance": "low",
-      "date": "2026-11-07"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "马斯克再次表白中国，称赞中国汽车工业水平高",
-      "summary": "IT之家 11 月 7 日消息，据 RT今日俄罗斯报道，当地时间 11 月 6 日，特斯拉 CEO 埃隆 · 马斯克接受投资者罗恩 · 巴伦采访时表示，他热爱中国，并高度评价中国汽车工业的竞争力。“中国令人惊叹。顺便说一句，我爱中国。去那里旅行令人深受鼓舞，”马斯克在采访中说。他同时指出，在上海生产的特斯拉 Model Y 是中国最畅销的电动汽车，但强调实现这一成绩“并不容易”。马斯克特别补充道：“中国汽车公司非常厉害。”据IT之家此前报道，今年 9 月，马斯克接受了央视财经专访。当谈及 AI，他表示中国的 AI 大模型整体而言非常出色，单位算力产出的性能几乎全球顶尖。他认为，中国解决算力问题的速度会比大多数人预想更快。粗略估计，大概两到三年内，中国就能依靠光刻技术与芯片制造补齐算力缺口。图源：Pexels",
+      "title": "古尔曼：苹果最早明年推出自主代理式 Siri，主动代用户完成任务",
+      "summary": "IT之家 11 月 9 日消息，彭博社记者马克 · 古尔曼在昨晚更新的《Power On》时事通讯中爆料，苹果计划最早于明年推出自主、代理式的 Siri，以对抗 ChatGPT Dots、Meta Muse、Grok。其目标是从响应命令转向一个能够主动管理任务并代表用户完成事务的助手。古尔曼称：“Dots、Muse 和 Grok 可以跟踪目标，确定下一步需要做什么，并持续追求目标，而无需用户主动启动每一步。据我所知，苹果最终希望朝这个方向发展，我相信公司最快明年就能让 Siri 更像一个代理。”据IT之家此前报道，苹果新任 CEO 约翰 · 特努斯已经敦促软件工程主管克雷格 · 费德里吉加快 AI 业务发展，采取更大胆的策略。特努斯希望苹果在 AI 领域有更大的作为，也对费德里吉未能像竞争对手那样积极拥抱 AI 感到不满，因此要求他加快开发进度，",
       "module": "tech",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/023/822.htm",
+      "url": "https://www.ithome.com/1/024/029.htm",
       "importance": "low",
-      "date": "2026-11-07"
+      "date": "2026-11-08"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "消息称因台积电产能吃紧，英伟达提供数十亿美元支持日月光扩产 CoWoS 先进封装",
-      "summary": "IT之家 11 月 7 日消息，据路透社报道，一场构建 AI 基础设施的全球竞速，正推动数十亿美元巨资涌入先进封装领域。这一过去并不起眼的技术环节，如今已成为打造全球顶尖处理器的关键瓶颈。“过去，封装永远是那种你根本不必操心的事情。”英特尔前首席执行官、现任风投机构 Playground Global 合伙人帕特 · 基辛格（Pat Gelsinger）近日对媒体感慨道。市场研究机构 Yole Group 预测，先进封装市场规模预计将于 2026 年首次超越传统封装，相关资本支出预计将逼近 280 亿美元（IT之家注：现汇率约合 1,872.11 亿元人民币）。全球最大晶圆代工厂台积电主导着最尖端的先进封装技术，包括其专有的晶圆级芯片基板封装（CoWoS）。该技术将处理器、内存等多块独立硅片置于共享基板上互联，使其能够以极高带宽高速协同工作。",
-      "module": "tech",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/023/814.htm",
-      "importance": "low",
-      "date": "2026-11-07"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "印度 IT 行业领袖警告：AI 或致应届毕业生更难进入科技行业",
-      "summary": "IT之家 11 月 7 日消息，据日经亚洲 6 日报道，印度最大科技行业协会 —— 印度全国软件与服务公司协会会长拉杰什 · 南比亚尔警告，随着 AI 逐渐接手基础编程和软件测试工作，印度应届大学毕业生进入科技行业可能更加困难。南比亚尔认为，求职难的问题，可能要等到印度软件出口企业适应新的商业环境后才能缓解。随着技术基础设施管理等传统核心业务的工作量减少，企业需要开拓网络安全、AI 咨询、技术部署及维护等新业务，弥补由此造成的业务缺口。他进一步指出，软件企业的收费模式正从按项目投入人数计费转向按实际成果收费，应届毕业生的求职门槛也会随之改变。因此，高校需要调整计算机专业课程，否则印度可能出现数以千计的工科毕业生，所学技能却无法满足企业需求。“对刚毕业的学生来说，这确实是个令人担忧的问题，我不想粉饰这一点。如果我们的教育体系不能尽快跟上变化，学生可能一毕业就发现，自己学到的技能早就过时了。",
+      "title": "古尔曼称苹果 CEO 特努斯“上任三把火”，敦促软件主管费德里吉大胆搞 AI",
+      "summary": "IT之家 11 月 8 日消息，彭博社记者马克 · 古尔曼在今天（8 日）晚间更新的《Power On》时事通讯中披露，苹果新任 CEO 约翰 · 特努斯敦促软件工程主管克雷格 · 费德里吉加快 AI 业务发展，采取更大胆的策略，目标是将 Siri 升级为能够自主替用户完成任务的 AI 智能体。上周的财报电话会议上，特努斯对苹果的 AI 业务表现得相当乐观。谈及新版 Siri 时特努斯更是自信十足：苹果终于实现了多年来的设想，公司 AI 业务迎来了新篇章。“我们对收到的评价和反馈非常满意，也非常高兴看到越来越多的用户能够体验到它。”但在苹果内部，特努斯的态度却截然不同。他深知苹果仍远远落后于竞争对手。最近几周，特努斯与去年接替原 AI 负责人、掌管苹果 AI 业务的费德里吉举行了一次闭门会议。特努斯希望苹果在 AI 领域有更大的作为，也对费德里吉未能像竞争对手那样积极拥抱 AI 感到不满，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/023/813.htm",
+      "url": "https://www.ithome.com/1/024/013.htm",
       "importance": "low",
-      "date": "2026-11-07"
+      "date": "2026-11-08"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "七彩虹 E14 轻薄本上架：酷睿 i5-13420H、14 英寸 2.2K 屏，16GB+1TB 到手 3654 元",
-      "summary": "IT之家 11 月 7 日消息，七彩虹 E14 14 英寸轻薄本现已上架，16GB+1TB 版本京东售价 4299 元，国补到手价 3654.15 元。京东七彩虹（Colorful）E14 笔记本电脑 便携大屏学生轻薄本（16G+1TB）3654.15 元国补到手价七彩虹 E14 采用纤薄金属机身设计，整机厚度约 16.55mm，重量轻至 1.11kg，可放入单肩包或手提袋，适合移动办公与学生日常使用。该机搭载第 13 代英特尔酷睿 i5-13420H 处理器，8 核心 12 线程，睿频频率至高可达 4.6GHz，配备 Intel UHD Graphics 核心显卡，可满足日常办公、网页浏览与轻度创作需求。该机配备 14 英寸 2.2K 分辨率高清屏，拥有 90.62% 以上高屏占比，覆盖 100% sRGB 色域，屏幕亮度约 300nits，支持 16:10 显示比例。",
+      "title": "马斯克：特斯拉将进一步改进 Cybercab，提升能效、新增配色",
+      "summary": "IT之家 11 月 8 日消息，特斯拉计划对 Cybercab 进行多项重大升级，带来能效提升和新的车身配色。今天（8 日）凌晨，特斯拉 CEO 马斯克在 X 上透露，公司还将进一步改进 Cybercab。“我们会进一步提高能效，让 Cybercab 用上 40kWh 电池组。我们还会推出液态银色，免得车身颜色太单调。”据IT之家了解，本周早些时候，特斯拉宣布将取消得州超级工厂的 Cybertruck 生产线，把产能腾出来生产更多 Cybercab。能效更高的新款 Cybercab 有望帮助特斯拉提高盈利能力和利润率。从商业角度来看，也让停产 Cybertruck 的主张更有说服力。目前在得克萨斯州奥斯汀投入 Robotaxi 运营的 Cybercab 配备 48kWh 电池组。从马斯克的表态来看，特斯拉希望通过技术优化，以更少的电芯满足相同的运营需求。",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/024/011.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "博世吴永桥：汽车不该拿来订咖啡、订机票，建议手机和车机划清边界",
+      "summary": "IT之家 11 月 8 日消息，据第一财经，在 5 日的 2026 世界互联网大会 · 乌镇咖荟 · 汽车夜话上，博世智能驾驶与控制系统事业部（XC）中国区总裁吴永桥发表观点认为，汽车不会成为“第三空间”，车机也不该重复手机已经做得很好的事。吴永桥直言，当前很多人都认为汽车会成为第三空间，但自己认为“永远不会”。之所以如此判断，依据是自身的项目经验和实际使用数据。其透露，博世为全球客户做了百余个座舱项目，涉及的功能就包括在车上订咖啡、订餐馆、订火锅店、订机票、订酒店，后来却发现用者寥寥，“几乎没人用”。IT之家从报道中获悉，在他看来，即使自动驾驶演进到 L3、L4，人不需要自己开车、坐在车里没事干，也不会用车机去订火车票、订酒店，依然会用手机。原因在于，手机的迭代速度、算法、模型和 App 服务远远超过汽车。吴永桥据此提出建议：手机和车机划清边界，手机做手机的事，",
+      "module": "tools",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/024/008.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "奔驰要把屏幕“装”进车玻璃：后挡风能提醒注意路况，侧窗能告诉你汽车电量",
+      "summary": "IT之家 11 月 8 日消息，据外媒 Road&Track 报道，当地时间 3 日，奔驰展示了两项新技术，分别是 Intelligent Display in Glass 车窗智能显示技术和 Holographic Display 全息显示技术。按照奔驰设想，后挡风玻璃可以显示各种警告标志和交通信息，提醒后方司机。相比能提醒后车减速的普通刹车灯，奔驰的方案还能告诉后车为什么要减速，提示前方发生交通事故、有人过马路等信息。奔驰为此考虑了两种 LED 技术。Mini LED 适合后挡风玻璃等面积较大的显示区域，分辨率更高的 Micro LED 则适合在较小的区域显示动画。奔驰还展示了 Micro LED 在侧窗上的应用。驾驶员可以通过车窗查看电池电量，离开车辆时，车窗甚至会跟你说“再见”。IT之家获悉，两种方案都能让显示元件在不工作时，“几乎”隐藏于夹层玻璃中。",
       "module": "tech",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/023/807.htm",
+      "url": "https://www.ithome.com/1/024/002.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "上海交大构建 AI 原生科学实验室 AutoDNA 装置：实现自主分子生物学实验操作，成果登《自然》",
+      "summary": "IT之家 11 月 8 日消息，上海交通大学计算机学院 IPADS 实验室陈海波、王肇国团队与化学化工学院、变革性分子前沿科学中心樊春海、王飞团队合作，依托张江高等研究院 DNA 存储研究中心开展研究，成果发表于《自然》（Nature）杂志，并获该刊官网首页头条重点报道。研究团队构建了 AI 原生科学实验室 AutoDNA 装置（思源一号），实现了自主分子生物学实验操作，通过对模型、实验与仪器进行协同设计，解决了现有 AI 自主科学实验室向分子生物学实验拓展时，在复杂流程组织、多类仪器协同以及实验时序、环境稳定性和操作精度保障等方面面临的难题，使自主实验能够覆盖需要微米级定位和微升级液体处理的复杂生物分子实验场景。据介绍，已有 AI 自主科学实验室通常由专家预先配置仪器、规定实验流程和设定优化规则，再将人工智能接入文献检索、方案生成或数据分析等局部环节。",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/024/001.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "支持米家：80°C 热水洗地 + 20000Pa 大吸力，友望 U280 扫拖机器人 1069 元新低",
+      "summary": "友望 U280 扫拖机器人官方定价 4199 元，支持 80°C 热水洗地 *，280R/min + 18N 下压力大力擦地。97mm 纤薄主机床底畅行，基站配集尘袋，支持米家 App。今日按下方步骤下单，仅需 1069 元即可入手。*80℃ 热活水：指在标准室温环境 (约 22℃) 下，基站加热清水后注入机载水箱，注水口处水温至高达 80℃。88VIP 需先领 3000-400 元消费券：领券中心今日 24 点前点击下方卡片 → 可领 178 元淘礼金红包下单时选择“以旧换新” → 旧品可选择“小家电 → 数据线 / 其他生活电器”不回收按上方步骤下单，以旧换新下单实付 2065 元。下单前咨询客服备注：水箱版晒单返 999 元，折合仅需 1066 元。上下水晒单返 799 元，折合仅需 1266 元。",
+      "module": "tools",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/023/995.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "消息称字节跳动拟扩大巴西数据中心项目",
+      "summary": "IT之家 11 月 8 日消息，据彭博社 7 日报道，字节跳动考虑扩大在巴西东北部的数据中心项目，以进一步巩固其在拉丁美洲算力基础设施建设领域的领先地位。知情人士透露，字节跳动正物色开发商，负责巴西塞阿拉州佩森工业港数据中心项目的二期建设。该项目可通过向境外输出数据享受税收优惠。与此同时，智利、阿根廷等国纷纷推出优惠政策、完善基础设施，争取吸引数据中心投资，巴西也希望在这场竞争中保持优势。知情人士称，佩森港数据中心二期的建设规模将超过塞阿拉州目前在建的 100 亿美元（IT之家注：现汇率约合 669.08 亿元人民币）、300MW 项目。部分人士还透露，字节跳动正与开发商初步洽谈，考虑在佩森港区外另建一座规模相近的数据中心，专门服务巴西本地客户。相比之下，港区内的数据中心必须向境外输出数据，才能享受税收减免。字节跳动将 AI 视为下一个增长引擎，因此大举增加硬件投资，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/023/993.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "腾讯姚顺雨谈“AI 模型公司护城河”：更多存在于产品层，而不是模型层",
+      "summary": "IT之家 11 月 8 日消息，据第一财经报道，在 2026 未来科学大奖的一场对话中，清华大学讲席教授、中国工程院外籍院士张亚勤向腾讯首席 AI 科学家姚顺雨抛出了一个尖锐的商业问题，模型公司的护城河究竟是什么？姚顺雨的回答是，AI 护城河更多存在于产品层，而不是模型层。真正难以替代的，不一定是最聪明的模型，而是能够理解用户背景、利用专有数据和上下文，并获得用户信任的 AI 产品。姚顺雨以微信为例，如果用户可以直接在微信中使用 AI，这个 AI 未必需要拥有最强大的模型能力，但它了解用户的日程安排、朋友关系和各种活动信息。这些信息能够帮助 AI 更好地理解用户需要什么，也使其他模型难以直接替代它。即使竞争对手推出了一个更聪明的模型，也不意味着它能够提供同样的服务，因为后者未必知道用户是谁。听完这一回答，张亚勤调侃道，按照姚顺雨的逻辑，Anthropic 未来或许不值一万亿甚至两万亿美元，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/023/991.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Epic 喜加一：游戏《GMH - Good Morning Human》免费领",
+      "summary": "IT之家 11 月 8 日消息，由独立游戏团队 W-9000 Studio 开发的复古风格竞速动作游戏《GMH - Good Morning Human》目前正在 Epic 游戏商品开启限时免费“喜加一”活动，玩家可以在北京时间 11 月 9 日 7:00 前免费领取。需要注意的是，本次限免并非 Epic 官方活动，而是由开发团队自行发起的特别促销，IT之家附游戏商品页（https://store.epicgames.com/p/good-morning-human-6d0b45）。本作采用 Synthwave（合成波）风格，以高速竞速和障碍闯关为主要玩法，剧情讲述了一款名为“W-9000”的超级 AI 成功统治人类后，因生活过于无聊，决定挑选部分人类奴隶，强迫他们参与自己设计的一系列致命游戏挑战。本作提供战役模式和竞速模式，还拥有考验玩家极限操作能力的无尽模式、隐藏小游戏，",
+      "module": "tools",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/023/990.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "AI 公司迄今最大发电设备采购订单：曝 Anthropic 砸 34 亿美元买燃气发电机",
+      "summary": "IT之家 11 月 8 日消息，据英国《金融时报》今天（8 日）晚间报道，Anthropic 签下了一份大额数据中心燃气发电机组采购订单。随着发电设备供应日趋紧张，AI 公司开始绕过中间商直接采购，进一步涉足能源行业。报道披露，9 月下旬，Anthropic 斥资 34 亿美元（IT之家注：现汇率约合 227.49 亿元人民币），从美国得克萨斯州圣安东尼奥的设备供应商 OnePWR Solutions 手中接下总功率达 1.7GW 的重型发电机组订单。按照已知交易记录，这是 AI 公司迄今规模最大的一笔发电设备采购订单，也反映出科技企业为争夺电力供应，正不断向能源行业延伸。以往，AI 公司通常依靠公用事业公司和专业电力企业供电。但燃气轮机、发电机组需求激增，设备交货期延长至数年之后，资金雄厚的 AI 公司开始跳过中间环节，直接掌握发电能力。据知情人士透露，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/023/989.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "63 亿美元比特币被盗之际，币安首席财务官凯泽 · 吴将离职“开拓新事业”",
+      "summary": "IT之家 11 月 8 日消息，据彭博社今天（8 日）凌晨报道，币安宣布首席财务官凯泽 · 吴即将离职。就在几天前，币安刚遭遇黑客攻击，价值超过 60 亿美元的加密货币遭窃。币安联席 CEO 何一发表声明说：“凯泽 · 吴在币安工作五年多后，决定寻求新的事业发展机会，过去半年一直在推进交接工作。祝愿他未来一切顺利。”接任 CFO 的将是贾斯汀 · 叶克。上周，币安遭黑客盗走价值 63 亿美元（IT之家注：现汇率约合 421.52 亿元人民币）的加密货币，成为加密货币史上金额最高的盗窃案。随着加密货币行业加速走向主流，AI 的迅速发展也让网络安全面临越来越严峻的挑战。Bitget、Bybit 等加密货币交易平台也曾遭遇重大黑客攻击。币安随后宣布，63 亿美元的损失中约 90% 得到弥补，正逐步兑现向客户全额赔偿的承诺。根据领英资料，凯泽 · 吴于 2022 年 1 月加入币安，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/023/987.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "24G+1T 版 12499 元，华硕灵耀 16 Air 骁龙版笔记本上架",
+      "summary": "IT之家 11 月 8 日消息，华硕灵耀 16 Air 骁龙版 AI 超轻薄本现已在电商平台上架，24GB+1TB 版本定价为 12499 元。京东华硕灵耀 16 Air 骁龙 X2 Elite Extreme 版 12499 元直达链接该机型搭载全新骁龙 X2 Elite Extreme 处理器，采用 3nm 先进制程，配备 18 核 CPU，最高加速时钟频率达 4.7GHz，NPU AI 引擎算力为 80TOPS，CPU 性能释放可达 53W，配合双风扇双热管内吹风道设计，可高效应对工作、游戏与创作类负载。机身方面，灵耀 16 Air 厚度仅 13.9mm，重量轻约 1.2kg，整机采用 Ceraluminum 高科技陶瓷铝材质，兼具温润手感、防污抗指纹、耐磨与耐腐蚀特性，目前推出茶釉棕配色版本。屏幕采用 16 英寸 ASUS Lumina OLED“华硕好屏”，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/023/982.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "得物 App 宣布接入苹果国行 Apple 智能，利用 iPhone 拍摄商品即可 AI 快速查信息",
+      "summary": "IT之家 11 月 8 日消息，得物 App 宣布接入国行苹果 Apple 智能，用户通过 iPhone 相机拍摄感兴趣的商品，即可在得物搜索相关商品，并进一步查看商品详情、历史价格走势、AI 解读及真实用户评价等信息，为购买决策提供参考。得物表示，安装 App 后，用户只需在支持该功能的 iPhone 上唤起视觉智能，对准感兴趣的商品拍摄，在搜索服务中选择得物，即可查看平台在售的相关商品及价格。点击搜索结果后，便可直接进入得物 App 对应的商品详情页。以一双跑鞋为例，进入得物商品详情页后，用户能够查看材质、功能参数，还可以通过 AI 解读了解鞋款的性能特点 / 用户反馈，通过得物价格趋势图查看历史价格变化。帮助消费者判断商品是否适合自己，并在充分了解商品后直接完成购买。",
+      "module": "tools",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/023/971.htm",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "summary": "In a memo to the company, Huang admitted that he had an affair.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "importance": "low",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "为了去AI味，人类开始主动写烂文章了&#8230;&#8230;",
+      "summary": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......",
+      "module": "tech",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508330.html",
       "importance": "low",
       "date": "2026-11-07"
     },
@@ -499,45 +631,23 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Agent Clan",
+      "summary": "Command your Claude Code and Codex agents with gestures Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/agent-clan",
+      "importance": "low",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
       "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
       "summary": "PPIO 沙箱，把“云电脑”做成开箱即用的 API",
       "module": "tech",
       "region": "cn",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/11/508174.html",
-      "importance": "low",
-      "date": "2026-11-06"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
-      "summary": "阶跃终端旗下 STEPX Neo 智能体手机首次亮相",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508170.html",
-      "importance": "low",
-      "date": "2026-11-06"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
-      "summary": "Q3营收实现数倍增长",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508155.html",
-      "importance": "low",
-      "date": "2026-11-06"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "一边赛博修仙，一边卖家电！AI短剧开始冲双11业绩了？",
-      "summary": "挑战商业视频的高难度场景",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508118.html",
       "importance": "low",
       "date": "2026-11-06"
     },
@@ -620,28 +730,6 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "The Writer's Quarter",
-      "summary": "AI-Free Writing & Novel Planning Software Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/the-writer-s-quarter",
-      "importance": "low",
-      "date": "2026-11-06"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Switchy",
-      "summary": "Mac controls, deploys, 2FA & AI limits in your menu bar Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/switchy",
-      "importance": "low",
-      "date": "2026-11-06"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
       "title": "Instagram Edits for Desktop",
       "summary": "Instagram's free desktop video editor with AI agents Discussion | Link",
       "module": "community",
@@ -674,24 +762,13 @@
       "date": "2026-11-05"
     },
     {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Axiom Math wants to keep AI slop out of mathematics",
-      "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
-      "module": "tech",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
-      "importance": "low",
-      "date": "2026-11-05"
-    },
-    {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Google Omni 1.2 Flash",
-      "summary": "Gemini Omni 1.2 Flash: 15s AI video at $0.07 per second Discussion | Link",
+      "title": "outages.live",
+      "summary": "A free live outage feed for your agents Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/google-omni-1-2-flash",
+      "url": "https://www.producthunt.com/products/polylane",
       "importance": "low",
       "date": "2026-11-05"
     },
@@ -752,36 +829,36 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Exa Monitors v2",
-      "summary": "Web search on a schedule that calls your agent, $2/1k runs Discussion | Link",
+      "title": "NoMac",
+      "summary": "Your AI agent's own Mac, billed per minute. No subscription Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/exa-ai",
-      "importance": "low",
-      "date": "2026-11-02"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Deal Pilot",
-      "summary": "AI SDR that books meetings in Japan, the US & SE Asia Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/deal-pilot",
-      "importance": "low",
-      "date": "2026-11-02"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "ClarifierAI for Chrome",
-      "summary": "Use AI for writing & translating in your Chrome Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/clarifierai-rewrite-text-2",
+      "url": "https://www.producthunt.com/products/nomac",
       "importance": "low",
       "date": "2026-10-26"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Quest",
+      "summary": "Your personal AI advisor for a more intentional life Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279",
+      "importance": "low",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Memorias",
+      "summary": "An AI biographer that turns your stories into a book Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/memorias-3",
+      "importance": "low",
+      "date": "2026-10-13"
     },
     {
       "id": "v4-aHR0cHM6Ly9zeW5j",
