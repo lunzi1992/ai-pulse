@@ -3,69 +3,81 @@
     "title": "AI Pulse",
     "subtitle": "全球 AI 资讯每日聚合",
     "description": "国内 + 国际 | 行业动态 | 技术进展 | 社区洞察 | 工具与应用",
-    "lastUpdate": "2026-11-13",
-    "updatedAt": "2026-11-13T01:41:39.808Z",
+    "lastUpdate": "2026-11-14",
+    "updatedAt": "2026-11-14T01:18:34.186Z",
     "version": "4.0"
   },
   "hotKeywords": [
     {
-      "name": "CEO",
-      "count": 28
-    },
-    {
       "name": "之家",
-      "count": 21
+      "count": 19
     },
     {
       "name": "日消息",
-      "count": 21
-    },
-    {
-      "name": "HUANG",
-      "count": 20
+      "count": 19
     },
     {
       "name": "NVIDIA",
       "count": 17
     },
     {
-      "name": "JENSEN",
+      "name": "OpenAI",
       "count": 14
     },
     {
-      "name": "OpenAI",
+      "name": "HUANG",
+      "count": 14
+    },
+    {
+      "name": "Claude",
+      "count": 13
+    },
+    {
+      "name": "DeepSeek",
       "count": 12
+    },
+    {
+      "name": "Anthropic",
+      "count": 11
+    },
+    {
+      "name": "MODELS",
+      "count": 11
     },
     {
       "name": "DISCUSSION",
-      "count": 12
+      "count": 11
     },
     {
       "name": "LINK",
-      "count": 12
+      "count": 11
     },
     {
-      "name": "亿美元",
-      "count": 10
+      "name": "AGENTS",
+      "count": 11
     },
     {
-      "name": "POST",
-      "count": 10
-    },
-    {
-      "name": "APPEARED",
+      "name": "JENSEN",
       "count": 10
     },
     {
       "name": "SPACEX",
-      "count": 10
-    },
-    {
-      "name": "现汇率约合",
       "count": 9
     },
     {
-      "name": "MODELS",
+      "name": "CHATGPT",
+      "count": 9
+    },
+    {
+      "name": "CEO",
+      "count": 9
+    },
+    {
+      "name": "Agent",
+      "count": 9
+    },
+    {
+      "name": "MODEL",
       "count": 9
     },
     {
@@ -73,165 +85,241 @@
       "count": 9
     },
     {
-      "name": "Anthropic",
-      "count": 8
-    },
-    {
-      "name": "DOWNLOAD",
-      "count": 8
-    },
-    {
-      "name": "CLIMATE",
-      "count": 8
-    },
-    {
-      "name": "WORLD",
+      "name": "IPO",
       "count": 8
     }
   ],
   "news": [
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "黄仁勋最激进 AI 赌局的“刹车手”：英伟达临时 CEO 克雷斯曾力主削减 2500 亿美元 OpenAI 豪赌",
-      "summary": "IT之家 11 月 13 日消息，科技媒体 The Information 昨日（11 月 12 日）发布博文，援引知情人士消息，英伟达临时 CEO 科莱特 · 克雷斯（Colette Kress）在担任公司财务负责人期间，扮演财务“刹车手”的角色，曾多次对黄仁勋力推的高风险交易提出保留意见。消息称克雷斯曾经多次抵制黄仁勋力推的交易，而且在过去几个月时间里，她还着力寻找方法，避免英伟达的财务风险过度集中于少数几家公司。而其中最具代表性的一项，涉及针对 OpenAI 公司的拟议方案，该方案将为 OpenAI 提供 2,500 亿美元（IT之家注：现汇率约合 1.67 万亿元人民币）的信贷支持担保，目的是帮助 OpenAI 以英伟达最新芯片填满 8 吉瓦数据中心容量。克雷斯对该拟议方案提出异议，并非完全反对向 OpenAI 提供融资支持，主要担心担保金额过高引发投资者的反应，",
+      "title": "本地推理引擎 llama.cpp 1.0.0 史诗级更新：支持超 150 种模型架构，断网也能满血跑大模型",
+      "summary": "IT之家 11 月 14 日消息，开发者 Georgi Gerganov（X 账号为 @ggerganov）昨日（11 月 13 日）在 X 平台发布推文，宣布开源 AI 推理项目 llama.cpp 与底层机器学习引擎 ggml 的库版本迈入 1.0.0。IT之家查询公开资料，Gerganov 是开源项目 llama.cpp 的创建者，也是 ggml、whisper.cpp 等本地 AI 基础软件的重要开发者。他在个人 X 简介中将自己标注为 Hugging Face 工程师，GitHub 资料所在地为保加利亚索非亚。llama.cpp 是一个主要用 C/C++ 编写的开源 AI 推理项目，核心作用是让大语言模型在个人电脑、服务器等不同硬件上运行。它既可以用于本地部署，也可以用于云端服务，目标是降低部署复杂度，并充分利用设备的计算能力。",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/027/019.htm",
+      "importance": "high",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "英特尔酷睿 Ultra 7 260K 低调上市：20 核处理器性能比肩 265K，但仅随整机销售",
+      "summary": "IT之家 11 月 14 日消息，Tom's Hardware 发现英特尔近日悄悄推出了一款酷睿 Ultra 7 260K 处理器，搭载该 CPU 的整机已经出现在新蛋网（Newegg）中。这款处理器拥有 20 颗物理核心，但目前不提供独立零售，仅面向 ABS 品牌整机销售。新蛋网向该媒体确认，这款处理器为平台独占型号，只会通过旗下 ABS 品牌预装整机销售。Tom's Hardware 后续更新称，英特尔已向该媒体确认，这是一款限量供应（limited-availability）的 SKU 型号，目前不会以盒装零售处理器的形式单独销售，相关规格预计将在随后几天公布。从目前已公开的信息来看，酷睿 Ultra 7 260K 配备 20 个核心，包括 8 个性能核（P-Core）和 12 个能效核（E-Core），P 核基础频率为 3.9GHz，最高睿频为 5.4GHz，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/478.htm",
+      "url": "https://www.ithome.com/1/027/014.htm",
       "importance": "high",
       "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "苹果首款智能家庭中枢 HomeView 及新款 Apple TV 4K 上市，首批订单已送至澳新客户手中",
-      "summary": "IT之家 11 月 13 日消息，苹果 HomeView 于当地时间 11 月 13 日正式开售。由于时区的原因，澳大利亚和新西兰首批预购用户的订单已率先送达。另外，由于新西兰没有 Apple 零售店，澳大利亚消费者成为首批能在 Apple Store 内直接购买该设备的用户。HomeView 定位苹果首款智能家庭中枢，功能介于小型 iPad 与 HomePod 之间。桌面版配备 7 英寸方形屏幕，屏幕通过不锈钢铰链连接半球形扬声器底座，支持倾斜调节；另有不附带底座的壁挂版本。设备搭载 1200 万像素摄像头，可通过面部识别区分最多六位家庭成员，并在信息、FaceTime、日历等应用中切换至对应用户的个人内容。HomeView 没有独立的 App Store，但预装了苹果自家应用，并能显示来自 iPhone 的小组件。设备围绕 Siri AI 构建，",
+      "title": "工信部：将筹备成立工业操作系统标准工作组",
+      "summary": "IT之家 11 月 14 日消息，据央视新闻今日报道，记者从工业和信息化部了解到，工业软件标准化技术委员会正加快推进工业操作系统标准工作组筹建，同步推进重点标准研制与验证应用，为工业操作系统规模化应用提供支撑。据悉，工业操作系统是联接装备、贯通数据、融合智能的关键底座，是人工智能赋能工业的“关键一环”。中国电子信息产业发展研究院发布的《工业操作系统技术产业探索与实践报告（2026）》显示，工业操作系统加快向工业级、专业化、一体化和智能化演进，正在从单点应用探索向体系化产品供给转变。中国软件评测中心副主任翟艳芬介绍，工业操作系统正在从围绕单个项目开展建设转向通用底座和行业能力协同发展，基础软件厂商提供共性软件能力，工业技术厂商将工业机理、工艺规则和专业工具转化为可复用组件，行业用户从需求提出者延伸为联合建设者和验证者。工信部将加快工业操作系统等核心软件智能化升级，推动工业智能体应用。",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/476.htm",
+      "url": "https://www.ithome.com/1/027/011.htm",
       "importance": "high",
       "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "微软承认 Windows 11 月更新后激活命令失效，企业 KMS 配置可能报错 0x80041008",
-      "summary": "IT之家 11 月 13 日消息，微软确认，2026 年 11 月 10 日发布的 Windows 安全更新引发了一项新的激活与许可证管理问题，部分设备在执行 Windows 激活、密钥管理服务（KMS）配置及产品密钥管理操作时，可能出现错误代码 0x80041008。根据微软官方发布的更新说明，受影响的设备可能显示“Invalid parameter（SWbemObjectEx）”错误，导致相关命令执行失败。目前已确认的问题涉及 Windows Server 2025 的 KB5131080 更新，以及其他 Windows 版本的 2026 年 11 月安全更新。具体来看，微软发现以下两条命令可能受到影响：slmgr.vbs /skms-domain slmgr.vbs /ipk 其中，第一条命令用于配置 KMS 激活服务器域名，第二条命令用于安装 Windows 产品密钥。微软表示，",
+      "title": "SpaceX 洽购发射场周边约 526.19 万平方米土地，拟将一半永久用于保护",
+      "summary": "IT之家 11 月 14 日消息，科技媒体 tipranks 于 11 月 12 日发布博文，报道称 SpaceX 正与美国得克萨斯州公园与野生动物管理局商谈，拟收购环绕其发射设施的约 1,300 英亩土地（IT之家注：约合 526.19 万平方米）。博卡奇卡海滩不在拟出售范围内，目前相关交易仍处于商谈阶段。报道称这项购地计划围绕 SpaceX 的“星际基地”（Starbase）展开。SpaceX 表示拟收购地块主要由泥滩和沿海沙丘构成，休闲用途有限，而且购置该地块并非打算开发整片土地，主要是提升正在运行的发射场周边安全与安保水平，且方案也不涉及收购海滩或公众海滩通行权。在生态环境保护方面，SpaceX 承诺，将通过设立永久保护地役权，让其中约 600 英亩土地永久用于保护，占拟收购面积的一半。美国得州星基地市就 SpaceX 发射设施周边潜在土地交易作出说明，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/474.htm",
+      "url": "https://www.ithome.com/1/027/010.htm",
       "importance": "high",
       "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "33 年执掌英伟达生涯戛然而止，黄仁勋的约 90 亿美元慈善版图恐面临巨变",
-      "summary": "IT之家 11 月 13 日消息，《纽约时报》昨日（11 月 12 日）发布博文，报道称黄仁勋辞去英伟达 CEO 一职，不仅震动全球 AI 芯片产业，也令他与妻子洛莉（Lori）共同掌控、资产规模约 90 亿美元（IT之家注：现汇率约合 601.72 亿元人民币）的慈善基金会面临不确定性。英伟达联合创始人、首席执行官黄仁勋昨日宣布辞职，结束其长达 33 年的掌舵生涯。英伟达随后宣布由首席财务官科莱特 · 克雷斯出任临时首席执行官。这一突发变动不仅冲击英伟达的领导层，也可能影响其规模庞大的慈善事业。报道指出“黄仁勋与洛瑞基金会”（Jen-hsun & Lori Huang Foundation）成立于 2007 年，由黄仁勋及其妻子洛莉共同管理，该基金会资产约 90 亿美元（现汇率约合 601.72 亿元人民币），是全美规模最大的慈善机构之一；2024 年，",
+      "title": "微软就全球服务中断致歉：底层问题已解决，与网络攻击无关",
+      "summary": "IT之家 11 月 14 日消息，微软北京时间今日凌晨在 X 上发布声明，就此次全球性服务中断向客户和合作伙伴致歉，称故障由一次网络容量升级引发，与网络攻击及人工智能 / 智能体无关。官方称，对本次事件给客户和合作伙伴造成的服务中断“深表歉意”。微软表示，公司清楚客户对其服务寄予的信任，并高度重视这一责任；目前各项服务已出现大范围恢复，并趋于稳定。官方介绍称，此次事件由一次更早的网络容量升级中的问题引入，在近期一次网络变更后暴露。微软强调，这属于技术故障，与网络攻击或人工智能 / 智能体无关。微软表示，底层问题已经解决，公司仍在为剩余受影响的客户和地区恢复服务。官方称，鉴于需求规模，恢复工作采取了逐步推进的方式，并在每个阶段验证稳定性；这一过程耗时更长，但有助于确保服务稳定恢复。IT之家此前报道，当地时间 11 月 12 日，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/472.htm",
+      "url": "https://www.ithome.com/1/027/005.htm",
       "importance": "high",
       "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "贾跃亭法拉第未来 FFR 机器人业务 2026 年前九个月收入约 230 万美元，计划 2027 年一季度进入芝加哥和达拉斯",
-      "summary": "IT之家 11 月 13 日消息，法拉第未来（Faraday Future，简称 FF）旗下具身智能与机器人业务实体 FF EAI Robotics Ecosystem Inc.（纳斯达克股票代码 FFR）已于今年 10 月 23 日正式完成与法拉第未来机器人资产的合并并挂牌上市。法拉第未来今日公布了 FFR 截至 2026 年 9 月 30 日的第三季度财务业绩，并披露所收购机器人业务的独立经营数据及后续规划。治理层与管理层同步调整：贾跃亭担任 CEO，Jerry Wang 担任执行董事长，Chen Shi 担任首席独立董事，Jason E. Dodier 担任独立董事。由于收购在第三季度结束后完成，所收购机器人业务截至 2026 年 9 月 30 日止九个月的业绩，未计入 FFR 第三季度合并报表。未经审计的独立合并财务数据显示，",
+      "title": "要让 GPT-6 Astra 等通用 AI 当机器人“大脑”：OpenAI 宣布重组具身智能团队",
+      "summary": "IT之家 11 月 14 日消息，《财富》昨日（11 月 13 日）发布博文，爆料称 OpenAI 已解散独立机器人团队，并将相关人员调至公司其他部门。OpenAI 向该媒体确认了此次组织调整，只是强调本次调整并非退出机器人领域，机器人仍是其长期愿景的核心，重组旨在加快研发。在架构调整方面，机器人研究人员并入核心研究团队，向首席研究官马克 · 陈（Mark Chen）汇报；应用机器人与硬件团队则转入规模更大的应用部门，该部门由公司总裁格雷格 · 布罗克曼（Greg Brockman）负责。IT之家附上相关截图如下;d对于本次架构调整的根源，OpenAI 官方回应称包括 GPT-6 Astra 在内，通用模型已能直接用于部分机器人任务，因此决定将相关研究进一步整合到通用模型研发中。OpenAI 希望让能理解文字、图像和代码的 AI，也成为机器人的“大脑”，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/471.htm",
+      "url": "https://www.ithome.com/1/027/004.htm",
       "importance": "high",
       "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "边警告 AI 风险边开发先进模型：OpenAI、Anthropic、谷歌等五家 AI 巨头遭起诉，被要求叫停 ChatGPT、Claude、Gemini",
-      "summary": "IT之家 11 月 13 日消息，当地时间 11 月 12 日，四家非营利组织向旧金山高等法院提起诉讼，将 OpenAI、Anthropic、谷歌、Meta 以及 SpaceXAI 列为被告，要求法院叫停这些企业进一步开发最先进的人工智能模型。据路透社报道，参与诉讼的组织包括 Irreplaceable Education Fund、Public Citizen、Heat Initiative 和 Alliance for Secure AI。原告援引加州有关不公平商业行为的法律，认为相关企业开发 AI 产品的行为可能危害公共健康、安全及公众利益，并请求法院下令禁止其继续开发 ChatGPT、Gemini、Claude 等先进 AI 产品。这场诉讼的特殊之处在于，其核心证据大量来自被告公司高管自己的公开表态。原告在诉状中指出，这些 AI 企业自身的高管曾多次警告，",
+      "title": "微软称 Outlook 等服务陆续恢复并趋稳，部分用户仍待恢复",
+      "summary": "IT之家 11 月 14 日消息，微软官方账号 @MSFT365Status 于北京时间 11 月 14 日发布的推文，微软宣布其 Outlook 等各项服务均呈现全面恢复和稳定态势。不过，微软公开声明同时表示，仍在为剩余受影响客户和地区恢复服务。根据微软官方 MO1550821 公告内容，本次 Microsoft 365 服务故障从美国东部时间 2026 年 11 月 12 日 13:25 左右（IT之家注：北京时间 11 月 13 日凌晨 2:25 左右）开始，影响 Outlook、Teams、Copilot、OneDrive 等多项微软服务。此次故障最初涉及 Teams，随后微软确认 Exchange Online 和 Outlook 也受到影响。故障还波及邮件之外的办公功能。Teams、SharePoint Online、Microsoft 365 Copilot 等服务中，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/466.htm",
+      "url": "https://www.ithome.com/1/027/001.htm",
       "importance": "high",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Anthropic、OpenAI 遭专利诉讼，被指侵犯五项神经网络技术专利",
-      "summary": "IT之家 11 月 13 日消息，当地时间 11 月 12 日，美国公司 Flinn Artificial Intelligence (AI) Technologies LLC（以下简称 Flinn AI）向美国特拉华州地区法院提起两起专利侵权诉讼，将 Anthropic PBC 和 OpenAI OpCo 共同列为被告，指控两家公司侵犯其持有的五项神经网络相关专利。与此同时，还有一群非营利组织也起诉了 OpenAI、Anthropico、Meta、谷歌和 SpaceXAI 等公司，试图进一步阻止这些企业开发先进 AI 模型。Flinn AI 两起诉讼分别为 Flinn AI Technologies LLC v. Anthropic PBC（案号：1:26-cv-01454）和 Flinn AI Technologies LLC v.",
+      "title": "让智能体帮你购物，OpenAI 推出支付功能 ChatGPT Wallet",
+      "summary": "IT之家 11 月 13 日消息，OpenAI 今天（13 日）宣布推出支付功能 ChatGPT Wallet，让旗下 dot AI 智能体代替用户购物。ChatGPT Wallet 由 OpenAI 与美国运通、万事达卡和 Visa 合作开发，用户使用现有信用卡付款时，仍可享受原有的积分奖励和权益保障。符合条件的用户只需录入一次银行卡信息，随后便可让 dot 智能体帮忙寻找商品，每笔交易都需要通过安全验证才能完成。OpenAI 强调，dot 智能体不会接触用户的真实银行卡信息。支付网络会为每笔交易生成专用的支付令牌，其中包含限定用途的卡号、安全码和有效期，供智能体完成付款。当今，越来越多消费者开始尝试用个人 AI 智能体管理日程、预订旅行和处理其他日常事务，ChatGPT Wallet 在这样的背景下应运而生。ChatGPT Wallet 未来有望成为 OpenAI 新的收入来源。",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/464.htm",
+      "url": "https://www.ithome.com/1/026/994.htm",
       "importance": "high",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "微软 365 核心服务全球性大规模瘫痪：Outlook、OneDrive、Teams 均受影响，正逐步重启恢复",
-      "summary": "IT之家 11 月 13 日消息，当地时间 11 月 12 日，微软旗下 Microsoft 365 多项核心云服务发生大规模故障，影响 Outlook、Exchange Online、Microsoft Teams、OneDrive、SharePoint、Microsoft 365 Copilot 等产品，全球多个地区用户均反馈无法正常访问服务，部分用户无法收发邮件、加载邮箱或访问云端文件。另外，此次宕机还波及美国开放人工智能研究中心（OpenAI）和安特罗匹克公司（Anthropic）人工智能服务所使用的连接组件。故障发生后，监测网站 Downdetector 收到大量用户报障，其中 Outlook 的问题报告数量一度接近 138058 条。除邮件服务外，Microsoft Teams、Copilot 以及其他 Microsoft 365 服务也出现不同程度的连接问题。微软最初表示，",
+      "title": "黄仁勋辞任英伟达 CEO，或给 Anthropic 下周“史上最大 IPO”添变数",
+      "summary": "IT之家 11 月 13 日消息，当地时间 12 日，据《财富》杂志报道，AI 初创企业 Anthropic 即将迎来史上最受瞩目的 IPO 之一。然而，就在上市前夕，英伟达联合创始人兼 CEO 黄仁勋突然辞职。等到 Anthropic 正式登陆资本市场时，距离 AI 行业失去最有影响力、最擅长推销行业前景的人物之一，仅过去一周。黄仁勋突然离职，给 Anthropic 的上市计划增添了新的压力。此次 IPO 原本就被视为检验投资者对 AI 投资热情的重要考验。Anthropic 预计于 11 月 18 或 19 日上市，届时英伟达刚公布黄仁勋卸任 CEO 后的首份季度财报。英伟达不仅是 Anthropic 的重要合作伙伴，也深度参与此次 IPO。Anthropic 提交的文件显示，英伟达同意在与 IPO 同步进行的 260 亿美元私募配售中认购约 100 亿美元股份。",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/460.htm",
+      "url": "https://www.ithome.com/1/026/965.htm",
       "importance": "high",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "谷歌发布 Gemini 4 Hydrogen 模型：主打日常编程与智能体工作流，百万 Token 输入 1.5 美元",
-      "summary": "IT之家 11 月 13 日消息，谷歌正式推出 Gemini 4 Hydrogen 模型，主打快速执行与高效运行，面向日常编码和智能体工作流场景，将 Gemini 4 系列能力全面下放至所有层级用户。输入：每百万 Tokens 1.50 美元（IT之家注：现汇率约合 10.0 元人民币）输出：每百万 Tokens 7.50 美元（现汇率约合 50.1 元人民币）该定价覆盖全 100 万 Token 上下文窗口，无分段阶梯计价。在 Artificial Analysis 智能指数中，Hydrogen 默认高思考档位得分 51，高于 Gemini 4 Argon 的 50，最高 xhigh 档位可达 54，同时任务完成速度常优于同级别模型。谷歌同步推出 Orchestrator 智能调度功能，内置于 Google Antigravity 平台，",
+      "title": "再次延期：华为 HarmonyOS 7 小艺 AI 快捷栏 11 月中旬开推，首批含 Pura X View 等",
+      "summary": "IT之家 11 月 13 日消息，在今年 9 月 7 日的 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会上，鸿蒙 7 操作系统正式发布。在发布会现场，华为还剧透了全新功能 —— 小艺 AI 快捷栏。官方 PPT 页面显示，该功能开启后，小艺将在手机桌面底部的 Dock 栏常驻。今年 10 月，华为客户服务曾透露该功能预计在 10 月底或 11 月初逐步和大家见面。IT之家今日再次就该功能的上线时间进行了询问，对方给出了更详细的计划表：推送时间手机型号平板型号2026 年 11 月中旬 HUAWEI Mate 90，Mate 90 Pro，Mate 90 RS，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/446.htm",
+      "url": "https://www.ithome.com/1/026/962.htm",
       "importance": "high",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "上下水版 2999 → 678 元：科沃斯全能基站扫拖机器人“地宝 mini2”破冰新低",
-      "summary": "科沃斯 2025 年 4 月发布了科沃斯地宝 mini 2，水箱版定价 2199 元，上下水版定价 2999 元。今日上下水版按下方步骤下单，仅需 678 元破冰新低。先领 9 折券：点此领券点击下方卡片加购物车 1 件进入“京东购物”微信小程序 购物车 → 点击此商品 → 进入宝贝页面下单 → 下单页面选择“以旧换新”实付 778 元返 100 元后，仅需 678 元：京东科沃斯 mini 2 扫地机器人上下水版加购物车 1 件直达链接地宝 mini 机身尺寸 28.6cm，拥有五种配色可以选择，能钻到更多的死角进行清洁，号称可清洁覆盖面积较一般的扫地机器人再扩大 10%。科沃斯地宝 mini 支持 9000Pa 吸力，噪音最低 55 分贝，配有 OZMO TURBO 2.0 双旋下压拖地系统，还支持智能自动集尘、自动清洗拖布、一键启动基站自清洁等，采用轻便手提设计。",
+      "title": "SpaceXAI 资源向 AI 编程工具与 Grok Bot 倾斜，消息称裁减约 60 名 Grok Imagine 员工",
+      "summary": "IT之家 11 月 13 日消息，据 The Information 引述知情人士消息，SpaceXAI 已对旗下视频与图像生成 AI 工具 Grok Imagine 的大部分研发人员进行了裁撤。本次裁员涉及约 60 名 Grok Imagine 团队成员，目前仅保留少数人员以维持产品的基础运营。尽管该工具现阶段仍可正常访问与使用，但在失去专职研发团队支撑后，其后续发展前景已变得不明朗。自 2026 年 2 月 xAI 与 SpaceX 完成合并以来，该公司内部便持续推进架构重组，此次人员缩减正是这一调整进程的延续。知情人士透露，在今年 2 月以价值 2,500 亿美元（IT之家注：现汇率约合 1.67 万亿元人民币）的股票收购马斯克旗下人工智能公司 xAI 后，SpaceX 已将战略重心倾斜至 AI 编程工具和 Grok Bot 智能体产品，其优先级高于其他业务线。",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/367.htm",
+      "url": "https://www.ithome.com/1/026/961.htm",
       "importance": "high",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "比亚迪腾势汽车李慧谈“速成车”：我们宁愿慢一点，也绝不在安全上“抄近路”",
-      "summary": "IT之家 11 月 12 日消息，今天晚间的腾势 N8 上市发布会伊始，比亚迪腾势汽车总经理李慧就谈到了“速成车”。李慧直言，今年的车市非常热闹，前 10 个月平均每天有 3 场发布会。热闹之下，行业内诞生了一个扎心的词 ——“速成车”。“速成车”压缩的是消费者看不见、摸不着，但又关乎安全底线的验证环节。这种走捷径的方式，是把用户当成免费的试车员。他透露，腾势 N8 于 2023 年 8 月正式立项，至今打磨了整整三年多，完成了冬测、夏测等大量安全类测试，一个都没有省，直到全部通过。腾势 N8 的测试数据是真实数据，绝不是 AI 生成。“在腾势造车体系中，安全是底线。我们宁愿慢一点，也绝不在安全上抄近路。…… 千锤百炼，只为让用户买车不烧心。”发布会上，李慧还引用了百年药店“同仁堂”的古训：炮制虽繁必不敢省人工，品味虽贵必不敢减物力。据IT之家了解，腾势 N8 共推出 6 款配置车型，",
+      "title": "DeepSeek 发布全家桶应用 API：开发者将能 1:1 复刻完整 DeepSeek App",
+      "summary": "IT之家 11 月 13 日消息，今天（13 日）晚间，DeepSeek 宣布正式开放全家桶应用 API：在原有 API 中开启对应参数，即可获得深度思考搜索、文件输入等对话功能；语音及相关底层能力也已开放独立接口（含 OCR、ASR、TTS 等），支持单独或组合调用。开发者可以在自己的应用中轻松实现复杂的对话功能，甚至 1:1 复刻出完整的 DeepSeek App。本次更新将 DeepSeek App 的各项交互功能直接整合进原有 API。开启对应参数后，相关工具调用与上下文拼接均由服务端自动完成。目前，V4.1-Flash 模型（deepseek-flash）已在 Messages、Responses 与 Chat Completions 接口下支持以下能力：联网搜索：在非思考模式下，打开 deepseek_web_search 工具后，",
+      "module": "tech",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/026/960.htm",
+      "importance": "high",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "AI 助力复活尘封 15 年废案，iOS 4 时代苹果卡片后台界面曝光",
+      "summary": "IT之家 11 月 13 日消息，据外媒 AppleInsider 今天（13 日）晚间报道，借助 AI 和模拟器技术，一套尘封超过 15 年、从未正式发布的 iPhone 多任务切换界面重新跑了起来。2010 年初，该媒体曾报道苹果测试一套类似 Exposé 窗口总览功能的界面的消息。2011 年，有人在一台 iPhone 4 原型机上发现了搭载这套界面的特殊版本 iOS 4。此后十多年，这套卡片式多任务界面始终无人公开演示，直到一名模拟器开发者借助 AI，让被苹果放弃的设计重见天日。开发者史蒂夫 · 特劳顿-史密斯在 Mastodon 上分享了一段视频，展示这套从未发布的界面。视频中的 iOS 4 运行在 QEMU 模拟器的一个分支版本上，系统版本号为此前未曾公开的 8A218，比 2011 年发现的 8A216 版本略晚。",
+      "module": "tools",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/026/959.htm",
+      "importance": "high",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "寻找“下一个英伟达”：台积电拟设立 5 亿美元创投基金",
+      "summary": "IT之家 11 月 13 日消息，据日经亚洲今天（13 日）上午报道，台积电计划设立一只规模 5 亿美元（IT之家注：现汇率约合 33.43 亿元人民币）的创投基金，扶持有望成长为下一个英伟达或博通的芯片初创企业。台积电业务开发及全球销售资深副总经理、副联席首席运营官张晓强透露，随着 AI 产业蓬勃发展，公司希望通过新基金扩大产业生态，并建立更加规范的投资机制。本周公布的新基金还可能投资供应商及其他上游合作伙伴，不再将投资对象局限于直接客户。张晓强首次透露设立专门投资部门的原因：“我们认为，是时候建立正式的投资机制了。我们也希望扩大投资范围，不再只面向直接客户，而是借此发展更广泛的产业生态，包括供应商等上游合作伙伴。”张晓强还谈到了台积电向 Anthropic 和 OpenAI 各投最多 5 亿美元（现汇率约合 33.43 亿元人民币）背后的原因。",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/434.htm",
+      "url": "https://www.ithome.com/1/026/953.htm",
       "importance": "high",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
-      "summary": "全世界都在踩刹车，达里奥一个人踩油门",
-      "module": "industry",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509381.html",
-      "importance": "high",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "“双十一”机器人在物流仓“埋头苦干”：昆腾动力开启具身智能规模化获客与交付阶段",
-      "summary": "跨境称重量方等场景完成PMF验证并出现客户复购，新一代构型机器人计划12月底发布",
+      "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+      "summary": "250名国内顶尖三甲医院医生联合评测",
       "module": "tech",
       "region": "cn",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509281.html",
+      "url": "https://www.qbitai.com/2026/11/509796.html",
       "importance": "high",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031，把RSI带进生命科学",
+      "summary": "数据不出域、本地可部署",
+      "module": "tech",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509663.html",
+      "importance": "high",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "openJiuwen发布RSI原生AgentOS，让Agent自由变身，持续迭代！",
+      "summary": "想要什么功能，让Agent自己开发",
+      "module": "tech",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509653.html",
+      "importance": "high",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Anthropic Launches 'Claude for Manufacturing'",
+      "summary": "",
+      "module": "industry",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.manufacturingdive.com/news/anthropic-launches-claude-for-manufacturing/874303/",
+      "importance": "high",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Warning of interruptions as AI models by Anthropic, OpenAI and others evolve",
+      "summary": "",
+      "module": "industry",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.abc.net.au/news/2026-11-13/regulator-apra-warns-of-interruptions-as-frontier-ai-evolves/107378944",
+      "importance": "high",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "A board game where you play an AI lab CEO racing to AGI [video]",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.youtube.com/watch?v=SXnxZuntM0w",
+      "importance": "high",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Silicon Valley claims to know the future. So why did it get the midterms so wrong?",
+      "summary": "The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is currency: Meta’s Mark Zuckerberg built a 10-year road map for Facebook in 2016, and Google famously told investors before its public offering that it was unconcerned",
+      "module": "industry",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
+      "importance": "high",
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly90ZWNo",
@@ -276,17 +364,6 @@
       "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
       "importance": "high",
       "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Customer.io Fall Release",
-      "summary": "Smarter marketing through Agent-recommended experiments Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/customer-io",
-      "importance": "high",
-      "date": "2026-11-03"
     },
     {
       "id": "builtin-Q3Vyc29y5o6o5Ye6",
@@ -378,36 +455,36 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Hugging Face CEO 哀叹黄仁勋从英伟达离职：“令人无比难过的一天”，承诺继续力挺开源 AI",
-      "summary": "IT之家 11 月 13 日消息，黄仁勋昨日（11 月 12 日）辞去英伟达总裁、首席执行官及董事职务，即刻生效。Hugging Face 首席执行官克莱芒 · 德朗格（Clement Delangue）随即在领英发文，称这是“令人无比难过的一天”，并表示将继续更坚定地推动开源人工智能。IT之家昨日报道，联合创始人黄仁勋已辞去英伟达公司总裁、首席执行官及董事职务，即日起生效；首席财务官科莱特 · 克雷斯将出任临时首席执行官，公司同时启动新任 CEO 遴选程序。消息公布后，德朗格在领英发文表达惋惜。他写道：“整件事糟透了，我真希望这一切从未发生。这真是令人无比难过的一天！”德朗格同时强调，Hugging Face 将“比以往更加努力”地捍卫开源人工智能，并称此事重要到“现在不能放慢脚步”。黄仁勋 1993 年参与创立英伟达，并长期担任 CEO，",
+      "title": "目标替代微软 Office：欧洲开源办公软件 Euro-Office 桌面版上线，断网也能办公",
+      "summary": "IT之家 11 月 14 日消息，欧洲开源办公软件 Euro-Office 正式走出浏览器，以 Nextcloud Office Desktop 的名称，推出可直接安装的桌面版本，覆盖 Windows、macOS 和 Linux 平台，希望成为微软 Office 的替代选择。新版应用集成文档、电子表格、演示文稿及 PDF 编辑功能。官方称，其对微软 Office 的 DOCX、XLSX、PPTX 格式以及 ODT、ODS、ODP 等开放格式具有较高兼容性。用户无需联网即可编辑本地文件，并自行决定哪些资料保留在电脑上、哪些放入云端。IT之家附上相关图片如下：需要团队协作时，用户可连接 Nextcloud Hub，访问云端文件并与同事实时共同编辑。桌面版还支持调用电脑已安装的字体、为文件设置密码，以及使用数字证书签署文档。不过，协作者若未安装相同字体，文件仍可能以替代字体显示。平台支持方面，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/469.htm",
+      "url": "https://www.ithome.com/1/027/013.htm",
       "importance": "medium",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "importance": "medium",
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
-      "summary": "「CAD拆解」",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509440.html",
+      "title": "Filament by Galaxy",
+      "summary": "Move data using your terminal or agent. Fast & open source. Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/galaxy",
       "importance": "medium",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
-      "summary": "模型即将开源",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509224.html",
-      "importance": "medium",
-      "date": "2026-11-11"
+      "date": "2026-10-16"
     },
     {
       "id": "builtin-6Zi/6YeM6aKG5oqV",
@@ -444,168 +521,630 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "中芯国际赵海军：第三季度平均晶圆单价环比提升 1.8%",
-      "summary": "IT之家 11 月 13 日消息，中芯国际联合 CEO 赵海军在第三季度业绩会上表示，第三季度，公司整体销售收入再创新高，达到 31.9 亿美元（IT之家注：现汇率约合 213.25 亿元人民币），环比增长 6.1%。比起三个月前，客户对诸如 BCD、专用存储、Controller 等人工智能配套芯片提拉需求的增量速度比原先预期更快，使得第三季度收入超出指引上限。赵海军表示，从价格的角度看，公司与客户协商的价格分批落地，产品组合持续优化，平均晶圆单价环比提升 1.8%。中芯国际联合 CEO 赵海军表示，今年全年收入预计超过 120 亿美元（现汇率约合 802.21 亿元人民币），较去年同期增长接近三成。全球设备供应链整体紧张，交付周期拉长，部分设备交付时间仍存在不确定性，虽不会影响今年的扩产规划落地，但可能对（明年）全年的资本开支执行带来扰动。",
+      "title": "Every Way to Get 192GB for Local AI (Without a $9,500 Mac) [video]",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.youtube.com/watch?v=_e2dk4Pothw",
+      "importance": "low",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9jaGlw",
+      "title": "ChipAgents – The agentic foundation for semiconductor design (AI for IC design)",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://chipagents.ai/",
+      "importance": "low",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9raW5n",
+      "title": "Show HN: Portal2Bench – Can AI agents solve Portal 2?",
+      "summary": "",
+      "module": "community",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://kingstonyip.com/portal2bench",
+      "importance": "low",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hbHBo",
+      "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
+      "summary": "",
       "module": "industry",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
+      "importance": "low",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9naXRo",
+      "title": "Show HN: Memro – Persistent Memory for Claude Code, Cursor and Codex",
+      "summary": "Memro is go bases persistent memory system that lets ai agents share context acssion session using mcp, built on top of postgreSQL",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://github.com/memrohq/memro",
+      "importance": "low",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9kZXYt",
+      "title": "Agentic studio 5 head AI built a 3D game engine in 4 hours – one pass",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://dev-head.com/",
+      "importance": "low",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "马克龙宣布 12 月 2 日在法国巴黎召开科技企业会议，推动欧洲科技自主",
+      "summary": "IT之家 11 月 14 日消息，据央视新闻今日报道，法国总统埃马纽埃尔 · 马克龙宣布将于 12 月 2 日与荷兰首相罗布 · 耶滕（Rob Jetten）共同在巴黎召集科技企业负责人举行会议，推动欧洲政府与科技行业加强合作，提升欧洲科技自主能力。据英国《卫报》报道，马克龙是在爱尔兰首都都柏林出席欧盟领导人非正式会议后作出上述表态的。他还在 X 上发文并强调“我们的独立自主不能外包，必须在欧洲本土建立起来”。此次欧盟领导人非正式会议的重要议题之一是人工智能。欧盟领导人与法国人工智能企业 Mistral AI 首席执行官阿瑟 · 门施（Arthur Mensch）等人士讨论了欧洲人工智能产业的发展，以及如何提升欧洲在全球人工智能领域的竞争力。马克龙为欧洲 AI 企业开出的条件清单相当具体：训练模型所需的算力、支持成长的资本，以及部署模型所需的客户。马克龙表示，",
+      "module": "tech",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/487.htm",
+      "url": "https://www.ithome.com/1/027/009.htm",
       "importance": "low",
       "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "上海海思推出 CS6286 图像传感器，将车载哨兵系统续航延长至 7 天以上",
-      "summary": "IT之家 11 月 13 日消息，11 月 12 日，上海海思推出全新 800 万像素图像传感器 CS6286，目前已进入量产阶段。官方介绍称，它创新性地采用了“感算存一体”的架构，具备感侧（CIS 芯片）高精度智能分析、低功耗预录与全场景高动态成像等核心技术，为行车记录仪提供全新的“全天候智能哨兵”解决方案，满足智慧出行、车载安全等领域对长续航、高画质、高可靠性的严苛需求。▲ CS6286 成像效果CS6286 采用 1/1.8\" 靶面与 2.0μm 像素尺寸设计，提供 800 万（3840×2160）物理分辨率，支持原生 4K@30fps HDR 视频录制。传统后装行车记录仪方案下，哨兵系统通常仅支持录制约 24~48 小时。CS6286 搭载创新的感侧 AI 技术，通过“AI 精准唤醒 + 预录节能”两大机制，将哨兵系统续航时间延长至 7 天以上。",
+      "title": "Epic 指责苹果以 27% 佣金规避法院禁令：增聘最高法院资深律师，双方诉讼将于明年 1 月继续",
+      "summary": "IT之家 11 月 14 日消息，苹果与 Epic Games 围绕 App Store 应用商店政策展开的法律争端再有进展。当地时间 11 月 13 日，Epic Games 向美国最高法院提交最新法律文件，要求驳回苹果此前提出的上诉，维持下级法院对苹果作出的藐视法庭裁定。据路透社今日报道，Epic 此次还扩大了法律团队，聘请来自美国律师事务所 Mayer Brown 的资深律师妮可 · 萨哈尔斯基（Nicole Saharsky），协助应对即将到来的最高法院诉讼。萨哈尔斯基曾在美国最高法院参与辩论 32 起案件，目前将与 Epic 长期合作的 Cravath, Swaine & Moore 律师团队共同处理此案。此次争议的核心是苹果是否遵守了此前法院针对 App Store 反引导（Anti-steering）政策作出的禁令。Epic 于 2020 年起诉苹果，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/479.htm",
+      "url": "https://www.ithome.com/1/027/006.htm",
       "importance": "low",
       "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "IT早报 1113：英伟达宣布 CEO 黄仁勋即刻辞职；腾讯公关总监辟谣公司裁员 50%；长安汽车拟挂牌转让阿维塔 10% 股权；演员赵丽颖起诉红果短剧侵犯肖像权...",
-      "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 13 日星期五，今天的重要科技资讯有：1. 英伟达：黄仁勋辞去总裁、首席执行官和董事会成员职务，即刻生效英伟达现任执行副总裁兼首席财务官 Colette Kress 同意出任临时首席执行官。在正式继任者确定之前，Kress 将在继续担任执行副总裁兼首席财务官的同时，履行临时 CEO 职责。>> 查看详情2. 腾讯公关总监张军回应公司裁员 50% 传闻：纯纯的误会和谣言腾讯公关总监张军回应“腾讯裁员 50%”传闻，称其为误会与谣言。他指出，这是对公司面向 AI 时代组织变革策略的误读，并非实际裁员。>> 查看详情3. 长安汽车拟挂牌转让阿维塔 10% 股权，交易价格约 32 亿元上海联合产权交易所显示，重庆长安汽车股份有限公司 11 月 12 日挂牌转让持有的阿维塔科技（重庆）股份有限公司 10% 股权，交易价格为 31.",
+      "title": "索尼：PS5 超分技术 QSSR 即将登陆《漫威蜘蛛侠 2》《ARC Raiders》等作品",
+      "summary": "IT之家 11 月 13 日消息，索尼 PlayStation 今天（13 日）晚间宣布，PS5 超分技术 QSSR 即将登陆《漫威蜘蛛侠 2》《控制：共振》《THE FINALS》《ARC Raiders》等作品，相关游戏更新将在未来几周内陆续推出。今年 10 月，索尼正式推出了 Quick Spectral Super Resolution（QSSR）技术，为 PS5 带来了 AI 驱动的画面超分辨率升级。据IT之家了解，该技术和索尼 PlayStation 5 Pro 上使用的 PSSR 类似，可以提升输出画面的清晰度。QSSR 基于 PS5 Pro 所采用的 PSSR 光谱超分辨率技术的相同底层架构开发。与传统超分辨率技术相比，QSSR 能够呈现更加清晰的细节、更干净的物体边缘，以及更加稳定的画面表现。根据介绍，由于 QSSR 与 PSSR 采用相同的接口，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/470.htm",
+      "url": "https://www.ithome.com/1/026/967.htm",
       "importance": "low",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "不止测体脂：三星 Galaxy Watch 智能手表新专利，可监测腹部脂肪",
-      "summary": "IT之家 11 月 13 日消息，根据美国商标和专利局（USPTO）于 11 月 3 日公示的清单，三星公司获批一项 Galaxy Watch 智能手表专利，通过综合多项传感器数据，可以检测佩戴者的“内脏脂肪”。该专利名为《腹部脂肪估算方法与系统》，描述了一种可在便携设备上评估腹部皮下脂肪与内脏脂肪的技术方案。专利称，该方案可降低测量复杂度，并提升估算的准确性与速度。与普通体脂率不同，这项技术重点指向“内脏脂肪”。皮下脂肪位于皮肤下方，而内脏脂肪主要包裹在腹腔器官周围，通常需要 MRI、CT 等临床影像设备才能较准确测量；部分智能体脂秤虽能给出估算值，但精度有限。而三星专利计划在手表中引入超宽带（UWB）雷达。设备会向腹部区域发射信号并接收反射波，再结合 Galaxy Watch 已有的生物电阻抗（BIA）数据，以及体重、身高、年龄、性别等基础信息，综合推算腹部脂肪面积与内脏脂肪水平。",
+      "title": "韩国拟采购无线电探测设备，防范国家资格考试“AI 作弊”",
+      "summary": "IT之家 11 月 13 日消息，据新华社报道，由于担心考生利用 AI 眼镜等高科技设备在国家资格考试中作弊，韩国正考虑采取应对措施。韩国最大在野党国民力量党议员金渭相近日提议，在 2027 年度预算中增加约 65.7 亿韩元（IT之家注：现汇率约合 3,286.3 万元人民币）经费，用于采购无线电信号探测设备并安排专职人员，防范国家资格考试中的 AI 作弊行为。韩国国会此前已关注到高科技作弊问题。负责组织国家资格考试的韩国产业人力公团随后估算了所需经费，提出花费 36 亿韩元（现汇率约合 1,800.7 万元人民币）采购 7200 台无线电信号探测设备，投入 29.7 亿韩元（现汇率约合 1,485.6 万元人民币）安排 23559 名负责识别高科技作弊的专职人员。有关预算增拨方案尚需经过国会审议。韩国产业人力公团表示，AI 眼镜外观与普通眼镜相似，监考人员通过肉眼识别难度大，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/463.htm",
+      "url": "https://www.ithome.com/1/026/958.htm",
       "importance": "low",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "“甜甜圈”实锤：人类首张黑洞照片通过新算法复核",
-      "summary": "IT之家 11 月 13 日消息，根据 11 月 11 日发表于《自然》（Nature）最新研究报告，澳大利亚科研团队通过新算法，确认 2019 年人类首张黑洞照片主角 M87 黑洞的“甜甜圈”是真的。M87 星系中心超大质量黑洞 M87* 距离地球约 5,500 万光年，事件视界望远镜合作组于 2019 年以其为主角，公布为人类首张黑洞照片。照片中，明亮物质环绕中央暗区，形似一枚“甜甜圈”。但由于射电望远镜数据稀疏、校准复杂，学界曾质疑这一环状结构是否只是成像算法或仪器误差带来的“人工痕迹”。澳大利亚联邦科学与工业研究组织（CSIRO）团队开发了名为 GenDIReCT 的独立成像方法。它以“闭合不变量”为核心，将望远镜按三站组合而非传统两两配对处理，从而在数学上抵消大气扰动和仪器校准误差；同时，研究团队用与天文无关的图像训练人工智能模型，避免算法“预设”黑洞应当长什么样。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/461.htm",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "超 740 亿美元砸向 AI：马斯克的 SpaceX 不光造火箭，还要建超级算力帝国",
-      "summary": "IT之家 11 月 13 日消息，全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceX 公司昨日（11 月 12 日）宣布，计划在得克萨斯州和亚利桑那州投入超过 740 亿美元（IT之家注：现汇率约合 4,947.49 亿元人民币），建设两座面向人工智能的超级计算数据中心园区，标志着这家火箭公司正加速向 AI 算力基础设施扩张。根据公告内容，SpaceX 计划投资超过 240 亿美元，在得克萨斯州星际基地（Starbase）附近建设超级计算设施，将建在 SpaceX 自有约 444 英亩土地上，用于训练前沿人工智能模型。SpaceX 表示，该设施将自建燃气发电能力，不依赖公共电网；项目已创造超过 3,000 个建筑岗位，建成后预计支持 500 多个长期岗位。而另一个项目位于亚利桑那州科奇斯县，园区投资约 500 亿美元（现汇率约合 3,342.9 亿元人民币），",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/455.htm",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "曝马斯克推进 SpaceX 与特斯拉合并谈判：最快 12 月公布，有望成为全球规模最大企业合并交易之一",
-      "summary": "IT之家 11 月 13 日消息，据彭博社当地时间 11 月 12 日报道，马斯克旗下的两家核心企业正在推进合并谈判，双方董事会及顾问团队目前正就交易条款、合并后公司的治理结构等事项进行磋商。知情人士透露，SpaceX 与特斯拉的合并谈判正在取得进展，双方有望于 12 月宣布合并协议，最迟可能推迟至 2027 年初。如果交易最终达成，将成为全球规模最大的企业合并交易之一。报道称，双方谈判内容还包括 SpaceX 需要向特斯拉现有股东发行多少股份，以完成交易。特斯拉和 SpaceX 的代表均未立即回应置评请求。如果合并完成，新公司将整合电动汽车、储能电池、火箭、卫星及人工智能等业务。两家公司的业务整合与马斯克希望将 AI 技术应用于太空探索、无人驾驶汽车和人形机器人等领域的计划有关。不过，这笔交易仍面临监管和股东审批等多重障碍。其中，如何处理特斯拉在中国的业务，是双方需要解决的问题之一。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/452.htm",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "黄仁勋辞职后续：美国司法部对英伟达启动多项调查，包括反垄断调查",
-      "summary": "IT之家 11 月 13 日消息，据 Semafor 当地时间 11 月 12 日报道，美国司法部正在开展的多项调查可能将英伟达（NVIDIA）纳入调查范围。两名美国政府官员透露，在英伟达前 CEO 黄仁勋辞职引发的连锁反应持续发酵之际，美国司法部目前涉及英伟达、Megaspeed 和超微电脑（Supermicro）的多项调查正在推进。其中，一项调查直接针对英伟达，重点涉及反垄断问题。另外两项调查则分别涉及科技企业 Megaspeed 和超微电脑，调查重点包括 Alice Huang 的相关活动。Semafor 指出，目前没有迹象表明美国司法部计划以刑事罪名起诉英伟达或黄仁勋。现阶段，针对英伟达的反垄断调查与涉及 Megaspeed、超微电脑的另外两项调查属于不同调查事项，不能据此认定英伟达参与了后两项调查涉及的相关行为。对于上述报道，英伟达和美国司法部发言人均未置评。此前，",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/451.htm",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "黄仁勋辞职后，特朗普呼吁苹果执行董事长库克接任英伟达 CEO",
-      "summary": "IT之家 11 月 12 日消息，黄仁勋离任英伟达 CEO 后，美国总统特朗普随即呼吁苹果执行董事长蒂姆 · 库克接掌英伟达。今天（12 日）晚间，特朗普在 Truth Social 发文称，能够接替黄仁勋的人“只有一个”—— 苹果公司的蒂姆 · 库克。“一位传奇来接替另一位传奇！”据IT之家了解，卸任苹果 CEO 后，库克改任执行董事长。黄仁勋辞去总裁、首席执行官及董事会成员职务后，英伟达任命执行副总裁兼首席财务官科莱特 · 克雷斯（Colette Kress）为临时 CEO。在正式继任者确定之前，克雷斯在代行首席执行官职责的同时，将继续兼任执行副总裁兼首席财务官。董事会目前已启动正式首席执行官的遴选工作，并将统筹考虑内部及外部候选人。相关阅读：《黄仁勋辞任英伟达 CEO 重创全球 AI 概念股，AMD、博通逆势上涨》《黄仁勋辞去 CEO 后，",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/439.htm",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "黄仁勋辞任英伟达 CEO 重创全球 AI 概念股，AMD、博通逆势上涨",
-      "summary": "IT之家 11 月 12 日消息，据路透社报道，黄仁勋因婚外情丑闻持续发酵而辞去英伟达 CEO，引发全球 AI 概念股周四大跌。英伟达领导层突遭变动，也让原本就面临融资和监管压力的 AI 行业增添了新的风险。英伟达宣布，CFO 科莱特 · 克雷斯将暂任 CEO，公司同时寻找正式接班人。作为 AI 产业链的核心企业，英伟达不仅供应芯片，还为采用其芯片的数据中心等基础设施项目提供资金支持，这种商业模式因循环融资问题受到质疑。随着英伟达陷入更深的危机，整个 AI 行业也面临新的压力。英伟达股价早盘下跌 8.2%，跌至 16 个多月以来的最低水平，市值更是 2025 年 7 月以来首次跌破 4 万亿美元。英伟达投资的新型云计算服务商 CoreWeave 股价下跌 9.1%。就在前一个交易日，CoreWeave 还因财报表现带动 AI 概念股反弹，单日涨幅超过 27%。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/437.htm",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "长安汽车拟挂牌转让阿维塔 10% 股权，交易价格约 32 亿元",
-      "summary": "IT之家 11 月 12 日消息，上海联合产权交易所显示，重庆长安汽车股份有限公司今日挂牌转让持有的阿维塔科技（重庆）股份有限公司 10% 股权，交易价格为 31.828 亿元，披露结束时间为 12 月 10 日。交易完成后，长安汽车仍为阿维塔第一大股东。IT之家附阿维塔目前股东与持股比例如下：股东名称持股比例 (%)重庆长安汽车股份有限公司40.994宁德时代新能源科技股份有限公司9.1742重庆安渝私募股权投资基金合伙企业 (有限合伙)8.8068重庆承安私募股权投资基金合伙企业 (有限合伙)7.2717南方工业资产管理有限责任公司6.3439交银金融资产投资有限公司3.3446国家绿色发展基金股份有限公司2.9046上海智悦新途一号企业管理合伙企业（有限合伙）1.8815杭州产投集团有限公司1.5726重庆产业投资母基金合伙企业（有限合伙）1.3832其他股东16.",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/433.htm",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
-      "summary": "银河智学首席科学家邓澍军博士发表主题演讲",
+      "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
+      "summary": "12.9 北京，来MEET2027现场",
       "module": "tech",
       "region": "cn",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509404.html",
+      "url": "https://www.qbitai.com/2026/11/509827.html",
       "importance": "low",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "马斯克Grok泄露自家机密！SpaceX特斯拉工资绩效全曝光",
-      "summary": "Grok在让人破绷这件事上，从来不会让人失望。",
+      "title": "中国机器人学会隔墙“递眼色”！成功率从0飙到100%，组队干活不烧心",
+      "summary": "信息少传80%，准确率反而提高",
       "module": "tech",
       "region": "cn",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509355.html",
+      "url": "https://www.qbitai.com/2026/11/509614.html",
       "importance": "low",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "让AI真正懂业务：璇玑如何成为企业AI的语义基础设施",
-      "summary": "企业 AI 的难题，不只是模型够不够强",
+      "id": "v4-aHR0cHM6Ly95Y2Fv",
+      "title": "We Dislike LLM Output, Not Because of Comprehension",
+      "summary": "",
       "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509349.html",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://ycao.net/posts/llm-comprehension-acceptance",
       "importance": "low",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9naXRo",
+      "title": "Doc-foundry – AI writes Security detection rules, then proves they work",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://github.com/mjha-arya/DOC-foundry",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9wbG91",
+      "title": "The anti-marketing aspect of the Gemini network",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://ploum.net/2026-11-12-anti-marketing-gemini.html",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnN0",
+      "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+      "summary": "",
+      "module": "tools",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9jbGF1",
+      "title": "Using Claude Opus 5.5 as your daily driver for knowledge work",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9xdWFp",
+      "title": "QuAIA: An open-source team of AI agents that handles the whole test process",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://quaia.dev/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9jbGF1",
+      "title": "Claude Meetings",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://claude.com/resources/articles/claude-meetings",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9ibG9n",
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hcnN0",
+      "title": "FAA expands AI advice to manage air traffic congestion across US airspace",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "importance": "low",
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Anthropic玻璃翼计划被质疑！近4万个候补漏洞，只修了217条",
-      "summary": "只管挖不管埋。",
+      "title": "My first two months with AI agents: some confident assertions",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.mikehermele.com/blog/first-two-months/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "DSPy vs. LangGraph: AI Agent Frameworks Explained – Stanford CS329Z [video]",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.youtube.com/watch?v=q0Q-Hy8TTps",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9naXRo",
+      "title": "Show HN: Customer Intelligence and Monetization Toolkit for Claude Code",
+      "summary": "",
+      "module": "community",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://github.com/Satvik-jain/customer-intelligence-toolkit",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90d2l0",
+      "title": "Show HN: 1:1 Webflow to Claude Code converter",
+      "summary": "Built a 1:1 Webflow to Claude Code convertorSurprisingly, a really hard problem. Had to recreate CDNs and CMSs for it to be usable and deal with so much minified animation stuff. But it works now really, really well.Releasing it for free. It's in our interest for more companies to own their own code so we'd like to expedite that future.",
+      "module": "community",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://twitter.com/mathewpregasen/status/2121356951682752809",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9naXRo",
+      "title": "Skills that stop AI coding agents from touching production",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://github.com/simbaTmotsi/simba-skills",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9naXpt",
+      "title": "FAA Rolls Out AI Air Traffic Tool (2026-11-12)",
+      "summary": "",
+      "module": "tools",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://gizmodo.com/the-faa-is-rolling-out-its-ai-air-traffic-tool-nationwide-2000839347",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90d2l0",
+      "title": "Evidence Chinese AI labs built their newest models on Nvidia's Blackwell chips",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://twitter.com/willdepue/status/2120992457630326841",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9yYWlu",
+      "title": "Rainshare: Mutual aid for AI coding plans and usage limits",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://rainshare.dev/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9pbWFn",
+      "title": "Show HN: Free AI Image Gallery",
+      "summary": "",
+      "module": "community",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://images.skynettstudio.com/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Cooperation Between Autonomous LLM Agents in the Prisoner's Dilemma",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.researchgate.net/publication/417439900_Cooperation_Between_Autonomous_LLM_Agents_in_the_Repeated_Prisoner%27s_Dilemma_Exploitation_Cheap_Talk_and_Reputation",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "The Chinese city powering the country's AI ambitions with data farms",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.nbcnews.com/world/asia/china-ai-data-center-construction-inner-mongolia-rcna608934",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "AI Company Employees Should Unionize",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.astralcodexten.com/p/ai-company-employees-should-unionize",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9kZWVw",
+      "title": "DeepMind opens the datasets behind its AI weather models",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "How the U.S.'s biggest news union is fighting an AI onslaught",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.fastcompany.com/91637688/newsguild-jon-schleuss-ai-human-journalists",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "What the 'AI Torture Chamber' Debate Got Wrong About the Research",
+      "summary": "",
+      "module": "community",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.techpolicy.press/what-the-ai-torture-chamber-debate-got-wrong-about-the-research/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9hbGxv",
+      "title": "I asked Claude to build a game about Claude taking over the world",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://allow-always.fly.dev/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9zb21l",
+      "title": "AI escapes from containers faster than me – so what?",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://some-natalie.dev/blog/escapes-ai/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Mellonbot An AI agent that finds the root cause of server issues and fixes them",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.mellonbot.app",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9tZWRp",
+      "title": "I Used to Be Excited About Software Conferences. AI KILLed That",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://medium.com/@badrbellaj/i-used-to-be-excited-about-software-conferences-not-so-much-anymore-28a7ddd6a6b4",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9zcGFj",
+      "title": "LLM's Play Zachtronics' SpaceChem",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://spacechem.wincon.dev/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "The AI megatrade's mounting portfolio concentration risk problem",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.ft.com/content/2f4d39dd-dee8-4620-996d-3fe978b7522b",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "No AI Slop: A Manifesto",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.slopmanifesto.com/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9saXRo",
+      "title": "Ghost Writing: On AI Before AI",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://lithub.com/ghost-writing-on-ai-before-ai/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9ibG9n",
+      "title": "Everyone is learning the wrong lesson from Hugging Face",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://blog.karthiktadepalli.com/p/hugging-face",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9kbG10",
+      "title": "30x more efficient Diffusion language model for Translation",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://dlmtranslate.com/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly9uZXdz",
+      "title": "Nvidia looks for successor after exit of CEO Jensen Huang, shake the AI industry",
+      "summary": "",
       "module": "industry",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509291.html",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://news.northeastern.edu/2026/11/12/jensen-huang-resigns-nvidia-successor/",
       "importance": "low",
-      "date": "2026-11-12"
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Crypto and AI lost the midterms, and why they say they didn't",
+      "summary": "",
+      "module": "tech",
+      "region": "global",
+      "source": "HackerNews-AI",
+      "url": "https://www.citationneeded.news/crypto-ai-lost-the-midterms/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
+      "summary": "This is today s edition of The Download, our weekday newsletter that provides a daily dose of what s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former executive at Square The self-styled visionaries",
+      "module": "industry",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
+      "summary": "Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.” The people who volunteer for trials of those devices play a vital role in that research, and they ought to be recognized for their",
+      "module": "tech",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "module": "tech",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Export-banned Nvidia chips are behind China&#8217;s most powerful AI models — uh-oh, Jensen!",
+      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "module": "tech",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "ChatGPT&#8217;s new Wallet lets AI agents shop and check out for you",
+      "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "module": "tech",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "ElevenLabs&#8217; new app combines meeting note-taking and dictation for teams",
+      "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+      "module": "tools",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Israel&#8217;s VCs see opportunity for challengers in Nvidia&#8217;s turmoil",
+      "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "importance": "low",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Replicate",
+      "summary": "Turn Webflow/Framer app into a Claude/Codex project for free Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/replicate-10",
+      "importance": "low",
+      "date": "2026-11-13"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -637,17 +1176,6 @@
       "region": "global",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
       "importance": "low",
       "date": "2026-11-12"
     },
@@ -729,101 +1257,46 @@
       "date": "2026-11-12"
     },
     {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-      "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
-      "module": "industry",
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Trainn MCP",
+      "summary": "Create product videos and courses from any AI chat Discussion | Link",
+      "module": "community",
       "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang&#8217;s successor",
-      "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
-      "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Norwest pushes deeper into AI with new $4B fund",
-      "summary": "This is the investment firm's largest fund to date.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers&#8217; chat transcripts",
-      "summary": "This is Fireworks' second data breach in as many months.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Nine Korean startups vie for a spot in Disrupt 2027&#8217;s Startup Battlefield 200 competition",
-      "summary": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
-      "importance": "low",
-      "date": "2026-11-12"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-      "summary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/trainn",
       "importance": "low",
       "date": "2026-11-12"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Hoy for Mac",
-      "summary": "Walkie-talkie meets AirDrop meets Messages Discussion | Link",
+      "title": "GAtrends",
+      "summary": "Spike alerts for your keywords in Telegram, Claude, ChatGPT Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/hoy-for-mac",
+      "url": "https://www.producthunt.com/products/gatrends",
       "importance": "low",
       "date": "2026-11-12"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Crossfade",
-      "summary": "Let your coding agent design in your open Figma file Discussion | Link",
+      "title": "Expo Simulators",
+      "summary": "Cloud simulators built for agents Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/crossfade",
+      "url": "https://www.producthunt.com/products/expo",
+      "importance": "low",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Gemini 4 Hydrogen",
+      "summary": "Fast agentic development for coders Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/gemini-6",
       "importance": "low",
       "date": "2026-11-12"
     },
@@ -851,34 +1324,12 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Insight7 Voice AI Agents",
-      "summary": "AI voice agents that call your customers for you Discussion | Link",
+      "title": "Aven App Agent",
+      "summary": "AI that guides users through your app Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/insight7",
-      "importance": "low",
-      "date": "2026-11-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Sluice",
-      "summary": "Room to build on your Mac, even with 20 agents at once Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/sluice-2",
-      "importance": "low",
-      "date": "2026-11-11"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Grok Bot 1.0",
-      "summary": "Bots work together alongside your team Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/grok",
+      "url": "https://www.producthunt.com/products/aven-app-agent",
       "importance": "low",
       "date": "2026-11-11"
     },
@@ -895,12 +1346,12 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "three.dev",
-      "summary": "Find out how your AI agent fails. Before your users do. Discussion | Link",
+      "title": "Burnstate",
+      "summary": "Claude Code, Codex & Cursor limits, paced in your menu bar Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/three-dev",
+      "url": "https://www.producthunt.com/products/burnstate",
       "importance": "low",
       "date": "2026-11-10"
     },
@@ -917,91 +1368,36 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a",
-      "module": "tech",
-      "region": "global",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
-      "importance": "low",
-      "date": "2026-11-09"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "The Download: empty AI climate claims, and an Nvidia investigation",
-      "summary": "This is today s edition of The Download, our weekday newsletter that provides a daily dose of what s going on in the world of technology. Opinion: The climate case for AI has not been made —By Mary Nichols, distinguished counsel at the UCLA School of Law and the former chair of the California Air Resources Board,",
-      "module": "industry",
-      "region": "global",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
-      "importance": "low",
-      "date": "2026-11-09"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Innovating with AI in the special chemicals industry",
-      "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market.",
-      "module": "tech",
-      "region": "global",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-      "importance": "low",
-      "date": "2026-11-09"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Spacefast by Automattic",
-      "summary": "Give your AI agents a place to build, run, and ship Discussion | Link",
+      "title": "Kairos",
+      "summary": "Personal analytics engine across health, finances, & social Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/spacefast-by-automattic",
+      "url": "https://www.producthunt.com/products/kairos-18",
       "importance": "low",
-      "date": "2026-11-09"
+      "date": "2026-11-07"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Plurai Simulation",
-      "summary": "A simulated world that makes your agent improve on every run Discussion | Link",
+      "title": "Templify AI",
+      "summary": "Powerful content editor for people who aren’t editors Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/plurai",
+      "url": "https://www.producthunt.com/products/templify",
       "importance": "low",
-      "date": "2026-11-05"
+      "date": "2026-10-26"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Neura HQ",
-      "summary": "The agentic conversational storefront for consumer brands Discussion | Link",
+      "title": "qorqbot",
+      "summary": "Proactive agent for business work Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/neura-4",
+      "url": "https://www.producthunt.com/products/qorqbot",
       "importance": "low",
-      "date": "2026-11-04"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "CanyonOS",
-      "summary": "The One Platform for Scaling your Agentic Apps Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/canyon-code",
-      "importance": "low",
-      "date": "2026-11-03"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Sendr V4: Lovable for GTM",
-      "summary": "Your AI GTM engineer to build signal based go-to-market Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/sendr",
-      "importance": "low",
-      "date": "2026-10-01"
+      "date": "2026-10-18"
     },
     {
       "id": "v4-aHR0cHM6Ly9zeW5j",
@@ -1013,39 +1409,6 @@
       "url": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems/",
       "importance": "low",
       "date": "2025-08-14"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9zeW5j",
-      "title": "Researchers from PSU and Duke introduce &#8220;Multi-Agent Systems Automated Failure Attribution",
-      "summary": "\"Automated failure attribution\" is a crucial component in the development lifecycle of Multi-Agent systems. It has the potential to transform the challenge of identifying \"what went wrong and who is to blame\" from a perplexing mystery into a quantifiable and analyzable problem The post Researchers from PSU and Duke introduce “Multi-Agent Systems Automated Failure Attribution first appeared on Sy…",
-      "module": "tech",
-      "region": "cn",
-      "source": "机器之心",
-      "url": "https://syncedreview.com/2025/06/16/researchers-from-psu-and-duke-introduce-multi-agent-systems-automated-failure-attribution/",
-      "importance": "low",
-      "date": "2025-06-16"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9zeW5j",
-      "title": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
-      "summary": "By combining State-Space Models (SSMs) for efficient long-range dependency modeling with dense local attention for coherence, and using training strategies like diffusion forcing and frame local attention, researchers from Adobe Research successfully overcome the long-standing challenge of long-term memory in video generation.",
-      "module": "tech",
-      "region": "cn",
-      "source": "机器之心",
-      "url": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/",
-      "importance": "low",
-      "date": "2025-05-28"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly9zeW5j",
-      "title": "Can GRPO be 10x Efficient? Kwai AI&#8217;s SRPO Suggests Yes with SRPO",
-      "summary": "Kwai AI's SRPO framework slashes LLM RL post-training steps by 90% while matching DeepSeek-R1 performance in math and code. This two-stage RL approach with history resampling overcomes GRPO limitations. The post Can GRPO be 10x Efficient? Kwai AI’s SRPO Suggests Yes with SRPO first appeared on Synced.",
-      "module": "tech",
-      "region": "cn",
-      "source": "机器之心",
-      "url": "https://syncedreview.com/2025/04/23/can-grpo-be-10x-efficient-kwai-ais-srpo-suggests-yes-with-srpo/",
-      "importance": "low",
-      "date": "2025-04-24"
     }
   ]
 }
