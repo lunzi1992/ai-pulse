@@ -3,65 +3,69 @@
     "title": "AI Pulse",
     "subtitle": "全球 AI 资讯每日聚合",
     "description": "国内 + 国际 | 行业动态 | 技术进展 | 社区洞察 | 工具与应用",
-    "lastUpdate": "2026-11-24",
-    "updatedAt": "2026-11-24T05:08:51.695Z",
+    "lastUpdate": "2026-11-25",
+    "updatedAt": "2026-11-25T03:57:54.734Z",
     "version": "4.0"
   },
   "hotKeywords": [
     {
+      "name": "Anthropic",
+      "count": 12
+    },
+    {
       "name": "之家",
-      "count": 18
+      "count": 12
     },
     {
       "name": "日消息",
-      "count": 17
-    },
-    {
-      "name": "AIR",
-      "count": 17
-    },
-    {
-      "name": "Agent",
-      "count": 14
-    },
-    {
-      "name": "CEO",
       "count": 12
-    },
-    {
-      "name": "HUANG",
-      "count": 12
-    },
-    {
-      "name": "DeepSeek",
-      "count": 11
     },
     {
       "name": "MODELS",
-      "count": 11
+      "count": 12
+    },
+    {
+      "name": "DATA",
+      "count": 10
     },
     {
       "name": "APPEARED",
       "count": 10
     },
     {
-      "name": "RESEARCHERS",
+      "name": "DISCUSSION",
       "count": 10
+    },
+    {
+      "name": "LINK",
+      "count": 10
+    },
+    {
+      "name": "现汇率约合",
+      "count": 9
+    },
+    {
+      "name": "CEO",
+      "count": 9
     },
     {
       "name": "POST",
       "count": 9
     },
     {
-      "name": "DISCUSSION",
+      "name": "RESEARCHERS",
       "count": 9
     },
     {
-      "name": "LINK",
+      "name": "HUANG",
       "count": 9
     },
     {
-      "name": "AGENTS",
+      "name": "Agent",
+      "count": 8
+    },
+    {
+      "name": "POWER",
       "count": 8
     },
     {
@@ -69,167 +73,108 @@
       "count": 8
     },
     {
-      "name": "WATCH",
+      "name": "COMPANY",
       "count": 8
+    },
+    {
+      "name": "IPO",
+      "count": 7
     },
     {
       "name": "NVIDIA",
-      "count": 8
-    },
-    {
-      "name": "LING-",
       "count": 7
     },
     {
-      "name": "YOU",
-      "count": 7
-    },
-    {
-      "name": "SYNCED",
+      "name": "AGENTS",
       "count": 7
     }
   ],
   "news": [
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Qt Creator 21 正式发布：强化 AI Agent 集成，新增华为 HarmonyOS 设备支持",
-      "summary": "IT之家 11 月 24 日消息，当地时间 11 月 23 日，Qt 团队发布了最新的集成开发环境（IDE）Qt Creator 21。本次更新重点加强了 AI Agent 与 IDE 的协作能力，同时引入全新的 Profile 性能分析模式，并改进 C++/QML 调试、Git 版本控制、CMake 项目管理和代码编辑体验。在 AI 功能方面，Qt Creator 21 默认启用 Agentic AI Chat（ACP）集成和 MCP 服务器，并为 MCP 服务器默认增加 Bearer Token 身份验证机制。外部 Agent 连接 Qt Creator MCP 时，需要在请求中添加授权令牌。新版 MCP 服务器增加了多项工具，并允许用户在设置中分别配置这些工具的启用状态。Agentic AI Chat 也进行了升级，支持自动更新注册表中的 Agent、为此前使用过的工作区创建新会话，",
+      "title": "“人类史上最大 IPO”上市不到 1 周就破发，Anthropic 跌破 83 美元发行价",
+      "summary": "IT之家 11 月 25 日消息，彭博社昨日（11 月 24 日）发布博文，报道称“人类史上最大 IPO”上市（11 月 19 日）的 Anthropic 首次跌破每股 83 美元（IT之家注：现汇率约合 554.3 元人民币）的 IPO 发行价，美国东部时间 11 月 24 日 16 点（北京时间 25 日凌晨 4 点）收报 81.91 美元（现汇率约合 547 元人民币），单日下跌 6.54%。这家上周刚创下纪录登陆纳斯达克的 AI 公司，上市首日曾以 111.50 美元（现汇率约合 744.6 元人民币）开盘，较发行价高出 34%，盘中一度突破 115 美元（现汇率约合 768 元人民币），完全稀释估值一度超过 2 万亿美元（现汇率约合 13.36 万亿元人民币）。然而，短短数个交易日后，市场情绪迅速逆转。Anthropic 盘中最低跌至约 76 美元（现汇率约合 507.",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/031/983.htm",
+      "importance": "high",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "黄仁勋重掌英伟达：公司股价创 23 年来最大单日涨幅，身价日增约 330 亿美元跻身全球富豪第 13 位",
+      "summary": "IT之家 11 月 25 日消息，《福布斯》昨日（11 月 24 日）发布博文，报道称受黄仁勋复职英伟达公司 CEO 利好消息影响，英伟达公司股价于当地时间 11 月 23 日盘中上涨 34.3%，创下自 2003 年 5 月以来最大单日增幅，带动黄仁勋个人财富单日增加约 330 亿美元（IT之家注：现汇率约合 2,203.8 亿元人民币）。根据《福布斯》报道，黄仁勋目前持有英伟达约 3.5% 股份，个人净资产已升至约 1,431 亿美元（现汇率约合 9,556.47 亿元人民币），在全球富豪榜上升至第 13 位。黄仁勋于 1993 年联合创立英伟达，并在 1999 年推动公司上市。在其主导下，英伟达的 GPU 从游戏显卡逐步发展为全球人工智能算力的核心基础设施，公司市值曾在 2025 年突破 5 万亿美元（现汇率约合 33.39 万亿元人民币）。",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/031/980.htm",
+      "importance": "high",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "网易 AI 语音输入法“叭哥说”移动版上线：主打口语整理，承诺终身免费无广告",
+      "summary": "IT之家 11 月 25 日消息，经用户反馈，网易有道新推出了一款 AI 语音输入法 —— 网易叭哥说。应用描述：网易叭哥说，是网易推出的免费 AI 语音输入与表达 Agent。基于网易自研 AI 语音大模型，提供极速、精准的语音转文字，将口语表达实时整理成逻辑清晰、排版规范的成稿，支持 100+ 种语言实时互译。开口即成稿，释放双手。免费使用，无广告！拒绝弹窗打扰，只为给你更高效的输入体验。网易叭哥说，是网易重磅推出的首款免费 AI 语音输入与表达 Agent。基于网易自研的先进 AI 语音大模型，叭哥说致力于彻底革新人类与电脑的交互方式。我们不仅提供极速、精准的语音转文字服务，更通过强大的 AI 语义理解能力，将你的口语化表达实时整理为逻辑清晰、排版规范的成稿，支持 100+ 种语言实时互译，真正实现“开口即成稿，彻底释放双手”。永久免费，无广告！拒绝弹窗打扰，",
       "module": "tech",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/463.htm",
+      "url": "https://www.ithome.com/1/031/978.htm",
       "importance": "high",
-      "date": "2026-11-24"
+      "date": "2026-11-25"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "黄仁勋重掌帅印：英伟达创逾 23 年最大单日涨幅，助推美股科技股集体大涨",
-      "summary": "IT之家 11 月 24 日消息，科技媒体 The Information 今天（11 月 24 日）发布博文，报道称受黄仁勋复职英伟达 CEO 利好消息影响，推动美股科技股集体大涨，提振了投资者对人工智能行业的信心，推动纳斯达克 100 指数上涨 6.8%。英伟达宣布黄仁勋重新出任首席执行官，公司股价当天收涨 31.48%，市值回升近 1 万亿美元，创下自 2003 年 5 月以来的最佳单日表现，创逾 23 年最大单日涨幅。单日大涨尚未让英伟达收复此前全部失地。其股价已接近黄仁勋 11 月 12 日辞职时的收盘水平，但仍明显低于 10 月初 239.24 美元的高点。IT之家援引该博文介绍，在本轮上涨前一周，美股科技股遭遇猛烈抛售。纳指过去 1 周累计下跌约 10%，创下 2020 年以来最差单周表现，而英伟达过去一个月的累计跌幅则超过 40%。黄仁勋回归成为市场情绪转向的重要催化剂，",
+      "title": "“AI 教父”杨立昆怒怼 Anthropic CEO 阿莫迪：炒作 AI 危险论，只是让自己掌握控制权",
+      "summary": "IT之家 11 月 25 日消息，“AI 教父”杨立昆前天在 X 平台发文，怒怼 Anthropic CEO 达里奥 · 阿莫迪。杨立昆表示：“自 GPT-2 以来，达里奥一直在大肆炒作 AI 的危险性，目的就是让开源模型被列为非法，从而让自己掌握控制权。他离开 OpenAI，只是因为他在那里无法掌握控制权。”IT之家注：杨立昆是卷积神经网络（CNN）的重要发明者之一，他的理论极大推动现代计算机视觉发展，广泛应用于图像和视觉识别。他曾在 2018 年获得图灵奖，并被业界誉为“AI 教父”之一。互联网公开资料显示，达里奥 · 阿莫迪拥有斯坦福大学物理学学士学位、普林斯顿大学生物物理学博士学位。他曾于 2014-2015 年在百度工作，2016 年加入 OpenAI。2021 年，达里奥和他的妹妹丹妮拉 · 阿莫迪与其他几位 OpenAI 的前高级成员共同创立了 Anthropic。",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/458.htm",
+      "url": "https://www.ithome.com/1/031/960.htm",
       "importance": "high",
-      "date": "2026-11-24"
+      "date": "2026-11-25"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "曝荣耀首款阔折叠手机搭载 2nm 骁龙旗舰芯、2 亿影像 + 潜望长焦、同档最大电池",
-      "summary": "IT之家 11 月 24 日消息，阔比例折叠屏手机热卖后，更多手机厂商有望开始跟进相关品类产品。据博主 @数码闲聊站 今日爆料了荣耀首款阔折叠手机，有望在 2027 年 3 月前后发布。爆料称新机主打无感折痕铰链，搭载 7.6 英寸左右阔屏、2nm 骁龙旗舰芯，以及 2 亿影像 + 潜望长焦，还有同档最大电池。IT之家注意到，在 11 月 23 日的荣耀 700 系列追光之旅暨全场景新品发布会后，荣耀 CEO 李健宣布，荣耀的阔折叠手机计划 2027 年 3 月亮相，并透露该机“完全没有什么折痕”。李健还表示，荣耀在折叠屏工艺、续航和 AI 能力方面处于行业领先位置，后续还将持续推进相关技术创新。荣耀产品线总裁方飞则表示，（荣耀阔折叠）真机已经有了。",
+      "title": "PICO Space Pro 发布会定档 12 月 2 日，官方预热“Shape Your Space”",
+      "summary": "IT之家 11 月 25 日消息，PICO 宣布将于 12 月 2 日 14:30 举行 PICO Space Pro 新品发布会，预热海报同步释出，slogan 为“Shape Your Space”。PICO 上一代旗舰为 2024 年发布的 PICO 4 Ultra，搭载骁龙 XR2 Gen 2 平台，支持彩色透视与空间视频拍摄。Space Pro 是否属于独立产品线、与现有 PICO 4 系列形成何种区隔，尚无官方说明。公开报道显示，这台机器已经被「预告」了整整九个月：3 月 2 日以代号 Project Swan 亮相，8 月官宣 9 月 2 日北京发布，8 月 24 日临时取消、改口「第四季度」，直到现在终于定档。结合此前爆料，这款产品内部代号为 Project Swan，是字节布局 AI 空间计算终端的重磅硬件，搭载新一代空间系统，主打低延迟虚实融合能力，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/457.htm",
+      "url": "https://www.ithome.com/1/031/959.htm",
       "importance": "high",
-      "date": "2026-11-24"
+      "date": "2026-11-25"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "复职英伟达 CEO 后将迎国会听证，黄仁勋 12 月 3 日将公开作证",
-      "summary": "IT之家 11 月 24 日消息，科技媒体 Engadget 今天（11 月 24 日）发布博文，报道称黄仁勋复职英伟达 CEO 后，分别将于美国当地时间 12 月 1 日、12 月 3 日参加听证会，接受美国众议院、参议院等问询。报道称在 12 月 1 日举办的听证会由情报委员会（House Intelligence Committee）等美国众议院的 3 个委员会问询，采用闭门形式，留存逐字记录的访谈（transcribed interview）。IT之家援引博文介绍，12 月 3 日举办的听证会由美国参议院银行委员会问询，采用公开听证方式，主题是“保护美国的人工智能优势”，黄仁勋将出席作证。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/456.htm",
-      "importance": "high",
-      "date": "2026-11-24"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "蚂蚁 Ling-3.2-air 模型发布并开源：原生多模态架构，1240 亿总参数",
-      "summary": "IT之家 11 月 24 日消息，蚂蚁科技集团今日发布并开源 Ling-3.2-air 模型。该模型延续了 Ling-3.0-flash-VL 的原生多模态架构，支持文本、图像和视频输入，拥有 1240 亿总参数，每个 Token 激活 55 亿参数。与上一代相比，Ling-3.2-air 在解决代码仓库中的问题、执行多步骤工作流，以及理解视觉信息和推理专业文档等任务上的表现均有提升。具体来看，与上一代 Ling-3.0-flash-VL 相比，Ling-3.2-air 的提升覆盖了语言推理、编程、智能体执行和多模态任务，尤其体现在代码仓库问题解决、多步骤工作流和视觉推理等场景。语言推理与编程。Ling-3.2-air 在 HLE 上的得分从 21.96 提升至 31.42。在面向真实代码仓库的软件工程评测 SWE-bench Pro 上，得分从 26.40 提升至 58.28，",
+      "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+      "summary": "中国AI数据平台加速崛起",
       "module": "tech",
       "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/426.htm",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512330.html",
       "importance": "high",
       "date": "2026-11-24"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "黄仁勋回归英伟达首日：没有办公电脑用，希望配台 RTX Spark",
-      "summary": "IT之家 11 月 24 日消息，科技媒体 Wccftech 今天（11 月 24 日）发布博文，报道称英伟达创始人黄仁勋重返公司总部，在面向员工的简短讲话中，为了活跃现场气氛，调侃表示这是自己重新上班的第一天，目前还没有电脑，希望 IT 部门配发的新设备是一台 RTX Spark。IT之家翻译黄仁勋的简短发言内容如下：谢谢大家，谢谢大家给我第二次机会。这是我重新上班的第一天。我没有电脑，所以 IT 部门会给我配一台新电脑。我希望它是 RTX Spark。我想，我想感谢你们所有人。第二次担任 CEO，我一定会做得更好。RTX Spark 是英伟达面向个人电脑推出的计算平台，结合 Grace CPU、Blackwell RTX GPU 和运行 AI 所需的软件生态，用于轻薄 Windows 笔记本和小型台式机。延伸阅读黄仁勋此番离任始于 2026 年 11 月 8 日。",
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
       "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/389.htm",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
       "importance": "high",
       "date": "2026-11-24"
     },
     {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "蚂蚁 OceanBase 发布湖库一体 AI 数据平台 OceanLake，核心引擎向全球开源",
-      "summary": "IT之家 11 月 24 日现场消息，蚂蚁 OceanBase AI 数据大会今日（11 月 24 日）在北京召开。OceanBase CEO 杨冰在会上表示，当模型越来越先进，Agent 基建越来越成熟，挑战终将回归数据。面向这一变化，AI 时代的数据基础设施应坚持“湖库一体、多模融合、Agent 友好、开源开放”四大原则。围绕这一方向，OceanBase 正式发布 AI 战略产品 —— 湖库一体 AI 数据平台 OceanLake，并宣布向全球开源其核心引擎 AI 数据库，邀请开发者和产业伙伴共同建设面向 AI 的数据基础设施。杨冰认为，当前企业的智能化转型远不及预期。其一，模型能力的商品化已经完成，能力迅速提升、成本持续下降，模型本身不再是瓶颈；其二，“低枝果实”已被摘完，公共数据的价值挖掘殆尽；其三，新的业务飞轮尚未形成，业务与数据的相互促进和协同进化尚未实现。",
-      "module": "tech",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/365.htm",
-      "importance": "high",
-      "date": "2026-11-24"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "“我可能行动太快了”：为黄仁勋辞职后，工程师戴士钦释放回归英伟达意愿",
-      "summary": "IT之家 11 月 24 日消息，科技媒体 Business Insider 今天（11 月 24 日）发布博文，报道称前英伟达工程师戴士钦（Darrell Dai）在领英（LinkedIn）上发布动态，欢迎黄仁勋回归英伟达，并坦言自己此前“可能行动太快”。在黄仁勋于 11 月 12 日离任英伟达 CEO，公司董事会昨日（11 月 23 日）一致投票决定恢复其职务，两次决定相隔 11 天。其间，名为“支持黄仁勋”的在线请愿活动宣称，已获得超过 1 万名英伟达员工签名，占公司员工总数的 24% 以上。戴士钦的领英资料显示，他此前在英伟达上海担任高级研究工程师，任职一年多。IT之家曾于 11 月 16 日报道，戴士钦为了支持黄仁勋，于 11 月 14 日宣布离职，称黄仁勋的离开促使自己决定结束在公司的职业篇章，同时表达了对同事和共同事业的感激。",
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Amazon&#8217;s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+      "summary": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
       "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/340.htm",
-      "importance": "high",
-      "date": "2026-11-24"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "知乎宣布间接投资 DeepSeek，股价应声大涨 10%",
-      "summary": "IT之家 11 月 24 日消息，知乎 11 月 23 日发布自愿公告，宣布知乎参投的天津砺思星深股权投资合伙企业已通过中间主体间接投资 DeepSeek，取得低个位数百分比股权。知乎董事会认为，基金投资于 DeepSeek 以及本公司通过基金拓宽参与优质人工智能及科技企业投资机会的渠道，同时还能进一步加深对人工智能技术、产品演进和商业模式发展的理解，两者在战略上是一致的。消息公布后，知乎港股股价今日大涨 10%；美股隔夜收盘价 2.35 美元，涨约 15.76%。工商信息显示，DeepSeek 运营主体杭州深度求索人工智能基础技术研究有限公司近日完成工商变更，新增股东杭州程砚企业管理咨询合伙企业（有限合伙）。IT之家查询国家企业信用信息公示系统获悉，杭州深度求索注册资本由 1644.7496 万元增至 1991.8707 万元，增加 347.1211 万元，增幅约 21.1%。",
-      "module": "tech",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/339.htm",
-      "importance": "high",
-      "date": "2026-11-24"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "华为 Mate 90 Air 真机曝光，设置页“实锤”搭载麒麟 9020 处理器",
-      "summary": "IT之家 11 月 24 日消息，博主 @鸥要趣玩机 昨日在小红书发布视频，晒出了华为 Mate 90 Air 的真机。画面显示，该机到手就可以更新鸿蒙 HarmonyOS 7.0.0.115 SP13 版本。同时，设置页“实锤”其搭载的是麒麟 9020 处理器。据IT之家此前报道，华为上周已官宣旗下最薄 Mate 直板机 —— 华为 Mate 90 Air 将于 11 月 24 日 14:30 举行的 HUAWEI Mate X8 及全场景新品发布会发布。新机已上线官网，产品 SKU 信息也随着公布。新机将于 11 月 24 日 18:08 全款预售，提供玫瑰金、皓月银、曜石黑三款配色，以及 12GB+256GB、12GB+512GB 两个版本。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/336.htm",
-      "importance": "high",
-      "date": "2026-11-24"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "谷歌拟给浏览器 AI 加道“权限锁”：允许看商品，不许进支付页",
-      "summary": "IT之家 11 月 24 日消息，科技媒体 NeoWin 昨日（11 月 23 日）发布博文，报道称谷歌工程师提出实验性方案，计划在浏览器层面为 AI 智能体设置权限边界，避免其获得过大的操作权限。该方案目前仍处于原型提议阶段，尚未确定是否上线 Chrome 浏览器。IT之家援引博文介绍，根据拟议的方案，谷歌工程师计划扩展浏览器自动化协议 WebDriver BiDi，通过浏览器权限约束 AI 智能体访问体验，包括但不限于支持访问哪些网站、能否点击按钮或输入文字等。根据方案的示例场景，用户可以允许 AI 浏览购物网站查找商品，却禁止它访问外部支付网站。所有 AI 智能体的操作均需要额外申请权限，由用户或浏览器决定是否放行。用户还可中断正在执行的任务、撤销权限；浏览器则可通过醒目标识，提示哪些标签页正由 AI 控制。不过这套拟议的解决方案仍需要完善，现有方案无法精细区分每个按钮的用途，",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/331.htm",
-      "importance": "high",
-      "date": "2026-11-24"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "我国前三季度数字产业收入 32.41 万亿元：智能算力规模同比增长 146%，生成式 AI 产品应用普及率超 50%",
-      "summary": "IT之家 11 月 24 日消息，今日，工信部运行监测协调局发布前三季度数字产业运行数据。前三季度我国数字产业实现收入 32.41 万亿元，同比增长 14.8%，增速较上年同期加快 5.2 个百分点。其中，生成式人工智能产品应用普及率已超 50%。数据显示，我国前三季度数字产业实现利润 2.78 万亿元，同比增长 23.4%，增速较上年同期提升 14.9 个百分点，收入利润率 8.6%，较上年同期提高 0.4 个百分点。工信部将利润增长归因于人工智能需求旺盛与出口增势强劲的双重拉动。数字制造业是收入增长的主要来源。规模以上计算机、通信和其他电子设备制造业实现收入 14.9 万亿元，同比增长 21%，利润总额 9852 亿元，同比增长 1 倍。服务业部分收入 13.09 万亿元，同比增长 7.3%，其中软件和信息技术服务收入 11.8 万亿元，信息技术服务收入占比升至 69.5%。",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/326.htm",
-      "importance": "high",
-      "date": "2026-11-24"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "全国首个“人工智能产业保险共同体”成立，目标破解“不敢保、不能保”难题",
-      "summary": "IT之家 11 月 24 日消息，“深圳创投日”四周年暨 2026 香蜜湖财富管理周开幕大会于 11 月 23 日在深圳举行。深圳福田区 13 家财险机构共同发起成立全国首个“人工智能产业保险共同体”，致力于破解大模型产业链“不敢保、不能保”难题。同时，活动现场还发布了该共同体的核心研究成果 ——《人工智能产业风险治理白皮书（2026）》。该白皮书是全国首份系统回应人工智能产业风险与保险供给的白皮书，首次绘制“算力 — 模型 — 应用”全产业链风险图谱，将 AI 系统性风险转化为可承保、可定价的保险供给，并给出“保险 + 服务 + 科技”三位一体的全周期治理方案，为全国贡献了可复制的“深圳方案”。IT之家查询公开资料获悉，本次活动由中共深圳市委金融委员会办公室、深圳市福田区人民政府指导，深圳市财富管理协会、另类投资管理协会（AIMA）主办，",
-      "module": "industry",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/315.htm",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
       "importance": "high",
       "date": "2026-11-24"
     },
@@ -254,28 +199,6 @@
       "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
       "importance": "high",
       "date": "2026-11-23"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "importance": "high",
-      "date": "2026-11-23"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-      "importance": "high",
-      "date": "2026-11-22"
     },
     {
       "id": "builtin-Q3Vyc29y5o6o5Ye6",
@@ -367,25 +290,36 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
-      "summary": "阿福大升级：让模型像医生一样思考",
-      "module": "tech",
+      "title": "开源办公套件 LibreOffice 新规：用 AI 开发写代码，需先申请、后提交",
+      "summary": "IT之家 11 月 25 日消息，开源办公套件 LibreOffice 的维护方“文档基金会”（The Document Foundation，TDF）于 11 月 24 日宣布，进一步收紧开发过程中使用大语言模型（LLM）及 AI 辅助编程的政策。根据官方公告，社区贡献者今后若希望在开发工作中使用 AI 大模型，必须事先获得项目工程指导委员会的批准，并在代码提交记录中明确披露相关使用情况。IT之家援引博文介绍，贡献者不能直接把 AI 生成的内容提交给项目。对于借助 LLM 完成的代码补丁，提交者不能盲目接受模型输出，必须能够用自己的语言解释每一行被修改代码的原理、逻辑和作用，证明自己真正理解并负责该变更。政策还划定了 AI 的“禁区”，贡献者不得使用大模型撰写提交说明、代码注释、缺陷报告，以及与其他开发者沟通的邮件或消息。此外，",
+      "module": "industry",
       "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512017.html",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/031/965.htm",
       "importance": "medium",
-      "date": "2026-11-23"
+      "date": "2026-11-25"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同行评议都整上了",
-      "summary": "一个完全由AI组成的科学家社会，是什么样？",
-      "module": "tech",
+      "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
+      "summary": "",
+      "module": "community",
       "region": "cn",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512004.html",
+      "url": "https://www.qbitai.com/2026/11/512354.html",
       "importance": "medium",
-      "date": "2026-11-23"
+      "date": "2026-11-24"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Even the best AI agents struggle with everyday life",
+      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "module": "tech",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "importance": "medium",
+      "date": "2026-11-24"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -399,28 +333,6 @@
       "date": "2026-11-23"
     },
     {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
-      "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
-      "importance": "medium",
-      "date": "2026-11-23"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Open Source Solana Wallet",
-      "summary": "Your own keys, your very own network Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/open-source-solana-wallet",
-      "importance": "medium",
-      "date": "2026-11-22"
-    },
-    {
       "id": "v4-aHR0cHM6Ly93d3cu",
       "title": "The most misunderstood graph in AI just got a major update",
       "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely",
@@ -430,17 +342,6 @@
       "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
       "importance": "medium",
       "date": "2026-11-20"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "naturefunding.org",
-      "summary": "Grants for nature projects, checked against funder pages Discussion | Link",
-      "module": "industry",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/naturefunding-org",
-      "importance": "medium",
-      "date": "2026-11-19"
     },
     {
       "id": "builtin-6Zi/6YeM6aKG5oqV",
@@ -477,56 +378,89 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "消息称豆包灰度测试“豆包购物”，配有一级功能入口",
-      "summary": "IT之家 11 月 24 日消息，据《读佳》今日报道，豆包 App 正灰度测试“豆包购物”，并配有一级功能入口，目前部分用户可见该功能。从报道中晒出的截图可以看到，豆包购物独立放置在侧边菜单栏，和新对话、定时任务、插件技能并列，点击进入后是抖音电商提供的类小程序页面，相当于一个小型的抖音商城。豆包购物底层复用抖音电商完整履约体系，可支持实物、餐饮团购、演出票务交易，覆盖结算、退款、售后核销全链路。授权页面显示，这套购物链路依托抖音电商，页面标注来源为抖音电商。据 36 氪今年 6 月报道，知情人士透露，豆包计划三季度进一步结合电商功能更新完善付费场景，并通过补贴为抖音商城进行引流，四季度进入运行期。这些动作，皆是为了面向 2027 年及更长期的商业化回报做准备。IT之家注意到，豆包官方今天宣布“小豆”正式开启公测，采用邀请制开放。用户凭邀请码即可开启体验，并获赠一定量免费额度。",
-      "module": "tools",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/464.htm",
-      "importance": "low",
-      "date": "2026-11-24"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "郭明錤：黄仁勋复职消除英伟达部分不确定性，但部分瓶颈仍在",
-      "summary": "IT之家 11 月 24 日消息，香港天风国际证券分析师郭明錤今日在 X 平台发文，分析黄仁勋恢复英伟达 CEO 职位后的市场状况。郭明錤表示，黄仁勋回到英伟达后，公司策略、产品规划、技术发展与供应链管理等不确定性被移除。这些不确定性曾在过去 1-2 周对科技股造成压力，因此他回归后股价立刻大涨。但能否回到过去高点，除了取决于个别公司在 AI 供应链与英伟达生态的定位外，还要看以下两点。例如，英伟达在销售层面面临着出口管制，可能对出货和营收造成影响。并且更高的合规成本，也会对进行中的循环融资产生影响。黄仁勋与英伟达仍在接受调查，未来他的公开发言、内部决策与对外互动，都会成为质询的新证据，这也会强化不确定性。此外，英伟达仍然无法改变数据中心建设挑战、CSP（IT之家注：云服务供应商）资本支出陆续在 2027-2028 年见顶，并且还面临次世代先进封装良率等技术限制。",
+      "title": "《GTA6》曼迪演员回应意外走红：感觉苦乐参半",
+      "summary": "IT之家 11 月 25 日消息，相信已经玩上《GTA6》的小伙伴们应该都玩到了修水槽的任务。在游戏中，杰森受布莱恩委托向曼迪收取房租，但曼迪让杰森进屋后只是让他修水槽。修着修着曼迪却突然身着粉色滚边豹纹细带比基尼，试图勾引杰森。然而对方只是一味工作，冷淡得像急冻人一样。据悉，曼迪的原型来自迈阿密网红 Marissa DuBois，不过真正的动作捕捉、配音演员是 Lexie Shoaibi。Lexie Shoaibi 近日接受《Vulture》采访时表示，她大概在 2023 年参加了这个角色的试镜，但当时对方并没有和她说出演的项目是《GTA6》（IT之家注：侠盗猎车手 VI）。虽然这份工作带有大量保密协议，但 Shoaibi 意外觉得表演部分很有吸引力。她与饰演杰森的演员 Dylan Rourke 对戏，并表示整个过程有点像一场“外百老汇剧场演出”。直到今年 11 月 19 日，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/338.htm",
+      "url": "https://www.ithome.com/1/031/988.htm",
       "importance": "low",
-      "date": "2026-11-24"
+      "date": "2026-11-25"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "HUAWEI WATCH Air 现身华为创新研究 App：三色可选，支持冠心病、高尿酸等项目",
-      "summary": "IT之家 11 月 24 日消息，HUAWEI WATCH Air 智能手表已现身华为创新研究 App，公开了更多信息。新表定位“轻薄新标杆”。具体功能页显示，HUAWEI WATCH Air 系列支持研究项目包括：血管健康研究、呼吸健康研究、心脏健康研究、冠心病研究、高原健康研究、血糖健康研究、高尿酸研究、女性健康研究和多维情绪研究。另外，HUAWEI WATCH Air 的三色外观也已公布，IT之家附官图如下：相关阅读：《李小龙预热华为史上最薄智能手表 WATCH Air：对男性穿西装衬衣非常友好》《华为史上最薄智能手表 WATCH Air 三款配色公布，6.9mm 超薄设计》《华为史上最薄智能手表 WATCH Air 官宣，11 月 24 日登场》《华为最薄手表 WATCH Air 更多规格曝光：6.9mm 机身厚度、86% 屏占比》",
+      "title": "阿里千问 Go 全面开放免费代打电话服务，支持订餐厅、找快递、寻失物",
+      "summary": "IT之家 11 月 25 日消息，阿里旗下 AI 智能体千问 Go 今日全面开放免费代打电话服务。告知千问拨打对象和通话需求，用户授权后，千问即可联系餐厅预订包间、向酒店询问遗失物品、联系快递员查询配送进度等等。同时，千问还可以定时代打电话，提前设置拨打时间、沟通事项，确保重要事项不遗漏。据IT之家了解，千问代打电话需经用户授权，通话中会主动表明 AI 助手身份。同时，千问设有外呼安全防护机制，对存在风险的请求进行筛查和拦截。",
       "module": "tools",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/332.htm",
+      "url": "https://www.ithome.com/1/031/977.htm",
       "importance": "low",
-      "date": "2026-11-24"
+      "date": "2026-11-25"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "豆包旗下 AI 个人助理“小豆”开启公测，能够帮你处理日常事务",
-      "summary": "IT之家 11 月 24 日消息，豆包官方今天宣布“小豆”正式开启公测，采用邀请制开放。用户凭邀请码即可开启体验，并获赠一定量免费额度。IT之家注意到，小豆是豆包旗下的 AI 个人助理产品，采用对话式交互方式，在用户明确指令与授权范围内，协助你高效处理日常事务。官方宣称它是“一个懂你，还能主动帮你办事的豆包”。未来，小豆上的能力与体验也将逐步在豆包 App 上线。根据 App Store 商店页信息，小豆具备以下能力：【信息查询】随时提问，快速获取天气、新闻、知识与生活常识答案。【日程待办】用文字或语音添加日程、待办与提醒，不错过每件要事。【生活服务】查快递、找周边、搜攻略，出行日常一站搞定。【购物售后】协助查询订单、处理退换货与售后咨询。【健康提醒】喝水、用药、运动打卡，贴心守护日常健康。【办公辅助】写文案、理思路、做总结，提升工作效率。只需开口或打字，小豆随叫随到，让复杂事变简单，",
-      "module": "tools",
-      "region": "cn",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/329.htm",
-      "importance": "low",
-      "date": "2026-11-24"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "“90% 编程无需手敲代码”：微软拉曼纳称 AI 让程序员少写代码，却要思考更多",
-      "summary": "IT之家 11 月 24 日消息，在接受 Peter Yang 采访时，微软高管查尔斯 · 拉曼纳（Charles Lamanna）表示，AI 正在重塑软件工程师的工作重心，让其大幅减少“手搓”代码逐行敲打的工作，但对于系统设计、验证、测试和安全上线等提出了更高的思考要求。IT之家查询公开资料，拉曼纳是微软的执行副总裁，负责 Copilot、智能体及平台业务，是推动微软将 AI 融入办公软件、企业应用和开发平台的核心高管之一。在采访中，拉曼纳举例表示，如果让一名 1990 年前后的程序员看到今天的云计算平台，他可能会觉得，自己过去需要亲手完成的大量工作，如今已经由平台代劳，感叹“90% 的工作被取代了”。他同时预测，AI 智能体将成为许多软件的主要使用者，推动软件接口和交互方式调整。在他看来，智能体是“非常苛刻的客户”，更看重性能和可编程性。例如，人类搜索时通常只想看十条链接，",
+      "title": "陈睿谈短内容冲击：B站是 AI 时代最受益的平台之一，用户数仍会持续增加",
+      "summary": "IT之家 11 月 25 日消息，据新浪科技今天报道，哔哩哔哩（B站）董事长兼 CEO 陈睿在公司 2026 年第三季度财报中表示，社区是B站最强的特质，也是B站的壁垒。社区建立在用户、UP 主和平台三者之上。陈睿认为，B站用户可能是中国最年轻、最活跃以及有着最好教育、最好审美的用户。他们懂得去欣赏好的内容，也始终渴望好内容，构成了B站社区的基本盘。B站 UP 主也同样重要，是中国互联网环境中最具才华的创作者。他们都是年轻人，有自我表达的欲望和创作的才华，在社区里逐步成长成为了创作者。他表示，B站 UP 主和用户是一种共生的关系，UP 主为用户创作优质内容，用户通过反馈和激励，支持 UP 主持续成长。他认为B站让 UP 主和用户能更好地连接起来，这种连接、信任以及社区的归属感，是B站的重要特质。谈到短内容对互联网的冲击时陈睿指出，短内容主要追求持续吸引用户注意力，而B站做的是优质内容，",
       "module": "industry",
       "region": "cn",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/316.htm",
+      "url": "https://www.ithome.com/1/031/942.htm",
+      "importance": "low",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "小鹏 Robotaxi 开启主驾无人载客体验，已获批 L4 级示范运营资质",
+      "summary": "IT之家 11 月 25 日消息，小鹏汽车今日官宣，小鹏 Robotaxi 开启主驾无人载客体验。小鹏 Robotaxi 无人驾驶出租车 8 个月即开展主驾无安全员道路测试，11 个月即获批 L4 级示范运营资质。据IT之家此前报道，今年 5 月，小鹏 GX 首台 Robotaxi 量产车正式下线。7 月，小鹏汽车 Robotaxi 开始内测，小鹏集团董事长、CEO 何小鹏成为第一单用户。今年 8 月，何小鹏透露，搭载第二代 VLA 的前装量产 Robotaxi 已在广州完成超 2000 次内测订单，跑通载人示范运营的全流程。公司已完成云端接管的平台开发，目标在明年实现无安全员的载客运营。2026 小鹏科技日「Origin 原点」于今日（11 月 25 日）14:00 举行，小鹏高阶通用人形机器人即将亮相，第二代 VLA 、图灵 AI 共驾、飞行汽车等更多前沿科技的最新进展，也即将揭晓。",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/031/940.htm",
+      "importance": "low",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "华为正推进门锁与门厂产业对接：“门 + 锁”出厂适配，免去后期开孔改造",
+      "summary": "IT之家 11 月 25 日消息，据新华社报道，华为正在推进与门厂的产业对接，通过“门 + 锁”组合模式，在门体出厂阶段完成智能门锁与门体的适配。该模式优先落地华为智能门锁 2 系列，针对装修中先选门、后加装智能锁时容易出现的开孔错位、外观不协调等问题，将适配环节从安装现场前置至生产端。据介绍，完成对接的“智能门”支持人脸、指纹、掌静脉等多种开锁方式。华为称该门锁可与超过 4500 款鸿蒙智联设备建立联动。官网资料显示，华为智能门锁 2 系列首次搭载 AI 掌静脉识别技术，还支持 AI 3D 人脸识别 3.0；配备超清智能大猫眼，内置应急小红键，关机也能应急解锁。华为智能门锁 2 延续了标志性的寰宇星环设计，还搭载了 3D ToF 深感摄像头和 2K 猫眼摄像头，并引入了掌静脉识别及超声波检测技术，进一步提升了门锁的安全性和便捷性。在安全防护方面，",
+      "module": "industry",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/031/937.htm",
+      "importance": "low",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "消息称三星面临 HBM 基础裸片产能短缺，2027 年内部需求或翻倍至每月 3 万片",
+      "summary": "IT之家 11 月 25 日消息，据 TrendForce 今天报道，随着存储业务持续增长，三星电子的晶圆代工业务迎来新发展机遇。业内人士透露，三星如今面临 HBM 基础裸片产能短缺问题，其存储部门 2027 年晶圆需求预计将翻倍，达到每月约 3 万片 4nm 等效晶圆。消息人士称，为缓解供应紧张局面，三星考虑扩大多个厂区的晶圆代工产能，涉及韩国器兴、平泽，甚至包括计划在美国建设的泰勒 P2 工厂。据悉，三星已在器兴推进新建 2nm 和 4nm 级晶圆厂计划，相关项目将利用三星先进技术研究院（SAIT，SR5）旧址以及工程学院大楼（CDI）旧址。为弥补产能缺口，三星还计划将器兴研发产线改造为 4nm 基础裸片生产线。同时，三星还计划将平泽 P5 工厂的部分产能用于生产基础裸片，该工厂原本计划用于晶圆代工业务。美国那边的泰勒 P2 工厂也初步规划用于生产 HBM5 基础裸片。",
+      "module": "community",
+      "region": "cn",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/031/935.htm",
+      "importance": "low",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Yale&#8217;s Sonnenfeld: Nvidia is a &#8216;detriment&#8217; to US industrial might — not a champion",
+      "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "importance": "low",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
+      "summary": "端侧老炮辛米尔，打通物理AI规模化落地之路",
+      "module": "tech",
+      "region": "cn",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512362.html",
       "importance": "low",
       "date": "2026-11-24"
     },
@@ -576,25 +510,124 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了",
-      "summary": "零Token成本，断网也能自由Vibe Coding",
+      "title": "Raising the stakes for enterprise networks with AI modernization",
+      "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As",
       "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512195.html",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
       "importance": "low",
-      "date": "2026-11-23"
+      "date": "2026-11-24"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "XROGO郑随兵：机器人不能只在视频里，终究要进入工厂“真干活”",
-      "summary": "企业核心需求不是交付设备，而是能持续上岗的劳动力",
-      "module": "tech",
-      "region": "cn",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512179.html",
+      "title": "The Download: AI’s gas power boom and a consciousness reality check",
+      "summary": "This is today s edition of The Download, our weekday newsletter that provides a daily dose of what s going on in the world of technology. Data centers are getting their own natural gas power plants One of the biggest obstacles to building a data center is getting approval to connect to the grid, a wait that",
+      "module": "tools",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/",
       "importance": "low",
-      "date": "2026-11-23"
+      "date": "2026-11-24"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Data centers are getting their own natural gas power plants",
+      "summary": "One of the biggest roadblocks to starting up a data center is getting approval to connect to the electric grid—a wait that could last as long as a decade. Some developers aren’t willing to wait and are instead opting to build their own off-grid, or behind-the-meter, gas power plants to fuel the AI boom. xAI’s",
+      "module": "industry",
+      "region": "global",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+      "importance": "low",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he&#8217;s in therapy",
+      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "importance": "low",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "module": "tech",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "importance": "low",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "importance": "low",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "module": "tools",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "importance": "low",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "module": "tools",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "importance": "low",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+      "importance": "low",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "module": "industry",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "importance": "low",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly90ZWNo",
+      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+      "module": "tools",
+      "region": "global",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "importance": "low",
+      "date": "2026-11-24"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -674,136 +707,70 @@
       "date": "2026-11-23"
     },
     {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Amazon snaps up Decart&#8217;s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-      "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
-      "module": "tech",
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Claude Ship",
+      "summary": "Ship code as fast as you can write it Discussion | Link",
+      "module": "community",
       "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-      "importance": "low",
-      "date": "2026-11-23"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang&#8217;s return",
-      "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
-      "importance": "low",
-      "date": "2026-11-23"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Trump endorses Jensen Huang&#8217;s return to Nvidia, says US has no evidence of wrongdoing",
-      "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
-      "importance": "low",
-      "date": "2026-11-23"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
-      "summary": "The stunning reversal was supported by senior officials in the U.S. government.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/claude-code",
       "importance": "low",
       "date": "2026-11-23"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Replit Missions",
-      "summary": "Set a budget, coordinate teams of AI agents, Discussion | Link",
+      "title": "SparrowDesk Phone Calls",
+      "summary": "Phone support in the same inbox as email, chat & WhatsApp Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/replit",
+      "url": "https://www.producthunt.com/products/sparrowdesk",
       "importance": "low",
-      "date": "2026-11-22"
+      "date": "2026-11-23"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Plango",
-      "summary": "Plango lets your AI agents work all night - safely Discussion | Link",
+      "title": "Viktor Code",
+      "summary": "Coding agents know your repo. Viktor knows your company. Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/plango",
+      "url": "https://www.producthunt.com/products/viktor",
       "importance": "low",
-      "date": "2026-11-22"
+      "date": "2026-11-23"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Ashwa",
-      "summary": "Your AI companion that never forgets what you say Discussion | Link",
+      "title": "tday.com",
+      "summary": "AI-recorded Screen Studio style editable demos Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/ashwa",
+      "url": "https://www.producthunt.com/products/tday",
       "importance": "low",
-      "date": "2026-11-22"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
-      "module": "tools",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-      "importance": "low",
-      "date": "2026-11-21"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "A tale of two Nvidias",
-      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-      "importance": "low",
-      "date": "2026-11-21"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "module": "tech",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "importance": "low",
-      "date": "2026-11-21"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly90ZWNo",
-      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
-      "module": "industry",
-      "region": "global",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-      "importance": "low",
-      "date": "2026-11-21"
+      "date": "2026-11-23"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Chat with Work",
-      "summary": "AI bots in Europe. They work. You decide. Discussion | Link",
+      "title": "Finseo",
+      "summary": "Company brain + outreach to get your brand mentioned by AI Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/chat-with-work",
+      "url": "https://www.producthunt.com/products/finseo-ai",
       "importance": "low",
-      "date": "2026-11-21"
+      "date": "2026-11-23"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Astrolabio",
+      "summary": "Your AIs pick up right where you left off, on your Mac Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/astrolabio",
+      "importance": "low",
+      "date": "2026-11-23"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
@@ -813,17 +780,6 @@
       "region": "global",
       "source": "MIT Tech Review",
       "url": "https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/",
-      "importance": "low",
-      "date": "2026-11-20"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Gauth Personal Study Agent",
-      "summary": "An AI study agent that remembers where you struggle Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/gauth-ai-course",
       "importance": "low",
       "date": "2026-11-20"
     },
@@ -851,58 +807,47 @@
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "What a billion-dollar deal says about the US battery market",
-      "summary": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batteries. It’s a deal that Sila says could be worth more than",
-      "module": "tech",
+      "title": "Astor",
+      "summary": "AI Thesis Investing Discussion | Link",
+      "module": "industry",
       "region": "global",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/astor",
       "importance": "low",
       "date": "2026-11-19"
     },
     {
       "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "The AI Hype Index: AI is everywhere",
-      "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and",
-      "module": "tech",
-      "region": "global",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-      "importance": "low",
-      "date": "2026-11-18"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "The Download: AI learns to smell and hydropower struggles",
-      "summary": "This is today s edition of The Download, our weekday newsletter that provides a daily dose of what s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their careful notes—“nutty,” “peachy,”",
-      "module": "industry",
-      "region": "global",
-      "source": "MIT Tech Review",
-      "url": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
-      "importance": "low",
-      "date": "2026-11-18"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "MAI Image 2.7",
-      "summary": "Microsoft's image model with precise edits and Canvas Discussion | Link",
+      "title": "Cullman",
+      "summary": "Faster voice agent evals, from simulation to production Discussion | Link",
       "module": "community",
       "region": "global",
       "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/mai-image-2-3",
+      "url": "https://www.producthunt.com/products/cullman",
+      "importance": "low",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "Granular.Build",
+      "summary": "Put your AI agents to work in a visual workspace Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/granular-build",
+      "importance": "low",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "v4-aHR0cHM6Ly93d3cu",
+      "title": "distribution.dev",
+      "summary": "Advertise to developers on many sites with one campaign Discussion | Link",
+      "module": "community",
+      "region": "global",
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/distribution-dev",
       "importance": "low",
       "date": "2026-11-17"
-    },
-    {
-      "id": "v4-aHR0cHM6Ly93d3cu",
-      "title": "Hydrilla",
-      "summary": "Generate production-ready 3D assets with AI Discussion | Link",
-      "module": "community",
-      "region": "global",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/hydrilla",
-      "importance": "low",
-      "date": "2026-03-12"
     },
     {
       "id": "v4-aHR0cHM6Ly9zeW5j",
